@@ -1,5 +1,5 @@
-[Kembali](http://areabatur.github.io/3mm.3atur/)
-[Pemutusan Gianyar](3mm.3atur/gianyar112015.markdown )
+[Kembali](https://areabatur.github.io/3mm.3atur/)
+[Pemutusan Gianyar](https://github.com/areabatur/3mm.3atur/blob/master/gianyar112015.markdown )
 ##MONITORING PEMUTUSAN AREA BATUR
 |         RAYON         |     GIANYAR     |   KLUNGKUNG   |    BANGLI     |   KARANGASEM    |    AREA BATUR   |
 |-----------------------|-----------------|---------------|---------------|-----------------|-----------------|
