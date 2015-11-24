@@ -1,0 +1,40 @@
+##Monitoring Pemutusan 
+
+###Rayon Bangli - Bulan Nopember 2015
+
+**[Pemutusan Klungkung.](https://github.com/areabatur/3mm.3atur/blob/master/klungkung112015.markdown )** | 
+**[Pemutusan Gianyar.](https://github.com/areabatur/3mm.3atur/blob/master/gianyar112015.markdown )** | 
+**[Pemutusan Karangasem.](https://github.com/areabatur/3mm.3atur/blob/master/karangasem112015.markdown )**
+
+## [Kembali](http://areabatur.github.io/3mm.3atur/)
+
+| IDBILLMAN |         NAMABILLMAN          | LEMBAR |  PLG AWAL 21 PLN  |  RP TG AWAL 21 PLN  |  RP BK AWAL 21 PLN  | TARGET AKHIR PLN |  % PENCAPAIAN  |  SISA RP TG 24 06:20  |  SISA RP BK 24 06:20  |  SISA PLG 24 06:20  |  BELUM  |  DATANGI  |  SEGEL  |
+|-----------|------------------------------|--------|-------------------|---------------------|---------------------|------------------|----------------|-----------------------|-----------------------|---------------------|---------|-----------|---------|
+|   5522001 | AA Made Sudiana              |     1  |  314              |  25.925.796         |  1.189.000          |  1.518.999,22    | -7,85%         |  20.859.491           |  940.000              |  250                |  248    |        1  |      1  |
+|   5522002 | Dewa Gede Adnyana            |     1  |  214              |  13.176.875         |  740.000            |  772.036,58      | -6,98%         |  11.840.365           |  663.000              |  189                |  175    |       14  |         |
+|   5522003 | I Wayan Putu Gunadi          |     1  |  281              |  20.005.417         |  1.000.000          |  1.172.122,66    | -7,77%         |  16.260.393           |  778.000              |  227                |  227    |           |         |
+|   5522004 | Ketut Sudarmono              |     1  |  64               |  5.526.907          |  281.000            |  323.822,94      | -8,24%         |  4.254.504            |  204.000              |  39                 |  36     |        3  |         |
+|   5522005 | I Gusti Ngurah Putra Adnyana |     1  |  220              |  14.498.224         |  696.000            |  849.454,77      | -11,79%        |  8.051.407            |  422.000              |  136                |  134    |        2  |         |
+|   5522006 | I Nengah Puja                |     1  |  269              |  21.729.762         |  902.000            |  1.273.152,49    | -7,46%         |  18.347.218           |  724.000              |  211                |  211    |           |         |
+|   5522007 | I Dewa Made Sineb            |     1  |  265              |  17.405.865         |  970.000            |  1.019.814,22    | -8,19%         |  13.468.080           |  820.000              |  221                |  221    |           |         |
+|   5522009 | Ketut Sumarsa                |     1  |  86               |  5.384.241          |  268.000            |  315.464,10      | -9,25%         |  3.724.464            |  186.000              |  60                 |  60     |           |         |
+|   5522010 | Nengah Mariana               |     1  |  333              |  44.616.111         |  1.743.542          |  2.614.069,71    | -7,73%         |  36.410.571           |  1.415.542            |  250                |  250    |           |         |
+|   5522011 | I Kadek Sumertana            |     1  |  61               |  6.652.964          |  259.000            |  389.798,92      | -7,22%         |  5.788.983            |  204.000              |  45                 |  41     |        4  |         |
+|   5522012 | I Gede Redina                |     1  |  86               |  7.852.527          |  294.000            |  460.081,63      | -9,46%         |  5.321.074            |  239.000              |  72                 |  72     |           |         |
+|   5522013 | I Wayan Suarka               |     1  |  78               |  21.601.626         |  721.525            |  1.265.644,96    | -10,63%        |  13.175.834           |  471.804              |  64                 |  64     |           |         |
+|   5522014 | Wayan Sastra                 |     1  |  198              |  13.515.962         |  635.000            |  791.903,78      | -9,93%         |  8.769.324            |  437.000              |  137                |  137    |           |         |
+|   5522015 | I Made Juita                 |     1  |  171              |  10.842.505         |  622.000            |  635.265,23      | -8,57%         |  8.049.863            |  486.000              |  127                |  127    |           |         |
+|   5522016 | Nyoman Arnata                |     1  |  190              |  13.470.726         |  695.000            |  789.253,39      | -7,12%         |  11.874.255           |  594.000              |  157                |  157    |           |         |
+|   5522017 | I Wayan Agus Natakusuma      |     1  |  122              |  6.187.984          |  391.000            |  362.555,61      | -8,53%         |  4.615.001            |  276.000              |  87                 |  87     |           |         |
+|   5522018 | MADE PUTRA                   |     1  |  2                |  22.723.243         |  619.397            |  1.331.360,80    | -10,48%        |  14.030.607           |  382.489              |  1                  |  1      |           |         |
+|           |                              |        |                   |                     |                     |                  |                |                       |                       |                     |         |           |         |
+|           | TOTAL                        |        |  2.954            |  271.116.735        |  12.026.464         |  15.884.801,00   | -8,41%         |  204.841.434          |  9.242.835            |  2.273              |  2.248  |       24  |      1  |
+
+
+##[Kembali](http://areabatur.github.io/3mm.3atur/)
+
+**[Pemutusan Klungkung.](https://github.com/areabatur/3mm.3atur/blob/master/klungkung112015.markdown )** | 
+**[Pemutusan Gianyar.](https://github.com/areabatur/3mm.3atur/blob/master/gianyar112015.markdown )** | 
+**[Pemutusan Karangasem.](https://github.com/areabatur/3mm.3atur/blob/master/karangasem112015.markdown )**
+
+_create and design by [putuarta](mailto:putuarta@gmail.com)_
