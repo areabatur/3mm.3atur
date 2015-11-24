@@ -10,7 +10,7 @@
 |         RAYON         |     GIANYAR     |   KLUNGKUNG   |    BANGLI     |   KARANGASEM    |    AREA BATUR   |
 |-----------------------|-----------------|---------------|---------------|-----------------|-----------------|
 |  PLG AWAL 21 PLN      |  10.543         |  3.351        |  2.954        |  7.734          |  24.582         |
-| RP TG AWAL 21 PLN     |  2.213.494.909  |  365.158.220  |  271.116.735  |  1.056.823.062  |  3.906.592.926  |
+|  RP TG AWAL 21 PLN    |  2.213.494.909  |  365.158.220  |  271.116.735  |  1.056.823.062  |  3.906.592.926  |
 |  RP BK AWAL 21 PLN    |  82.860.747     |  15.897.463   |  12.026.464   |  49.514.368     |  160.299.042    |
 |  TARGET AKHIR PLN     |  465.250.665    |  27.048.305   |  15.884.801   |  186.660.111    |  694.843.882    |
 |  % TARGET 30          | 21,02%          | 7,41%         | 5,86%         | 17,66%          | 17,79%          |
@@ -27,3 +27,5 @@
 **[Pemutusan Karangasem.](https://github.com/areabatur/3mm.3atur/blob/master/gianyar112015.markdown )**
 
 **[Kembali](http://areabatur.github.io/3mm.3atur/)**
+
+_create and design by [putuarta](mailto:putuarta@gmail.com)_
