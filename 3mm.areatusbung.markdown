@@ -1,3 +1,6 @@
+[Kembali](http://areabatur.github.io/3mm.3atur/)
+[Pemutusan Gianyar](
+##MONITORING PEMUTUSAN AREA BATUR
 |         RAYON         |     GIANYAR     |   KLUNGKUNG   |    BANGLI     |   KARANGASEM    |    AREA BATUR   |
 |-----------------------|-----------------|---------------|---------------|-----------------|-----------------|
 |  PLG AWAL 21 PLN      |  10.543         |  3.351        |  2.954        |  7.734          |  24.582         |
@@ -12,4 +15,4 @@
 |  BELUM                |  7.512          |  2.326        |  2.248        |  5.899          |  17.985         |
 |  ADA                  |  147            |  -            |  25           |  68             |  240            |
 
-[kembali](http://areabatur.github.io/3mm.3atur/)
+[Kembali](http://areabatur.github.io/3mm.3atur/)
