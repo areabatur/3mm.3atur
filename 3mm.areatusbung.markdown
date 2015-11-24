@@ -21,4 +21,9 @@
 |  BELUM                |  7.512          |  2.326        |  2.248        |  5.899          |  17.985         |
 |  ADA                  |  147            |  -            |  25           |  68             |  240            |
 
+**[Pemutusan Gianyar.](https://github.com/areabatur/3mm.3atur/blob/master/gianyar112015.markdown )** | 
+**[Pemutusan Klungkung.](https://github.com/areabatur/3mm.3atur/blob/master/gianyar112015.markdown )** | 
+**[Pemutusan Bangli.](https://github.com/areabatur/3mm.3atur/blob/master/gianyar112015.markdown )** | 
+**[Pemutusan Karangasem.](https://github.com/areabatur/3mm.3atur/blob/master/gianyar112015.markdown )**
+
 **[Kembali](http://areabatur.github.io/3mm.3atur/)**
