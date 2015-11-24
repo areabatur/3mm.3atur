@@ -129,3 +129,4 @@
 **[Pemutusan Bangli.](https://github.com/areabatur/3mm.3atur/blob/master/gianyar112015.markdown )** | 
 **[Pemutusan Karangasem.](https://github.com/areabatur/3mm.3atur/blob/master/gianyar112015.markdown )**
 
+_create and design by [putuarta](mailto:putuarta@gmail.com)_
