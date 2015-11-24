@@ -1,4 +1,4 @@
-++[<< Kembali](http://areabatur.github.io/3mm.3atur/)++
+**[<< Kembali](http://areabatur.github.io/3mm.3atur/)**
 
 ##MONITORING PEMUTUSAN AREA BATUR
 
@@ -21,4 +21,4 @@
 |  BELUM                |  7.512          |  2.326        |  2.248        |  5.899          |  17.985         |
 |  ADA                  |  147            |  -            |  25           |  68             |  240            |
 
-**[<< Kembali](http://areabatur.github.io/3mm.3atur/)**
+**[Kembali](http://areabatur.github.io/3mm.3atur/)**
