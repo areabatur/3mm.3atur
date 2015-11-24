@@ -1,5 +1,8 @@
-### Monitoring Pemutusan Rayon Gianyar Bulan Nopember 2015
-[Kembali](http://areabatur.github.io/3mm.3atur/)
+### Monitoring Pemutusan 
+##Rayon Gianyar - Bulan Nopember 2015
+
+#[Kembali](http://areabatur.github.io/3mm.3atur/)
+
 
 | IDBILLMAN |      NAMABILLMAN       | LEMBAR |  PLG AWAL 21 PLN  |  RP TG AWAL 21 PLN  |  RP BK AWAL 21 PLN  |  TARGET AKHIR PLN  |  % PENCAPAIAN  |  SISA RP TG 24 06:20  |  SISA RP BK 24 06:20  |  SISA PLG 24 06:20  |  BELUM  |  DATANGI  |  SEGEL  |
 |-----------|------------------------|--------|-------------------|---------------------|---------------------|--------------------|----------------|-----------------------|-----------------------|---------------------|---------|-----------|---------|
@@ -114,4 +117,5 @@
 |           |                        |        |                   |                     |                     |                    |                |                       |                       |                     |         |           |         |
 | TOTAL     |                        |        |  10.543           |  2.213.494.909      |  82.860.747         |  465.250.665,00    | -40,58%        |  1.611.740.652        |  62.091.496           |  7.659              |  7.512  |      135  |     12  |
 
-[Kembali](http://areabatur.github.io/3mm.3atur/)
+
+##[Kembali](http://areabatur.github.io/3mm.3atur/)
