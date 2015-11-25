@@ -8,7 +8,7 @@
 
 ## [Kembali](http://areabatur.github.io/3mm.3atur/)
 
-_update data tgl 25.11.2015 jam 01.45_
+_create data tgl 25.11.2015 jam 01.45_
 
 | IDBILLMAN |       NAMABILLMAN        | LEMBAR |  PLG AWAL 21 PLN  |  RP TG AWAL 21 PLN  |  RP BK AWAL 21 PLN  | TARGET AKHIR PLN |  % PENCAPAIAN  |  SISA RP TG  25 01:45  |  SISA RP BK  25 01:45  |  SISA PLG  25 01:45  |  BELUM  |  DATANGI  |  SEGEL  |      LNS       |  SISA RP TG  24 06:45  |  SISA RP BK  24 06:45  |  SISA PLG  24 06:45  |  BELUM  |  DATANGI  |  SEGEL  |
 |-----------|--------------------------|--------|-------------------|---------------------|---------------------|------------------|----------------|------------------------|------------------------|----------------------|---------|-----------|---------|----------------|------------------------|------------------------|----------------------|---------|-----------|---------|
