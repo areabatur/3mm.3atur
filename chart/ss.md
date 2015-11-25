@@ -1,4 +1,6 @@
-<html><head><title>Index of dc.js examples</title>
+<html>
+<head>
+<title>Index of dc.js examples</title>
 <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css"></head>
 <body><div class="container">
 <h2>Examples of using dc.js</h2>
