@@ -6,7 +6,8 @@
   <canvas id="bar" class="chart chart-bar"
   chart-data="data" chart-labels="labels">
   
-</canvas
+</canvas>
+
 <code class="rainbow" data-language="javascript">angular.<span class="function call">module</span>(<span class="string">"app"</span>, [<span class="string">"chart.js"</span>]).<span class="function call">controller</span>(<span class="string">"BarCtrl"</span>, <span class="storage function">function</span> ($scope) {
   $scope.labels <span class="keyword operator">=</span> [<span class="string">'2006'</span>, <span class="string">'2007'</span>, <span class="string">'2008'</span>, <span class="string">'2009'</span>, <span class="string">'2010'</span>, <span class="string">'2011'</span>, <span class="string">'2012'</span>];
   $scope.series <span class="keyword operator">=</span> [<span class="string">'Series A'</span>, <span class="string">'Series B'</span>];
