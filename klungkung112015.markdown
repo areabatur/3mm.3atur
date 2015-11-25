@@ -2,7 +2,15 @@
 
 ###Rayon Klungkung - Bulan Nopember 2015
 
-**[Pemutusan Gianyar.](https://github.com/areabatur/3mm.3atur/blob/master/gianyar112015.markdown )** | | IDBILLMAN |       NAMABILLMAN        | LEMBAR |  PLG AWAL 21 PLN  |  RP TG AWAL 21 PLN  |  RP BK AWAL 21 PLN  |  TARGET AKHIR PLN  |  % PENCAPAIAN  |  SISA RP TG  25 01:45  |  SISA RP BK  25 01:45  |  SISA PLG  25 01:45  |  BELUM  |  DATANGI  |  SEGEL  |      LNS       |  SISA RP TG  24 06:45  |  SISA RP BK  24 06:45  |  SISA PLG  24 06:45  |  BELUM  |  DATANGI  |  SEGEL  |
+**[Pemutusan Gianyar.](https://github.com/areabatur/3mm.3atur/blob/master/gianyar112015.markdown )** | 
+**[Pemutusan Bangli.](https://github.com/areabatur/3mm.3atur/blob/master/bangli112015.markdown )** | 
+**[Pemutusan Karangasem.](https://github.com/areabatur/3mm.3atur/blob/master/karangasem112015.markdown )**
+
+##[Kembali](http://areabatur.github.io/3mm.3atur/)
+
+_update data tgl 25.11.2015 jam 01.45_
+
+| IDBILLMAN |       NAMABILLMAN        | LEMBAR |  PLG AWAL 21 PLN  |  RP TG AWAL 21 PLN  |  RP BK AWAL 21 PLN  |  TARGET AKHIR PLN  |  % PENCAPAIAN  |  SISA RP TG  25 01:45  |  SISA RP BK  25 01:45  |  SISA PLG  25 01:45  |  BELUM  |  DATANGI  |  SEGEL  |      LNS       |  SISA RP TG  24 06:45  |  SISA RP BK  24 06:45  |  SISA PLG  24 06:45  |  BELUM  |  DATANGI  |  SEGEL  |
 |-----------|--------------------------|--------|-------------------|---------------------|---------------------|--------------------|----------------|------------------------|------------------------|----------------------|---------|-----------|---------|----------------|------------------------|------------------------|----------------------|---------|-----------|---------|
 |   5521001 | I Ketut Nila             |      1 |  138              |  5.508.436          |  423.000            |  408.025,48        | -12,91%        |  3.567.714             |  351.000               |  117                 |  117    |           |         | -650252|-5     |  4.217.966             |  373.000               |  122                 |  122    |           |         |
 |   5521002 | Dewa Gede Diana Putra    |      1 |  252              |  37.531.277         |  1.591.343          |  2.780.048,13      | -10,18%        |  30.096.647            |  1.238.343             |  187                 |  187    |           |         | -1209780|-27   |  31.306.427            |  1.326.343             |  214                 |  214    |           |         |
