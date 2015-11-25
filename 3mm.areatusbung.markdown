@@ -3,9 +3,9 @@
 ##MONITORING PEMUTUSAN AREA BATUR
 
 **[Pemutusan Gianyar.](https://github.com/areabatur/3mm.3atur/blob/master/gianyar112015.markdown )** | 
-**[Pemutusan Klungkung.](https://github.com/areabatur/3mm.3atur/blob/master/gianyar112015.markdown )** | 
-**[Pemutusan Bangli.](https://github.com/areabatur/3mm.3atur/blob/master/gianyar112015.markdown )** | 
-**[Pemutusan Karangasem.](https://github.com/areabatur/3mm.3atur/blob/master/gianyar112015.markdown )**
+**[Pemutusan Klungkung.](https://github.com/areabatur/3mm.3atur/blob/master/klungkung112015.markdown )** | 
+**[Pemutusan Bangli.](https://github.com/areabatur/3mm.3atur/blob/master/bangli112015.markdown )** | 
+**[Pemutusan Karangasem.](https://github.com/areabatur/3mm.3atur/blob/master/karangasem112015.markdown )**
 
 _update data tgl 25.11.2015 jam 01:45_
 
@@ -26,9 +26,9 @@ _update data tgl 25.11.2015 jam 01:45_
 
 
 **[Pemutusan Gianyar.](https://github.com/areabatur/3mm.3atur/blob/master/gianyar112015.markdown )** | 
-**[Pemutusan Klungkung.](https://github.com/areabatur/3mm.3atur/blob/master/gianyar112015.markdown )** | 
-**[Pemutusan Bangli.](https://github.com/areabatur/3mm.3atur/blob/master/gianyar112015.markdown )** | 
-**[Pemutusan Karangasem.](https://github.com/areabatur/3mm.3atur/blob/master/gianyar112015.markdown )**
+**[Pemutusan Klungkung.](https://github.com/areabatur/3mm.3atur/blob/master/klungkung112015.markdown )** | 
+**[Pemutusan Bangli.](https://github.com/areabatur/3mm.3atur/blob/master/bangli112015.markdown )** | 
+**[Pemutusan Karangasem.](https://github.com/areabatur/3mm.3atur/blob/master/karangasem112015.markdown )**
 
 **[Kembali](http://areabatur.github.io/3mm.3atur/)**
 
