@@ -2,10 +2,10 @@
 
 ##MONITORING PEMUTUSAN AREA BATUR
 
-**[Pemutusan Gianyar.](https://github.com/areabatur/3mm.3atur/blob/master/gianyar112015.markdown )** | 
-**[Pemutusan Klungkung.](https://github.com/areabatur/3mm.3atur/blob/master/klungkung112015.markdown )** | 
-**[Pemutusan Bangli.](https://github.com/areabatur/3mm.3atur/blob/master/bangli112015.markdown )** | 
-**[Pemutusan Karangasem.](https://github.com/areabatur/3mm.3atur/blob/master/karangasem112015.markdown )**
+**[Pemutusan Gianyar.](https://github.com/areabatur/3mm.3atur/blob/master/tusbung/gianyar112015.markdown )** | 
+**[Pemutusan Klungkung.](https://github.com/areabatur/3mm.3atur/blob/master/tusbung/klungkung112015.markdown )** | 
+**[Pemutusan Bangli.](https://github.com/areabatur/3mm.3atur/blob/master/tusbung/bangli112015.markdown )** | 
+**[Pemutusan Karangasem.](https://github.com/areabatur/3mm.3atur/blob/master/tusbung/karangasem112015.markdown )**
 
 _create data tgl 26.11.2015 jam 07:30_
 
@@ -25,10 +25,10 @@ _create data tgl 26.11.2015 jam 07:30_
 |  ADA (SEGEL/JANJI BYR)      |  450            |  -            |  100          |  263            |  813            |
 | =2-(realisasi/target)*100% |                 |               |               |                 |  -              |
 
-**[Pemutusan Gianyar.](https://github.com/areabatur/3mm.3atur/blob/master/gianyar112015.markdown )** | 
-**[Pemutusan Klungkung.](https://github.com/areabatur/3mm.3atur/blob/master/klungkung112015.markdown )** | 
-**[Pemutusan Bangli.](https://github.com/areabatur/3mm.3atur/blob/master/bangli112015.markdown )** | 
-**[Pemutusan Karangasem.](https://github.com/areabatur/3mm.3atur/blob/master/karangasem112015.markdown )**
+**[Pemutusan Gianyar.](https://github.com/areabatur/3mm.3atur/blob/master/tusbung/gianyar112015.markdown )** | 
+**[Pemutusan Klungkung.](https://github.com/areabatur/3mm.3atur/blob/master/tusbung/klungkung112015.markdown )** | 
+**[Pemutusan Bangli.](https://github.com/areabatur/3mm.3atur/blob/master/tusbung/bangli112015.markdown )** | 
+**[Pemutusan Karangasem.](https://github.com/areabatur/3mm.3atur/blob/master/tusbung/karangasem112015.markdown )**
 
 **[Kembali](http://areabatur.github.io/3mm.3atur/)**
 
