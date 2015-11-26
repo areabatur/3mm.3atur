@@ -1,6 +1,6 @@
 ##LINTAR LINTAS PERIODE
 
-**[<< Kembali](http://areabatur.github.io/3mm.3atur/)**
+**[<< Kembali](https://github.com/areabatur/3mm.3atur/edit/master/lintar/3mm.arealintar.markdown )**
 
 _create data tgl 26.11.2015 jam 09:30_
 
@@ -13,7 +13,7 @@ _create data tgl 26.11.2015 jam 09:30_
 
 
 
-**[<< Kembali](http://areabatur.github.io/3mm.3atur/)**
+**[<< Kembali](https://github.com/areabatur/3mm.3atur/edit/master/lintar/3mm.arealintar.markdown )**
 
 _create and design by [putuarta](mailto:putuarta@gmail.com)_
 
