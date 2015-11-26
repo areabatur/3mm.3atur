@@ -52,4 +52,5 @@ _create data tgl 26.11.2015 jam 07.30_
 **[Pemutusan Gianyar.](https://github.com/areabatur/3mm.3atur/blob/master/gianyar112015.markdown )** | 
 **[Pemutusan Bangli.](https://github.com/areabatur/3mm.3atur/blob/master/bangli112015.markdown )** | 
 **[Pemutusan Karangasem.](https://github.com/areabatur/3mm.3atur/blob/master/karangasem112015.markdown )**
+
 _create and design by [putuarta](mailto:putuarta@gmail.com)_
