@@ -4,7 +4,9 @@
 ## [Kembali](http://areabatur.github.io/3mm.3atur/) | [ Tusbung Area](https://github.com/areabatur/3mm.3atur/blob/master/tusbung/3mm.areatusbung.markdown )
 
 | **[AMR Batur.](https://github.com/areabatur/3mm.3atur/blob/master/files/btr.amr.112015.xlsx?raw=true )** |
-_create data file tgl 26.11.2015 jam 07:30_
+
+_create data file tgl 26.11.2015 jam 20:13
+
 **[Kembali](http://areabatur.github.io/3mm.3atur/)**
 
 _create and design by [putuarta](mailto:putuarta@gmail.com)_
