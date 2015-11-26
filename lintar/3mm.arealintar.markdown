@@ -2,10 +2,10 @@
 
 ##MONITORING SiWayanLintar AREA BATUR
 
-**[Lintar Gianyar.](https://github.com/areabatur/3mm.3atur/blob/master/gia.lintar.112015.markdown )** | 
-**[Lintar Klungkung.](https://github.com/areabatur/3mm.3atur/blob/master/klk.lintar.112015.markdown )** | 
-**[Lintar Bangli.](https://github.com/areabatur/3mm.3atur/blob/master/ban.lintar.112015.markdown )** | 
-**[Lintar Karangasem.](https://github.com/areabatur/3mm.3atur/blob/master/kar.lintar.112015.markdown )**
+**[Lintar Gianyar.](https://github.com/areabatur/3mm.3atur/blob/master/lintar/gia.lintar.112015.markdown )** | 
+**[Lintar Klungkung.](https://github.com/areabatur/3mm.3atur/blob/master/lintar/klk.lintar.112015.markdown )** | 
+**[Lintar Bangli.](https://github.com/areabatur/3mm.3atur/blob/master/lintar/ban.lintar.112015.markdown )** | 
+**[Lintar Karangasem.](https://github.com/areabatur/3mm.3atur/blob/master/lintar/kar.lintar.112015.markdown )**
 
 _data diluar non gps .. create data tgl 26.11.2015 jam 09:30_
 
@@ -19,10 +19,10 @@ _[temukan yang janggal di sini?? periode dengan tgl pemeriksaan](https://github.
 
 ###
 
-**[Lintar Gianyar.](https://github.com/areabatur/3mm.3atur/blob/master/gia.lintar.112015.markdown )** | 
-**[Lintar Klungkung.](https://github.com/areabatur/3mm.3atur/blob/master/klk.lintar.112015.markdown )** | 
-**[Lintar Bangli.](https://github.com/areabatur/3mm.3atur/blob/master/ban.lintar.112015.markdown )** | 
-**[Liantar Karangasem.](https://github.com/areabatur/3mm.3atur/blob/master/kar.lintar.112015.markdown )**
+**[Lintar Gianyar.](https://github.com/areabatur/3mm.3atur/blob/master/lintar/gia.lintar.112015.markdown )** | 
+**[Lintar Klungkung.](https://github.com/areabatur/3mm.3atur/blob/master/lintar/klk.lintar.112015.markdown )** | 
+**[Lintar Bangli.](https://github.com/areabatur/3mm.3atur/blob/master/lintar/ban.lintar.112015.markdown )** | 
+**[Liantar Karangasem.](https://github.com/areabatur/3mm.3atur/blob/master/lintar/kar.lintar.112015.markdown )**
 
 **[Kembali](http://areabatur.github.io/3mm.3atur/)**
 
