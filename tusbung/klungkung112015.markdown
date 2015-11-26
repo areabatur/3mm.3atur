@@ -2,8 +2,11 @@
 
 ###Rayon Klungkung - Bulan Nopember 2015
 
+
+
 **[Pemutusan Bangli.](https://github.com/areabatur/3mm.3atur/blob/master/tusbung/bangli112015.markdown )** | 
-**[Pemutusan Karangasem.](https://github.com/areabatur/3mm.3atur/blob/master/tusbung/karangasem112015.markdown )** | **[Pemutusan Gianyar.](https://github.com/areabatur/3mm.3atur/blob/master/tusbung/gianyar112015.markdown )** | 
+**[Pemutusan Karangasem.](https://github.com/areabatur/3mm.3atur/blob/master/tusbung/karangasem112015.markdown )** | **[Pemutusan Gianyar.](https://github.com/areabatur/3mm.3atur/blob/master/tusbung/gianyar112015.markdown )** 
+
 _create data tgl 26.11.2015 jam 07.30_
 
 ##[Kembali](http://areabatur.github.io/3mm.3atur/)
