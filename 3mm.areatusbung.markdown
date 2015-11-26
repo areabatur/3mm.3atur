@@ -23,7 +23,7 @@ _create data tgl 26.11.2015 jam 07:30_
 |  SISA PLG 24 06:20          |  6.041          |  1.555        |  1.682        |  5.080          |  14.358         |
 |  BELUM                      |  5.591          |  1.555        |  1.582        |  4.817          |  13.545         |
 |  ADA (SEGEL/JANJI BYR)      |  450            |  -            |  100          |  263            |  813            |
-| =-2+(realisasi/target)*100% |                 |               |               |                 |  -              |
+| =2-(realisasi/target)*100% |                 |               |               |                 |  -              |
 
 **[Pemutusan Gianyar.](https://github.com/areabatur/3mm.3atur/blob/master/gianyar112015.markdown )** | 
 **[Pemutusan Klungkung.](https://github.com/areabatur/3mm.3atur/blob/master/klungkung112015.markdown )** | 
