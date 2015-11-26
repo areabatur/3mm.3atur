@@ -1,11 +1,3 @@
-# 3mm.3atur
-
-###[3mm.3atur pages](http://areabatur.github.io/3mm.3atur/) 
-
-bali - 2015
-create and design by [putuarta](mailto:putuarta@gmail.com )
-
-
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -16,3 +8,11 @@ create and design by [putuarta](mailto:putuarta@gmail.com )
   ga('send', 'pageview');
 
 </script>
+
+
+# 3mm.3atur
+
+###[3mm.3atur pages](http://areabatur.github.io/3mm.3atur/) 
+
+bali - 2015
+create and design by [putuarta](mailto:putuarta@gmail.com )
