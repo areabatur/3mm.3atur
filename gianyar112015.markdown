@@ -6,9 +6,9 @@
 **[Pemutusan Bangli.](https://github.com/areabatur/3mm.3atur/blob/master/bangli112015.markdown )** | 
 **[Pemutusan Karangasem.](https://github.com/areabatur/3mm.3atur/blob/master/karangasem112015.markdown )**
 
-## [Kembali](http://areabatur.github.io/3mm.3atur/)
-
 _create data tgl 26.11.2015 jam 07.30_
+
+## [Kembali](http://areabatur.github.io/3mm.3atur/)
 
 | IDBILLMAN |      NAMABILLMAN       | LEMBAR |  PLG AWAL 21 PLN  |  RP TG AWAL 21 PLN  |  RP BK AWAL 21 PLN  |  TARGET AKHIR PLN  |  (% REALISASI)  |  SISA RP TG 26 07:30  |  SISA RP BK 26 07:30  |  SISA PLG 26 07:30  |  BELUM  |  DATANGI  |  SEGEL  |      LNS      |  SISA RP TG 25 16:45  |  SISA RP BK 25 16:45  |  SISA PLG 25 16:45  |   BELUM    |  DATANGI  |  SEGEL  |       LNS       |  SISA RP TG 25 01:45  |  SISA RP BK 25 01:45  |  SISA PLG 25 01:45  |  BELUM  |  DATANGI  |  SEGEL  |       LNS        |     |  SISA RP TG 24 0617  |  SISA RP BK  |  TPLG   |  BELUM  |  DATANGI  |  SEGEL  |      LNS      |  SISA RP TG 23 1830  |  SISA RP BK  |  TPLG   |  BELUM  |  DATANGI  |  SEGEL  |
 |-----------|------------------------|--------|-------------------|---------------------|---------------------|--------------------|-----------------|-----------------------|-----------------------|---------------------|---------|-----------|---------|---------------|-----------------------|-----------------------|---------------------|------------|-----------|---------|-----------------|-----------------------|-----------------------|---------------------|---------|-----------|---------|------------------|-----|----------------------|--------------|---------|---------|-----------|---------|---------------|----------------------|--------------|---------|---------|-----------|---------|
