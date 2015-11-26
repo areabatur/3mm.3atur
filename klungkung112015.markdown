@@ -6,10 +6,16 @@
 **[Pemutusan Bangli.](https://github.com/areabatur/3mm.3atur/blob/master/bangli112015.markdown )** | 
 **[Pemutusan Karangasem.](https://github.com/areabatur/3mm.3atur/blob/master/karangasem112015.markdown )**
 
-##[Kembali](http://areabatur.github.io/3mm.3atur/)
-
 _create data tgl 26.11.2015 jam 07.30_
 
+##[Kembali](http://areabatur.github.io/3mm.3atur/)
+
+
+| Tables   |      Are      |  Cool |
+|----------|:-------------:|------:|
+| col 1 is |  left-aligned | $1600 |
+| col 2 is |    centered   |   $12 |
+| col 3 is | right-aligned |    $1 |
 
 ##[Kembali](http://areabatur.github.io/3mm.3atur/)
 
