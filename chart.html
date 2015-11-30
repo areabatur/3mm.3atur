@@ -29,28 +29,32 @@
     <div style="margin-left:-" id="grafik_rayon"></div>
    
     <script>
-        $(function () {
-            $('#grafik_rayon').graphify({                
-                start: 'linear',
-                obj: {                   
-                    width: 700,
+    $(function () {
+            $('#graph').graphify({
+                //options: true,
+                start: 'combo',
+                obj: {
+                    id: 'ggg',
+                    width: 775,
                     height: 375,
                     xGrid: false,
                     legend: true,
-                    title: 'Data Jumlah ',
+                    title: 'Gia vs Klk Vs Bgl Vs Krg',
                     points: [
-     			['84.12%']
-     			['114.88%']
-     			['69.87%']
-     			['37.34%']
-   				  ],                                                        
-                    xName: 'day',
-                    tooltipWidth: 10,
+      [7, 26, 33, 74, 12, 49, 33],
+         [7, 26, 33, 74, 12, 49, 33],
+            [7, 26, 33, 74, 12, 49, 33],
+      [32, 46, 75, 38, 62, 20, 52]
+     ],
+                    pointRadius: 5,
+                    colors: ['blue', 'red','teal', 'lime'],
+                    xDist: 90,
+                    dataNames: ['Gia', 'Klk', 'Bgl', 'krg'],
+                    xName: 'Day',
+                    tooltipWidth: 15,
                     animations: true,
                     pointAnimation: true,
-                    colors: ['#3498db', '#9b59b6', '#350DC5', '#13AD32'],
-                    xDist: 94,                   
-                    dataNames: ['Gianyar', 'Klungkung', 'Bangli','Karangasem'],
+                    averagePointRadius: 10,
                     design: {
                         tooltipColor: '#fff',
                         gridColor: 'grey',
@@ -60,7 +64,8 @@
                         lineStrokeColor: 'grey',
                     }
                 }
-            });                    
+            });
+                 
             bar.init();
         });
     </script>
