@@ -18,7 +18,7 @@
 **[Pemutusan Bangli.](https://github.com/areabatur/3mm.3atur/blob/master/tusbung/bangli112015.markdown )** | 
 **[Pemutusan Karangasem.](https://github.com/areabatur/3mm.3atur/blob/master/tusbung/karangasem112015.markdown )**
 
-_create data tgl 30.11.2015 jam 18:14_
+_create data tgl 30.11.2015 jam 21:04_
 
 |            UNIT             |      55200      |     55210     |     55220     |      55230      |      5520       |
 |-----------------------------|-----------------|---------------|---------------|-----------------|-----------------|
