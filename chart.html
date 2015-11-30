@@ -1,72 +1,33 @@
-<!doctype html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <title>GRAFIK</title>
-     <script src="js/jquery.js"></script>
-    <script src="graph/graph.js"></script>
-    <style type="text/css">
-	   body{
-	 	  background:#ecf0f1;
-	 	  font-family:sans-serif;
-	   }
-	   button{
-	  	 background:#e74c3c;
-	  	 color:#fff;
-	  	 padding:5px 20px;
-	  	 border:0;
-	   }
-	   h1{
-	  	 text-align:center;
-	   }
-    </style>
-</head>
-
-<body>
-  <h1>Grafik Realisasi</h1>
-    
-    <div style="margin-left:-" id="grafik_rayon"></div>
-   
-    <script>
-    $(function () {
-            $('#grafik_rayon').graphify({
-                //options: true,
-                start: 'combo',
-                obj: {
-                    id: 'ggg',
-                    width: 775,
-                    height: 375,
-                    xGrid: false,
-                    legend: true,
-                    title: 'Gia vs Klk Vs Bgl Vs Krg',
-                    points: [
-      [7, 26, 33, 74, 12, 49, 33],
-         [7, 26, 33, 74, 12, 49, 33],
-            [7, 26, 33, 74, 12, 49, 33],
-      [32, 46, 75, 38, 62, 20, 52]
-     ],
-                    pointRadius: 5,
-                    colors: ['blue', 'red','teal', 'lime'],
-                    xDist: 90,
-                    dataNames: ['Gia', 'Klk', 'Bgl', 'krg'],
-                    xName: 'Day',
-                    tooltipWidth: 15,
-                    animations: true,
-                    pointAnimation: true,
-                    averagePointRadius: 10,
-                    design: {
-                        tooltipColor: '#fff',
-                        gridColor: 'grey',
-                        tooltipBoxColor: 'green',
-                        averageLineColor: 'green',
-                        pointColor: 'green',
-                        lineStrokeColor: 'grey',
-                    }
-            });
-            bar.init();
-        });
-       </script> 
-</body>
-
-</html>
+<html>
+	<head>
+		<script type="text/javascript" src="https://www.google.com/jsapi"></script>
+		<script type="text/javascript">
+		
+		google.load("visualization","1", {"packages":["corechart"]});
+		
+		google.setOnLoadCallback(drawChart);
+		
+		functiom drawChart() {
+		var data = new google.Visualization.arrayToDataTable([
+		["Rayon", "Pencapaian", {role: "style" }],
+		['Gianyar',0.25,"b87333"], 
+		['Klungkung',-1.26, "silver"], 
+		['Bangli',-1.34, "Gold"], 
+		['Karangasem',0.31, "color: #e5e4e2"], 	
+		]);
+		var view = new google.Visualization.DataView(data);
+		view.setColumns([0,1, {calc: "stringify", sourceColumns: 1, type: "string", role: "annotation"}, 2]);
+		
+		var options = { 'title':'Progres Tusbung Batur','width':600,'height':400, bar: {groupWidth: "95%"}, legend:{ position: "none"}, };
+		
+		var chart = new google visualization.BarChart(document.getElementById('barchart_values'));
+		chart.draw(view, option);
+		}
+		
+		</script>
+		</head>
+		
+		<body>
+		<div id "barchart_values" style="width:900px; height:300px;"></div>
+		</body>
+		<html>
