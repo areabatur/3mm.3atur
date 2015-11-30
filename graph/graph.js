@@ -11,7 +11,7 @@ var Graph = Graph || (function($) {
 	Private.defaults = function() {
 		return {
 			//default options
-			x: ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'],
+			x: ['30/11', '29/11', '28/11', '27/11', '26/11', '25/11', '24/11'],
 			y: 10,
 			attachTo: 'body',
 			points: [0, 26, 33, 74, 12, 49, 18]
