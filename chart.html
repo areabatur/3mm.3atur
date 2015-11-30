@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>GRAFIK CARIKODE</title>
+     <script src="js/jquery.js"></script>
+    <script src="graph/graph.js"></script>
+    <style type="text/css">
+	   body{
+	 	  background:#ecf0f1;
+	 	  font-family:sans-serif;
+	   }
+	   button{
+	  	 background:#e74c3c;
+	  	 color:#fff;
+	  	 padding:5px 20px;
+	  	 border:0;
+	   }
+	   h1{
+	  	 text-align:center;
+	   }
+    </style>
+</head>
+
+<body>
+  <h1>Tutorial Grafik sederhana | carikode.com</h1>
+    
+    <div style="margin-left:-" id="grafik_siswa"></div>
+   
+    <script>
+        $(function () {
+            $('#grafik_siswa').graphify({                
+                start: 'linear',
+                obj: {                   
+                    width: 700,
+                    height: 375,
+                    xGrid: false,
+                    legend: true,
+                    title: 'Data Jumlah Pasien',
+                    points: [
+     			 	[10, 66, 87, 12, 83, 65, 76],
+      				[38, 92, 12, 56, 72, 11, 84]
+   				  ],                                                        
+                    xName: 'Day',
+                    tooltipWidth: 10,
+                    animations: true,
+                    pointAnimation: true,
+                    colors: ['#3498db', '#9b59b6'],
+                    xDist: 94,                   
+                    dataNames: ['Dewasa', 'Anak'],
+                    design: {
+                        tooltipColor: '#fff',
+                        gridColor: 'grey',
+                        tooltipBoxColor: 'green',
+                        averageLineColor: 'green',
+                        pointColor: 'green',
+                        lineStrokeColor: 'grey',
+                    }
+                }
+            });                    
+            bar.init();
+        });
+    </script>
+</body>
+
+</html>
