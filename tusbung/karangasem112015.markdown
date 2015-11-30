@@ -10,7 +10,7 @@
 </script>
 ##Monitoring Pemutusan 
 
-###Rayon Karangasem - Bulan Nopember 2015
+###Rayon Karangasem - Bulan Nopember 2015_
 
 **[Pemutusan Klungkung.](https://github.com/areabatur/3mm.3atur/blob/master/tusbung/klungkung112015.markdown )** | 
 **[Pemutusan Bangli.](https://github.com/areabatur/3mm.3atur/blob/master/tusbung/bangli112015.markdown )** | 
