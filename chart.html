@@ -1,33 +1,69 @@
-<html>
-	<head>
-		<script type="text/javascript" src="https://www.google.com/jsapi"></script>
-		<script type="text/javascript">
-		
-		google.load("visualization","1", {"packages":["corechart"]});
-		
-		google.setOnLoadCallback(drawChart);
-		
-		functiom drawChart() {
-		var data = new google.Visualization.arrayToDataTable([
-		["Rayon", "Pencapaian", {role: "style" }],
-		['Gianyar',25,"b87333"], 
-		['Klungkung',-100, "silver"], 
-		['Bangli',-103, "Gold"], 
-		['Karangasem',31, "color: #e5e4e2"], 	
-		]);
-		var view = new google.Visualization.DataView(data);
-		view.setColumns([0,1, {calc: "stringify", sourceColumns: 1, type: "string", role: "annotation"}, 2]);
-		
-		var options = { 'title':'Progres Tusbung Batur','width':600,'height':400, bar: {groupWidth: "95%"}, legend:{ position: "none"}, };
-		
-		var chart = new google visualization.BarChart(document.getElementById('barchart_values'));
-		chart.draw(view, option);
-		}
-		
-		</script>
-		</head>
-		
-		<body>
-		<div id "barchart_values" style="width:900px; height:300px;"></div>
-		</body>
-		<html>
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>GRAFIK REALISASI</title>
+     <script src="js/jquery.js"></script>
+    <script src="graph/graph.js"></script>
+    <style type="text/css">
+	   body{
+	 	  background:#ecf0f1;
+	 	  font-family:sans-serif;
+	   }
+	   button{
+	  	 background:#e74c3c;
+	  	 color:#fff;
+	  	 padding:5px 20px;
+	  	 border:0;
+	   }
+	   h1{
+	  	 text-align:center;
+	   }
+    </style>
+</head>
+
+<body>
+  <h1>Grafik Realisasi</h1>
+    
+    <div style="margin-left:-" id="grafik_rayon"></div>
+   
+    <script>
+        $(function () {
+            $('#grafik_rayon').graphify({                
+                start: 'linear',
+                obj: {                   
+                    width: 700,
+                    height: 375,
+                    xGrid: false,
+                    legend: true,
+                    title: 'Data Jumlah ',
+                    points: [
+     			 	[22, 45, 56, 34, 67, 89, 90],
+     			 	[10, 66, 44, 12, 83, 65, 80],
+     			 	[10, 56, 87, 79, 66, 67, 76],
+      				[38, 92, 12, 56, 72, 11, 84]
+   				  ],                                                        
+                    xName: 'Day',
+                    tooltipWidth: 10,
+                    animations: true,
+                    pointAnimation: true,
+                    colors: ['#3498db', '#9b59b6','lime''aqua'],
+                    xDist: 94,                   
+                    dataNames: ['GIA', 'KLK', 'BAN', 'KAR'],
+                    design: {
+                        tooltipColor: '#fff',
+                        gridColor: 'grey',
+                        tooltipBoxColor: 'green',
+                        averageLineColor: 'green',
+                        pointColor: 'green',
+                        lineStrokeColor: 'grey',
+                    }
+                }
+            });                    
+            bar.init();
+        });
+    </script>
+</body>
+
+</html>
