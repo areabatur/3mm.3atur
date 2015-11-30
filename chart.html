@@ -33,25 +33,24 @@
             $('#grafik_rayon').graphify({                
                 start: 'linear',
                 obj: {                   
-                    width: 700,
+                    width: 775,
                     height: 375,
                     xGrid: false,
                     legend: true,
-                    title: 'Data Jumlah ',
+                    title: 'Linux vs Mac',
                     points: [
-     			 	[220, 457, 576, 3774, 677, 898, 909],
-     			 	[1000, 606, 440, 1290, 800, 695, 890],
-     			 	[160, 555, 876, 779, 686, 670, 786],
-      				[388, 982, 182, 756, 727, 117, 849]
-   				  ],                                                        
-                    xName: 'day',
-                    tooltipWidth: 10,
+      [7, 26, 33, 74, 12, 49, 33],
+      [32, 46, 75, 38, 62, 20, 52]
+     ],
+                    pointRadius: 3,
+                    colors: ['blue', 'red'],
+                    xDist: 90,
+                    dataNames: ['Linux', 'Mac'],
+                    xName: 'Day',
+                    tooltipWidth: 15,
                     animations: true,
-                    x: [24, 25, 26, 27, 28, 29, 30],
                     pointAnimation: true,
-                    colors: ['#3498db', '#9b59b6','#00FF7F','#00008B'],
-                    xDist: 1000,                   
-                    dataNames: ['GIA', 'KLK', 'BAN', 'KAR'],
+                    averagePointRadius: 10,
                     design: {
                         tooltipColor: '#fff',
                         gridColor: 'grey',
