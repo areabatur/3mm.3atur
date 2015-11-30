@@ -24,23 +24,26 @@
 </head>
 
 <body>
-  <h1>Tutorial Grafik sederhana | carikode.com</h1>
+  <h1>Grafik Realisasi</h1>
     
-    <div style="margin-left:-" id="grafik_siswa"></div>
+    <div style="margin-left:-" id="grafik_rayon"></div>
    
     <script>
         $(function () {
-            $('#grafik_siswa').graphify({                
+            $('#grafik_rayon').graphify({                
                 start: 'linear',
                 obj: {                   
                     width: 700,
                     height: 375,
                     xGrid: false,
                     legend: true,
-                    title: 'Data Jumlah Pasien',
+                    title: 'Data Jumlah ',
                     points: [
-     			 	[10, 66, 87, 12, 83, 65, 76],
-      				[38, 92, 12, 56, 72, 11, 84]
+     			[ 539084042,827023291,1073863430,1073863430,1277486590,1259467107,1277486590,1459212513],
+[23024250,88292170,132502794,132502794,161468368,158760484,161468368,232966565],
+[20670195,58360856,115075612,115075612,146604220,140198746,146604220,163582890],
+[303622406,447498898,627160885,627160885,723572758,697314571,723572758,781506257]
+
    				  ],                                                        
                     xName: 'Day',
                     tooltipWidth: 10,
@@ -48,7 +51,7 @@
                     pointAnimation: true,
                     colors: ['#3498db', '#9b59b6'],
                     xDist: 94,                   
-                    dataNames: ['Dewasa', 'Anak'],
+                    dataNames: ['Gianyar', 'Klungkung', 'Bangli','Karangasem'],
                     design: {
                         tooltipColor: '#fff',
                         gridColor: 'grey',
