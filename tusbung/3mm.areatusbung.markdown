@@ -32,12 +32,12 @@ _create data tgl 30.11.2015 jam 23:58_
 |  TOTAL RP TG 30 23:58       |  535.712.042    |  23.024.250   |  -            |  303.622.406    |  862.358.698    |
 |  TOTAL BK 30 23:58          |  22.585.168     |  1.290.000    |  -            |  12.560.458     |  36.435.626     |
 |  TPLG                       |  2.303          |  208          |  -            |  1.268          |  3.779          |
-| BELUM                       | 1878            |  207          |  (43)         |  1.118          |  3.160          |
-| ADA (SEGEL/JANJI BYR)       | 404             |  1            |  126          |  126            |  657            |
+| BELUM                       | 1878            |  207          |  -            |  1.118          |  3.203          |
+| ADA (SEGEL/JANJI BYR)       | 404             |  1            |  -            |  126            |  531            |
 | =-2+(realisasi/target)*100% | ##########      | ##########    | ##########    | ##########      | ##########      |
 
 
-_**NB: khusus Rayon Bangli data 30.11.15 Jam 18:14**_
+
 
 
 **[Pemutusan Gianyar.](https://github.com/areabatur/3mm.3atur/blob/master/tusbung/gianyar112015.markdown )** | 
