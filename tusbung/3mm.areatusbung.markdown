@@ -7,13 +7,7 @@
   ga('create', 'UA-70651201-1', 'auto');
   ga('send', 'pageview');
 
-</script>
-<SCRIPT LANGUAGE="JavaScript">
-   <!--
-    document.write("Update terakhir :");
-    document.write(document.lastModified);
-   // -->
-</SCRIPT>
+
 
 **[<< Kembali](http://areabatur.github.io/3mm.3atur/)**
 
