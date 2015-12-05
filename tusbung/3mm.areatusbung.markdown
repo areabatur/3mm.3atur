@@ -7,7 +7,7 @@
   ga('create', 'UA-70651201-1', 'auto');
   ga('send', 'pageview');
 
-
+</script>
 
 **[<< Kembali](http://areabatur.github.io/3mm.3atur/)**
 
