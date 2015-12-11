@@ -1,9 +1,41 @@
+<!DOCTYPE>
+  <html>
+ <html>
+  <head>
+  <titleTUSBUNG BATUR</title>
+  <style> 
+  /* only for demo purpose. you can remove it */
+ .container{border: 1px solid #ccc; background-color: #ff0000; 
+  margin: 10px auto;width: 98%; height:auto;padding:5px; text-align: center;}
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+ /* required */
+.tablewrapper{width: 95%; overflow-y: hidden; overflow-x: auto; 
+ background-color:green;  height: auto; padding: 5px;}
+
+ /* only for demo purpose just for stlying. you can remove it */
+ table { font-family: arial; font-size: 13px; padding: 2px 3px}
+ table.responsive{ background-color:#1a99e6; border-collapse: collapse; 
+ border-color: #fff}
+
+tr:nth-child(1) td:nth-of-type(1){
+ background:#333; color: #fff}
+ tr:nth-child(1) td{
+ background:#333; color: #fff; font-weight: bold;}
+ table tr td:nth-child(2) {
+ background:yellow;
+}
+ tr:nth-child(1) td:nth-of-type(2){color: #333}
+ tr:nth-child(odd){ background:#ccc;}
+ tr:nth-child(even){background:#fff;}
+</style>
+</head>
+<body>
+
+<div class="container">
+<div class="tablewrapper">
+	
 <head runat="server">
-    <title>TUSBUNG BATUR</title>
-    <link rel="style" href="/stylesheets/mobile.css">
-    <script src="/stylesheets/mobile.css"></script>
+   
 <script language="javascript">
         function divScrollR()
         {
@@ -37,7 +69,7 @@
                 overflow-x: auto; overflow-y: scroll; left: 20px; position: absolute; top: 200px;" onscroll="divScrollR();">
                         <pre>
 <caption><strong>##TOTAL</strong></caption>						
-<table border="1" width="25%" >
+ class="responsive" width="98%" cellpadding="4" cellspacing="1" border="1" >
 <colgroup>
 <col span="5" style="background-color:#CBE5EB">
 <col span="2" style="background-color:#EDF7BA">
@@ -58,7 +90,7 @@
                 overflow-x: auto; overflow-y: scroll; left: 400px; position: absolute;" onscroll="divScrollL();">
                 <pre>   	
 <caption><strong>###DETAIL</strong></caption>					
-<table border="1" width="25%" >
+<table  class="responsive" width="98%" cellpadding="4" cellspacing="1" border="1">
 <colgroup>
 <col style="background-color:#CBE5EB">
 <col style="background-color:#EDF7BA">
@@ -90,6 +122,8 @@
             pageTracker._trackPageview();
             } catch(err) {}
           </script>
+          </div>
+</div>
 </div>
 </html>
 
