@@ -5,319 +5,385 @@
   
 
 <!-- Javascript goes in the document HEAD -->
-  <script type="text/javascript">
+<script type="text/javascript">
 function altRows(id){
-	if(document.getElementsByTagName){  
-		
-		var table = document.getElementById(id);  
-		var rows = table.getElementsByTagName("tr"); 
-		 
-		for(i = 0; i < rows.length; i++){          
-			if(i % 2 == 0){
-				rows[i].className = "evenrowcolor";
-			}else{
-				rows[i].className = "oddrowcolor";
-			}      
-		}
-	}
+if(document.getElementsByTagName){
+
+var table = document.getElementById(id);
+var rows = table.getElementsByTagName("tr");
+
+for(i = 0; i < rows.length; i++){
+if(i % 2 == 0){
+rows[i].className = "evenrowcolor";
+}else{
+rows[i].className = "oddrowcolor";
+}
+}
+}
 }
 window.onload=function(){
-	altRows('alternatecolor');
+altRows('alternatecolor');
 }
-  </script>
-
-<!-- CSS goes in the document HEAD or added to your external stylesheet -->
-  <style type="text/css">
+</script><!-- CSS goes in the document HEAD or added to your external stylesheet -->
+<style type="text/css">
 table.altrowstable {
-	font-family: verdana,arial,sans-serif;
-	font-size:11px;
-	color:#333333;
-	border-width: 1px;
-	border-color: #a9c6c9;
-	border-collapse: collapse;
+font-family: verdana,arial,sans-serif;
+font-size:11px;
+color:#333333;
+border-width: 1px;
+border-color: #a9c6c9;
+border-collapse: collapse;
 }
 table.altrowstable th {
-	border-width: 1px;
-	padding: 8px;
-	border-style: solid;
-	border-color: #a9c6c9;
+padding: 0.25rem;
+border-width: 1px;
+padding: 8px;
+border-style: solid;
+border-color: #a9c6c9;
 }
 table.altrowstable td {
-	border-width: 1px;
-	padding: 8px;
-	border-style: solid;
-	border-color: #a9c6c9;
+padding: 0.25rem;
+border-width: 1px;
+padding: 8px;
+border-style: solid;
+border-color: #a9c6c9;
 }
+tbody tr:hover {
+background: yellow;
+}
+
 .oddrowcolor{
-	background-color:#d4e3e5;
+background-color:#d4e3e5;
 }
 .evenrowcolor{
-	background-color:#c3dde0;
+background-color:#c3dde0;
 }
-  </style>
+</style>
 </head><body>
 <table class="altrowstable" id="alternatecolor">
 	<CAPTION><strong>##Detail Lembar##</strong></CAPTION>	
   <tbody>
-  <tr>
-<th style="font-weight: bold; text-align: center;">NO</th>
-<th style="font-weight: bold; text-align: center;">RAYON</th>
-<th style="text-align: center;">DETAIL</th>
-<th style="text-align: center;"> 5 </th>
-<th style="text-align: center;"> 10 </th>
-<th style="text-align: center;"> 11 </th>
-<th style="text-align: center;"> 12 </th>
-<th style="text-align: center;"> 13 </th>
-<th style="text-align: center;"> 14 </th>
-<th style="text-align: center;"> TARGET 20 </th>
-<th style="text-align: center;"> -/+ </th>
-<th style="text-align: center;">REALISASI 20</th>
-<th style="text-align: center;">%</th>
+ <tr>
+<th style="text-align: center;">NO</th>
+<th style="text-align: center;">RAYON</th>
+<th style="text-align: center;">LBR</th>
+<th style="text-align: center;"> PLG_5 </th>
+<th style="text-align: center;"> PLG_10 </th>
+<th style="text-align: center;"> PLG_11 </th>
+<th style="text-align: center;"> PLG_12 </th>
+<th style="text-align: center;"> PLG_13 </th>
+<th style="text-align: center;"> PLG_14 </th>
+<th style="text-align: center;"> RPTAG_5 </th>
+<th style="text-align: center;"> RPTAG_10 </th>
+<th style="text-align: center;"> RPTAG_11 </th>
+<th style="text-align: center;"> RPTAG_12 </th>
+<th style="text-align: center;"> RPTAG_13 </th>
+<th style="text-align: center;"> RPTAG_14 </th>
+<th style="text-align: center;"> RPBK_5 </th>
+<th style="text-align: center;"> RPBK_10 </th>
+<th style="text-align: center;"> RPBK_11 </th>
+<th style="text-align: center;"> RPBK_12 </th>
+<th style="text-align: center;"> RPBK_13 </th>
+<th style="text-align: center;"> RPBK_14 </th>
 </tr>
 <tr>
-<td style="font-weight: bold; text-align: center;"> <br>
-</td>
-<td style="font-weight: bold;"> BANGLI</td>
-<td>TOT PLG</td>
+<td style="font-weight: bold; text-align: center;">1</td>
+<td style="font-weight: bold;">Bangli</td>
+<td style="text-align: center;">1</td>
 <td style="text-align: right;"> 23.778 </td>
 <td style="text-align: right;"> 20.044 </td>
 <td style="text-align: right;"> 18.995 </td>
 <td style="text-align: right;"> 18.995 </td>
 <td style="text-align: right;"> 18.563 </td>
 <td style="text-align: right;"> 17.532 </td>
-<td style="text-align: right;"> 2.363 </td>
-<td style="text-align: right;"> (15.169)</td>
-<td style="text-align: center;">-542%</td>
-<td style="text-align: center;"> <br>
-</td>
-</tr>
-<tr>
-<td style="font-weight: bold; text-align: center;">1</td>
-<td style="font-weight: bold;">BANGLI</td>
-<td>TOT PRTAG</td>
 <td style="text-align: right;"> 2.280.783.640 </td>
 <td style="text-align: right;"> 2.070.837.374 </td>
 <td style="text-align: right;"> 1.747.569.097 </td>
 <td style="text-align: right;"> 1.747.569.097 </td>
 <td style="text-align: right;"> 1.703.409.643 </td>
 <td style="text-align: right;"> 1.636.222.524 </td>
-<td style="text-align: right;"> 226.652.443 </td>
-<td style="text-align: right;"> (1.409.570.081)</td>
-<td style="text-align: center;">-522%</td>
-<td style="text-align: center;">-288%</td>
-</tr>
-<tr>
-<td style="font-weight: bold; text-align: center;"> <br>
-</td>
-<td style="font-weight: bold;"> BANGLI</td>
-<td>TOT RPBK</td>
 <td style="text-align: right;"> - </td>
 <td style="text-align: right;"> - </td>
 <td style="text-align: right;"> - </td>
 <td style="text-align: right;"> - </td>
 <td style="text-align: right;"> - </td>
 <td style="text-align: right;"> - </td>
-<td style="text-align: right;"> - </td>
-<td style="text-align: right;"> - </td>
-<td style="text-align: center;">200%</td>
-<td style="text-align: center;"> <br>
-</td>
-</tr>
-<tr>
-<td style="font-weight: bold; text-align: center;"> <br>
-</td>
-<td style="font-weight: bold;"> GIANYAR</td>
-<td>TOT PLG</td>
-<td style="text-align: right;"> 70.816 </td>
-<td style="text-align: right;"> 57.395 </td>
-<td style="text-align: right;"> 54.548 </td>
-<td style="text-align: right;"> 50.177 </td>
-<td style="text-align: right;"> 48.815 </td>
-<td style="text-align: right;"> 44.043 </td>
-<td style="text-align: right;"> 6.051 </td>
-<td style="text-align: right;"> (37.992)</td>
-<td style="text-align: center;">-528%</td>
-<td style="text-align: center;"> <br>
-</td>
 </tr>
 <tr>
 <td style="font-weight: bold; text-align: center;">2</td>
-<td style="font-weight: bold;">GIANYAR</td>
-<td>TOT PRTAG</td>
-<td style="text-align: right;"> 23.832.040.848 </td>
-<td style="text-align: right;"> 19.772.467.166 </td>
-<td style="text-align: right;"> 18.755.678.148 </td>
-<td style="text-align: right;"> 17.720.850.979 </td>
-<td style="text-align: right;"> 17.422.740.923 </td>
-<td style="text-align: right;"> 14.680.093.095 </td>
-<td style="text-align: right;"> 2.036.298.968 </td>
-<td style="text-align: right;"> (12.643.794.127)</td>
-<td style="text-align: center;">-521%</td>
-<td style="text-align: center;">-510%</td>
-</tr>
-<tr>
-<td style="font-weight: bold; text-align: center;"> <br>
-</td>
-<td style="font-weight: bold;"> GIANYAR</td>
-<td>TOT RPBK</td>
-<td style="text-align: right;"> 31.309.593 </td>
-<td style="text-align: right;"> 22.854.128 </td>
-<td style="text-align: right;"> 21.582.128 </td>
-<td style="text-align: right;"> 20.199.128 </td>
-<td style="text-align: right;"> 19.932.128 </td>
-<td style="text-align: right;"> 18.254.128 </td>
-<td style="text-align: right;"> 2.675.209 </td>
-<td style="text-align: right;"> (15.578.919)</td>
-<td style="text-align: center;">-482%</td>
-<td style="text-align: center;"> <br>
-</td>
-</tr>
-<tr>
-<td style="font-weight: bold; text-align: center;"> <br>
-</td>
-<td style="font-weight: bold;"> KARANGASEM</td>
-<td>TOT PLG</td>
-<td style="text-align: right;"> 43.768 </td>
-<td style="text-align: right;"> 37.508 </td>
-<td style="text-align: right;"> 34.959 </td>
-<td style="text-align: right;"> 34.959 </td>
-<td style="text-align: right;"> 33.678 </td>
-<td style="text-align: right;"> 31.180 </td>
-<td style="text-align: right;"> 4.289 </td>
-<td style="text-align: right;"> (26.891)</td>
-<td style="text-align: center;">-527%</td>
-<td style="text-align: center;"> <br>
-</td>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: right;"> 69.142 </td>
+<td style="text-align: right;"> 55.955 </td>
+<td style="text-align: right;"> 53.180 </td>
+<td style="text-align: right;"> 48.906 </td>
+<td style="text-align: right;"> 47.564 </td>
+<td style="text-align: right;"> 42.911 </td>
+<td style="text-align: right;"> 23.119.382.404 </td>
+<td style="text-align: right;"> 19.240.094.344 </td>
+<td style="text-align: right;"> 18.256.442.612 </td>
+<td style="text-align: right;"> 17.249.963.711 </td>
+<td style="text-align: right;"> 16.957.027.596 </td>
+<td style="text-align: right;"> 14.249.098.029 </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
 </tr>
 <tr>
 <td style="font-weight: bold; text-align: center;">3</td>
-<td style="font-weight: bold;">KARANGASEM </td>
-<td>TOT PRTAG</td>
-<td style="text-align: right;"> 7.398.823.303 </td>
-<td style="text-align: right;"> 6.531.674.027 </td>
-<td style="text-align: right;"> 6.088.329.452 </td>
-<td style="text-align: right;"> 6.088.329.452 </td>
-<td style="text-align: right;"> 6.005.391.668 </td>
-<td style="text-align: right;"> 5.454.559.819 </td>
-<td style="text-align: right;"> 725.010.473 </td>
-<td style="text-align: right;"> (4.729.549.346)</td>
-<td style="text-align: center;">-552%</td>
-<td style="text-align: center;">-536%</td>
-</tr>
-<tr>
-<td style="font-weight: bold; text-align: center;"> <br>
-</td>
-<td style="font-weight: bold;"> KARANGASEM</td>
-<td>TOT RPBK</td>
-<td style="text-align: right;"> 18.432.794 </td>
-<td style="text-align: right;"> 17.012.794 </td>
-<td style="text-align: right;"> 16.594.794 </td>
-<td style="text-align: right;"> 16.594.794 </td>
-<td style="text-align: right;"> 16.144.794 </td>
-<td style="text-align: right;"> 13.146.904 </td>
-<td style="text-align: right;"> 1.806.229 </td>
-<td style="text-align: right;"> (11.340.675)</td>
-<td style="text-align: center;">-528%</td>
-<td style="text-align: center;"> <br>
-</td>
-</tr>
-<tr>
-<td style="font-weight: bold; text-align: center;"> <br>
-</td>
-<td style="font-weight: bold;"> KLUNGKUNG</td>
-<td>TOT PLG</td>
-<td style="text-align: right;"> 20.496 </td>
-<td style="text-align: right;"> 16.201 </td>
-<td style="text-align: right;"> 14.409 </td>
-<td style="text-align: right;"> 14.409 </td>
-<td style="text-align: right;"> 14.057 </td>
-<td style="text-align: right;"> 12.706 </td>
-<td style="text-align: right;"> 1.704 </td>
-<td style="text-align: right;"> (11.002)</td>
-<td style="text-align: center;">-546%</td>
-<td style="text-align: center;"> <br>
-</td>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: right;"> 1.546 </td>
+<td style="text-align: right;"> 1.347 </td>
+<td style="text-align: right;"> 1.279 </td>
+<td style="text-align: right;"> 1.195 </td>
+<td style="text-align: right;"> 1.176 </td>
+<td style="text-align: right;"> 1.068 </td>
+<td style="text-align: right;"> 521.342.056 </td>
+<td style="text-align: right;"> 465.022.038 </td>
+<td style="text-align: right;"> 432.897.855 </td>
+<td style="text-align: right;"> 408.790.401 </td>
+<td style="text-align: right;"> 403.742.961 </td>
+<td style="text-align: right;"> 376.540.919 </td>
+<td style="text-align: right;"> 19.356.346 </td>
+<td style="text-align: right;"> 16.774.128 </td>
+<td style="text-align: right;"> 15.562.128 </td>
+<td style="text-align: right;"> 14.414.128 </td>
+<td style="text-align: right;"> 14.162.128 </td>
+<td style="text-align: right;"> 13.184.128 </td>
 </tr>
 <tr>
 <td style="font-weight: bold; text-align: center;">4</td>
-<td style="font-weight: bold;">KLUNGKUNG</td>
-<td>TOT PRTAG</td>
-<td style="text-align: right;"> 3.296.303.478 </td>
-<td style="text-align: right;"> 2.780.962.252 </td>
-<td style="text-align: right;"> 2.509.444.690 </td>
-<td style="text-align: right;"> 2.509.444.690 </td>
-<td style="text-align: right;"> 2.455.702.891 </td>
-<td style="text-align: right;"> 1.890.465.367 </td>
-<td style="text-align: right;"> 274.048.217 </td>
-<td style="text-align: right;"> (1.616.417.150)</td>
-<td style="text-align: center;">-490%</td>
-<td style="text-align: center;">-505%</td>
-</tr>
-<tr>
-<td style="font-weight: bold; text-align: center;"> <br>
-</td>
-<td style="font-weight: bold;"> KLUNGKUNG</td>
-<td>TOT RPBK</td>
-<td style="text-align: right;"> 1.494.000 </td>
-<td style="text-align: right;"> 1.321.000 </td>
-<td style="text-align: right;"> 913.000 </td>
-<td style="text-align: right;"> 913.000 </td>
-<td style="text-align: right;"> 895.000 </td>
-<td style="text-align: right;"> 843.000 </td>
-<td style="text-align: right;"> 124.208 </td>
-<td style="text-align: right;"> (718.792)</td>
-<td style="text-align: center;">-479%</td>
-<td style="text-align: center;"> <br>
-</td>
-</tr>
-<tr>
-<td style="font-weight: bold; text-align: center;"> <br>
-</td>
-<td style="font-weight: bold;"> BATUR</td>
-<td>TOT PLG</td>
-<td style="text-align: right;"> 158.858 </td>
-<td style="text-align: right;"> 131.148 </td>
-<td style="text-align: right;"> 122.911 </td>
-<td style="text-align: right;"> 118.540 </td>
-<td style="text-align: right;"> 115.113 </td>
-<td style="text-align: right;"> 105.461 </td>
-<td style="text-align: right;"> 14.078 </td>
-<td style="text-align: right;"> (91.383)</td>
-<td style="text-align: center;">-549%</td>
-<td style="text-align: center;"> <br>
-</td>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: right;"> 128 </td>
+<td style="text-align: right;"> 93 </td>
+<td style="text-align: right;"> 89 </td>
+<td style="text-align: right;"> 76 </td>
+<td style="text-align: right;"> 75 </td>
+<td style="text-align: right;"> 64 </td>
+<td style="text-align: right;"> 191.316.388 </td>
+<td style="text-align: right;"> 67.350.784 </td>
+<td style="text-align: right;"> 66.337.681 </td>
+<td style="text-align: right;"> 62.096.867 </td>
+<td style="text-align: right;"> 61.970.366 </td>
+<td style="text-align: right;"> 54.454.147 </td>
+<td style="text-align: right;"> 11.953.247 </td>
+<td style="text-align: right;"> 6.080.000 </td>
+<td style="text-align: right;"> 6.020.000 </td>
+<td style="text-align: right;"> 5.785.000 </td>
+<td style="text-align: right;"> 5.770.000 </td>
+<td style="text-align: right;"> 5.070.000 </td>
 </tr>
 <tr>
 <td style="font-weight: bold; text-align: center;">5</td>
-<td style="font-weight: bold;">BATUR</td>
-<td>TOT PRTAG</td>
-<td style="text-align: right;"> 36.807.951.269 </td>
-<td style="text-align: right;"> 31.155.940.819 </td>
-<td style="text-align: right;"> 29.101.021.387 </td>
-<td style="text-align: right;"> 28.066.194.218 </td>
-<td style="text-align: right;"> 27.587.245.125 </td>
-<td style="text-align: right;"> 23.661.340.805 </td>
-<td style="text-align: right;"> 3.262.010.101 </td>
-<td style="text-align: right;"> (20.399.330.704)</td>
-<td style="text-align: center;">-525%</td>
-<td style="text-align: center;">-528%</td>
+<td style="font-weight: bold;">Karangasem</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: right;"> 42.718 </td>
+<td style="text-align: right;"> 36.564 </td>
+<td style="text-align: right;"> 34.068 </td>
+<td style="text-align: right;"> 34.068 </td>
+<td style="text-align: right;"> 32.823 </td>
+<td style="text-align: right;"> 30.429 </td>
+<td style="text-align: right;"> 6.944.484.245 </td>
+<td style="text-align: right;"> 6.102.370.032 </td>
+<td style="text-align: right;"> 5.668.745.938 </td>
+<td style="text-align: right;"> 5.668.745.938 </td>
+<td style="text-align: right;"> 5.593.823.905 </td>
+<td style="text-align: right;"> 5.111.533.319 </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
 </tr>
 <tr>
-<td style="font-weight: bold; text-align: center;"> <br>
-</td>
-<td style="font-weight: bold;"> BATUR</td>
-<td>TOT RPBK</td>
-<td style="text-align: right;"> 51.236.387 </td>
-<td style="text-align: right;"> 41.187.922 </td>
-<td style="text-align: right;"> 39.089.922 </td>
-<td style="text-align: right;"> 37.706.922 </td>
-<td style="text-align: right;"> 36.971.922 </td>
-<td style="text-align: right;"> 32.244.032 </td>
-<td style="text-align: right;"> 4.540.693 </td>
-<td style="text-align: right;"> (27.703.339)</td>
-<td style="text-align: center;">-510%</td>
-<td style="text-align: center;"> <br>
-</td>
+<td style="font-weight: bold; text-align: center;">6</td>
+<td style="font-weight: bold;">Karangasem</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: right;"> 957 </td>
+<td style="text-align: right;"> 859 </td>
+<td style="text-align: right;"> 812 </td>
+<td style="text-align: right;"> 812 </td>
+<td style="text-align: right;"> 778 </td>
+<td style="text-align: right;"> 689 </td>
+<td style="text-align: right;"> 344.142.192 </td>
+<td style="text-align: right;"> 320.079.975 </td>
+<td style="text-align: right;"> 312.861.881 </td>
+<td style="text-align: right;"> 312.861.881 </td>
+<td style="text-align: right;"> 305.197.942 </td>
+<td style="text-align: right;"> 290.573.075 </td>
+<td style="text-align: right;"> 13.684.048 </td>
+<td style="text-align: right;"> 12.384.048 </td>
+<td style="text-align: right;"> 12.066.048 </td>
+<td style="text-align: right;"> 12.066.048 </td>
+<td style="text-align: right;"> 11.656.048 </td>
+<td style="text-align: right;"> 10.786.048 </td>
+</tr>
+<tr>
+<td style="font-weight: bold; text-align: center;">7</td>
+<td style="font-weight: bold;">Karangasem</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: right;"> 93 </td>
+<td style="text-align: right;"> 85 </td>
+<td style="text-align: right;"> 79 </td>
+<td style="text-align: right;"> 79 </td>
+<td style="text-align: right;"> 77 </td>
+<td style="text-align: right;"> 62 </td>
+<td style="text-align: right;"> 110.196.866 </td>
+<td style="text-align: right;"> 109.224.020 </td>
+<td style="text-align: right;"> 106.721.633 </td>
+<td style="text-align: right;"> 106.721.633 </td>
+<td style="text-align: right;"> 106.369.821 </td>
+<td style="text-align: right;"> 52.453.425 </td>
+<td style="text-align: right;"> 4.748.746 </td>
+<td style="text-align: right;"> 4.628.746 </td>
+<td style="text-align: right;"> 4.528.746 </td>
+<td style="text-align: right;"> 4.528.746 </td>
+<td style="text-align: right;"> 4.488.746 </td>
+<td style="text-align: right;"> 2.360.856 </td>
+</tr>
+<tr>
+<td style="font-weight: bold; text-align: center;">8</td>
+<td style="font-weight: bold;">Klungkung</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: right;"> 20.342 </td>
+<td style="text-align: right;"> 16.073 </td>
+<td style="text-align: right;"> 14.308 </td>
+<td style="text-align: right;"> 14.308 </td>
+<td style="text-align: right;"> 13.959 </td>
+<td style="text-align: right;"> 12.616 </td>
+<td style="text-align: right;"> 3.272.433.635 </td>
+<td style="text-align: right;"> 2.760.291.290 </td>
+<td style="text-align: right;"> 2.492.656.158 </td>
+<td style="text-align: right;"> 2.492.656.158 </td>
+<td style="text-align: right;"> 2.439.180.725 </td>
+<td style="text-align: right;"> 1.875.375.501 </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+</tr>
+<tr>
+<td style="font-weight: bold; text-align: center;">9</td>
+<td style="font-weight: bold;">Klungkung</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: right;"> 149 </td>
+<td style="text-align: right;"> 124 </td>
+<td style="text-align: right;"> 97 </td>
+<td style="text-align: right;"> 97 </td>
+<td style="text-align: right;"> 94 </td>
+<td style="text-align: right;"> 86 </td>
+<td style="text-align: right;"> 23.075.941 </td>
+<td style="text-align: right;"> 20.007.295 </td>
+<td style="text-align: right;"> 16.124.865 </td>
+<td style="text-align: right;"> 16.124.865 </td>
+<td style="text-align: right;"> 15.858.499 </td>
+<td style="text-align: right;"> 14.426.199 </td>
+<td style="text-align: right;"> 1.374.000 </td>
+<td style="text-align: right;"> 1.216.000 </td>
+<td style="text-align: right;"> 808.000 </td>
+<td style="text-align: right;"> 808.000 </td>
+<td style="text-align: right;"> 790.000 </td>
+<td style="text-align: right;"> 738.000 </td>
+</tr>
+<tr>
+<td style="font-weight: bold; text-align: center;">10</td>
+<td style="font-weight: bold;">Klungkung</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: right;"> 5 </td>
+<td style="text-align: right;"> 4 </td>
+<td style="text-align: right;"> 4 </td>
+<td style="text-align: right;"> 4 </td>
+<td style="text-align: right;"> 4 </td>
+<td style="text-align: right;"> 4 </td>
+<td style="text-align: right;"> 793.902 </td>
+<td style="text-align: right;"> 663.667 </td>
+<td style="text-align: right;"> 663.667 </td>
+<td style="text-align: right;"> 663.667 </td>
+<td style="text-align: right;"> 663.667 </td>
+<td style="text-align: right;"> 663.667 </td>
+<td style="text-align: right;"> 120.000 </td>
+<td style="text-align: right;"> 105.000 </td>
+<td style="text-align: right;"> 105.000 </td>
+<td style="text-align: right;"> 105.000 </td>
+<td style="text-align: right;"> 105.000 </td>
+<td style="text-align: right;"> 105.000 </td>
+</tr>
+<tr>
+<td style="font-weight: bold; text-align: center;">11</td>
+<td style="font-weight: bold;">Batur</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: right;"> 155.980 </td>
+<td style="text-align: right;"> 128.636 </td>
+<td style="text-align: right;"> 120.551 </td>
+<td style="text-align: right;"> 116.277 </td>
+<td style="text-align: right;"> 112.909 </td>
+<td style="text-align: right;"> 103.488 </td>
+<td style="text-align: right;"> 35.617.083.924 </td>
+<td style="text-align: right;"> 30.173.593.040 </td>
+<td style="text-align: right;"> 28.165.413.805 </td>
+<td style="text-align: right;"> 27.158.934.904 </td>
+<td style="text-align: right;"> 26.693.441.869 </td>
+<td style="text-align: right;"> 22.872.229.373 </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+</tr>
+<tr>
+<td style="font-weight: bold; text-align: center;">12</td>
+<td style="font-weight: bold;">Batur</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: right;"> 2.652 </td>
+<td style="text-align: right;"> 2.330 </td>
+<td style="text-align: right;"> 2.188 </td>
+<td style="text-align: right;"> 2.104 </td>
+<td style="text-align: right;"> 2.048 </td>
+<td style="text-align: right;"> 1.843 </td>
+<td style="text-align: right;"> 888.560.189 </td>
+<td style="text-align: right;"> 805.109.308 </td>
+<td style="text-align: right;"> 761.884.601 </td>
+<td style="text-align: right;"> 737.777.147 </td>
+<td style="text-align: right;"> 724.799.402 </td>
+<td style="text-align: right;"> 681.540.193 </td>
+<td style="text-align: right;"> 34.414.394 </td>
+<td style="text-align: right;"> 30.374.176 </td>
+<td style="text-align: right;"> 28.436.176 </td>
+<td style="text-align: right;"> 27.288.176 </td>
+<td style="text-align: right;"> 26.608.176 </td>
+<td style="text-align: right;"> 24.708.176 </td>
+</tr>
+<tr>
+<td style="font-weight: bold; text-align: center;">13</td>
+<td style="font-weight: bold;">Batur</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: right;"> 226 </td>
+<td style="text-align: right;"> 182 </td>
+<td style="text-align: right;"> 172 </td>
+<td style="text-align: right;"> 159 </td>
+<td style="text-align: right;"> 156 </td>
+<td style="text-align: right;"> 130 </td>
+<td style="text-align: right;"> 302.307.156 </td>
+<td style="text-align: right;"> 177.238.471 </td>
+<td style="text-align: right;"> 173.722.981 </td>
+<td style="text-align: right;"> 169.482.167 </td>
+<td style="text-align: right;"> 169.003.854 </td>
+<td style="text-align: right;"> 107.571.239 </td>
+<td style="text-align: right;"> 16.821.993 </td>
+<td style="text-align: right;"> 10.813.746 </td>
+<td style="text-align: right;"> 10.653.746 </td>
+<td style="text-align: right;"> 10.418.746 </td>
+<td style="text-align: right;"> 10.363.746 </td>
+<td style="text-align: right;"> 7.535.856 </td>
 </tr>
   </tbody>
 </table>
