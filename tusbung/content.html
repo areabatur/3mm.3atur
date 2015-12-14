@@ -1,0 +1,261 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head>
+  <title>Content</title>
+
+  
+
+<!-- Javascript goes in the document HEAD -->
+  <script type="text/javascript">
+function altRows(id){
+	if(document.getElementsByTagName){  
+		
+		var table = document.getElementById(id);  
+		var rows = table.getElementsByTagName("tr"); 
+		 
+		for(i = 0; i < rows.length; i++){          
+			if(i % 2 == 0){
+				rows[i].className = "evenrowcolor";
+			}else{
+				rows[i].className = "oddrowcolor";
+			}      
+		}
+	}
+}
+window.onload=function(){
+	altRows('alternatecolor');
+}
+  </script>
+
+<!-- CSS goes in the document HEAD or added to your external stylesheet -->
+  <style type="text/css">
+table.altrowstable {
+	font-family: verdana,arial,sans-serif;
+	font-size:11px;
+	color:#333333;
+	border-width: 1px;
+	border-color: #a9c6c9;
+	border-collapse: collapse;
+}
+table.altrowstable th {
+	border-width: 1px;
+	padding: 8px;
+	border-style: solid;
+	border-color: #a9c6c9;
+}
+table.altrowstable td {
+	border-width: 1px;
+	padding: 8px;
+	border-style: solid;
+	border-color: #a9c6c9;
+}
+.oddrowcolor{
+	background-color:#d4e3e5;
+}
+.evenrowcolor{
+	background-color:#c3dde0;
+}
+  </style>
+</head><body>
+<table class="altrowstable" id="alternatecolor">
+
+  <tbody>
+    <tr>
+      <th style="text-align: center;">NO</th>
+      <th style="width: 109px; text-align: center;">RAYON</th>
+      <th style="width: 127px; text-align: center;">DETAIL/TGL</th>
+      <th style="width: 117px; text-align: center;"> 5 </th>
+      <th style="text-align: center;"> 10 </th>
+      <th style="text-align: center;"> 11 </th>
+      <th style="text-align: center;"> 12 </th>
+      <th style="text-align: center;"> 13 </th>
+      <th style="text-align: center;"> TARGET 20 </th>
+      <th style="text-align: center;"> -/+ </th>
+      <th style="text-align: center;">REALISASI 20</th>
+      <th style="text-align: center;">%</th>
+    </tr>
+    <tr>
+      <td style="font-weight: bold; text-align: center;" rowspan="3">1</td>
+      <td style="font-weight: bold; width: 109px; text-align: left;" rowspan="3">BANGLI</td>
+      <td style="text-align: left; width: 127px;">TOT PLG</td>
+      <td style="text-align: right; width: 117px;"> 23.778 </td>
+      <td style="text-align: right;"> 20.044 </td>
+      <td style="text-align: right;"> 18.995 </td>
+      <td style="text-align: right;"> 18.995 </td>
+      <td style="text-align: right;"> 18.563 </td>
+      <td style="text-align: right;"> 2.363 </td>
+      <td style="text-align: right;"> (16.200)</td>
+      <td style="text-align: center;">-586%</td>
+      <td style="text-align: center; font-weight: bold;" rowspan="3">-569%</td>
+    </tr>
+    <tr>
+      <td style="text-align: left; width: 127px;">TOT PRTAG</td>
+      <td style="text-align: right; width: 117px;"> 2.280.783.640 </td>
+      <td style="text-align: right;"> 2.070.837.374 </td>
+      <td style="text-align: right;"> 1.747.569.097 </td>
+      <td style="text-align: right;"> 1.747.569.097 </td>
+      <td style="text-align: right;"> 1.703.409.643 </td>
+      <td style="text-align: right;"> 226.652.443 </td>
+      <td style="text-align: right;"> (1.476.757.200)</td>
+      <td style="text-align: center;">-552%</td>
+    </tr>
+    <tr>
+      <td style="text-align: left; width: 127px;">TOT RPBK</td>
+      <td style="text-align: right; width: 117px;"> - </td>
+      <td style="text-align: right;"> - </td>
+      <td style="text-align: right;"> - </td>
+      <td style="text-align: right;"> - </td>
+      <td style="text-align: right;"> - </td>
+      <td style="text-align: right;"> - </td>
+      <td style="text-align: right;"> - </td>
+      <td style="text-align: center;"> <br>
+      </td>
+    </tr>
+    <tr>
+      <td style="font-weight: bold; text-align: center;" rowspan="3">2</td>
+      <td style="font-weight: bold; width: 109px; text-align: left;" rowspan="3">GIANYAR</td>
+      <td style="text-align: left; width: 127px;">TOT PLG</td>
+      <td style="text-align: right; width: 117px;"> 70.816 </td>
+      <td style="text-align: right;"> 57.395 </td>
+      <td style="text-align: right;"> 54.548 </td>
+      <td style="text-align: right;"> 50.177 </td>
+      <td style="text-align: right;"> 48.815 </td>
+      <td style="text-align: right;"> 6.051 </td>
+      <td style="text-align: right;"> (42.764)</td>
+      <td style="text-align: center;">-607%</td>
+      <td style="text-align: center; font-weight: bold;" rowspan="3">-602%</td>
+    </tr>
+    <tr>
+      <td style="text-align: left; width: 127px;">TOT PRTAG</td>
+      <td style="text-align: right; width: 117px;"> 23.832.040.848 </td>
+      <td style="text-align: right;"> 19.772.467.166 </td>
+      <td style="text-align: right;"> 18.755.678.148 </td>
+      <td style="text-align: right;"> 17.720.850.979 </td>
+      <td style="text-align: right;"> 17.422.740.923 </td>
+      <td style="text-align: right;"> 2.036.298.968 </td>
+      <td style="text-align: right;"> (15.386.441.955)</td>
+      <td style="text-align: center;">-656%</td>
+    </tr>
+    <tr>
+      <td style="text-align: left; width: 127px;">TOT RPBK</td>
+      <td style="text-align: right; width: 117px;"> 31.309.593 </td>
+      <td style="text-align: right;"> 22.854.128 </td>
+      <td style="text-align: right;"> 21.582.128 </td>
+      <td style="text-align: right;"> 20.199.128 </td>
+      <td style="text-align: right;"> 19.932.128 </td>
+      <td style="text-align: right;"> 2.675.209 </td>
+      <td style="text-align: right;"> (17.256.919)</td>
+      <td style="text-align: center;">-545%</td>
+    </tr>
+    <tr>
+      <td style="font-weight: bold; text-align: center;" rowspan="3">3</td>
+      <td style="font-weight: bold; width: 109px; text-align: left;" rowspan="3">KARANGASEM&nbsp;&nbsp; <br>
+      </td>
+      <td style="text-align: left; width: 127px;">TOT PLG</td>
+      <td style="text-align: right; width: 117px;"> 43.768 </td>
+      <td style="text-align: right;"> 37.508 </td>
+      <td style="text-align: right;"> 34.959 </td>
+      <td style="text-align: right;"> 34.959 </td>
+      <td style="text-align: right;"> 33.678 </td>
+      <td style="text-align: right;"> 4.289 </td>
+      <td style="text-align: right;"> (29.389)</td>
+      <td style="text-align: center;">-585%</td>
+      <td style="text-align: center; font-weight: bold;" rowspan="3">-636%</td>
+    </tr>
+    <tr>
+      <td style="text-align: left; width: 127px;">TOT PRTAG</td>
+      <td style="text-align: right; width: 117px;"> 7.398.823.303 </td>
+      <td style="text-align: right;"> 6.531.674.027 </td>
+      <td style="text-align: right;"> 6.088.329.452 </td>
+      <td style="text-align: right;"> 6.088.329.452 </td>
+      <td style="text-align: right;"> 6.005.391.668 </td>
+      <td style="text-align: right;"> 725.010.473 </td>
+      <td style="text-align: right;"> (5.280.381.195)</td>
+      <td style="text-align: center;">-628%</td>
+    </tr>
+    <tr>
+      <td style="text-align: left; width: 127px;">TOT RPBK</td>
+      <td style="text-align: right; width: 117px;"> 18.432.794 </td>
+      <td style="text-align: right;"> 17.012.794 </td>
+      <td style="text-align: right;"> 16.594.794 </td>
+      <td style="text-align: right;"> 16.594.794 </td>
+      <td style="text-align: right;"> 16.144.794 </td>
+      <td style="text-align: right;"> 1.806.229 </td>
+      <td style="text-align: right;"> (14.338.565)</td>
+      <td style="text-align: center;">-694%</td>
+    </tr>
+    <tr>
+      <td style="font-weight: bold; text-align: center;" rowspan="3">4</td>
+      <td style="font-weight: bold; width: 109px; text-align: left;" rowspan="3">KLUNGKUNG</td>
+      <td style="text-align: left; width: 127px;">TOT PLG</td>
+      <td style="text-align: right; width: 117px;"> 20.496 </td>
+      <td style="text-align: right;"> 16.201 </td>
+      <td style="text-align: right;"> 14.409 </td>
+      <td style="text-align: right;"> 14.409 </td>
+      <td style="text-align: right;"> 28.114 </td>
+      <td style="text-align: right;"> 1.704 </td>
+      <td style="text-align: right;"> (26.410)</td>
+      <td style="text-align: center;">-1450%</td>
+      <td style="text-align: center; font-weight: bold;" rowspan="3">-1428%</td>
+    </tr>
+    <tr>
+      <td style="text-align: left; width: 127px;">TOT PRTAG</td>
+      <td style="text-align: right; width: 117px;"> 3.296.303.478 </td>
+      <td style="text-align: right;"> 2.780.962.252 </td>
+      <td style="text-align: right;"> 2.509.444.690 </td>
+      <td style="text-align: right;"> 2.509.444.690 </td>
+      <td style="text-align: right;"> 4.911.405.782 </td>
+      <td style="text-align: right;"> 274.048.217 </td>
+      <td style="text-align: right;"> (4.637.357.565)</td>
+      <td style="text-align: center;">-1592%</td>
+    </tr>
+    <tr>
+      <td style="text-align: left; width: 127px;">TOT RPBK</td>
+      <td style="text-align: right; width: 117px;"> 1.494.000 </td>
+      <td style="text-align: right;"> 1.321.000 </td>
+      <td style="text-align: right;"> 913.000 </td>
+      <td style="text-align: right;"> 913.000 </td>
+      <td style="text-align: right;"> 1.790.000 </td>
+      <td style="text-align: right;"> 124.208 </td>
+      <td style="text-align: right;"> (1.665.792)</td>
+      <td style="text-align: center;">-1241%</td>
+    </tr>
+    <tr>
+      <td style="font-weight: bold; text-align: center;" rowspan="3">5</td>
+      <td style="font-weight: bold; width: 109px; text-align: left;" rowspan="3">BATUR</td>
+      <td style="text-align: left; width: 127px;">TOT PLG</td>
+      <td style="text-align: right; width: 117px;"> 158.858 </td>
+      <td style="text-align: right;"> 131.148 </td>
+      <td style="text-align: right;"> 122.911 </td>
+      <td style="text-align: right;"> 118.540 </td>
+      <td style="text-align: right;"> 129.170 </td>
+      <td style="text-align: right;"> 14.078 </td>
+      <td style="text-align: right;"> (115.092)</td>
+      <td style="text-align: center;">-718%</td>
+      <td style="text-align: center; font-weight: bold;" rowspan="3">-691%</td>
+    </tr>
+    <tr>
+      <td style="text-align: left; width: 127px;">TOT PRTAG</td>
+      <td style="text-align: right; width: 117px;"> 36.807.951.269 </td>
+      <td style="text-align: right;"> 31.155.940.819 </td>
+      <td style="text-align: right;"> 29.101.021.387 </td>
+      <td style="text-align: right;"> 28.066.194.218 </td>
+      <td style="text-align: right;"> 30.042.948.016 </td>
+      <td style="text-align: right;"> 3.262.010.101 </td>
+      <td style="text-align: right;"> (26.780.937.915)</td>
+      <td style="text-align: center;">-721%</td>
+    </tr>
+    <tr>
+      <td style="text-align: left; width: 127px;">TOT RPBK</td>
+      <td style="text-align: right; width: 117px;"> 51.236.387 </td>
+      <td style="text-align: right;"> 41.187.922 </td>
+      <td style="text-align: right;"> 39.089.922 </td>
+      <td style="text-align: right;"> 37.706.922 </td>
+      <td style="text-align: right;"> 37.866.922 </td>
+      <td style="text-align: right;"> 4.540.693 </td>
+      <td style="text-align: right;"> (33.326.229)</td>
+      <td style="text-align: center;">-634%</td>
+    </tr>
+  </tbody>
+</table>
+
+</body></html>
