@@ -5,64 +5,906 @@
   
 
 <!-- Javascript goes in the document HEAD -->
-  <script type="text/javascript">
+<script type="text/javascript">
 function altRows(id){
-	if(document.getElementsByTagName){  
-		
-		var table = document.getElementById(id);  
-		var rows = table.getElementsByTagName("tr"); 
-		 
-		for(i = 0; i < rows.length; i++){          
-			if(i % 2 == 0){
-				rows[i].className = "evenrowcolor";
-			}else{
-				rows[i].className = "oddrowcolor";
-			}      
-		}
-	}
+if(document.getElementsByTagName){
+
+var table = document.getElementById(id);
+var rows = table.getElementsByTagName("tr");
+
+for(i = 0; i < rows.length; i++){
+if(i % 2 == 0){
+rows[i].className = "evenrowcolor";
+}else{
+rows[i].className = "oddrowcolor";
+}
+}
+}
 }
 window.onload=function(){
-	altRows('alternatecolor');
+altRows('alternatecolor');
 }
-  </script>
-
-<!-- CSS goes in the document HEAD or added to your external stylesheet -->
-  <style type="text/css">
+</script><!-- CSS goes in the document HEAD or added to your external stylesheet -->
+<style type="text/css">
 table.altrowstable {
-	font-family: verdana,arial,sans-serif;
-	font-size:11px;
-	color:#333333;
-	border-width: 1px;
-	border-color: #a9c6c9;
-	border-collapse: collapse;
+font-family: verdana,arial,sans-serif;
+font-size:11px;
+color:#333333;
+border-width: 1px;
+border-color: #a9c6c9;
+border-collapse: collapse;
 }
 table.altrowstable th {
-	border-width: 1px;
-	padding: 8px;
-	border-style: solid;
-	border-color: #a9c6c9;
+padding: 0.25rem;
+border-width: 1px;
+padding: 8px;
+border-style: solid;
+border-color: #a9c6c9;
 }
 table.altrowstable td {
-	border-width: 1px;
-	padding: 8px;
-	border-style: solid;
-	border-color: #a9c6c9;
+padding: 0.25rem;
+border-width: 1px;
+padding: 8px;
+border-style: solid;
+border-color: #a9c6c9;
 }
+tbody tr:hover {
+background: yellow;
+}
+
 .oddrowcolor{
-	background-color:#d4e3e5;
+background-color:#d4e3e5;
 }
 .evenrowcolor{
-	background-color:#c3dde0;
+background-color:#c3dde0;
 }
-  </style>
-</head><body>
+</style>
+</head>
+<body>
 <table class="altrowstable" id="alternatecolor">
-
-  <tbody>
- <tr>
- <td>lembar klungkung</td>
- <td>klungkung</td>
- </tr>
+<Caption><Strong>##Detail Harian##</Strong></Caption>
+<tbody>
+<tr>
+<th>RAYON</th>
+<th>ID BILLMAN</th>
+<th>NAMA BILLMAN</th>
+<th>DETAIL</th>
+<th> 5 </th>
+<th> 10 </th>
+<th> 11 </th>
+<th> 12 </th>
+<th> 13 </th>
+<th> 14 </th>
+<th> TARGET 20 </th>
+<th> -/+ </th>
+<th>REALISASI 20</th>
+<th>%</th>
+</tr>
+<tr>
+<td style="font-weight: bold; text-align: center;">Klungkung</td>
+<td style="font-weight: bold; text-align: center;">5521001</td>
+<td style="font-weight: bold; text-align: center;">I Ketut Nila</td>
+<td>TOT PLG</td>
+<td style="text-align: right;"> 724 </td>
+<td style="text-align: right;"> 437 </td>
+<td style="text-align: right;"> 412 </td>
+<td style="text-align: right;"> 412 </td>
+<td style="text-align: right;"> 410 </td>
+<td style="text-align: right;"> 317 </td>
+<td style="text-align: right; font-weight: bold;"> 60 </td>
+<td style="text-align: right;"> (257)</td>
+<td style="text-align: center; font-weight: bold;">-327%</td>
+<td style="text-align: center; font-weight: bold;"> <br>
+</td>
+</tr>
+<tr>
+<td style="font-weight: bold; text-align: center;">Klungkung</td>
+<td style="font-weight: bold; text-align: center;">5521001</td>
+<td style="font-weight: bold; text-align: center;">I Ketut Nila</td>
+<td>TOT PRTAG</td>
+<td style="text-align: right;"> 50.891.616 </td>
+<td style="text-align: right;"> 31.862.774 </td>
+<td style="text-align: right;"> 30.400.004 </td>
+<td style="text-align: right;"> 30.400.004 </td>
+<td style="text-align: right;"> 30.313.311 </td>
+<td style="text-align: right;"> 28.921.359 </td>
+<td style="text-align: right; font-weight: bold;"> 4.231.029 </td>
+<td style="text-align: right;"> (24.690.330)</td>
+<td style="text-align: center; font-weight: bold;">-484%</td>
+<td style="text-align: center; font-weight: bold;">-203%</td>
+</tr>
+<tr>
+<td style="font-weight: bold; text-align: center;">Klungkung</td>
+<td style="font-weight: bold; text-align: center;">5521001</td>
+<td style="font-weight: bold; text-align: center;">I Ketut Nila</td>
+<td>TOT RPBK</td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right; font-weight: bold;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: center; font-weight: bold;">200%</td>
+<td style="text-align: center; font-weight: bold;"> <br>
+</td>
+</tr>
+<tr>
+<td style="font-weight: bold; text-align: center;">Klungkung</td>
+<td style="font-weight: bold; text-align: center;">5521002</td>
+<td style="font-weight: bold; text-align: center;">Dewa Gede
+Diana Putra</td>
+<td>TOT PLG</td>
+<td style="text-align: right;"> 743 </td>
+<td style="text-align: right;"> 657 </td>
+<td style="text-align: right;"> 550 </td>
+<td style="text-align: right;"> 550 </td>
+<td style="text-align: right;"> 548 </td>
+<td style="text-align: right;"> 541 </td>
+<td style="text-align: right; font-weight: bold;"> 62 </td>
+<td style="text-align: right;"> (479)</td>
+<td style="text-align: center; font-weight: bold;">-676%</td>
+<td style="text-align: center; font-weight: bold;"> <br>
+</td>
+</tr>
+<tr>
+<td style="font-weight: bold; text-align: center;">Klungkung</td>
+<td style="font-weight: bold; text-align: center;">5521002</td>
+<td style="font-weight: bold; text-align: center;">Dewa Gede
+Diana Putra</td>
+<td>TOT PRTAG</td>
+<td style="text-align: right;"> 144.884.830 </td>
+<td style="text-align: right;"> 140.924.918 </td>
+<td style="text-align: right;"> 134.422.022 </td>
+<td style="text-align: right;"> 134.422.022 </td>
+<td style="text-align: right;"> 134.302.264 </td>
+<td style="text-align: right;"> 133.010.153 </td>
+<td style="text-align: right; font-weight: bold;"> 12.045.441 </td>
+<td style="text-align: right;"> (120.964.712)</td>
+<td style="text-align: center; font-weight: bold;">-904%</td>
+<td style="text-align: center; font-weight: bold;">-460%</td>
+</tr>
+<tr>
+<td style="font-weight: bold; text-align: center;">Klungkung</td>
+<td style="font-weight: bold; text-align: center;">5521002</td>
+<td style="font-weight: bold; text-align: center;">Dewa Gede
+Diana Putra</td>
+<td>TOT RPBK</td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right; font-weight: bold;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: center; font-weight: bold;">200%</td>
+<td style="text-align: center; font-weight: bold;"> <br>
+</td>
+</tr>
+<tr>
+<td style="font-weight: bold; text-align: center;">Klungkung</td>
+<td style="font-weight: bold; text-align: center;">5521003</td>
+<td style="font-weight: bold; text-align: center;">I Ketut
+Suardana</td>
+<td>TOT PLG</td>
+<td style="text-align: right;"> 779 </td>
+<td style="text-align: right;"> 413 </td>
+<td style="text-align: right;"> 401 </td>
+<td style="text-align: right;"> 401 </td>
+<td style="text-align: right;"> 397 </td>
+<td style="text-align: right;"> 392 </td>
+<td style="text-align: right; font-weight: bold;"> 65 </td>
+<td style="text-align: right;"> (327)</td>
+<td style="text-align: center; font-weight: bold;">-405%</td>
+<td style="text-align: center; font-weight: bold;"> <br>
+</td>
+</tr>
+<tr>
+<td style="font-weight: bold; text-align: center;">Klungkung</td>
+<td style="font-weight: bold; text-align: center;">5521003</td>
+<td style="font-weight: bold; text-align: center;">I Ketut
+Suardana</td>
+<td>TOT PRTAG</td>
+<td style="text-align: right;"> 80.878.944 </td>
+<td style="text-align: right;"> 48.728.181 </td>
+<td style="text-align: right;"> 41.936.070 </td>
+<td style="text-align: right;"> 41.936.070 </td>
+<td style="text-align: right;"> 41.692.776 </td>
+<td style="text-align: right;"> 32.849.507 </td>
+<td style="text-align: right; font-weight: bold;"> 6.724.117 </td>
+<td style="text-align: right;"> (26.125.390)</td>
+<td style="text-align: center; font-weight: bold;">-289%</td>
+<td style="text-align: center; font-weight: bold;">-165%</td>
+</tr>
+<tr>
+<td style="font-weight: bold; text-align: center;">Klungkung</td>
+<td style="font-weight: bold; text-align: center;">5521003</td>
+<td style="font-weight: bold; text-align: center;">I Ketut
+Suardana</td>
+<td>TOT RPBK</td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right; font-weight: bold;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: center; font-weight: bold;">200%</td>
+<td style="text-align: center; font-weight: bold;"> <br>
+</td>
+</tr>
+<tr>
+<td style="font-weight: bold; text-align: center;">Klungkung</td>
+<td style="font-weight: bold; text-align: center;">5521006</td>
+<td style="font-weight: bold; text-align: center;">Gede Wiradika</td>
+<td>TOT PLG</td>
+<td style="text-align: right;"> 1.423 </td>
+<td style="text-align: right;"> 1.056 </td>
+<td style="text-align: right;"> 915 </td>
+<td style="text-align: right;"> 915 </td>
+<td style="text-align: right;"> 882 </td>
+<td style="text-align: right;"> 801 </td>
+<td style="text-align: right; font-weight: bold;"> 118 </td>
+<td style="text-align: right;"> (683)</td>
+<td style="text-align: center; font-weight: bold;">-477%</td>
+<td style="text-align: center; font-weight: bold;"> <br>
+</td>
+</tr>
+<tr>
+<td style="font-weight: bold; text-align: center;">Klungkung</td>
+<td style="font-weight: bold; text-align: center;">5521006</td>
+<td style="font-weight: bold; text-align: center;">Gede Wiradika</td>
+<td>TOT PRTAG</td>
+<td style="text-align: right;"> 434.931.693 </td>
+<td style="text-align: right;"> 388.123.798 </td>
+<td style="text-align: right;"> 374.313.261 </td>
+<td style="text-align: right;"> 374.313.261 </td>
+<td style="text-align: right;"> 348.791.718 </td>
+<td style="text-align: right;"> 247.636.486 </td>
+<td style="text-align: right; font-weight: bold;"> 36.159.369 </td>
+<td style="text-align: right;"> (211.477.117)</td>
+<td style="text-align: center; font-weight: bold;">-485%</td>
+<td style="text-align: center; font-weight: bold;">-655%</td>
+</tr>
+<tr>
+<td style="font-weight: bold; text-align: center;">Klungkung</td>
+<td style="font-weight: bold; text-align: center;">5521006</td>
+<td style="font-weight: bold; text-align: center;">Gede Wiradika</td>
+<td>TOT RPBK</td>
+<td style="text-align: right;"> 190.000 </td>
+<td style="text-align: right;"> 190.000 </td>
+<td style="text-align: right;"> 190.000 </td>
+<td style="text-align: right;"> 190.000 </td>
+<td style="text-align: right;"> 190.000 </td>
+<td style="text-align: right;"> 190.000 </td>
+<td style="text-align: right; font-weight: bold;"> 15.796 </td>
+<td style="text-align: right;"> (174.204)</td>
+<td style="text-align: center; font-weight: bold;">-1003%</td>
+<td style="text-align: center; font-weight: bold;"> <br>
+</td>
+</tr>
+<tr>
+<td style="font-weight: bold; text-align: center;">Klungkung</td>
+<td style="font-weight: bold; text-align: center;">5521007</td>
+<td style="font-weight: bold; text-align: center;">I D G Adi
+Mahendra Putra</td>
+<td>TOT PLG</td>
+<td style="text-align: right;"> 1.551 </td>
+<td style="text-align: right;"> 1.216 </td>
+<td style="text-align: right;"> 1.162 </td>
+<td style="text-align: right;"> 1.162 </td>
+<td style="text-align: right;"> 1.152 </td>
+<td style="text-align: right;"> 892 </td>
+<td style="text-align: right; font-weight: bold;"> 129 </td>
+<td style="text-align: right;"> (763)</td>
+<td style="text-align: center; font-weight: bold;">-492%</td>
+<td style="text-align: center; font-weight: bold;"> <br>
+</td>
+</tr>
+<tr>
+<td style="font-weight: bold; text-align: center;">Klungkung</td>
+<td style="font-weight: bold; text-align: center;">5521007</td>
+<td style="font-weight: bold; text-align: center;">I D G Adi
+Mahendra Putra</td>
+<td>TOT PRTAG</td>
+<td style="text-align: right;"> 77.554.400 </td>
+<td style="text-align: right;"> 60.945.482 </td>
+<td style="text-align: right;"> 57.476.773 </td>
+<td style="text-align: right;"> 57.476.773 </td>
+<td style="text-align: right;"> 57.046.629 </td>
+<td style="text-align: right;"> 45.486.434 </td>
+<td style="text-align: right; font-weight: bold;"> 6.447.721 </td>
+<td style="text-align: right;"> (39.038.713)</td>
+<td style="text-align: center; font-weight: bold;">-505%</td>
+<td style="text-align: center; font-weight: bold;">-533%</td>
+</tr>
+<tr>
+<td style="font-weight: bold; text-align: center;">Klungkung</td>
+<td style="font-weight: bold; text-align: center;">5521007</td>
+<td style="font-weight: bold; text-align: center;">I D G Adi
+Mahendra Putra</td>
+<td>TOT RPBK</td>
+<td style="text-align: right;"> 72.000 </td>
+<td style="text-align: right;"> 60.000 </td>
+<td style="text-align: right;"> 60.000 </td>
+<td style="text-align: right;"> 60.000 </td>
+<td style="text-align: right;"> 60.000 </td>
+<td style="text-align: right;"> 48.000 </td>
+<td style="text-align: right; font-weight: bold;"> 5.986 </td>
+<td style="text-align: right;"> (42.014)</td>
+<td style="text-align: center; font-weight: bold;">-602%</td>
+<td style="text-align: center; font-weight: bold;"> <br>
+</td>
+</tr>
+<tr>
+<td style="font-weight: bold; text-align: center;">Klungkung</td>
+<td style="font-weight: bold; text-align: center;">5521008</td>
+<td style="font-weight: bold; text-align: center;">I Made Suhendra</td>
+<td>TOT PLG</td>
+<td style="text-align: right;"> 1.559 </td>
+<td style="text-align: right;"> 1.118 </td>
+<td style="text-align: right;"> 956 </td>
+<td style="text-align: right;"> 956 </td>
+<td style="text-align: right;"> 926 </td>
+<td style="text-align: right;"> 789 </td>
+<td style="text-align: right; font-weight: bold;"> 130 </td>
+<td style="text-align: right;"> (659)</td>
+<td style="text-align: center; font-weight: bold;">-409%</td>
+<td style="text-align: center; font-weight: bold;"> <br>
+</td>
+</tr>
+<tr>
+<td style="font-weight: bold; text-align: center;">Klungkung</td>
+<td style="font-weight: bold; text-align: center;">5521008</td>
+<td style="font-weight: bold; text-align: center;">I Made Suhendra</td>
+<td>TOT PRTAG</td>
+<td style="text-align: right;"> 203.848.156 </td>
+<td style="text-align: right;"> 155.888.554 </td>
+<td style="text-align: right;"> 136.620.168 </td>
+<td style="text-align: right;"> 136.620.168 </td>
+<td style="text-align: right;"> 133.388.506 </td>
+<td style="text-align: right;"> 116.979.240 </td>
+<td style="text-align: right; font-weight: bold;"> 16.947.537 </td>
+<td style="text-align: right;"> (100.031.703)</td>
+<td style="text-align: center; font-weight: bold;">-490%</td>
+<td style="text-align: center; font-weight: bold;">-338%</td>
+</tr>
+<tr>
+<td style="font-weight: bold; text-align: center;">Klungkung</td>
+<td style="font-weight: bold; text-align: center;">5521008</td>
+<td style="font-weight: bold; text-align: center;">I Made Suhendra</td>
+<td>TOT RPBK</td>
+<td style="text-align: right;"> 225.000 </td>
+<td style="text-align: right;"> 225.000 </td>
+<td style="text-align: right;"> 69.000 </td>
+<td style="text-align: right;"> 69.000 </td>
+<td style="text-align: right;"> 69.000 </td>
+<td style="text-align: right;"> 59.000 </td>
+<td style="text-align: right; font-weight: bold;"> 18.706 </td>
+<td style="text-align: right;"> (40.294)</td>
+<td style="text-align: center; font-weight: bold;">-115%</td>
+<td style="text-align: center; font-weight: bold;"> <br>
+</td>
+</tr>
+<tr>
+<td style="font-weight: bold; text-align: center;">Klungkung</td>
+<td style="font-weight: bold; text-align: center;">5521009</td>
+<td style="font-weight: bold; text-align: center;">I Made Sumadana</td>
+<td>TOT PLG</td>
+<td style="text-align: right;"> 1.552 </td>
+<td style="text-align: right;"> 1.112 </td>
+<td style="text-align: right;"> 936 </td>
+<td style="text-align: right;"> 936 </td>
+<td style="text-align: right;"> 920 </td>
+<td style="text-align: right;"> 841 </td>
+<td style="text-align: right; font-weight: bold;"> 129 </td>
+<td style="text-align: right;"> (712)</td>
+<td style="text-align: center; font-weight: bold;">-452%</td>
+<td style="text-align: center; font-weight: bold;"> <br>
+</td>
+</tr>
+<tr>
+<td style="font-weight: bold; text-align: center;">Klungkung</td>
+<td style="font-weight: bold; text-align: center;">5521009</td>
+<td style="font-weight: bold; text-align: center;">I Made Sumadana</td>
+<td>TOT PRTAG</td>
+<td style="text-align: right;"> 119.051.366 </td>
+<td style="text-align: right;"> 91.943.519 </td>
+<td style="text-align: right;"> 79.083.005 </td>
+<td style="text-align: right;"> 79.083.005 </td>
+<td style="text-align: right;"> 78.062.860 </td>
+<td style="text-align: right;"> 68.246.387 </td>
+<td style="text-align: right; font-weight: bold;"> 9.897.697 </td>
+<td style="text-align: right;"> (58.348.690)</td>
+<td style="text-align: center; font-weight: bold;">-490%</td>
+<td style="text-align: center; font-weight: bold;">-593%</td>
+</tr>
+<tr>
+<td style="font-weight: bold; text-align: center;">Klungkung</td>
+<td style="font-weight: bold; text-align: center;">5521009</td>
+<td style="font-weight: bold; text-align: center;">I Made Sumadana</td>
+<td>TOT RPBK</td>
+<td style="text-align: right;"> 44.000 </td>
+<td style="text-align: right;"> 38.000 </td>
+<td style="text-align: right;"> 38.000 </td>
+<td style="text-align: right;"> 38.000 </td>
+<td style="text-align: right;"> 38.000 </td>
+<td style="text-align: right;"> 38.000 </td>
+<td style="text-align: right; font-weight: bold;"> 3.658 </td>
+<td style="text-align: right;"> (34.342)</td>
+<td style="text-align: center; font-weight: bold;">-839%</td>
+<td style="text-align: center; font-weight: bold;"> <br>
+</td>
+</tr>
+<tr>
+<td style="font-weight: bold; text-align: center;">Klungkung</td>
+<td style="font-weight: bold; text-align: center;">5521010</td>
+<td style="font-weight: bold; text-align: center;">I Nengah Lara</td>
+<td>TOT PLG</td>
+<td style="text-align: right;"> 1.470 </td>
+<td style="text-align: right;"> 1.020 </td>
+<td style="text-align: right;"> 916 </td>
+<td style="text-align: right;"> 916 </td>
+<td style="text-align: right;"> 832 </td>
+<td style="text-align: right;"> 765 </td>
+<td style="text-align: right; font-weight: bold;"> 122 </td>
+<td style="text-align: right;"> (643)</td>
+<td style="text-align: center; font-weight: bold;">-426%</td>
+<td style="text-align: center; font-weight: bold;"> <br>
+</td>
+</tr>
+<tr>
+<td style="font-weight: bold; text-align: center;">Klungkung</td>
+<td style="font-weight: bold; text-align: center;">5521010</td>
+<td style="font-weight: bold; text-align: center;">I Nengah Lara</td>
+<td>TOT PRTAG</td>
+<td style="text-align: right;"> 96.052.202 </td>
+<td style="text-align: right;"> 70.901.093 </td>
+<td style="text-align: right;"> 64.690.841 </td>
+<td style="text-align: right;"> 64.690.841 </td>
+<td style="text-align: right;"> 57.172.974 </td>
+<td style="text-align: right;"> 52.822.445 </td>
+<td style="text-align: right; font-weight: bold;"> 7.985.592 </td>
+<td style="text-align: right;"> (44.836.853)</td>
+<td style="text-align: center; font-weight: bold;">-461%</td>
+<td style="text-align: center; font-weight: bold;">-381%</td>
+</tr>
+<tr>
+<td style="font-weight: bold; text-align: center;">Klungkung</td>
+<td style="font-weight: bold; text-align: center;">5521010</td>
+<td style="font-weight: bold; text-align: center;">I Nengah Lara</td>
+<td>TOT RPBK</td>
+<td style="text-align: right;"> 200.000 </td>
+<td style="text-align: right;"> 200.000 </td>
+<td style="text-align: right;"> 88.000 </td>
+<td style="text-align: right;"> 88.000 </td>
+<td style="text-align: right;"> 88.000 </td>
+<td style="text-align: right;"> 76.000 </td>
+<td style="text-align: right; font-weight: bold;"> 16.628 </td>
+<td style="text-align: right;"> (59.372)</td>
+<td style="text-align: center; font-weight: bold;">-257%</td>
+<td style="text-align: center; font-weight: bold;"> <br>
+</td>
+</tr>
+<tr>
+<td style="font-weight: bold; text-align: center;">Klungkung</td>
+<td style="font-weight: bold; text-align: center;">5521013</td>
+<td style="font-weight: bold; text-align: center;">Wayan Sumiarta</td>
+<td>TOT PLG</td>
+<td style="text-align: right;"> 1.570 </td>
+<td style="text-align: right;"> 1.289 </td>
+<td style="text-align: right;"> 1.155 </td>
+<td style="text-align: right;"> 1.155 </td>
+<td style="text-align: right;"> 1.141 </td>
+<td style="text-align: right;"> 1.049 </td>
+<td style="text-align: right; font-weight: bold;"> 131 </td>
+<td style="text-align: right;"> (918)</td>
+<td style="text-align: center; font-weight: bold;">-604%</td>
+<td style="text-align: center; font-weight: bold;"> <br>
+</td>
+</tr>
+<tr>
+<td style="font-weight: bold; text-align: center;">Klungkung</td>
+<td style="font-weight: bold; text-align: center;">5521013</td>
+<td style="font-weight: bold; text-align: center;">Wayan Sumiarta</td>
+<td>TOT PRTAG</td>
+<td style="text-align: right;"> 127.305.311 </td>
+<td style="text-align: right;"> 107.145.007 </td>
+<td style="text-align: right;"> 98.611.160 </td>
+<td style="text-align: right;"> 98.611.160 </td>
+<td style="text-align: right;"> 97.681.718 </td>
+<td style="text-align: right;"> 90.116.289 </td>
+<td style="text-align: right; font-weight: bold;"> 10.583.914 </td>
+<td style="text-align: right;"> (79.532.375)</td>
+<td style="text-align: center; font-weight: bold;">-651%</td>
+<td style="text-align: center; font-weight: bold;">-638%</td>
+</tr>
+<tr>
+<td style="font-weight: bold; text-align: center;">Klungkung</td>
+<td style="font-weight: bold; text-align: center;">5521013</td>
+<td style="font-weight: bold; text-align: center;">Wayan Sumiarta</td>
+<td>TOT RPBK</td>
+<td style="text-align: right;"> 84.000 </td>
+<td style="text-align: right;"> 72.000 </td>
+<td style="text-align: right;"> 72.000 </td>
+<td style="text-align: right;"> 72.000 </td>
+<td style="text-align: right;"> 72.000 </td>
+<td style="text-align: right;"> 60.000 </td>
+<td style="text-align: right; font-weight: bold;"> 6.984 </td>
+<td style="text-align: right;"> (53.016)</td>
+<td style="text-align: center; font-weight: bold;">-659%</td>
+<td style="text-align: center; font-weight: bold;"> <br>
+</td>
+</tr>
+<tr>
+<td style="font-weight: bold; text-align: center;">Klungkung</td>
+<td style="font-weight: bold; text-align: center;">5521014</td>
+<td style="font-weight: bold; text-align: center;">Dewa Putu
+Gargita</td>
+<td>TOT PLG</td>
+<td style="text-align: right;"> 1.517 </td>
+<td style="text-align: right;"> 1.245 </td>
+<td style="text-align: right;"> 1.100 </td>
+<td style="text-align: right;"> 1.100 </td>
+<td style="text-align: right;"> 1.056 </td>
+<td style="text-align: right;"> 954 </td>
+<td style="text-align: right; font-weight: bold;"> 126 </td>
+<td style="text-align: right;"> (828)</td>
+<td style="text-align: center; font-weight: bold;">-556%</td>
+<td style="text-align: center; font-weight: bold;"> <br>
+</td>
+</tr>
+<tr>
+<td style="font-weight: bold; text-align: center;">Klungkung</td>
+<td style="font-weight: bold; text-align: center;">5521014</td>
+<td style="font-weight: bold; text-align: center;">Dewa Putu
+Gargita</td>
+<td>TOT PRTAG</td>
+<td style="text-align: right;"> 210.664.013 </td>
+<td style="text-align: right;"> 173.179.183 </td>
+<td style="text-align: right;"> 150.068.628 </td>
+<td style="text-align: right;"> 150.068.628 </td>
+<td style="text-align: right;"> 143.851.299 </td>
+<td style="text-align: right;"> 127.434.742 </td>
+<td style="text-align: right; font-weight: bold;"> 17.514.194 </td>
+<td style="text-align: right;"> (109.920.548)</td>
+<td style="text-align: center; font-weight: bold;">-528%</td>
+<td style="text-align: center; font-weight: bold;">-505%</td>
+</tr>
+<tr>
+<td style="font-weight: bold; text-align: center;">Klungkung</td>
+<td style="font-weight: bold; text-align: center;">5521014</td>
+<td style="font-weight: bold; text-align: center;">Dewa Putu
+Gargita</td>
+<td>TOT RPBK</td>
+<td style="text-align: right;"> 105.000 </td>
+<td style="text-align: right;"> 93.000 </td>
+<td style="text-align: right;"> 55.000 </td>
+<td style="text-align: right;"> 55.000 </td>
+<td style="text-align: right;"> 55.000 </td>
+<td style="text-align: right;"> 55.000 </td>
+<td style="text-align: right; font-weight: bold;"> 8.729 </td>
+<td style="text-align: right;"> (46.271)</td>
+<td style="text-align: center; font-weight: bold;">-430%</td>
+<td style="text-align: center; font-weight: bold;"> <br>
+</td>
+</tr>
+<tr>
+<td style="font-weight: bold; text-align: center;">Klungkung</td>
+<td style="font-weight: bold; text-align: center;">5521015</td>
+<td style="font-weight: bold; text-align: center;">Gede Citra</td>
+<td>TOT PLG</td>
+<td style="text-align: right;"> 1.236 </td>
+<td style="text-align: right;"> 1.083 </td>
+<td style="text-align: right;"> 972 </td>
+<td style="text-align: right;"> 972 </td>
+<td style="text-align: right;"> 940 </td>
+<td style="text-align: right;"> 849 </td>
+<td style="text-align: right; font-weight: bold;"> 103 </td>
+<td style="text-align: right;"> (746)</td>
+<td style="text-align: center; font-weight: bold;">-626%</td>
+<td style="text-align: center; font-weight: bold;"> <br>
+</td>
+</tr>
+<tr>
+<td style="font-weight: bold; text-align: center;">Klungkung</td>
+<td style="font-weight: bold; text-align: center;">5521015</td>
+<td style="font-weight: bold; text-align: center;">Gede Citra</td>
+<td>TOT PRTAG</td>
+<td style="text-align: right;"> 411.271.850 </td>
+<td style="text-align: right;"> 369.729.751 </td>
+<td style="text-align: right;"> 305.477.443 </td>
+<td style="text-align: right;"> 305.477.443 </td>
+<td style="text-align: right;"> 302.648.609 </td>
+<td style="text-align: right;"> 225.138.615 </td>
+<td style="text-align: right; font-weight: bold;"> 34.192.336 </td>
+<td style="text-align: right;"> (190.946.279)</td>
+<td style="text-align: center; font-weight: bold;">-458%</td>
+<td style="text-align: center; font-weight: bold;">-473%</td>
+</tr>
+<tr>
+<td style="font-weight: bold; text-align: center;">Klungkung</td>
+<td style="font-weight: bold; text-align: center;">5521015</td>
+<td style="font-weight: bold; text-align: center;">Gede Citra</td>
+<td>TOT RPBK</td>
+<td style="text-align: right;"> 54.000 </td>
+<td style="text-align: right;"> 30.000 </td>
+<td style="text-align: right;"> 24.000 </td>
+<td style="text-align: right;"> 24.000 </td>
+<td style="text-align: right;"> 24.000 </td>
+<td style="text-align: right;"> 24.000 </td>
+<td style="text-align: right; font-weight: bold;"> 4.489 </td>
+<td style="text-align: right;"> (19.511)</td>
+<td style="text-align: center; font-weight: bold;">-335%</td>
+<td style="text-align: center; font-weight: bold;"> <br>
+</td>
+</tr>
+<tr>
+<td style="font-weight: bold; text-align: center;">Klungkung</td>
+<td style="font-weight: bold; text-align: center;">5521016</td>
+<td style="font-weight: bold; text-align: center;">Komang
+Tirtayasa</td>
+<td>TOT PLG</td>
+<td style="text-align: right;"> 1.608 </td>
+<td style="text-align: right;"> 1.451 </td>
+<td style="text-align: right;"> 1.268 </td>
+<td style="text-align: right;"> 1.268 </td>
+<td style="text-align: right;"> 1.237 </td>
+<td style="text-align: right;"> 1.129 </td>
+<td style="text-align: right; font-weight: bold;"> 134 </td>
+<td style="text-align: right;"> (995)</td>
+<td style="text-align: center; font-weight: bold;">-645%</td>
+<td style="text-align: center; font-weight: bold;"> <br>
+</td>
+</tr>
+<tr>
+<td style="font-weight: bold; text-align: center;">Klungkung</td>
+<td style="font-weight: bold; text-align: center;">5521016</td>
+<td style="font-weight: bold; text-align: center;">Komang
+Tirtayasa</td>
+<td>TOT PRTAG</td>
+<td style="text-align: right;"> 125.191.292 </td>
+<td style="text-align: right;"> 111.224.190 </td>
+<td style="text-align: right;"> 97.134.592 </td>
+<td style="text-align: right;"> 97.134.592 </td>
+<td style="text-align: right;"> 94.272.237 </td>
+<td style="text-align: right;"> 86.050.464 </td>
+<td style="text-align: right; font-weight: bold;"> 10.408.159 </td>
+<td style="text-align: right;"> (75.642.305)</td>
+<td style="text-align: center; font-weight: bold;">-627%</td>
+<td style="text-align: center; font-weight: bold;">-530%</td>
+</tr>
+<tr>
+<td style="font-weight: bold; text-align: center;">Klungkung</td>
+<td style="font-weight: bold; text-align: center;">5521016</td>
+<td style="font-weight: bold; text-align: center;">Komang
+Tirtayasa</td>
+<td>TOT RPBK</td>
+<td style="text-align: right;"> 102.000 </td>
+<td style="text-align: right;"> 86.000 </td>
+<td style="text-align: right;"> 50.000 </td>
+<td style="text-align: right;"> 50.000 </td>
+<td style="text-align: right;"> 50.000 </td>
+<td style="text-align: right;"> 44.000 </td>
+<td style="text-align: right; font-weight: bold;"> 8.480 </td>
+<td style="text-align: right;"> (35.520)</td>
+<td style="text-align: center; font-weight: bold;">-319%</td>
+<td style="text-align: center; font-weight: bold;"> <br>
+</td>
+</tr>
+<tr>
+<td style="font-weight: bold; text-align: center;">Klungkung</td>
+<td style="font-weight: bold; text-align: center;">5521017</td>
+<td style="font-weight: bold; text-align: center;">Rudi Hamidi</td>
+<td>TOT PLG</td>
+<td style="text-align: right;"> 1.577 </td>
+<td style="text-align: right;"> 1.351 </td>
+<td style="text-align: right;"> 1.176 </td>
+<td style="text-align: right;"> 1.176 </td>
+<td style="text-align: right;"> 1.159 </td>
+<td style="text-align: right;"> 1.058 </td>
+<td style="text-align: right; font-weight: bold;"> 131 </td>
+<td style="text-align: right;"> (927)</td>
+<td style="text-align: center; font-weight: bold;">-607%</td>
+<td style="text-align: center; font-weight: bold;"> <br>
+</td>
+</tr>
+<tr>
+<td style="font-weight: bold; text-align: center;">Klungkung</td>
+<td style="font-weight: bold; text-align: center;">5521017</td>
+<td style="font-weight: bold; text-align: center;">Rudi Hamidi</td>
+<td>TOT PRTAG</td>
+<td style="text-align: right;"> 105.083.658 </td>
+<td style="text-align: right;"> 91.480.417 </td>
+<td style="text-align: right;"> 81.077.111 </td>
+<td style="text-align: right;"> 81.077.111 </td>
+<td style="text-align: right;"> 80.230.163 </td>
+<td style="text-align: right;"> 73.277.638 </td>
+<td style="text-align: right; font-weight: bold;"> 8.736.450 </td>
+<td style="text-align: right;"> (64.541.188)</td>
+<td style="text-align: center; font-weight: bold;">-639%</td>
+<td style="text-align: center; font-weight: bold;">-638%</td>
+</tr>
+<tr>
+<td style="font-weight: bold; text-align: center;">Klungkung</td>
+<td style="font-weight: bold; text-align: center;">5521017</td>
+<td style="font-weight: bold; text-align: center;">Rudi Hamidi</td>
+<td>TOT RPBK</td>
+<td style="text-align: right;"> 108.000 </td>
+<td style="text-align: right;"> 108.000 </td>
+<td style="text-align: right;"> 90.000 </td>
+<td style="text-align: right;"> 90.000 </td>
+<td style="text-align: right;"> 78.000 </td>
+<td style="text-align: right;"> 78.000 </td>
+<td style="text-align: right; font-weight: bold;"> 8.979 </td>
+<td style="text-align: right;"> (69.021)</td>
+<td style="text-align: center; font-weight: bold;">-669%</td>
+<td style="text-align: center; font-weight: bold;"> <br>
+</td>
+</tr>
+<tr>
+<td style="font-weight: bold; text-align: center;">Klungkung</td>
+<td style="font-weight: bold; text-align: center;">5521018</td>
+<td style="font-weight: bold; text-align: center;">Sang Dewa Made
+Genda</td>
+<td>TOT PLG</td>
+<td style="text-align: right;"> 1.576 </td>
+<td style="text-align: right;"> 1.417 </td>
+<td style="text-align: right;"> 1.367 </td>
+<td style="text-align: right;"> 1.367 </td>
+<td style="text-align: right;"> 1.348 </td>
+<td style="text-align: right;"> 1.315 </td>
+<td style="text-align: right; font-weight: bold;"> 131 </td>
+<td style="text-align: right;"> (1.184)</td>
+<td style="text-align: center; font-weight: bold;">-804%</td>
+<td style="text-align: center; font-weight: bold;"> <br>
+</td>
+</tr>
+<tr>
+<td style="font-weight: bold; text-align: center;">Klungkung</td>
+<td style="font-weight: bold; text-align: center;">5521018</td>
+<td style="font-weight: bold; text-align: center;">Sang Dewa Made
+Genda</td>
+<td>TOT PRTAG</td>
+<td style="text-align: right;"> 85.976.215 </td>
+<td style="text-align: right;"> 77.480.505 </td>
+<td style="text-align: right;"> 74.529.154 </td>
+<td style="text-align: right;"> 74.529.154 </td>
+<td style="text-align: right;"> 73.593.824 </td>
+<td style="text-align: right;"> 72.505.043 </td>
+<td style="text-align: right; font-weight: bold;"> 7.147.894 </td>
+<td style="text-align: right;"> (65.357.149)</td>
+<td style="text-align: center; font-weight: bold;">-814%</td>
+<td style="text-align: center; font-weight: bold;">-685%</td>
+</tr>
+<tr>
+<td style="font-weight: bold; text-align: center;">Klungkung</td>
+<td style="font-weight: bold; text-align: center;">5521018</td>
+<td style="font-weight: bold; text-align: center;">Sang Dewa Made
+Genda</td>
+<td>TOT RPBK</td>
+<td style="text-align: right;"> 225.000 </td>
+<td style="text-align: right;"> 155.000 </td>
+<td style="text-align: right;"> 125.000 </td>
+<td style="text-align: right;"> 125.000 </td>
+<td style="text-align: right;"> 119.000 </td>
+<td style="text-align: right;"> 119.000 </td>
+<td style="text-align: right; font-weight: bold;"> 18.706 </td>
+<td style="text-align: right;"> (100.294)</td>
+<td style="text-align: center; font-weight: bold;">-436%</td>
+<td style="text-align: center; font-weight: bold;"> <br>
+</td>
+</tr>
+<tr>
+<td style="font-weight: bold; text-align: center;">Klungkung</td>
+<td style="font-weight: bold; text-align: center;">5521019</td>
+<td style="font-weight: bold; text-align: center;">I Wayan
+Sukasada</td>
+<td>TOT PLG</td>
+<td style="text-align: right;"> 1.572 </td>
+<td style="text-align: right;"> 1.301 </td>
+<td style="text-align: right;"> 1.092 </td>
+<td style="text-align: right;"> 1.092 </td>
+<td style="text-align: right;"> 1.078 </td>
+<td style="text-align: right;"> 989 </td>
+<td style="text-align: right; font-weight: bold;"> 131 </td>
+<td style="text-align: right;"> (858)</td>
+<td style="text-align: center; font-weight: bold;">-557%</td>
+<td style="text-align: center; font-weight: bold;"> <br>
+</td>
+</tr>
+<tr>
+<td style="font-weight: bold; text-align: center;">Klungkung</td>
+<td style="font-weight: bold; text-align: center;">5521019</td>
+<td style="font-weight: bold; text-align: center;">I Wayan
+Sukasada</td>
+<td>TOT PRTAG</td>
+<td style="text-align: right;"> 168.115.439 </td>
+<td style="text-align: right;"> 139.170.755 </td>
+<td style="text-align: right;"> 121.569.743 </td>
+<td style="text-align: right;"> 121.569.743 </td>
+<td style="text-align: right;"> 120.619.288 </td>
+<td style="text-align: right;"> 109.686.185 </td>
+<td style="text-align: right; font-weight: bold;"> 13.976.788 </td>
+<td style="text-align: right;"> (95.709.397)</td>
+<td style="text-align: center; font-weight: bold;">-585%</td>
+<td style="text-align: center; font-weight: bold;">-559%</td>
+</tr>
+<tr>
+<td style="font-weight: bold; text-align: center;">Klungkung</td>
+<td style="font-weight: bold; text-align: center;">5521019</td>
+<td style="font-weight: bold; text-align: center;">I Wayan
+Sukasada</td>
+<td>TOT RPBK</td>
+<td style="text-align: right;"> 85.000 </td>
+<td style="text-align: right;"> 64.000 </td>
+<td style="text-align: right;"> 52.000 </td>
+<td style="text-align: right;"> 52.000 </td>
+<td style="text-align: right;"> 52.000 </td>
+<td style="text-align: right;"> 52.000 </td>
+<td style="text-align: right; font-weight: bold;"> 7.067 </td>
+<td style="text-align: right;"> (44.933)</td>
+<td style="text-align: center; font-weight: bold;">-536%</td>
+<td style="text-align: center; font-weight: bold;"> <br>
+</td>
+</tr>
+<tr>
+<td style="font-weight: bold; text-align: center;">Klungkung</td>
+<td style="font-weight: bold; text-align: center;">5521020</td>
+<td style="font-weight: bold; text-align: center;">I Nyoman
+Somantiyasa</td>
+<td>TOT PLG</td>
+<td style="text-align: right;"> 39 </td>
+<td style="text-align: right;"> 35 </td>
+<td style="text-align: right;"> 31 </td>
+<td style="text-align: right;"> 31 </td>
+<td style="text-align: right;"> 31 </td>
+<td style="text-align: right;"> 25 </td>
+<td style="text-align: right; font-weight: bold;"> 3 </td>
+<td style="text-align: right;"> (22)</td>
+<td style="text-align: center; font-weight: bold;">-571%</td>
+<td style="text-align: center; font-weight: bold;"> <br>
+</td>
+</tr>
+<tr>
+<td style="font-weight: bold; text-align: center;">Klungkung</td>
+<td style="font-weight: bold; text-align: center;">5521020</td>
+<td style="font-weight: bold; text-align: center;">I Nyoman
+Somantiyasa</td>
+<td>TOT PRTAG</td>
+<td style="text-align: right;"> 854.602.493 </td>
+<td style="text-align: right;"> 722.234.125 </td>
+<td style="text-align: right;"> 662.034.715 </td>
+<td style="text-align: right;"> 662.034.715 </td>
+<td style="text-align: right;"> 662.034.715 </td>
+<td style="text-align: right;"> 380.304.380 </td>
+<td style="text-align: right; font-weight: bold;"> 71.049.978 </td>
+<td style="text-align: right;"> (309.254.402)</td>
+<td style="text-align: center; font-weight: bold;">-335%</td>
+<td style="text-align: center; font-weight: bold;">-453%</td>
+</tr>
+<tr>
+<td style="font-weight: bold; text-align: center;">Klungkung</td>
+<td style="font-weight: bold; text-align: center;">5521020</td>
+<td style="font-weight: bold; text-align: center;">I Nyoman
+Somantiyasa</td>
+<td>TOT RPBK</td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right; font-weight: bold;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: center; font-weight: bold;"> <br>
+</td>
+<td style="text-align: center; font-weight: bold;"> <br>
+</td>
+</tr>
  
   </tbody>
 </table>
