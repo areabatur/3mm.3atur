@@ -5,65 +5,2188 @@
   
 
 <!-- Javascript goes in the document HEAD -->
-  <script type="text/javascript">
+<script type="text/javascript">
 function altRows(id){
-	if(document.getElementsByTagName){  
-		
-		var table = document.getElementById(id);  
-		var rows = table.getElementsByTagName("tr"); 
-		 
-		for(i = 0; i < rows.length; i++){          
-			if(i % 2 == 0){
-				rows[i].className = "evenrowcolor";
-			}else{
-				rows[i].className = "oddrowcolor";
-			}      
-		}
-	}
+if(document.getElementsByTagName){
+
+var table = document.getElementById(id);
+var rows = table.getElementsByTagName("tr");
+
+for(i = 0; i < rows.length; i++){
+if(i % 2 == 0){
+rows[i].className = "evenrowcolor";
+}else{
+rows[i].className = "oddrowcolor";
+}
+}
+}
 }
 window.onload=function(){
-	altRows('alternatecolor');
+altRows('alternatecolor');
 }
-  </script>
-
-<!-- CSS goes in the document HEAD or added to your external stylesheet -->
-  <style type="text/css">
+</script><!-- CSS goes in the document HEAD or added to your external stylesheet -->
+<style type="text/css">
 table.altrowstable {
-	font-family: verdana,arial,sans-serif;
-	font-size:11px;
-	color:#333333;
-	border-width: 1px;
-	border-color: #a9c6c9;
-	border-collapse: collapse;
+font-family: verdana,arial,sans-serif;
+font-size:11px;
+color:#333333;
+border-width: 1px;
+border-color: #a9c6c9;
+border-collapse: collapse;
 }
 table.altrowstable th {
-	border-width: 1px;
-	padding: 8px;
-	border-style: solid;
-	border-color: #a9c6c9;
+padding: 0.25rem;
+border-width: 1px;
+padding: 8px;
+border-style: solid;
+border-color: #a9c6c9;
 }
 table.altrowstable td {
-	border-width: 1px;
-	padding: 8px;
-	border-style: solid;
-	border-color: #a9c6c9;
+padding: 0.25rem;
+border-width: 1px;
+padding: 8px;
+border-style: solid;
+border-color: #a9c6c9;
 }
+tbody tr:hover {
+background: yellow;
+}
+
 .oddrowcolor{
-	background-color:#d4e3e5;
+background-color:#d4e3e5;
 }
 .evenrowcolor{
-	background-color:#c3dde0;
+background-color:#c3dde0;
 }
-  </style>
-</head><body>
+</style>
+</head>
+<body>
 <table class="altrowstable" id="alternatecolor">
-
-  <tbody>
- <tr>
- <td>lembar karangasem</td>
- <td>karangasem</td>
- </tr>
- 
+	<Caption><Strong>##Detail Lembar</Strong></Caption>
+<tbody>
+<tr>
+<th>RAYON</th>
+<th>IDBILLMAN</th>
+<th>NAMABILLMAN</th>
+<th>LBR</th>
+<th> PLG_5 </th>
+<th> PLG_10 </th>
+<th> PLG_11 </th>
+<th> PLG_12 </th>
+<th> PLG_13 </th>
+<th> PLG_14 </th>
+<th> RPTAG_5 </th>
+<th> RPTAG_10 </th>
+<th> RPTAG_11 </th>
+<th> RPTAG_12 </th>
+<th> RPTAG_13 </th>
+<th> RPTAG_14 </th>
+<th> RPBK_5 </th>
+<th> RPBK_10 </th>
+<th> RPBK_11 </th>
+<th> RPBK_12 </th>
+<th> RPBK_13 </th>
+<th> RPBK_14 </th>
+</tr>
+<tr>
+<td style="font-weight: bold; text-align: center;">Karangasem</td>
+<td style="font-weight: bold; text-align: center;">5523001</td>
+<td style="font-weight: bold; text-align: center;">I Made
+Supartama</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: right;"> 1.274 </td>
+<td style="text-align: right;"> 1.120 </td>
+<td style="text-align: right;"> 1.006 </td>
+<td style="text-align: right;"> 1.006 </td>
+<td style="text-align: right;"> 983 </td>
+<td style="text-align: right; font-weight: bold;"> 935 </td>
+<td style="text-align: right;"> 260.240.615 </td>
+<td style="text-align: right;"> 221.592.045 </td>
+<td style="text-align: right;"> 194.721.367 </td>
+<td style="text-align: right;"> 194.721.367 </td>
+<td style="text-align: right;"> 192.553.344 </td>
+<td style="text-align: right; font-weight: bold;"> 186.615.211 </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+</tr>
+<tr>
+<td style="font-weight: bold; text-align: center;">Karangasem</td>
+<td style="font-weight: bold; text-align: center;">5523001</td>
+<td style="font-weight: bold; text-align: center;">I Made
+Supartama</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: right;"> 23 </td>
+<td style="text-align: right;"> 21 </td>
+<td style="text-align: right;"> 21 </td>
+<td style="text-align: right;"> 21 </td>
+<td style="text-align: right;"> 20 </td>
+<td style="text-align: right; font-weight: bold;"> 17 </td>
+<td style="text-align: right;"> 2.851.801 </td>
+<td style="text-align: right;"> 2.778.020 </td>
+<td style="text-align: right;"> 2.778.020 </td>
+<td style="text-align: right;"> 2.778.020 </td>
+<td style="text-align: right;"> 2.725.629 </td>
+<td style="text-align: right; font-weight: bold;"> 2.231.006 </td>
+<td style="text-align: right;"> 146.000 </td>
+<td style="text-align: right;"> 134.000 </td>
+<td style="text-align: right;"> 134.000 </td>
+<td style="text-align: right;"> 134.000 </td>
+<td style="text-align: right;"> 128.000 </td>
+<td style="text-align: right;"> 102.000 </td>
+</tr>
+<tr>
+<td style="font-weight: bold; text-align: center;">Karangasem</td>
+<td style="font-weight: bold; text-align: center;">5523001</td>
+<td style="font-weight: bold; text-align: center;">I Made
+Supartama</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: right;"> 1 </td>
+<td style="text-align: right;"> 1 </td>
+<td style="text-align: right;"> 1 </td>
+<td style="text-align: right;"> 1 </td>
+<td style="text-align: right;"> 1 </td>
+<td style="text-align: right; font-weight: bold;"> <br>
+</td>
+<td style="text-align: right;"> 1.517.345 </td>
+<td style="text-align: right;"> 1.517.345 </td>
+<td style="text-align: right;"> 1.517.345 </td>
+<td style="text-align: right;"> 1.517.345 </td>
+<td style="text-align: right;"> 1.517.345 </td>
+<td style="text-align: right; font-weight: bold;"> <br>
+</td>
+<td style="text-align: right;"> 50.000 </td>
+<td style="text-align: right;"> 50.000 </td>
+<td style="text-align: right;"> 50.000 </td>
+<td style="text-align: right;"> 50.000 </td>
+<td style="text-align: right;"> 50.000 </td>
+<td style="text-align: right;"> <br>
+</td>
+</tr>
+<tr>
+<td style="font-weight: bold; text-align: center;">Karangasem</td>
+<td style="font-weight: bold; text-align: center;">5523002</td>
+<td style="font-weight: bold; text-align: center;">I Gede Geria</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: right;"> 1.446 </td>
+<td style="text-align: right;"> 1.147 </td>
+<td style="text-align: right;"> 1.093 </td>
+<td style="text-align: right;"> 1.093 </td>
+<td style="text-align: right;"> 1.083 </td>
+<td style="text-align: right; font-weight: bold;"> 1.056 </td>
+<td style="text-align: right;"> 328.747.244 </td>
+<td style="text-align: right;"> 299.272.315 </td>
+<td style="text-align: right;"> 267.830.636 </td>
+<td style="text-align: right;"> 267.830.636 </td>
+<td style="text-align: right;"> 258.722.042 </td>
+<td style="text-align: right; font-weight: bold;"> 249.867.549 </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+</tr>
+<tr>
+<td style="font-weight: bold; text-align: center;">Karangasem</td>
+<td style="font-weight: bold; text-align: center;">5523002</td>
+<td style="font-weight: bold; text-align: center;">I Gede Geria</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: right;"> 1 </td>
+<td style="text-align: right;"> 1 </td>
+<td style="text-align: right;"> 1 </td>
+<td style="text-align: right;"> 1 </td>
+<td style="text-align: right;"> 1 </td>
+<td style="text-align: right; font-weight: bold;"> 1 </td>
+<td style="text-align: right;"> 44.523 </td>
+<td style="text-align: right;"> 44.523 </td>
+<td style="text-align: right;"> 44.523 </td>
+<td style="text-align: right;"> 44.523 </td>
+<td style="text-align: right;"> 44.523 </td>
+<td style="text-align: right; font-weight: bold;"> 44.523 </td>
+<td style="text-align: right;"> 6.000 </td>
+<td style="text-align: right;"> 6.000 </td>
+<td style="text-align: right;"> 6.000 </td>
+<td style="text-align: right;"> 6.000 </td>
+<td style="text-align: right;"> 6.000 </td>
+<td style="text-align: right;"> 6.000 </td>
+</tr>
+<tr>
+<td style="font-weight: bold; text-align: center;">Karangasem</td>
+<td style="font-weight: bold; text-align: center;">5523003</td>
+<td style="font-weight: bold; text-align: center;">I Gusti Ligia</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: right;"> 1.436 </td>
+<td style="text-align: right;"> 1.295 </td>
+<td style="text-align: right;"> 915 </td>
+<td style="text-align: right;"> 915 </td>
+<td style="text-align: right;"> 890 </td>
+<td style="text-align: right; font-weight: bold;"> 784 </td>
+<td style="text-align: right;"> 100.738.289 </td>
+<td style="text-align: right;"> 86.733.971 </td>
+<td style="text-align: right;"> 65.311.639 </td>
+<td style="text-align: right;"> 65.311.639 </td>
+<td style="text-align: right;"> 63.400.651 </td>
+<td style="text-align: right; font-weight: bold;"> 57.730.425 </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+</tr>
+<tr>
+<td style="font-weight: bold; text-align: center;">Karangasem</td>
+<td style="font-weight: bold; text-align: center;">5523003</td>
+<td style="font-weight: bold; text-align: center;">I Gusti Ligia</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: right;"> 29 </td>
+<td style="text-align: right;"> 26 </td>
+<td style="text-align: right;"> 26 </td>
+<td style="text-align: right;"> 26 </td>
+<td style="text-align: right;"> 25 </td>
+<td style="text-align: right; font-weight: bold;"> 23 </td>
+<td style="text-align: right;"> 4.888.550 </td>
+<td style="text-align: right;"> 4.784.802 </td>
+<td style="text-align: right;"> 4.784.802 </td>
+<td style="text-align: right;"> 4.784.802 </td>
+<td style="text-align: right;"> 4.571.032 </td>
+<td style="text-align: right; font-weight: bold;"> 4.491.101 </td>
+<td style="text-align: right;"> 196.000 </td>
+<td style="text-align: right;"> 178.000 </td>
+<td style="text-align: right;"> 178.000 </td>
+<td style="text-align: right;"> 178.000 </td>
+<td style="text-align: right;"> 172.000 </td>
+<td style="text-align: right;"> 160.000 </td>
+</tr>
+<tr>
+<td style="font-weight: bold; text-align: center;">Karangasem</td>
+<td style="font-weight: bold; text-align: center;">5523003</td>
+<td style="font-weight: bold; text-align: center;">I Gusti Ligia</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: right;"> 9 </td>
+<td style="text-align: right;"> 8 </td>
+<td style="text-align: right;"> 8 </td>
+<td style="text-align: right;"> 8 </td>
+<td style="text-align: right;"> 8 </td>
+<td style="text-align: right; font-weight: bold;"> 8 </td>
+<td style="text-align: right;"> 2.788.903 </td>
+<td style="text-align: right;"> 2.653.018 </td>
+<td style="text-align: right;"> 2.653.018 </td>
+<td style="text-align: right;"> 2.653.018 </td>
+<td style="text-align: right;"> 2.653.018 </td>
+<td style="text-align: right; font-weight: bold;"> 2.653.018 </td>
+<td style="text-align: right;"> 155.000 </td>
+<td style="text-align: right;"> 140.000 </td>
+<td style="text-align: right;"> 140.000 </td>
+<td style="text-align: right;"> 140.000 </td>
+<td style="text-align: right;"> 140.000 </td>
+<td style="text-align: right;"> 140.000 </td>
+</tr>
+<tr>
+<td style="font-weight: bold; text-align: center;">Karangasem</td>
+<td style="font-weight: bold; text-align: center;">5523004</td>
+<td style="font-weight: bold; text-align: center;">I Komang Dauh</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: right;"> 1.552 </td>
+<td style="text-align: right;"> 1.321 </td>
+<td style="text-align: right;"> 1.226 </td>
+<td style="text-align: right;"> 1.226 </td>
+<td style="text-align: right;"> 1.183 </td>
+<td style="text-align: right; font-weight: bold;"> 1.063 </td>
+<td style="text-align: right;"> 135.659.883 </td>
+<td style="text-align: right;"> 113.682.942 </td>
+<td style="text-align: right;"> 104.469.273 </td>
+<td style="text-align: right;"> 104.469.273 </td>
+<td style="text-align: right;"> 102.204.105 </td>
+<td style="text-align: right; font-weight: bold;"> 91.596.271 </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+</tr>
+<tr>
+<td style="font-weight: bold; text-align: center;">Karangasem</td>
+<td style="font-weight: bold; text-align: center;">5523004</td>
+<td style="font-weight: bold; text-align: center;">I Komang Dauh</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: right;"> 11 </td>
+<td style="text-align: right;"> 10 </td>
+<td style="text-align: right;"> 10 </td>
+<td style="text-align: right;"> 10 </td>
+<td style="text-align: right;"> 10 </td>
+<td style="text-align: right; font-weight: bold;"> 10 </td>
+<td style="text-align: right;"> 8.102.327 </td>
+<td style="text-align: right;"> 8.090.722 </td>
+<td style="text-align: right;"> 8.090.722 </td>
+<td style="text-align: right;"> 8.090.722 </td>
+<td style="text-align: right;"> 8.090.722 </td>
+<td style="text-align: right; font-weight: bold;"> 8.090.722 </td>
+<td style="text-align: right;"> 102.000 </td>
+<td style="text-align: right;"> 96.000 </td>
+<td style="text-align: right;"> 96.000 </td>
+<td style="text-align: right;"> 96.000 </td>
+<td style="text-align: right;"> 96.000 </td>
+<td style="text-align: right;"> 96.000 </td>
+</tr>
+<tr>
+<td style="font-weight: bold; text-align: center;">Karangasem</td>
+<td style="font-weight: bold; text-align: center;">5523005</td>
+<td style="font-weight: bold; text-align: center;">I Komang Lanus</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: right;"> 1.344 </td>
+<td style="text-align: right;"> 1.074 </td>
+<td style="text-align: right;"> 1.019 </td>
+<td style="text-align: right;"> 1.019 </td>
+<td style="text-align: right;"> 953 </td>
+<td style="text-align: right; font-weight: bold;"> 886 </td>
+<td style="text-align: right;"> 62.953.595 </td>
+<td style="text-align: right;"> 52.825.470 </td>
+<td style="text-align: right;"> 47.843.027 </td>
+<td style="text-align: right;"> 47.843.027 </td>
+<td style="text-align: right;"> 45.711.542 </td>
+<td style="text-align: right; font-weight: bold;"> 42.569.592 </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+</tr>
+<tr>
+<td style="font-weight: bold; text-align: center;">Karangasem</td>
+<td style="font-weight: bold; text-align: center;">5523005</td>
+<td style="font-weight: bold; text-align: center;">I Komang Lanus</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: right;"> 3 </td>
+<td style="text-align: right;"> 3 </td>
+<td style="text-align: right;"> 3 </td>
+<td style="text-align: right;"> 3 </td>
+<td style="text-align: right;"> 3 </td>
+<td style="text-align: right; font-weight: bold;"> 3 </td>
+<td style="text-align: right;"> 297.832 </td>
+<td style="text-align: right;"> 297.832 </td>
+<td style="text-align: right;"> 297.832 </td>
+<td style="text-align: right;"> 297.832 </td>
+<td style="text-align: right;"> 297.832 </td>
+<td style="text-align: right; font-weight: bold;"> 297.832 </td>
+<td style="text-align: right;"> 18.000 </td>
+<td style="text-align: right;"> 18.000 </td>
+<td style="text-align: right;"> 18.000 </td>
+<td style="text-align: right;"> 18.000 </td>
+<td style="text-align: right;"> 18.000 </td>
+<td style="text-align: right;"> 18.000 </td>
+</tr>
+<tr>
+<td style="font-weight: bold; text-align: center;">Karangasem</td>
+<td style="font-weight: bold; text-align: center;">5523006</td>
+<td style="font-weight: bold; text-align: center;">I Nengah Adi
+Sanjaya</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: right;"> 1.511 </td>
+<td style="text-align: right;"> 1.339 </td>
+<td style="text-align: right;"> 1.250 </td>
+<td style="text-align: right;"> 1.250 </td>
+<td style="text-align: right;"> 1.211 </td>
+<td style="text-align: right; font-weight: bold;"> 1.137 </td>
+<td style="text-align: right;"> 104.468.028 </td>
+<td style="text-align: right;"> 89.319.809 </td>
+<td style="text-align: right;"> 81.555.818 </td>
+<td style="text-align: right;"> 81.555.818 </td>
+<td style="text-align: right;"> 78.457.688 </td>
+<td style="text-align: right; font-weight: bold;"> 74.096.821 </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+</tr>
+<tr>
+<td style="font-weight: bold; text-align: center;">Karangasem</td>
+<td style="font-weight: bold; text-align: center;">5523006</td>
+<td style="font-weight: bold; text-align: center;">I Nengah Adi
+Sanjaya</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: right;"> 18 </td>
+<td style="text-align: right;"> 18 </td>
+<td style="text-align: right;"> 13 </td>
+<td style="text-align: right;"> 13 </td>
+<td style="text-align: right;"> 13 </td>
+<td style="text-align: right; font-weight: bold;"> 6 </td>
+<td style="text-align: right;"> 2.959.500 </td>
+<td style="text-align: right;"> 2.959.500 </td>
+<td style="text-align: right;"> 2.616.723 </td>
+<td style="text-align: right;"> 2.616.723 </td>
+<td style="text-align: right;"> 2.616.723 </td>
+<td style="text-align: right; font-weight: bold;"> 749.163 </td>
+<td style="text-align: right;"> 116.000 </td>
+<td style="text-align: right;"> 116.000 </td>
+<td style="text-align: right;"> 86.000 </td>
+<td style="text-align: right;"> 86.000 </td>
+<td style="text-align: right;"> 86.000 </td>
+<td style="text-align: right;"> 36.000 </td>
+</tr>
+<tr>
+<td style="font-weight: bold; text-align: center;">Karangasem</td>
+<td style="font-weight: bold; text-align: center;">5523006</td>
+<td style="font-weight: bold; text-align: center;">I Nengah Adi
+Sanjaya</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: right;"> 1 </td>
+<td style="text-align: right;"> 1 </td>
+<td style="text-align: right;"> 1 </td>
+<td style="text-align: right;"> 1 </td>
+<td style="text-align: right;"> 1 </td>
+<td style="text-align: right; font-weight: bold;"> 1 </td>
+<td style="text-align: right;"> 19.872 </td>
+<td style="text-align: right;"> 19.872 </td>
+<td style="text-align: right;"> 19.872 </td>
+<td style="text-align: right;"> 19.872 </td>
+<td style="text-align: right;"> 19.872 </td>
+<td style="text-align: right; font-weight: bold;"> 19.872 </td>
+<td style="text-align: right;"> 15.000 </td>
+<td style="text-align: right;"> 15.000 </td>
+<td style="text-align: right;"> 15.000 </td>
+<td style="text-align: right;"> 15.000 </td>
+<td style="text-align: right;"> 15.000 </td>
+<td style="text-align: right;"> 15.000 </td>
+</tr>
+<tr>
+<td style="font-weight: bold; text-align: center;">Karangasem</td>
+<td style="font-weight: bold; text-align: center;">5523007</td>
+<td style="font-weight: bold; text-align: center;">I Gede Ariawan</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: right;"> 1.489 </td>
+<td style="text-align: right;"> 1.252 </td>
+<td style="text-align: right;"> 1.083 </td>
+<td style="text-align: right;"> 1.083 </td>
+<td style="text-align: right;"> 1.074 </td>
+<td style="text-align: right; font-weight: bold;"> 994 </td>
+<td style="text-align: right;"> 159.643.667 </td>
+<td style="text-align: right;"> 133.760.810 </td>
+<td style="text-align: right;"> 113.279.101 </td>
+<td style="text-align: right;"> 113.279.101 </td>
+<td style="text-align: right;"> 112.613.294 </td>
+<td style="text-align: right; font-weight: bold;"> 101.239.187 </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+</tr>
+<tr>
+<td style="font-weight: bold; text-align: center;">Karangasem</td>
+<td style="font-weight: bold; text-align: center;">5523007</td>
+<td style="font-weight: bold; text-align: center;">I Gede Ariawan</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: right;"> 15 </td>
+<td style="text-align: right;"> 12 </td>
+<td style="text-align: right;"> 10 </td>
+<td style="text-align: right;"> 10 </td>
+<td style="text-align: right;"> 10 </td>
+<td style="text-align: right; font-weight: bold;"> 10 </td>
+<td style="text-align: right;"> 2.433.228 </td>
+<td style="text-align: right;"> 2.334.684 </td>
+<td style="text-align: right;"> 2.057.232 </td>
+<td style="text-align: right;"> 2.057.232 </td>
+<td style="text-align: right;"> 2.057.232 </td>
+<td style="text-align: right; font-weight: bold;"> 2.057.232 </td>
+<td style="text-align: right;"> 108.000 </td>
+<td style="text-align: right;"> 90.000 </td>
+<td style="text-align: right;"> 78.000 </td>
+<td style="text-align: right;"> 78.000 </td>
+<td style="text-align: right;"> 78.000 </td>
+<td style="text-align: right;"> 78.000 </td>
+</tr>
+<tr>
+<td style="font-weight: bold; text-align: center;">Karangasem</td>
+<td style="font-weight: bold; text-align: center;">5523009</td>
+<td style="font-weight: bold; text-align: center;">I KADEK WINARTA</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: right;"> 1.190 </td>
+<td style="text-align: right;"> 1.112 </td>
+<td style="text-align: right;"> 1.084 </td>
+<td style="text-align: right;"> 1.084 </td>
+<td style="text-align: right;"> 1.075 </td>
+<td style="text-align: right; font-weight: bold;"> 932 </td>
+<td style="text-align: right;"> 65.150.966 </td>
+<td style="text-align: right;"> 60.565.575 </td>
+<td style="text-align: right;"> 59.360.388 </td>
+<td style="text-align: right;"> 59.360.388 </td>
+<td style="text-align: right;"> 58.743.043 </td>
+<td style="text-align: right; font-weight: bold;"> 53.481.121 </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+</tr>
+<tr>
+<td style="font-weight: bold; text-align: center;">Karangasem</td>
+<td style="font-weight: bold; text-align: center;">5523009</td>
+<td style="font-weight: bold; text-align: center;">I KADEK WINARTA</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: right;"> 65 </td>
+<td style="text-align: right;"> 61 </td>
+<td style="text-align: right;"> 59 </td>
+<td style="text-align: right;"> 59 </td>
+<td style="text-align: right;"> 57 </td>
+<td style="text-align: right; font-weight: bold;"> 55 </td>
+<td style="text-align: right;"> 9.464.222 </td>
+<td style="text-align: right;"> 8.989.002 </td>
+<td style="text-align: right;"> 8.265.646 </td>
+<td style="text-align: right;"> 8.265.646 </td>
+<td style="text-align: right;"> 7.934.371 </td>
+<td style="text-align: right; font-weight: bold;"> 7.782.950 </td>
+<td style="text-align: right;"> 428.000 </td>
+<td style="text-align: right;"> 400.000 </td>
+<td style="text-align: right;"> 374.000 </td>
+<td style="text-align: right;"> 374.000 </td>
+<td style="text-align: right;"> 358.000 </td>
+<td style="text-align: right;"> 346.000 </td>
+</tr>
+<tr>
+<td style="font-weight: bold; text-align: center;">Karangasem</td>
+<td style="font-weight: bold; text-align: center;">5523009</td>
+<td style="font-weight: bold; text-align: center;">I KADEK WINARTA</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: right;"> 2 </td>
+<td style="text-align: right;"> 2 </td>
+<td style="text-align: right;"> 2 </td>
+<td style="text-align: right;"> 2 </td>
+<td style="text-align: right;"> 2 </td>
+<td style="text-align: right; font-weight: bold;"> 1 </td>
+<td style="text-align: right;"> 2.701.911 </td>
+<td style="text-align: right;"> 2.701.911 </td>
+<td style="text-align: right;"> 2.701.911 </td>
+<td style="text-align: right;"> 2.701.911 </td>
+<td style="text-align: right;"> 2.701.911 </td>
+<td style="text-align: right; font-weight: bold;"> 578.599 </td>
+<td style="text-align: right;"> 40.000 </td>
+<td style="text-align: right;"> 40.000 </td>
+<td style="text-align: right;"> 40.000 </td>
+<td style="text-align: right;"> 40.000 </td>
+<td style="text-align: right;"> 40.000 </td>
+<td style="text-align: right;"> 15.000 </td>
+</tr>
+<tr>
+<td style="font-weight: bold; text-align: center;">Karangasem</td>
+<td style="font-weight: bold; text-align: center;">5523010</td>
+<td style="font-weight: bold; text-align: center;">I Made Rauh</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: right;"> 1.411 </td>
+<td style="text-align: right;"> 949 </td>
+<td style="text-align: right;"> 867 </td>
+<td style="text-align: right;"> 867 </td>
+<td style="text-align: right;"> 851 </td>
+<td style="text-align: right; font-weight: bold;"> 803 </td>
+<td style="text-align: right;"> 123.435.147 </td>
+<td style="text-align: right;"> 89.827.333 </td>
+<td style="text-align: right;"> 81.898.161 </td>
+<td style="text-align: right;"> 81.898.161 </td>
+<td style="text-align: right;"> 80.730.458 </td>
+<td style="text-align: right; font-weight: bold;"> 76.401.777 </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+</tr>
+<tr>
+<td style="font-weight: bold; text-align: center;">Karangasem</td>
+<td style="font-weight: bold; text-align: center;">5523010</td>
+<td style="font-weight: bold; text-align: center;">I Made Rauh</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: right;"> 30 </td>
+<td style="text-align: right;"> 28 </td>
+<td style="text-align: right;"> 26 </td>
+<td style="text-align: right;"> 26 </td>
+<td style="text-align: right;"> 26 </td>
+<td style="text-align: right; font-weight: bold;"> 21 </td>
+<td style="text-align: right;"> 7.164.344 </td>
+<td style="text-align: right;"> 6.871.388 </td>
+<td style="text-align: right;"> 6.710.344 </td>
+<td style="text-align: right;"> 6.710.344 </td>
+<td style="text-align: right;"> 6.710.344 </td>
+<td style="text-align: right; font-weight: bold;"> 4.128.820 </td>
+<td style="text-align: right;"> 216.000 </td>
+<td style="text-align: right;"> 204.000 </td>
+<td style="text-align: right;"> 192.000 </td>
+<td style="text-align: right;"> 192.000 </td>
+<td style="text-align: right;"> 192.000 </td>
+<td style="text-align: right;"> 150.000 </td>
+</tr>
+<tr>
+<td style="font-weight: bold; text-align: center;">Karangasem</td>
+<td style="font-weight: bold; text-align: center;">5523010</td>
+<td style="font-weight: bold; text-align: center;">I Made Rauh</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: right;"> 2 </td>
+<td style="text-align: right;"> 2 </td>
+<td style="text-align: right;"> 1 </td>
+<td style="text-align: right;"> 1 </td>
+<td style="text-align: right;"> 1 </td>
+<td style="text-align: right; font-weight: bold;"> 1 </td>
+<td style="text-align: right;"> 2.259.639 </td>
+<td style="text-align: right;"> 2.259.639 </td>
+<td style="text-align: right;"> 2.199.240 </td>
+<td style="text-align: right;"> 2.199.240 </td>
+<td style="text-align: right;"> 2.199.240 </td>
+<td style="text-align: right; font-weight: bold;"> 2.199.240 </td>
+<td style="text-align: right;"> 65.000 </td>
+<td style="text-align: right;"> 65.000 </td>
+<td style="text-align: right;"> 50.000 </td>
+<td style="text-align: right;"> 50.000 </td>
+<td style="text-align: right;"> 50.000 </td>
+<td style="text-align: right;"> 50.000 </td>
+</tr>
+<tr>
+<td style="font-weight: bold; text-align: center;">Karangasem</td>
+<td style="font-weight: bold; text-align: center;">5523011</td>
+<td style="font-weight: bold; text-align: center;">I Putu Artawa</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: right;"> 1.235 </td>
+<td style="text-align: right;"> 1.044 </td>
+<td style="text-align: right;"> 987 </td>
+<td style="text-align: right;"> 987 </td>
+<td style="text-align: right;"> 968 </td>
+<td style="text-align: right; font-weight: bold;"> 910 </td>
+<td style="text-align: right;"> 54.649.071 </td>
+<td style="text-align: right;"> 46.452.931 </td>
+<td style="text-align: right;"> 44.002.513 </td>
+<td style="text-align: right;"> 44.002.513 </td>
+<td style="text-align: right;"> 43.176.304 </td>
+<td style="text-align: right; font-weight: bold;"> 40.902.737 </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+</tr>
+<tr>
+<td style="font-weight: bold; text-align: center;">Karangasem</td>
+<td style="font-weight: bold; text-align: center;">5523011</td>
+<td style="font-weight: bold; text-align: center;">I Putu Artawa</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: right;"> 72 </td>
+<td style="text-align: right;"> 67 </td>
+<td style="text-align: right;"> 62 </td>
+<td style="text-align: right;"> 62 </td>
+<td style="text-align: right;"> 62 </td>
+<td style="text-align: right; font-weight: bold;"> 37 </td>
+<td style="text-align: right;"> 7.610.817 </td>
+<td style="text-align: right;"> 7.243.673 </td>
+<td style="text-align: right;"> 7.102.108 </td>
+<td style="text-align: right;"> 7.102.108 </td>
+<td style="text-align: right;"> 7.102.108 </td>
+<td style="text-align: right; font-weight: bold;"> 5.199.113 </td>
+<td style="text-align: right;"> 462.000 </td>
+<td style="text-align: right;"> 428.000 </td>
+<td style="text-align: right;"> 398.000 </td>
+<td style="text-align: right;"> 398.000 </td>
+<td style="text-align: right;"> 398.000 </td>
+<td style="text-align: right;"> 248.000 </td>
+</tr>
+<tr>
+<td style="font-weight: bold; text-align: center;">Karangasem</td>
+<td style="font-weight: bold; text-align: center;">5523011</td>
+<td style="font-weight: bold; text-align: center;">I Putu Artawa</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: right;"> 1 </td>
+<td style="text-align: right;"> 1 </td>
+<td style="text-align: right;"> 1 </td>
+<td style="text-align: right;"> 1 </td>
+<td style="text-align: right;"> 1 </td>
+<td style="text-align: right; font-weight: bold;"> <br>
+</td>
+<td style="text-align: right;"> 127.332 </td>
+<td style="text-align: right;"> 127.332 </td>
+<td style="text-align: right;"> 127.332 </td>
+<td style="text-align: right;"> 127.332 </td>
+<td style="text-align: right;"> 127.332 </td>
+<td style="text-align: right; font-weight: bold;"> <br>
+</td>
+<td style="text-align: right;"> 15.000 </td>
+<td style="text-align: right;"> 15.000 </td>
+<td style="text-align: right;"> 15.000 </td>
+<td style="text-align: right;"> 15.000 </td>
+<td style="text-align: right;"> 15.000 </td>
+<td style="text-align: right;"> <br>
+</td>
+</tr>
+<tr>
+<td style="font-weight: bold; text-align: center;">Karangasem</td>
+<td style="font-weight: bold; text-align: center;">5523012</td>
+<td style="font-weight: bold; text-align: center;">I Gede Pekeg
+Mudiarta</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: right;"> 1.337 </td>
+<td style="text-align: right;"> 1.188 </td>
+<td style="text-align: right;"> 1.156 </td>
+<td style="text-align: right;"> 1.156 </td>
+<td style="text-align: right;"> 1.130 </td>
+<td style="text-align: right; font-weight: bold;"> 1.102 </td>
+<td style="text-align: right;"> 331.045.996 </td>
+<td style="text-align: right;"> 318.511.674 </td>
+<td style="text-align: right;"> 284.513.541 </td>
+<td style="text-align: right;"> 284.513.541 </td>
+<td style="text-align: right;"> 277.163.244 </td>
+<td style="text-align: right; font-weight: bold;"> 229.956.019 </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+</tr>
+<tr>
+<td style="font-weight: bold; text-align: center;">Karangasem</td>
+<td style="font-weight: bold; text-align: center;">5523012</td>
+<td style="font-weight: bold; text-align: center;">I Gede Pekeg
+Mudiarta</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: right;"> 104 </td>
+<td style="text-align: right;"> 87 </td>
+<td style="text-align: right;"> 80 </td>
+<td style="text-align: right;"> 80 </td>
+<td style="text-align: right;"> 68 </td>
+<td style="text-align: right; font-weight: bold;"> 64 </td>
+<td style="text-align: right;"> 30.515.811 </td>
+<td style="text-align: right;"> 26.539.856 </td>
+<td style="text-align: right;"> 25.832.621 </td>
+<td style="text-align: right;"> 25.832.621 </td>
+<td style="text-align: right;"> 24.631.834 </td>
+<td style="text-align: right; font-weight: bold;"> 24.493.020 </td>
+<td style="text-align: right;"> 1.312.000 </td>
+<td style="text-align: right;"> 1.062.000 </td>
+<td style="text-align: right;"> 1.016.000 </td>
+<td style="text-align: right;"> 1.016.000 </td>
+<td style="text-align: right;"> 944.000 </td>
+<td style="text-align: right;"> 920.000 </td>
+</tr>
+<tr>
+<td style="font-weight: bold; text-align: center;">Karangasem</td>
+<td style="font-weight: bold; text-align: center;">5523012</td>
+<td style="font-weight: bold; text-align: center;">I Gede Pekeg
+Mudiarta</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: right;"> 16 </td>
+<td style="text-align: right;"> 15 </td>
+<td style="text-align: right;"> 14 </td>
+<td style="text-align: right;"> 14 </td>
+<td style="text-align: right;"> 13 </td>
+<td style="text-align: right; font-weight: bold;"> 13 </td>
+<td style="text-align: right;"> 8.152.823 </td>
+<td style="text-align: right;"> 8.091.533 </td>
+<td style="text-align: right;"> 7.243.049 </td>
+<td style="text-align: right;"> 7.243.049 </td>
+<td style="text-align: right;"> 6.949.557 </td>
+<td style="text-align: right; font-weight: bold;"> 6.949.557 </td>
+<td style="text-align: right;"> 330.000 </td>
+<td style="text-align: right;"> 315.000 </td>
+<td style="text-align: right;"> 300.000 </td>
+<td style="text-align: right;"> 300.000 </td>
+<td style="text-align: right;"> 275.000 </td>
+<td style="text-align: right;"> 275.000 </td>
+</tr>
+<tr>
+<td style="font-weight: bold; text-align: center;">Karangasem</td>
+<td style="font-weight: bold; text-align: center;">5523013</td>
+<td style="font-weight: bold; text-align: center;">I Wayan Supandi</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: right;"> 1.483 </td>
+<td style="text-align: right;"> 1.308 </td>
+<td style="text-align: right;"> 1.119 </td>
+<td style="text-align: right;"> 1.119 </td>
+<td style="text-align: right;"> 1.085 </td>
+<td style="text-align: right; font-weight: bold;"> 998 </td>
+<td style="text-align: right;"> 78.635.293 </td>
+<td style="text-align: right;"> 70.516.984 </td>
+<td style="text-align: right;"> 60.585.461 </td>
+<td style="text-align: right;"> 60.585.461 </td>
+<td style="text-align: right;"> 58.637.530 </td>
+<td style="text-align: right; font-weight: bold;"> 54.409.431 </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+</tr>
+<tr>
+<td style="font-weight: bold; text-align: center;">Karangasem</td>
+<td style="font-weight: bold; text-align: center;">5523013</td>
+<td style="font-weight: bold; text-align: center;">I Wayan Supandi</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: right;"> 3 </td>
+<td style="text-align: right;"> 3 </td>
+<td style="text-align: right;"> 3 </td>
+<td style="text-align: right;"> 3 </td>
+<td style="text-align: right;"> 3 </td>
+<td style="text-align: right; font-weight: bold;"> 3 </td>
+<td style="text-align: right;"> 344.933 </td>
+<td style="text-align: right;"> 344.933 </td>
+<td style="text-align: right;"> 344.933 </td>
+<td style="text-align: right;"> 344.933 </td>
+<td style="text-align: right;"> 344.933 </td>
+<td style="text-align: right; font-weight: bold;"> 344.933 </td>
+<td style="text-align: right;"> 112.000 </td>
+<td style="text-align: right;"> 112.000 </td>
+<td style="text-align: right;"> 112.000 </td>
+<td style="text-align: right;"> 112.000 </td>
+<td style="text-align: right;"> 112.000 </td>
+<td style="text-align: right;"> 112.000 </td>
+</tr>
+<tr>
+<td style="font-weight: bold; text-align: center;">Karangasem</td>
+<td style="font-weight: bold; text-align: center;">5523014</td>
+<td style="font-weight: bold; text-align: center;">I wayan
+Darmayasa</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: right;"> 1.359 </td>
+<td style="text-align: right;"> 1.235 </td>
+<td style="text-align: right;"> 1.167 </td>
+<td style="text-align: right;"> 1.167 </td>
+<td style="text-align: right;"> 1.092 </td>
+<td style="text-align: right; font-weight: bold;"> 1.027 </td>
+<td style="text-align: right;"> 165.333.317 </td>
+<td style="text-align: right;"> 157.298.210 </td>
+<td style="text-align: right;"> 150.154.913 </td>
+<td style="text-align: right;"> 150.154.913 </td>
+<td style="text-align: right;"> 145.354.160 </td>
+<td style="text-align: right; font-weight: bold;"> 139.618.277 </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+</tr>
+<tr>
+<td style="font-weight: bold; text-align: center;">Karangasem</td>
+<td style="font-weight: bold; text-align: center;">5523014</td>
+<td style="font-weight: bold; text-align: center;">I wayan
+Darmayasa</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: right;"> 48 </td>
+<td style="text-align: right;"> 45 </td>
+<td style="text-align: right;"> 43 </td>
+<td style="text-align: right;"> 43 </td>
+<td style="text-align: right;"> 42 </td>
+<td style="text-align: right; font-weight: bold;"> 41 </td>
+<td style="text-align: right;"> 9.204.052 </td>
+<td style="text-align: right;"> 8.914.730 </td>
+<td style="text-align: right;"> 8.706.355 </td>
+<td style="text-align: right;"> 8.706.355 </td>
+<td style="text-align: right;"> 8.654.385 </td>
+<td style="text-align: right; font-weight: bold;"> 8.638.400 </td>
+<td style="text-align: right;"> 394.000 </td>
+<td style="text-align: right;"> 376.000 </td>
+<td style="text-align: right;"> 364.000 </td>
+<td style="text-align: right;"> 364.000 </td>
+<td style="text-align: right;"> 358.000 </td>
+<td style="text-align: right;"> 352.000 </td>
+</tr>
+<tr>
+<td style="font-weight: bold; text-align: center;">Karangasem</td>
+<td style="font-weight: bold; text-align: center;">5523014</td>
+<td style="font-weight: bold; text-align: center;">I wayan
+Darmayasa</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: right;"> 8 </td>
+<td style="text-align: right;"> 4 </td>
+<td style="text-align: right;"> 4 </td>
+<td style="text-align: right;"> 4 </td>
+<td style="text-align: right;"> 4 </td>
+<td style="text-align: right; font-weight: bold;"> 3 </td>
+<td style="text-align: right;"> 3.112.573 </td>
+<td style="text-align: right;"> 2.611.433 </td>
+<td style="text-align: right;"> 2.611.433 </td>
+<td style="text-align: right;"> 2.611.433 </td>
+<td style="text-align: right;"> 2.611.433 </td>
+<td style="text-align: right; font-weight: bold;"> 2.384.066 </td>
+<td style="text-align: right;"> 130.000 </td>
+<td style="text-align: right;"> 70.000 </td>
+<td style="text-align: right;"> 70.000 </td>
+<td style="text-align: right;"> 70.000 </td>
+<td style="text-align: right;"> 70.000 </td>
+<td style="text-align: right;"> 55.000 </td>
+</tr>
+<tr>
+<td style="font-weight: bold; text-align: center;">Karangasem</td>
+<td style="font-weight: bold; text-align: center;">5523015</td>
+<td style="font-weight: bold; text-align: center;">I WAYAN
+ARYAWAN SUANTARA</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: right;"> 1.384 </td>
+<td style="text-align: right;"> 1.163 </td>
+<td style="text-align: right;"> 1.091 </td>
+<td style="text-align: right;"> 1.091 </td>
+<td style="text-align: right;"> 1.084 </td>
+<td style="text-align: right; font-weight: bold;"> 1.037 </td>
+<td style="text-align: right;"> 131.579.261 </td>
+<td style="text-align: right;"> 112.798.696 </td>
+<td style="text-align: right;"> 108.762.105 </td>
+<td style="text-align: right;"> 108.762.105 </td>
+<td style="text-align: right;"> 108.282.868 </td>
+<td style="text-align: right; font-weight: bold;"> 104.026.637 </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+</tr>
+<tr>
+<td style="font-weight: bold; text-align: center;">Karangasem</td>
+<td style="font-weight: bold; text-align: center;">5523015</td>
+<td style="font-weight: bold; text-align: center;">I WAYAN
+ARYAWAN SUANTARA</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: right;"> 11 </td>
+<td style="text-align: right;"> 10 </td>
+<td style="text-align: right;"> 9 </td>
+<td style="text-align: right;"> 9 </td>
+<td style="text-align: right;"> 9 </td>
+<td style="text-align: right; font-weight: bold;"> 8 </td>
+<td style="text-align: right;"> 2.569.751 </td>
+<td style="text-align: right;"> 2.499.119 </td>
+<td style="text-align: right;"> 2.386.253 </td>
+<td style="text-align: right;"> 2.386.253 </td>
+<td style="text-align: right;"> 2.386.253 </td>
+<td style="text-align: right; font-weight: bold;"> 2.333.570 </td>
+<td style="text-align: right;"> 78.000 </td>
+<td style="text-align: right;"> 72.000 </td>
+<td style="text-align: right;"> 66.000 </td>
+<td style="text-align: right;"> 66.000 </td>
+<td style="text-align: right;"> 66.000 </td>
+<td style="text-align: right;"> 60.000 </td>
+</tr>
+<tr>
+<td style="font-weight: bold; text-align: center;">Karangasem</td>
+<td style="font-weight: bold; text-align: center;">5523015</td>
+<td style="font-weight: bold; text-align: center;">I WAYAN
+ARYAWAN SUANTARA</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: right;"> 2 </td>
+<td style="text-align: right;"> 2 </td>
+<td style="text-align: right;"> 2 </td>
+<td style="text-align: right;"> 2 </td>
+<td style="text-align: right;"> 2 </td>
+<td style="text-align: right; font-weight: bold;"> 1 </td>
+<td style="text-align: right;"> 1.600.488 </td>
+<td style="text-align: right;"> 1.600.488 </td>
+<td style="text-align: right;"> 1.600.488 </td>
+<td style="text-align: right;"> 1.600.488 </td>
+<td style="text-align: right;"> 1.600.488 </td>
+<td style="text-align: right; font-weight: bold;"> 1.542.168 </td>
+<td style="text-align: right;"> 40.000 </td>
+<td style="text-align: right;"> 40.000 </td>
+<td style="text-align: right;"> 40.000 </td>
+<td style="text-align: right;"> 40.000 </td>
+<td style="text-align: right;"> 40.000 </td>
+<td style="text-align: right;"> 25.000 </td>
+</tr>
+<tr>
+<td style="font-weight: bold; text-align: center;">Karangasem</td>
+<td style="font-weight: bold; text-align: center;">5523016</td>
+<td style="font-weight: bold; text-align: center;">I Nyoman Ardika</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: right;"> 1.275 </td>
+<td style="text-align: right;"> 1.135 </td>
+<td style="text-align: right;"> 1.095 </td>
+<td style="text-align: right;"> 1.095 </td>
+<td style="text-align: right;"> 1.034 </td>
+<td style="text-align: right; font-weight: bold;"> 996 </td>
+<td style="text-align: right;"> 89.353.843 </td>
+<td style="text-align: right;"> 83.123.283 </td>
+<td style="text-align: right;"> 80.263.663 </td>
+<td style="text-align: right;"> 80.263.663 </td>
+<td style="text-align: right;"> 78.458.278 </td>
+<td style="text-align: right; font-weight: bold;"> 76.055.430 </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+</tr>
+<tr>
+<td style="font-weight: bold; text-align: center;">Karangasem</td>
+<td style="font-weight: bold; text-align: center;">5523016</td>
+<td style="font-weight: bold; text-align: center;">I Nyoman Ardika</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: right;"> 58 </td>
+<td style="text-align: right;"> 51 </td>
+<td style="text-align: right;"> 50 </td>
+<td style="text-align: right;"> 50 </td>
+<td style="text-align: right;"> 48 </td>
+<td style="text-align: right; font-weight: bold;"> 43 </td>
+<td style="text-align: right;"> 10.065.155 </td>
+<td style="text-align: right;"> 9.334.185 </td>
+<td style="text-align: right;"> 9.268.364 </td>
+<td style="text-align: right;"> 9.268.364 </td>
+<td style="text-align: right;"> 8.901.634 </td>
+<td style="text-align: right; font-weight: bold;"> 8.186.281 </td>
+<td style="text-align: right;"> 384.000 </td>
+<td style="text-align: right;"> 342.000 </td>
+<td style="text-align: right;"> 336.000 </td>
+<td style="text-align: right;"> 336.000 </td>
+<td style="text-align: right;"> 324.000 </td>
+<td style="text-align: right;"> 290.000 </td>
+</tr>
+<tr>
+<td style="font-weight: bold; text-align: center;">Karangasem</td>
+<td style="font-weight: bold; text-align: center;">5523016</td>
+<td style="font-weight: bold; text-align: center;">I Nyoman Ardika</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: right;"> 6 </td>
+<td style="text-align: right;"> 6 </td>
+<td style="text-align: right;"> 6 </td>
+<td style="text-align: right;"> 6 </td>
+<td style="text-align: right;"> 6 </td>
+<td style="text-align: right; font-weight: bold;"> 6 </td>
+<td style="text-align: right;"> 3.557.887 </td>
+<td style="text-align: right;"> 3.557.887 </td>
+<td style="text-align: right;"> 3.557.887 </td>
+<td style="text-align: right;"> 3.557.887 </td>
+<td style="text-align: right;"> 3.557.887 </td>
+<td style="text-align: right; font-weight: bold;"> 3.557.887 </td>
+<td style="text-align: right;"> 120.000 </td>
+<td style="text-align: right;"> 120.000 </td>
+<td style="text-align: right;"> 120.000 </td>
+<td style="text-align: right;"> 120.000 </td>
+<td style="text-align: right;"> 120.000 </td>
+<td style="text-align: right;"> 120.000 </td>
+</tr>
+<tr>
+<td style="font-weight: bold; text-align: center;">Karangasem</td>
+<td style="font-weight: bold; text-align: center;">5523017</td>
+<td style="font-weight: bold; text-align: center;">I Wayan Kota</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: right;"> 1.406 </td>
+<td style="text-align: right;"> 1.266 </td>
+<td style="text-align: right;"> 1.225 </td>
+<td style="text-align: right;"> 1.225 </td>
+<td style="text-align: right;"> 1.213 </td>
+<td style="text-align: right; font-weight: bold;"> 1.172 </td>
+<td style="text-align: right;"> 107.438.217 </td>
+<td style="text-align: right;"> 99.767.341 </td>
+<td style="text-align: right;"> 98.163.680 </td>
+<td style="text-align: right;"> 98.163.680 </td>
+<td style="text-align: right;"> 97.528.808 </td>
+<td style="text-align: right; font-weight: bold;"> 95.529.737 </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+</tr>
+<tr>
+<td style="font-weight: bold; text-align: center;">Karangasem</td>
+<td style="font-weight: bold; text-align: center;">5523017</td>
+<td style="font-weight: bold; text-align: center;">I Wayan Kota</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: right;"> 17 </td>
+<td style="text-align: right;"> 16 </td>
+<td style="text-align: right;"> 16 </td>
+<td style="text-align: right;"> 16 </td>
+<td style="text-align: right;"> 15 </td>
+<td style="text-align: right; font-weight: bold;"> 15 </td>
+<td style="text-align: right;"> 7.482.081 </td>
+<td style="text-align: right;"> 7.444.497 </td>
+<td style="text-align: right;"> 7.444.497 </td>
+<td style="text-align: right;"> 7.444.497 </td>
+<td style="text-align: right;"> 7.349.808 </td>
+<td style="text-align: right; font-weight: bold;"> 7.349.808 </td>
+<td style="text-align: right;"> 322.000 </td>
+<td style="text-align: right;"> 316.000 </td>
+<td style="text-align: right;"> 316.000 </td>
+<td style="text-align: right;"> 316.000 </td>
+<td style="text-align: right;"> 310.000 </td>
+<td style="text-align: right;"> 310.000 </td>
+</tr>
+<tr>
+<td style="font-weight: bold; text-align: center;">Karangasem</td>
+<td style="font-weight: bold; text-align: center;">5523017</td>
+<td style="font-weight: bold; text-align: center;">I Wayan Kota</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: right;"> 2 </td>
+<td style="text-align: right;"> 1 </td>
+<td style="text-align: right;"> 1 </td>
+<td style="text-align: right;"> 1 </td>
+<td style="text-align: right;"> 1 </td>
+<td style="text-align: right; font-weight: bold;"> 1 </td>
+<td style="text-align: right;"> 388.378 </td>
+<td style="text-align: right;"> 189.345 </td>
+<td style="text-align: right;"> 189.345 </td>
+<td style="text-align: right;"> 189.345 </td>
+<td style="text-align: right;"> 189.345 </td>
+<td style="text-align: right; font-weight: bold;"> 189.345 </td>
+<td style="text-align: right;"> 30.000 </td>
+<td style="text-align: right;"> 15.000 </td>
+<td style="text-align: right;"> 15.000 </td>
+<td style="text-align: right;"> 15.000 </td>
+<td style="text-align: right;"> 15.000 </td>
+<td style="text-align: right;"> 15.000 </td>
+</tr>
+<tr>
+<td style="font-weight: bold; text-align: center;">Karangasem</td>
+<td style="font-weight: bold; text-align: center;">5523018</td>
+<td style="font-weight: bold; text-align: center;">I Wayan Sumerta</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: right;"> 1.329 </td>
+<td style="text-align: right;"> 1.246 </td>
+<td style="text-align: right;"> 1.180 </td>
+<td style="text-align: right;"> 1.180 </td>
+<td style="text-align: right;"> 1.165 </td>
+<td style="text-align: right; font-weight: bold;"> 1.081 </td>
+<td style="text-align: right;"> 475.097.382 </td>
+<td style="text-align: right;"> 429.905.236 </td>
+<td style="text-align: right;"> 384.082.879 </td>
+<td style="text-align: right;"> 384.082.879 </td>
+<td style="text-align: right;"> 383.201.748 </td>
+<td style="text-align: right; font-weight: bold;"> 362.630.670 </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+</tr>
+<tr>
+<td style="font-weight: bold; text-align: center;">Karangasem</td>
+<td style="font-weight: bold; text-align: center;">5523018</td>
+<td style="font-weight: bold; text-align: center;">I Wayan Sumerta</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: right;"> 68 </td>
+<td style="text-align: right;"> 62 </td>
+<td style="text-align: right;"> 59 </td>
+<td style="text-align: right;"> 59 </td>
+<td style="text-align: right;"> 54 </td>
+<td style="text-align: right; font-weight: bold;"> 53 </td>
+<td style="text-align: right;"> 35.791.863 </td>
+<td style="text-align: right;"> 31.598.662 </td>
+<td style="text-align: right;"> 31.025.112 </td>
+<td style="text-align: right;"> 31.025.112 </td>
+<td style="text-align: right;"> 29.295.580 </td>
+<td style="text-align: right; font-weight: bold;"> 28.861.555 </td>
+<td style="text-align: right;"> 1.180.682 </td>
+<td style="text-align: right;"> 950.682 </td>
+<td style="text-align: right;"> 932.682 </td>
+<td style="text-align: right;"> 932.682 </td>
+<td style="text-align: right;"> 898.682 </td>
+<td style="text-align: right;"> 892.682 </td>
+</tr>
+<tr>
+<td style="font-weight: bold; text-align: center;">Karangasem</td>
+<td style="font-weight: bold; text-align: center;">5523018</td>
+<td style="font-weight: bold; text-align: center;">I Wayan Sumerta</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: right;"> 6 </td>
+<td style="text-align: right;"> 6 </td>
+<td style="text-align: right;"> 6 </td>
+<td style="text-align: right;"> 6 </td>
+<td style="text-align: right;"> 6 </td>
+<td style="text-align: right; font-weight: bold;"> 6 </td>
+<td style="text-align: right;"> 7.104.581 </td>
+<td style="text-align: right;"> 7.104.581 </td>
+<td style="text-align: right;"> 7.104.581 </td>
+<td style="text-align: right;"> 7.104.581 </td>
+<td style="text-align: right;"> 7.104.581 </td>
+<td style="text-align: right; font-weight: bold;"> 7.104.581 </td>
+<td style="text-align: right;"> 190.000 </td>
+<td style="text-align: right;"> 190.000 </td>
+<td style="text-align: right;"> 190.000 </td>
+<td style="text-align: right;"> 190.000 </td>
+<td style="text-align: right;"> 190.000 </td>
+<td style="text-align: right;"> 190.000 </td>
+</tr>
+<tr>
+<td style="font-weight: bold; text-align: center;">Karangasem</td>
+<td style="font-weight: bold; text-align: center;">5523019</td>
+<td style="font-weight: bold; text-align: center;">Made Parmita</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: right;"> 1.417 </td>
+<td style="text-align: right;"> 1.270 </td>
+<td style="text-align: right;"> 1.208 </td>
+<td style="text-align: right;"> 1.208 </td>
+<td style="text-align: right;"> 1.181 </td>
+<td style="text-align: right; font-weight: bold;"> 1.040 </td>
+<td style="text-align: right;"> 123.993.919 </td>
+<td style="text-align: right;"> 114.580.362 </td>
+<td style="text-align: right;"> 111.264.903 </td>
+<td style="text-align: right;"> 111.264.903 </td>
+<td style="text-align: right;"> 110.158.506 </td>
+<td style="text-align: right; font-weight: bold;"> 103.231.673 </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+</tr>
+<tr>
+<td style="font-weight: bold; text-align: center;">Karangasem</td>
+<td style="font-weight: bold; text-align: center;">5523019</td>
+<td style="font-weight: bold; text-align: center;">Made Parmita</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: right;"> 19 </td>
+<td style="text-align: right;"> 18 </td>
+<td style="text-align: right;"> 18 </td>
+<td style="text-align: right;"> 18 </td>
+<td style="text-align: right;"> 18 </td>
+<td style="text-align: right; font-weight: bold;"> 14 </td>
+<td style="text-align: right;"> 19.390.220 </td>
+<td style="text-align: right;"> 17.992.185 </td>
+<td style="text-align: right;"> 17.992.185 </td>
+<td style="text-align: right;"> 17.992.185 </td>
+<td style="text-align: right;"> 17.992.185 </td>
+<td style="text-align: right; font-weight: bold;"> 15.519.644 </td>
+<td style="text-align: right;"> 1.850.000 </td>
+<td style="text-align: right;"> 1.700.000 </td>
+<td style="text-align: right;"> 1.700.000 </td>
+<td style="text-align: right;"> 1.700.000 </td>
+<td style="text-align: right;"> 1.700.000 </td>
+<td style="text-align: right;"> 1.384.000 </td>
+</tr>
+<tr>
+<td style="font-weight: bold; text-align: center;">Karangasem</td>
+<td style="font-weight: bold; text-align: center;">5523020</td>
+<td style="font-weight: bold; text-align: center;">I Wayan
+Sudarta Adnyana</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: right;"> 1.340 </td>
+<td style="text-align: right;"> 999 </td>
+<td style="text-align: right;"> 975 </td>
+<td style="text-align: right;"> 975 </td>
+<td style="text-align: right;"> 965 </td>
+<td style="text-align: right; font-weight: bold;"> 908 </td>
+<td style="text-align: right;"> 217.396.259 </td>
+<td style="text-align: right;"> 182.122.226 </td>
+<td style="text-align: right;"> 172.666.557 </td>
+<td style="text-align: right;"> 172.666.557 </td>
+<td style="text-align: right;"> 172.176.069 </td>
+<td style="text-align: right; font-weight: bold;"> 166.651.251 </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+</tr>
+<tr>
+<td style="font-weight: bold; text-align: center;">Karangasem</td>
+<td style="font-weight: bold; text-align: center;">5523020</td>
+<td style="font-weight: bold; text-align: center;">I Wayan
+Sudarta Adnyana</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: right;"> 30 </td>
+<td style="text-align: right;"> 27 </td>
+<td style="text-align: right;"> 27 </td>
+<td style="text-align: right;"> 27 </td>
+<td style="text-align: right;"> 27 </td>
+<td style="text-align: right; font-weight: bold;"> 26 </td>
+<td style="text-align: right;"> 6.592.190 </td>
+<td style="text-align: right;"> 6.213.520 </td>
+<td style="text-align: right;"> 6.213.520 </td>
+<td style="text-align: right;"> 6.213.520 </td>
+<td style="text-align: right;"> 6.213.520 </td>
+<td style="text-align: right; font-weight: bold;"> 6.094.909 </td>
+<td style="text-align: right;"> 332.000 </td>
+<td style="text-align: right;"> 310.000 </td>
+<td style="text-align: right;"> 310.000 </td>
+<td style="text-align: right;"> 310.000 </td>
+<td style="text-align: right;"> 310.000 </td>
+<td style="text-align: right;"> 304.000 </td>
+</tr>
+<tr>
+<td style="font-weight: bold; text-align: center;">Karangasem</td>
+<td style="font-weight: bold; text-align: center;">5523020</td>
+<td style="font-weight: bold; text-align: center;">I Wayan
+Sudarta Adnyana</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: right;"> 1 </td>
+<td style="text-align: right;"> 1 </td>
+<td style="text-align: right;"> 1 </td>
+<td style="text-align: right;"> 1 </td>
+<td style="text-align: right;"> 1 </td>
+<td style="text-align: right; font-weight: bold;"> <br>
+</td>
+<td style="text-align: right;"> 18.593 </td>
+<td style="text-align: right;"> 18.593 </td>
+<td style="text-align: right;"> 18.593 </td>
+<td style="text-align: right;"> 18.593 </td>
+<td style="text-align: right;"> 18.593 </td>
+<td style="text-align: right; font-weight: bold;"> <br>
+</td>
+<td style="text-align: right;"> 15.000 </td>
+<td style="text-align: right;"> 15.000 </td>
+<td style="text-align: right;"> 15.000 </td>
+<td style="text-align: right;"> 15.000 </td>
+<td style="text-align: right;"> 15.000 </td>
+<td style="text-align: right;"> <br>
+</td>
+</tr>
+<tr>
+<td style="font-weight: bold; text-align: center;">Karangasem</td>
+<td style="font-weight: bold; text-align: center;">5523021</td>
+<td style="font-weight: bold; text-align: center;">I Nyoman
+Subrata</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: right;"> 1.522 </td>
+<td style="text-align: right;"> 1.112 </td>
+<td style="text-align: right;"> 1.059 </td>
+<td style="text-align: right;"> 1.059 </td>
+<td style="text-align: right;"> 1.052 </td>
+<td style="text-align: right; font-weight: bold;"> 990 </td>
+<td style="text-align: right;"> 80.225.791 </td>
+<td style="text-align: right;"> 58.059.836 </td>
+<td style="text-align: right;"> 55.874.009 </td>
+<td style="text-align: right;"> 55.874.009 </td>
+<td style="text-align: right;"> 55.573.153 </td>
+<td style="text-align: right; font-weight: bold;"> 52.335.816 </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+</tr>
+<tr>
+<td style="font-weight: bold; text-align: center;">Karangasem</td>
+<td style="font-weight: bold; text-align: center;">5523021</td>
+<td style="font-weight: bold; text-align: center;">I Nyoman
+Subrata</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: right;"> 9 </td>
+<td style="text-align: right;"> 8 </td>
+<td style="text-align: right;"> 8 </td>
+<td style="text-align: right;"> 8 </td>
+<td style="text-align: right;"> 6 </td>
+<td style="text-align: right; font-weight: bold;"> 6 </td>
+<td style="text-align: right;"> 1.077.067 </td>
+<td style="text-align: right;"> 1.063.820 </td>
+<td style="text-align: right;"> 1.063.820 </td>
+<td style="text-align: right;"> 1.063.820 </td>
+<td style="text-align: right;"> 742.396 </td>
+<td style="text-align: right; font-weight: bold;"> 742.396 </td>
+<td style="text-align: right;"> 54.000 </td>
+<td style="text-align: right;"> 48.000 </td>
+<td style="text-align: right;"> 48.000 </td>
+<td style="text-align: right;"> 48.000 </td>
+<td style="text-align: right;"> 36.000 </td>
+<td style="text-align: right;"> 36.000 </td>
+</tr>
+<tr>
+<td style="font-weight: bold; text-align: center;">Karangasem</td>
+<td style="font-weight: bold; text-align: center;">5523022</td>
+<td style="font-weight: bold; text-align: center;">I KOMANG
+KARDIASA</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: right;"> 1.273 </td>
+<td style="text-align: right;"> 1.199 </td>
+<td style="text-align: right;"> 1.141 </td>
+<td style="text-align: right;"> 1.141 </td>
+<td style="text-align: right;"> 1.122 </td>
+<td style="text-align: right; font-weight: bold;"> 1.073 </td>
+<td style="text-align: right;"> 97.075.720 </td>
+<td style="text-align: right;"> 93.921.206 </td>
+<td style="text-align: right;"> 90.337.948 </td>
+<td style="text-align: right;"> 90.337.948 </td>
+<td style="text-align: right;"> 89.633.711 </td>
+<td style="text-align: right; font-weight: bold;"> 86.656.626 </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+</tr>
+<tr>
+<td style="font-weight: bold; text-align: center;">Karangasem</td>
+<td style="font-weight: bold; text-align: center;">5523022</td>
+<td style="font-weight: bold; text-align: center;">I KOMANG
+KARDIASA</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: right;"> 84 </td>
+<td style="text-align: right;"> 70 </td>
+<td style="text-align: right;"> 66 </td>
+<td style="text-align: right;"> 66 </td>
+<td style="text-align: right;"> 65 </td>
+<td style="text-align: right; font-weight: bold;"> 58 </td>
+<td style="text-align: right;"> 11.978.082 </td>
+<td style="text-align: right;"> 9.384.270 </td>
+<td style="text-align: right;"> 9.050.809 </td>
+<td style="text-align: right;"> 9.050.809 </td>
+<td style="text-align: right;"> 9.014.780 </td>
+<td style="text-align: right; font-weight: bold;"> 7.395.800 </td>
+<td style="text-align: right;"> 564.000 </td>
+<td style="text-align: right;"> 464.000 </td>
+<td style="text-align: right;"> 440.000 </td>
+<td style="text-align: right;"> 440.000 </td>
+<td style="text-align: right;"> 434.000 </td>
+<td style="text-align: right;"> 380.000 </td>
+</tr>
+<tr>
+<td style="font-weight: bold; text-align: center;">Karangasem</td>
+<td style="font-weight: bold; text-align: center;">5523022</td>
+<td style="font-weight: bold; text-align: center;">I KOMANG
+KARDIASA</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: right;"> 7 </td>
+<td style="text-align: right;"> 7 </td>
+<td style="text-align: right;"> 7 </td>
+<td style="text-align: right;"> 7 </td>
+<td style="text-align: right;"> 7 </td>
+<td style="text-align: right; font-weight: bold;"> 5 </td>
+<td style="text-align: right;"> 3.993.989 </td>
+<td style="text-align: right;"> 3.993.989 </td>
+<td style="text-align: right;"> 3.993.989 </td>
+<td style="text-align: right;"> 3.993.989 </td>
+<td style="text-align: right;"> 3.993.989 </td>
+<td style="text-align: right; font-weight: bold;"> 3.917.188 </td>
+<td style="text-align: right;"> 485.000 </td>
+<td style="text-align: right;"> 485.000 </td>
+<td style="text-align: right;"> 485.000 </td>
+<td style="text-align: right;"> 485.000 </td>
+<td style="text-align: right;"> 485.000 </td>
+<td style="text-align: right;"> 455.000 </td>
+</tr>
+<tr>
+<td style="font-weight: bold; text-align: center;">Karangasem</td>
+<td style="font-weight: bold; text-align: center;">5523023</td>
+<td style="font-weight: bold; text-align: center;">I Nyoman Rauh</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: right;"> 1.396 </td>
+<td style="text-align: right;"> 1.291 </td>
+<td style="text-align: right;"> 1.264 </td>
+<td style="text-align: right;"> 1.264 </td>
+<td style="text-align: right;"> 1.255 </td>
+<td style="text-align: right; font-weight: bold;"> 1.101 </td>
+<td style="text-align: right;"> 74.085.491 </td>
+<td style="text-align: right;"> 68.338.382 </td>
+<td style="text-align: right;"> 66.457.402 </td>
+<td style="text-align: right;"> 66.457.402 </td>
+<td style="text-align: right;"> 65.906.201 </td>
+<td style="text-align: right; font-weight: bold;"> 60.849.324 </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+</tr>
+<tr>
+<td style="font-weight: bold; text-align: center;">Karangasem</td>
+<td style="font-weight: bold; text-align: center;">5523023</td>
+<td style="font-weight: bold; text-align: center;">I Nyoman Rauh</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: right;"> 8 </td>
+<td style="text-align: right;"> 8 </td>
+<td style="text-align: right;"> 8 </td>
+<td style="text-align: right;"> 8 </td>
+<td style="text-align: right;"> 8 </td>
+<td style="text-align: right; font-weight: bold;"> 8 </td>
+<td style="text-align: right;"> 1.065.051 </td>
+<td style="text-align: right;"> 1.065.051 </td>
+<td style="text-align: right;"> 1.065.051 </td>
+<td style="text-align: right;"> 1.065.051 </td>
+<td style="text-align: right;"> 1.065.051 </td>
+<td style="text-align: right; font-weight: bold;"> 1.065.051 </td>
+<td style="text-align: right;"> 52.000 </td>
+<td style="text-align: right;"> 52.000 </td>
+<td style="text-align: right;"> 52.000 </td>
+<td style="text-align: right;"> 52.000 </td>
+<td style="text-align: right;"> 52.000 </td>
+<td style="text-align: right;"> 52.000 </td>
+</tr>
+<tr>
+<td style="font-weight: bold; text-align: center;">Karangasem</td>
+<td style="font-weight: bold; text-align: center;">5523024</td>
+<td style="font-weight: bold; text-align: center;">I Wayan
+Mudiarta</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: right;"> 1.405 </td>
+<td style="text-align: right;"> 1.181 </td>
+<td style="text-align: right;"> 1.139 </td>
+<td style="text-align: right;"> 1.139 </td>
+<td style="text-align: right;"> 1.092 </td>
+<td style="text-align: right; font-weight: bold;"> 1.034 </td>
+<td style="text-align: right;"> 75.331.359 </td>
+<td style="text-align: right;"> 62.527.010 </td>
+<td style="text-align: right;"> 59.558.140 </td>
+<td style="text-align: right;"> 59.558.140 </td>
+<td style="text-align: right;"> 57.482.346 </td>
+<td style="text-align: right; font-weight: bold;"> 54.118.884 </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+</tr>
+<tr>
+<td style="font-weight: bold; text-align: center;">Karangasem</td>
+<td style="font-weight: bold; text-align: center;">5523024</td>
+<td style="font-weight: bold; text-align: center;">I Wayan
+Mudiarta</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: right;"> 54 </td>
+<td style="text-align: right;"> 49 </td>
+<td style="text-align: right;"> 49 </td>
+<td style="text-align: right;"> 49 </td>
+<td style="text-align: right;"> 49 </td>
+<td style="text-align: right; font-weight: bold;"> 43 </td>
+<td style="text-align: right;"> 6.291.205 </td>
+<td style="text-align: right;"> 5.498.939 </td>
+<td style="text-align: right;"> 5.498.939 </td>
+<td style="text-align: right;"> 5.498.939 </td>
+<td style="text-align: right;"> 5.498.939 </td>
+<td style="text-align: right; font-weight: bold;"> 4.814.982 </td>
+<td style="text-align: right;"> 348.000 </td>
+<td style="text-align: right;"> 314.000 </td>
+<td style="text-align: right;"> 314.000 </td>
+<td style="text-align: right;"> 314.000 </td>
+<td style="text-align: right;"> 314.000 </td>
+<td style="text-align: right;"> 278.000 </td>
+</tr>
+<tr>
+<td style="font-weight: bold; text-align: center;">Karangasem</td>
+<td style="font-weight: bold; text-align: center;">5523024</td>
+<td style="font-weight: bold; text-align: center;">I Wayan
+Mudiarta</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: right;"> 14 </td>
+<td style="text-align: right;"> 14 </td>
+<td style="text-align: right;"> 10 </td>
+<td style="text-align: right;"> 10 </td>
+<td style="text-align: right;"> 9 </td>
+<td style="text-align: right; font-weight: bold;"> 4 </td>
+<td style="text-align: right;"> 3.075.256 </td>
+<td style="text-align: right;"> 3.075.256 </td>
+<td style="text-align: right;"> 1.481.752 </td>
+<td style="text-align: right;"> 1.481.752 </td>
+<td style="text-align: right;"> 1.423.432 </td>
+<td style="text-align: right; font-weight: bold;"> 390.638 </td>
+<td style="text-align: right;"> 255.000 </td>
+<td style="text-align: right;"> 255.000 </td>
+<td style="text-align: right;"> 185.000 </td>
+<td style="text-align: right;"> 185.000 </td>
+<td style="text-align: right;"> 170.000 </td>
+<td style="text-align: right;"> 60.000 </td>
+</tr>
+<tr>
+<td style="font-weight: bold; text-align: center;">Karangasem</td>
+<td style="font-weight: bold; text-align: center;">5523025</td>
+<td style="font-weight: bold; text-align: center;">I Gede Putu
+Widiana</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: right;"> 1.256 </td>
+<td style="text-align: right;"> 1.120 </td>
+<td style="text-align: right;"> 1.048 </td>
+<td style="text-align: right;"> 1.048 </td>
+<td style="text-align: right;"> 664 </td>
+<td style="text-align: right; font-weight: bold;"> 558 </td>
+<td style="text-align: right;"> 62.520.817 </td>
+<td style="text-align: right;"> 55.270.739 </td>
+<td style="text-align: right;"> 51.786.669 </td>
+<td style="text-align: right;"> 51.786.669 </td>
+<td style="text-align: right;"> 39.349.238 </td>
+<td style="text-align: right; font-weight: bold;"> 34.461.723 </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+</tr>
+<tr>
+<td style="font-weight: bold; text-align: center;">Karangasem</td>
+<td style="font-weight: bold; text-align: center;">5523025</td>
+<td style="font-weight: bold; text-align: center;">I Gede Putu
+Widiana</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: right;"> 3 </td>
+<td style="text-align: right;"> 3 </td>
+<td style="text-align: right;"> 3 </td>
+<td style="text-align: right;"> 3 </td>
+<td style="text-align: right;"> 2 </td>
+<td style="text-align: right; font-weight: bold;"> 1 </td>
+<td style="text-align: right;"> 419.468 </td>
+<td style="text-align: right;"> 419.468 </td>
+<td style="text-align: right;"> 419.468 </td>
+<td style="text-align: right;"> 419.468 </td>
+<td style="text-align: right;"> 363.804 </td>
+<td style="text-align: right; font-weight: bold;"> 340.217 </td>
+<td style="text-align: right;"> 22.000 </td>
+<td style="text-align: right;"> 22.000 </td>
+<td style="text-align: right;"> 22.000 </td>
+<td style="text-align: right;"> 22.000 </td>
+<td style="text-align: right;"> 16.000 </td>
+<td style="text-align: right;"> 10.000 </td>
+</tr>
+<tr>
+<td style="font-weight: bold; text-align: center;">Karangasem</td>
+<td style="font-weight: bold; text-align: center;">5523026</td>
+<td style="font-weight: bold; text-align: center;">I Gede Sumerta</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: right;"> 1.432 </td>
+<td style="text-align: right;"> 1.171 </td>
+<td style="text-align: right;"> 1.076 </td>
+<td style="text-align: right;"> 1.076 </td>
+<td style="text-align: right;"> 1.055 </td>
+<td style="text-align: right; font-weight: bold;"> 900 </td>
+<td style="text-align: right;"> 143.074.919 </td>
+<td style="text-align: right;"> 115.116.166 </td>
+<td style="text-align: right;"> 104.926.246 </td>
+<td style="text-align: right;"> 104.926.246 </td>
+<td style="text-align: right;"> 102.595.934 </td>
+<td style="text-align: right; font-weight: bold;"> 88.906.498 </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+</tr>
+<tr>
+<td style="font-weight: bold; text-align: center;">Karangasem</td>
+<td style="font-weight: bold; text-align: center;">5523026</td>
+<td style="font-weight: bold; text-align: center;">I Gede Sumerta</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: right;"> 32 </td>
+<td style="text-align: right;"> 29 </td>
+<td style="text-align: right;"> 27 </td>
+<td style="text-align: right;"> 27 </td>
+<td style="text-align: right;"> 26 </td>
+<td style="text-align: right; font-weight: bold;"> 22 </td>
+<td style="text-align: right;"> 8.837.638 </td>
+<td style="text-align: right;"> 8.581.263 </td>
+<td style="text-align: right;"> 8.196.951 </td>
+<td style="text-align: right;"> 8.196.951 </td>
+<td style="text-align: right;"> 8.144.495 </td>
+<td style="text-align: right; font-weight: bold;"> 7.653.295 </td>
+<td style="text-align: right;"> 316.000 </td>
+<td style="text-align: right;"> 298.000 </td>
+<td style="text-align: right;"> 282.000 </td>
+<td style="text-align: right;"> 282.000 </td>
+<td style="text-align: right;"> 276.000 </td>
+<td style="text-align: right;"> 252.000 </td>
+</tr>
+<tr>
+<td style="font-weight: bold; text-align: center;">Karangasem</td>
+<td style="font-weight: bold; text-align: center;">5523026</td>
+<td style="font-weight: bold; text-align: center;">I Gede Sumerta</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: right;"> 2 </td>
+<td style="text-align: right;"> 2 </td>
+<td style="text-align: right;"> 2 </td>
+<td style="text-align: right;"> 2 </td>
+<td style="text-align: right;"> 2 </td>
+<td style="text-align: right; font-weight: bold;"> 2 </td>
+<td style="text-align: right;"> 1.750.972 </td>
+<td style="text-align: right;"> 1.750.972 </td>
+<td style="text-align: right;"> 1.750.972 </td>
+<td style="text-align: right;"> 1.750.972 </td>
+<td style="text-align: right;"> 1.750.972 </td>
+<td style="text-align: right; font-weight: bold;"> 1.750.972 </td>
+<td style="text-align: right;"> 50.000 </td>
+<td style="text-align: right;"> 50.000 </td>
+<td style="text-align: right;"> 50.000 </td>
+<td style="text-align: right;"> 50.000 </td>
+<td style="text-align: right;"> 50.000 </td>
+<td style="text-align: right;"> 50.000 </td>
+</tr>
+<tr>
+<td style="font-weight: bold; text-align: center;">Karangasem</td>
+<td style="font-weight: bold; text-align: center;">5523027</td>
+<td style="font-weight: bold; text-align: center;">I Ketut
+Sugiarta</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: right;"> 1.452 </td>
+<td style="text-align: right;"> 1.045 </td>
+<td style="text-align: right;"> 933 </td>
+<td style="text-align: right;"> 933 </td>
+<td style="text-align: right;"> 848 </td>
+<td style="text-align: right; font-weight: bold;"> 810 </td>
+<td style="text-align: right;"> 70.851.991 </td>
+<td style="text-align: right;"> 50.572.278 </td>
+<td style="text-align: right;"> 45.612.954 </td>
+<td style="text-align: right;"> 45.612.954 </td>
+<td style="text-align: right;"> 41.003.935 </td>
+<td style="text-align: right; font-weight: bold;"> 38.973.318 </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+</tr>
+<tr>
+<td style="font-weight: bold; text-align: center;">Karangasem</td>
+<td style="font-weight: bold; text-align: center;">5523027</td>
+<td style="font-weight: bold; text-align: center;">I Ketut
+Sugiarta</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: right;"> 27 </td>
+<td style="text-align: right;"> 24 </td>
+<td style="text-align: right;"> 20 </td>
+<td style="text-align: right;"> 20 </td>
+<td style="text-align: right;"> 19 </td>
+<td style="text-align: right; font-weight: bold;"> 18 </td>
+<td style="text-align: right;"> 4.074.401 </td>
+<td style="text-align: right;"> 3.774.193 </td>
+<td style="text-align: right;"> 3.515.031 </td>
+<td style="text-align: right;"> 3.515.031 </td>
+<td style="text-align: right;"> 3.503.053 </td>
+<td style="text-align: right; font-weight: bold;"> 3.400.345 </td>
+<td style="text-align: right;"> 174.000 </td>
+<td style="text-align: right;"> 156.000 </td>
+<td style="text-align: right;"> 132.000 </td>
+<td style="text-align: right;"> 132.000 </td>
+<td style="text-align: right;"> 126.000 </td>
+<td style="text-align: right;"> 120.000 </td>
+</tr>
+<tr>
+<td style="font-weight: bold; text-align: center;">Karangasem</td>
+<td style="font-weight: bold; text-align: center;">5523027</td>
+<td style="font-weight: bold; text-align: center;">I Ketut
+Sugiarta</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: right;"> 3 </td>
+<td style="text-align: right;"> 2 </td>
+<td style="text-align: right;"> 2 </td>
+<td style="text-align: right;"> 2 </td>
+<td style="text-align: right;"> 2 </td>
+<td style="text-align: right; font-weight: bold;"> 2 </td>
+<td style="text-align: right;"> 245.842 </td>
+<td style="text-align: right;"> 170.344 </td>
+<td style="text-align: right;"> 170.344 </td>
+<td style="text-align: right;"> 170.344 </td>
+<td style="text-align: right;"> 170.344 </td>
+<td style="text-align: right; font-weight: bold;"> 170.344 </td>
+<td style="text-align: right;"> 45.000 </td>
+<td style="text-align: right;"> 30.000 </td>
+<td style="text-align: right;"> 30.000 </td>
+<td style="text-align: right;"> 30.000 </td>
+<td style="text-align: right;"> 30.000 </td>
+<td style="text-align: right;"> 30.000 </td>
+</tr>
+<tr>
+<td style="font-weight: bold; text-align: center;">Karangasem</td>
+<td style="font-weight: bold; text-align: center;">5523028</td>
+<td style="font-weight: bold; text-align: center;">I Komang
+Sujendra</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: right;"> 1.389 </td>
+<td style="text-align: right;"> 1.351 </td>
+<td style="text-align: right;"> 1.284 </td>
+<td style="text-align: right;"> 1.284 </td>
+<td style="text-align: right;"> 1.194 </td>
+<td style="text-align: right; font-weight: bold;"> 1.046 </td>
+<td style="text-align: right;"> 54.482.570 </td>
+<td style="text-align: right;"> 52.681.562 </td>
+<td style="text-align: right;"> 49.964.380 </td>
+<td style="text-align: right;"> 49.964.380 </td>
+<td style="text-align: right;"> 46.554.235 </td>
+<td style="text-align: right; font-weight: bold;"> 39.016.473 </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+</tr>
+<tr>
+<td style="font-weight: bold; text-align: center;">Karangasem</td>
+<td style="font-weight: bold; text-align: center;">5523028</td>
+<td style="font-weight: bold; text-align: center;">I Komang
+Sujendra</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: right;"> 17 </td>
+<td style="text-align: right;"> 14 </td>
+<td style="text-align: right;"> 11 </td>
+<td style="text-align: right;"> 11 </td>
+<td style="text-align: right;"> 9 </td>
+<td style="text-align: right; font-weight: bold;"> 3 </td>
+<td style="text-align: right;"> 2.276.211 </td>
+<td style="text-align: right;"> 2.088.615 </td>
+<td style="text-align: right;"> 1.888.050 </td>
+<td style="text-align: right;"> 1.888.050 </td>
+<td style="text-align: right;"> 1.302.334 </td>
+<td style="text-align: right; font-weight: bold;"> 780.989 </td>
+<td style="text-align: right;"> 110.000 </td>
+<td style="text-align: right;"> 92.000 </td>
+<td style="text-align: right;"> 74.000 </td>
+<td style="text-align: right;"> 74.000 </td>
+<td style="text-align: right;"> 58.000 </td>
+<td style="text-align: right;"> 22.000 </td>
+</tr>
+<tr>
+<td style="font-weight: bold; text-align: center;">Karangasem</td>
+<td style="font-weight: bold; text-align: center;">5523029</td>
+<td style="font-weight: bold; text-align: center;">I Made
+Suastayasa</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: right;"> 1.237 </td>
+<td style="text-align: right;"> 1.112 </td>
+<td style="text-align: right;"> 1.081 </td>
+<td style="text-align: right;"> 1.081 </td>
+<td style="text-align: right;"> 1.060 </td>
+<td style="text-align: right; font-weight: bold;"> 969 </td>
+<td style="text-align: right;"> 337.684.775 </td>
+<td style="text-align: right;"> 277.605.856 </td>
+<td style="text-align: right;"> 259.789.605 </td>
+<td style="text-align: right;"> 259.789.605 </td>
+<td style="text-align: right;"> 256.706.080 </td>
+<td style="text-align: right; font-weight: bold;"> 231.623.340 </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+</tr>
+<tr>
+<td style="font-weight: bold; text-align: center;">Karangasem</td>
+<td style="font-weight: bold; text-align: center;">5523029</td>
+<td style="font-weight: bold; text-align: center;">I Made
+Suastayasa</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: right;"> 20 </td>
+<td style="text-align: right;"> 18 </td>
+<td style="text-align: right;"> 18 </td>
+<td style="text-align: right;"> 18 </td>
+<td style="text-align: right;"> 18 </td>
+<td style="text-align: right; font-weight: bold;"> 18 </td>
+<td style="text-align: right;"> 47.061.325 </td>
+<td style="text-align: right;"> 46.904.790 </td>
+<td style="text-align: right;"> 46.904.790 </td>
+<td style="text-align: right;"> 46.904.790 </td>
+<td style="text-align: right;"> 46.904.790 </td>
+<td style="text-align: right; font-weight: bold;"> 46.904.790 </td>
+<td style="text-align: right;"> 1.600.778 </td>
+<td style="text-align: right;"> 1.588.778 </td>
+<td style="text-align: right;"> 1.588.778 </td>
+<td style="text-align: right;"> 1.588.778 </td>
+<td style="text-align: right;"> 1.588.778 </td>
+<td style="text-align: right;"> 1.588.778 </td>
+</tr>
+<tr>
+<td style="font-weight: bold; text-align: center;">Karangasem</td>
+<td style="font-weight: bold; text-align: center;">5523029</td>
+<td style="font-weight: bold; text-align: center;">I Made
+Suastayasa</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: right;"> 5 </td>
+<td style="text-align: right;"> 5 </td>
+<td style="text-align: right;"> 5 </td>
+<td style="text-align: right;"> 5 </td>
+<td style="text-align: right;"> 5 </td>
+<td style="text-align: right; font-weight: bold;"> 5 </td>
+<td style="text-align: right;"> 2.311.960 </td>
+<td style="text-align: right;"> 2.311.960 </td>
+<td style="text-align: right;"> 2.311.960 </td>
+<td style="text-align: right;"> 2.311.960 </td>
+<td style="text-align: right;"> 2.311.960 </td>
+<td style="text-align: right; font-weight: bold;"> 2.311.960 </td>
+<td style="text-align: right;"> 85.000 </td>
+<td style="text-align: right;"> 85.000 </td>
+<td style="text-align: right;"> 85.000 </td>
+<td style="text-align: right;"> 85.000 </td>
+<td style="text-align: right;"> 85.000 </td>
+<td style="text-align: right;"> 85.000 </td>
+</tr>
+<tr>
+<td style="font-weight: bold; text-align: center;">Karangasem</td>
+<td style="font-weight: bold; text-align: center;">5523030</td>
+<td style="font-weight: bold; text-align: center;">I Nyoman
+Suartika</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: right;"> 1.278 </td>
+<td style="text-align: right;"> 1.076 </td>
+<td style="text-align: right;"> 1.025 </td>
+<td style="text-align: right;"> 1.025 </td>
+<td style="text-align: right;"> 1.016 </td>
+<td style="text-align: right; font-weight: bold;"> 941 </td>
+<td style="text-align: right;"> 55.664.040 </td>
+<td style="text-align: right;"> 46.799.011 </td>
+<td style="text-align: right;"> 45.107.513 </td>
+<td style="text-align: right;"> 45.107.513 </td>
+<td style="text-align: right;"> 44.695.520 </td>
+<td style="text-align: right; font-weight: bold;"> 42.049.574 </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+</tr>
+<tr>
+<td style="font-weight: bold; text-align: center;">Karangasem</td>
+<td style="font-weight: bold; text-align: center;">5523030</td>
+<td style="font-weight: bold; text-align: center;">I Nyoman
+Suartika</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: right;"> 60 </td>
+<td style="text-align: right;"> 53 </td>
+<td style="text-align: right;"> 51 </td>
+<td style="text-align: right;"> 51 </td>
+<td style="text-align: right;"> 51 </td>
+<td style="text-align: right; font-weight: bold;"> 48 </td>
+<td style="text-align: right;"> 6.121.992 </td>
+<td style="text-align: right;"> 5.829.177 </td>
+<td style="text-align: right;"> 5.682.956 </td>
+<td style="text-align: right;"> 5.682.956 </td>
+<td style="text-align: right;"> 5.682.956 </td>
+<td style="text-align: right; font-weight: bold;"> 5.525.932 </td>
+<td style="text-align: right;"> 382.000 </td>
+<td style="text-align: right;"> 340.000 </td>
+<td style="text-align: right;"> 328.000 </td>
+<td style="text-align: right;"> 328.000 </td>
+<td style="text-align: right;"> 328.000 </td>
+<td style="text-align: right;"> 310.000 </td>
+</tr>
+<tr>
+<td style="font-weight: bold; text-align: center;">Karangasem</td>
+<td style="font-weight: bold; text-align: center;">5523031</td>
+<td style="font-weight: bold; text-align: center;">I Ketut
+Suarjana</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: right;"> 1.306 </td>
+<td style="text-align: right;"> 1.005 </td>
+<td style="text-align: right;"> 870 </td>
+<td style="text-align: right;"> 870 </td>
+<td style="text-align: right;"> 852 </td>
+<td style="text-align: right; font-weight: bold;"> 800 </td>
+<td style="text-align: right;"> 318.076.527 </td>
+<td style="text-align: right;"> 265.916.360 </td>
+<td style="text-align: right;"> 246.567.418 </td>
+<td style="text-align: right;"> 246.567.418 </td>
+<td style="text-align: right;"> 245.651.426 </td>
+<td style="text-align: right; font-weight: bold;"> 212.586.049 </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+</tr>
+<tr>
+<td style="font-weight: bold; text-align: center;">Karangasem</td>
+<td style="font-weight: bold; text-align: center;">5523031</td>
+<td style="font-weight: bold; text-align: center;">I Ketut
+Suarjana</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: right;"> 7 </td>
+<td style="text-align: right;"> 7 </td>
+<td style="text-align: right;"> 5 </td>
+<td style="text-align: right;"> 5 </td>
+<td style="text-align: right;"> 5 </td>
+<td style="text-align: right; font-weight: bold;"> 5 </td>
+<td style="text-align: right;"> 4.473.138 </td>
+<td style="text-align: right;"> 4.473.138 </td>
+<td style="text-align: right;"> 1.892.806 </td>
+<td style="text-align: right;"> 1.892.806 </td>
+<td style="text-align: right;"> 1.892.806 </td>
+<td style="text-align: right; font-weight: bold;"> 1.892.806 </td>
+<td style="text-align: right;"> 74.000 </td>
+<td style="text-align: right;"> 74.000 </td>
+<td style="text-align: right;"> 48.000 </td>
+<td style="text-align: right;"> 48.000 </td>
+<td style="text-align: right;"> 48.000 </td>
+<td style="text-align: right;"> 48.000 </td>
+</tr>
+<tr>
+<td style="font-weight: bold; text-align: center;">Karangasem</td>
+<td style="font-weight: bold; text-align: center;">5523032</td>
+<td style="font-weight: bold; text-align: center;">I Nengah
+Kariasa</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: right;"> 1.425 </td>
+<td style="text-align: right;"> 1.320 </td>
+<td style="text-align: right;"> 1.292 </td>
+<td style="text-align: right;"> 1.292 </td>
+<td style="text-align: right;"> 1.283 </td>
+<td style="text-align: right; font-weight: bold;"> 1.248 </td>
+<td style="text-align: right;"> 81.667.281 </td>
+<td style="text-align: right;"> 75.790.055 </td>
+<td style="text-align: right;"> 74.175.541 </td>
+<td style="text-align: right;"> 74.175.541 </td>
+<td style="text-align: right;"> 73.539.956 </td>
+<td style="text-align: right; font-weight: bold;"> 72.025.385 </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+</tr>
+<tr>
+<td style="font-weight: bold; text-align: center;">Karangasem</td>
+<td style="font-weight: bold; text-align: center;">5523032</td>
+<td style="font-weight: bold; text-align: center;">I Nengah
+Kariasa</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: right;"> 5 </td>
+<td style="text-align: right;"> 5 </td>
+<td style="text-align: right;"> 5 </td>
+<td style="text-align: right;"> 5 </td>
+<td style="text-align: right;"> 5 </td>
+<td style="text-align: right; font-weight: bold;"> 5 </td>
+<td style="text-align: right;"> 602.799 </td>
+<td style="text-align: right;"> 602.799 </td>
+<td style="text-align: right;"> 602.799 </td>
+<td style="text-align: right;"> 602.799 </td>
+<td style="text-align: right;"> 602.799 </td>
+<td style="text-align: right; font-weight: bold;"> 602.799 </td>
+<td style="text-align: right;"> 34.000 </td>
+<td style="text-align: right;"> 34.000 </td>
+<td style="text-align: right;"> 34.000 </td>
+<td style="text-align: right;"> 34.000 </td>
+<td style="text-align: right;"> 34.000 </td>
+<td style="text-align: right;"> 34.000 </td>
+</tr>
+<tr>
+<td style="font-weight: bold; text-align: center;">Karangasem</td>
+<td style="font-weight: bold; text-align: center;">5523032</td>
+<td style="font-weight: bold; text-align: center;">I Nengah
+Kariasa</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: right;"> 3 </td>
+<td style="text-align: right;"> 3 </td>
+<td style="text-align: right;"> 3 </td>
+<td style="text-align: right;"> 3 </td>
+<td style="text-align: right;"> 3 </td>
+<td style="text-align: right; font-weight: bold;"> 2 </td>
+<td style="text-align: right;"> 760.623 </td>
+<td style="text-align: right;"> 760.623 </td>
+<td style="text-align: right;"> 760.623 </td>
+<td style="text-align: right;"> 760.623 </td>
+<td style="text-align: right;"> 760.623 </td>
+<td style="text-align: right; font-weight: bold;"> 452.531 </td>
+<td style="text-align: right;"> 45.000 </td>
+<td style="text-align: right;"> 45.000 </td>
+<td style="text-align: right;"> 45.000 </td>
+<td style="text-align: right;"> 45.000 </td>
+<td style="text-align: right;"> 45.000 </td>
+<td style="text-align: right;"> 30.000 </td>
+</tr>
+<tr>
+<td style="font-weight: bold; text-align: center;">Karangasem</td>
+<td style="font-weight: bold; text-align: center;">5523033</td>
+<td style="font-weight: bold; text-align: center;">MADE SUYADNYA
+PUTRA</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: right;"> 129 </td>
+<td style="text-align: right;"> 118 </td>
+<td style="text-align: right;"> 110 </td>
+<td style="text-align: right;"> 110 </td>
+<td style="text-align: right;"> 110 </td>
+<td style="text-align: right; font-weight: bold;"> 98 </td>
+<td style="text-align: right;"> 2.378.182.972 </td>
+<td style="text-align: right;"> 2.117.114.358 </td>
+<td style="text-align: right;"> 2.007.858.488 </td>
+<td style="text-align: right;"> 2.007.858.488 </td>
+<td style="text-align: right;"> 2.007.858.488 </td>
+<td style="text-align: right; font-weight: bold;"> 1.791.320.493 </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+</tr>
+<tr>
+<td style="font-weight: bold; text-align: center;">Karangasem</td>
+<td style="font-weight: bold; text-align: center;">5523033</td>
+<td style="font-weight: bold; text-align: center;">MADE SUYADNYA
+PUTRA</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: right;"> 6 </td>
+<td style="text-align: right;"> 5 </td>
+<td style="text-align: right;"> 5 </td>
+<td style="text-align: right;"> 5 </td>
+<td style="text-align: right;"> 4 </td>
+<td style="text-align: right; font-weight: bold;"> 4 </td>
+<td style="text-align: right;"> 82.090.615 </td>
+<td style="text-align: right;"> 75.118.619 </td>
+<td style="text-align: right;"> 75.118.619 </td>
+<td style="text-align: right;"> 75.118.619 </td>
+<td style="text-align: right;"> 72.559.091 </td>
+<td style="text-align: right; font-weight: bold;"> 72.559.091 </td>
+<td style="text-align: right;"> 2.190.588 </td>
+<td style="text-align: right;"> 1.990.588 </td>
+<td style="text-align: right;"> 1.990.588 </td>
+<td style="text-align: right;"> 1.990.588 </td>
+<td style="text-align: right;"> 1.790.588 </td>
+<td style="text-align: right;"> 1.790.588 </td>
+</tr>
+<tr>
+<td style="font-weight: bold; text-align: center;">Karangasem</td>
+<td style="font-weight: bold; text-align: center;">5523033</td>
+<td style="font-weight: bold; text-align: center;">MADE SUYADNYA
+PUTRA</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: right;"> 2 </td>
+<td style="text-align: right;"> 2 </td>
+<td style="text-align: right;"> 2 </td>
+<td style="text-align: right;"> 2 </td>
+<td style="text-align: right;"> 2 </td>
+<td style="text-align: right; font-weight: bold;"> 1 </td>
+<td style="text-align: right;"> 64.707.899 </td>
+<td style="text-align: right;"> 64.707.899 </td>
+<td style="text-align: right;"> 64.707.899 </td>
+<td style="text-align: right;"> 64.707.899 </td>
+<td style="text-align: right;"> 64.707.899 </td>
+<td style="text-align: right; font-weight: bold;"> 16.281.459 </td>
+<td style="text-align: right;"> 2.588.746 </td>
+<td style="text-align: right;"> 2.588.746 </td>
+<td style="text-align: right;"> 2.588.746 </td>
+<td style="text-align: right;"> 2.588.746 </td>
+<td style="text-align: right;"> 2.588.746 </td>
+<td style="text-align: right;"> 750.856 </td>
+</tr>
+<tr>
+<td style="font-weight: bold; text-align: center;"> <br>
+</td>
+<td style="font-weight: bold; text-align: center;"> <br>
+</td>
+<td style="font-weight: bold; text-align: center;"> <br>
+</td>
+<td> <br>
+</td>
+<td style="font-weight: bold; text-align: right;"> 43.768 </td>
+<td style="font-weight: bold; text-align: right;"> 37.508 </td>
+<td style="font-weight: bold; text-align: right;"> 34.959 </td>
+<td style="font-weight: bold; text-align: right;"> 34.959 </td>
+<td style="font-weight: bold; text-align: right;"> 33.678 </td>
+<td style="font-weight: bold; text-align: right;"> 31.180 </td>
+<td style="font-weight: bold; text-align: right;"> 7.398.823.303 </td>
+<td style="font-weight: bold; text-align: right;"> 6.531.674.027 </td>
+<td style="font-weight: bold; text-align: right;"> 6.088.329.452 </td>
+<td style="font-weight: bold; text-align: right;"> 6.088.329.452 </td>
+<td style="font-weight: bold; text-align: right;"> 6.005.391.668 </td>
+<td style="font-weight: bold; text-align: right;"> 5.454.559.819 </td>
+<td style="font-weight: bold; text-align: right;"> 18.432.794 </td>
+<td style="font-weight: bold; text-align: right;"> 17.012.794 </td>
+<td style="font-weight: bold; text-align: right;"> 16.594.794 </td>
+<td style="font-weight: bold; text-align: right;"> 16.594.794 </td>
+<td style="font-weight: bold; text-align: right;"> 16.144.794 </td>
+<td style="font-weight: bold; text-align: right;"> 13.146.904 </td>
+</tr>
   </tbody>
 </table>
 
