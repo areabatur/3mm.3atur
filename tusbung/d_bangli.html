@@ -5,64 +5,531 @@
   
 
 <!-- Javascript goes in the document HEAD -->
-  <script type="text/javascript">
+<script type="text/javascript">
 function altRows(id){
-	if(document.getElementsByTagName){  
-		
-		var table = document.getElementById(id);  
-		var rows = table.getElementsByTagName("tr"); 
-		 
-		for(i = 0; i < rows.length; i++){          
-			if(i % 2 == 0){
-				rows[i].className = "evenrowcolor";
-			}else{
-				rows[i].className = "oddrowcolor";
-			}      
-		}
-	}
+if(document.getElementsByTagName){
+
+var table = document.getElementById(id);
+var rows = table.getElementsByTagName("tr");
+
+for(i = 0; i < rows.length; i++){
+if(i % 2 == 0){
+rows[i].className = "evenrowcolor";
+}else{
+rows[i].className = "oddrowcolor";
+}
+}
+}
 }
 window.onload=function(){
-	altRows('alternatecolor');
+altRows('alternatecolor');
 }
-  </script>
-
-<!-- CSS goes in the document HEAD or added to your external stylesheet -->
-  <style type="text/css">
+</script><!-- CSS goes in the document HEAD or added to your external stylesheet -->
+<style type="text/css">
 table.altrowstable {
-	font-family: verdana,arial,sans-serif;
-	font-size:11px;
-	color:#333333;
-	border-width: 1px;
-	border-color: #a9c6c9;
-	border-collapse: collapse;
+font-family: verdana,arial,sans-serif;
+font-size:11px;
+color:#333333;
+border-width: 1px;
+border-color: #a9c6c9;
+border-collapse: collapse;
 }
 table.altrowstable th {
-	border-width: 1px;
-	padding: 8px;
-	border-style: solid;
-	border-color: #a9c6c9;
+padding: 0.25rem;
+border-width: 1px;
+padding: 8px;
+border-style: solid;
+border-color: #a9c6c9;
 }
 table.altrowstable td {
-	border-width: 1px;
-	padding: 8px;
-	border-style: solid;
-	border-color: #a9c6c9;
+padding: 0.25rem;
+border-width: 1px;
+padding: 8px;
+border-style: solid;
+border-color: #a9c6c9;
 }
+tbody tr:hover {
+background: yellow;
+}
+
 .oddrowcolor{
-	background-color:#d4e3e5;
+background-color:#d4e3e5;
 }
 .evenrowcolor{
-	background-color:#c3dde0;
+background-color:#c3dde0;
 }
-  </style>
-</head><body>
+</style>
+</head>
+<body>
 <table class="altrowstable" id="alternatecolor">
-
-  <tbody>
- <tr>
- <td>bangli</td>
- <td>bangli</td>
- </tr>
+	<Caption><strong>##Detail Lembar</strong></Caption>
+<tbody>
+<tr>
+<th>RAYON</th>
+<th>IDBILLMAN</th>
+<th>NAMABILLMAN</th>
+<th>LBR</th>
+<th> PLG_5 </th>
+<th> PLG_10 </th>
+<th> PLG_11 </th>
+<th> PLG_12 </th>
+<th> PLG_13 </th>
+<th> PLG_14 </th>
+<th> RPTAG_5 </th>
+<th> RPTAG_10 </th>
+<th> RPTAG_11 </th>
+<th> RPTAG_12 </th>
+<th> RPTAG_13 </th>
+<th style="font-weight: bold;"> RPTAG_14 </th>
+<th> RPBK_5 </th>
+<th> RPBK_10 </th>
+<th> RPBK_11 </th>
+<th> RPBK_12 </th>
+<th> RPBK_13 </th>
+<th> RPBK_14 </th>
+</tr>
+<tr>
+<td style="font-weight: bold; text-align: center;">Bangli</td>
+<td style="font-weight: bold; text-align: center;">5522001</td>
+<td style="font-weight: bold; text-align: center;">AA Made Sudiana</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: right;"> 1.641 </td>
+<td style="text-align: right;"> 1.432 </td>
+<td style="text-align: right;"> 1.348 </td>
+<td style="text-align: right;"> 1.348 </td>
+<td style="text-align: right;"> 1.328 </td>
+<td style="font-weight: bold; text-align: right;"> 1.248 </td>
+<td style="text-align: right;"> 176.584.124 </td>
+<td style="text-align: right;"> 156.805.637 </td>
+<td style="text-align: right;"> 135.092.632 </td>
+<td style="text-align: right;"> 135.092.632 </td>
+<td style="text-align: right;"> 134.051.331 </td>
+<td style="font-weight: bold; text-align: right;"> 125.786.219 </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+</tr>
+<tr>
+<td style="font-weight: bold; text-align: center;">Bangli</td>
+<td style="font-weight: bold; text-align: center;">5522002</td>
+<td style="font-weight: bold; text-align: center;">Dewa Gede
+Adnyana</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: right;"> 1.486 </td>
+<td style="text-align: right;"> 1.121 </td>
+<td style="text-align: right;"> 1.088 </td>
+<td style="text-align: right;"> 1.088 </td>
+<td style="text-align: right;"> 1.082 </td>
+<td style="font-weight: bold; text-align: right;"> 1.052 </td>
+<td style="text-align: right;"> 93.000.326 </td>
+<td style="text-align: right;"> 75.969.855 </td>
+<td style="text-align: right;"> 52.787.579 </td>
+<td style="text-align: right;"> 52.787.579 </td>
+<td style="text-align: right;"> 52.679.581 </td>
+<td style="font-weight: bold; text-align: right;"> 51.329.302 </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+</tr>
+<tr>
+<td style="font-weight: bold; text-align: center;">Bangli</td>
+<td style="font-weight: bold; text-align: center;">5522003</td>
+<td style="font-weight: bold; text-align: center;">I Wayan Putu
+Gunadi</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: right;"> 1.521 </td>
+<td style="text-align: right;"> 1.252 </td>
+<td style="text-align: right;"> 1.186 </td>
+<td style="text-align: right;"> 1.186 </td>
+<td style="text-align: right;"> 1.109 </td>
+<td style="font-weight: bold; text-align: right;"> 1.064 </td>
+<td style="text-align: right;"> 125.274.086 </td>
+<td style="text-align: right;"> 111.218.940 </td>
+<td style="text-align: right;"> 106.873.855 </td>
+<td style="text-align: right;"> 106.873.855 </td>
+<td style="text-align: right;"> 101.556.667 </td>
+<td style="font-weight: bold; text-align: right;"> 98.703.353 </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+</tr>
+<tr>
+<td style="font-weight: bold; text-align: center;">Bangli</td>
+<td style="font-weight: bold; text-align: center;">5522004</td>
+<td style="font-weight: bold; text-align: center;">Ketut Sudarmono</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: right;"> 1.410 </td>
+<td style="text-align: right;"> 958 </td>
+<td style="text-align: right;"> 934 </td>
+<td style="text-align: right;"> 934 </td>
+<td style="text-align: right;"> 883 </td>
+<td style="font-weight: bold; text-align: right;"> 810 </td>
+<td style="text-align: right;"> 87.519.661 </td>
+<td style="text-align: right;"> 72.864.033 </td>
+<td style="text-align: right;"> 40.735.090 </td>
+<td style="text-align: right;"> 40.735.090 </td>
+<td style="text-align: right;"> 39.000.429 </td>
+<td style="font-weight: bold; text-align: right;"> 35.690.078 </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+</tr>
+<tr>
+<td style="font-weight: bold; text-align: center;">Bangli</td>
+<td style="font-weight: bold; text-align: center;">5522005</td>
+<td style="font-weight: bold; text-align: center;">I Gusti Ngurah
+Putra Adnyana</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: right;"> 1.517 </td>
+<td style="text-align: right;"> 1.341 </td>
+<td style="text-align: right;"> 1.302 </td>
+<td style="text-align: right;"> 1.302 </td>
+<td style="text-align: right;"> 1.293 </td>
+<td style="font-weight: bold; text-align: right;"> 1.110 </td>
+<td style="text-align: right;"> 79.188.386 </td>
+<td style="text-align: right;"> 71.072.862 </td>
+<td style="text-align: right;"> 67.835.899 </td>
+<td style="text-align: right;"> 67.835.899 </td>
+<td style="text-align: right;"> 67.498.215 </td>
+<td style="font-weight: bold; text-align: right;"> 60.072.711 </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+</tr>
+<tr>
+<td style="font-weight: bold; text-align: center;">Bangli</td>
+<td style="font-weight: bold; text-align: center;">5522006</td>
+<td style="font-weight: bold; text-align: center;">I Nengah Puja</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: right;"> 1.609 </td>
+<td style="text-align: right;"> 962 </td>
+<td style="text-align: right;"> 826 </td>
+<td style="text-align: right;"> 826 </td>
+<td style="text-align: right;"> 823 </td>
+<td style="font-weight: bold; text-align: right;"> 785 </td>
+<td style="text-align: right;"> 93.762.089 </td>
+<td style="text-align: right;"> 57.244.826 </td>
+<td style="text-align: right;"> 49.177.237 </td>
+<td style="text-align: right;"> 49.177.237 </td>
+<td style="text-align: right;"> 49.047.690 </td>
+<td style="font-weight: bold; text-align: right;"> 47.400.647 </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+</tr>
+<tr>
+<td style="font-weight: bold; text-align: center;">Bangli</td>
+<td style="font-weight: bold; text-align: center;">5522007</td>
+<td style="font-weight: bold; text-align: center;">I Dewa Made
+Sineb</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: right;"> 1.568 </td>
+<td style="text-align: right;"> 1.444 </td>
+<td style="text-align: right;"> 1.419 </td>
+<td style="text-align: right;"> 1.419 </td>
+<td style="text-align: right;"> 1.412 </td>
+<td style="font-weight: bold; text-align: right;"> 1.264 </td>
+<td style="text-align: right;"> 85.175.164 </td>
+<td style="text-align: right;"> 79.926.632 </td>
+<td style="text-align: right;"> 77.781.159 </td>
+<td style="text-align: right;"> 77.781.159 </td>
+<td style="text-align: right;"> 77.581.040 </td>
+<td style="font-weight: bold; text-align: right;"> 71.826.143 </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+</tr>
+<tr>
+<td style="font-weight: bold; text-align: center;">Bangli</td>
+<td style="font-weight: bold; text-align: center;">5522009</td>
+<td style="font-weight: bold; text-align: center;">Ketut Sumarsa</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: right;"> 1.676 </td>
+<td style="text-align: right;"> 1.316 </td>
+<td style="text-align: right;"> 1.010 </td>
+<td style="text-align: right;"> 1.010 </td>
+<td style="text-align: right;"> 1.003 </td>
+<td style="font-weight: bold; text-align: right;"> 981 </td>
+<td style="text-align: right;"> 93.068.541 </td>
+<td style="text-align: right;"> 77.323.806 </td>
+<td style="text-align: right;"> 53.010.232 </td>
+<td style="text-align: right;"> 53.010.232 </td>
+<td style="text-align: right;"> 52.779.165 </td>
+<td style="font-weight: bold; text-align: right;"> 51.793.325 </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+</tr>
+<tr>
+<td style="font-weight: bold; text-align: center;">Bangli</td>
+<td style="font-weight: bold; text-align: center;">5522010</td>
+<td style="font-weight: bold; text-align: center;">Nengah Mariana</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: right;"> 1.528 </td>
+<td style="text-align: right;"> 1.305 </td>
+<td style="text-align: right;"> 1.211 </td>
+<td style="text-align: right;"> 1.211 </td>
+<td style="text-align: right;"> 1.198 </td>
+<td style="font-weight: bold; text-align: right;"> 1.092 </td>
+<td style="text-align: right;"> 308.852.718 </td>
+<td style="text-align: right;"> 280.305.053 </td>
+<td style="text-align: right;"> 260.369.734 </td>
+<td style="text-align: right;"> 260.369.734 </td>
+<td style="text-align: right;"> 259.574.981 </td>
+<td style="font-weight: bold; text-align: right;"> 245.539.743 </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+</tr>
+<tr>
+<td style="font-weight: bold; text-align: center;">Bangli</td>
+<td style="font-weight: bold; text-align: center;">5522011</td>
+<td style="font-weight: bold; text-align: center;">I Kadek
+Sumertana</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: right;"> 1.577 </td>
+<td style="text-align: right;"> 1.402 </td>
+<td style="text-align: right;"> 1.363 </td>
+<td style="text-align: right;"> 1.363 </td>
+<td style="text-align: right;"> 1.360 </td>
+<td style="font-weight: bold; text-align: right;"> 1.329 </td>
+<td style="text-align: right;"> 109.877.581 </td>
+<td style="text-align: right;"> 98.277.495 </td>
+<td style="text-align: right;"> 92.283.319 </td>
+<td style="text-align: right;"> 92.283.319 </td>
+<td style="text-align: right;"> 92.186.842 </td>
+<td style="font-weight: bold; text-align: right;"> 90.488.493 </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+</tr>
+<tr>
+<td style="font-weight: bold; text-align: center;">Bangli</td>
+<td style="font-weight: bold; text-align: center;">5522012</td>
+<td style="font-weight: bold; text-align: center;">I Gede Redina</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: right;"> 1.378 </td>
+<td style="text-align: right;"> 1.354 </td>
+<td style="text-align: right;"> 1.342 </td>
+<td style="text-align: right;"> 1.342 </td>
+<td style="text-align: right;"> 1.333 </td>
+<td style="font-weight: bold; text-align: right;"> 1.182 </td>
+<td style="text-align: right;"> 82.339.558 </td>
+<td style="text-align: right;"> 81.237.183 </td>
+<td style="text-align: right;"> 80.362.348 </td>
+<td style="text-align: right;"> 80.362.348 </td>
+<td style="text-align: right;"> 80.161.653 </td>
+<td style="font-weight: bold; text-align: right;"> 74.554.289 </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+</tr>
+<tr>
+<td style="font-weight: bold; text-align: center;">Bangli</td>
+<td style="font-weight: bold; text-align: center;">5522013</td>
+<td style="font-weight: bold; text-align: center;">I Wayan Suarka</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: right;"> 1.290 </td>
+<td style="text-align: right;"> 1.186 </td>
+<td style="text-align: right;"> 1.178 </td>
+<td style="text-align: right;"> 1.178 </td>
+<td style="text-align: right;"> 1.176 </td>
+<td style="font-weight: bold; text-align: right;"> 1.174 </td>
+<td style="text-align: right;"> 197.745.812 </td>
+<td style="text-align: right;"> 192.820.772 </td>
+<td style="text-align: right;"> 188.195.154 </td>
+<td style="text-align: right;"> 188.195.154 </td>
+<td style="text-align: right;"> 188.143.409 </td>
+<td style="font-weight: bold; text-align: right;"> 188.062.108 </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+</tr>
+<tr>
+<td style="font-weight: bold; text-align: center;">Bangli</td>
+<td style="font-weight: bold; text-align: center;">5522014</td>
+<td style="font-weight: bold; text-align: center;">Wayan Sastra</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: right;"> 1.392 </td>
+<td style="text-align: right;"> 1.232 </td>
+<td style="text-align: right;"> 1.212 </td>
+<td style="text-align: right;"> 1.212 </td>
+<td style="text-align: right;"> 1.211 </td>
+<td style="font-weight: bold; text-align: right;"> 1.133 </td>
+<td style="text-align: right;"> 73.171.345 </td>
+<td style="text-align: right;"> 65.123.567 </td>
+<td style="text-align: right;"> 63.664.539 </td>
+<td style="text-align: right;"> 63.664.539 </td>
+<td style="text-align: right;"> 63.657.830 </td>
+<td style="font-weight: bold; text-align: right;"> 59.978.460 </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+</tr>
+<tr>
+<td style="font-weight: bold; text-align: center;">Bangli</td>
+<td style="font-weight: bold; text-align: center;">5522015</td>
+<td style="font-weight: bold; text-align: center;">I Made Juita</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: right;"> 1.363 </td>
+<td style="text-align: right;"> 1.154 </td>
+<td style="text-align: right;"> 1.111 </td>
+<td style="text-align: right;"> 1.111 </td>
+<td style="text-align: right;"> 1.103 </td>
+<td style="font-weight: bold; text-align: right;"> 1.087 </td>
+<td style="text-align: right;"> 119.310.952 </td>
+<td style="text-align: right;"> 112.697.508 </td>
+<td style="text-align: right;"> 109.852.843 </td>
+<td style="text-align: right;"> 109.852.843 </td>
+<td style="text-align: right;"> 109.020.884 </td>
+<td style="font-weight: bold; text-align: right;"> 108.286.338 </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+</tr>
+<tr>
+<td style="font-weight: bold; text-align: center;">Bangli</td>
+<td style="font-weight: bold; text-align: center;">5522016</td>
+<td style="font-weight: bold; text-align: center;">Nyoman Arnata</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: right;"> 1.452 </td>
+<td style="text-align: right;"> 1.426 </td>
+<td style="text-align: right;"> 1.326 </td>
+<td style="text-align: right;"> 1.326 </td>
+<td style="text-align: right;"> 1.208 </td>
+<td style="font-weight: bold; text-align: right;"> 1.194 </td>
+<td style="text-align: right;"> 83.963.858 </td>
+<td style="text-align: right;"> 82.256.536 </td>
+<td style="text-align: right;"> 77.566.822 </td>
+<td style="text-align: right;"> 77.566.822 </td>
+<td style="text-align: right;"> 73.750.614 </td>
+<td style="font-weight: bold; text-align: right;"> 73.340.071 </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+</tr>
+<tr>
+<td style="font-weight: bold; text-align: center;">Bangli</td>
+<td style="font-weight: bold; text-align: center;">5522017</td>
+<td style="font-weight: bold; text-align: center;">I Wayan Agus
+Natakusuma</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: right;"> 1.340 </td>
+<td style="text-align: right;"> 1.130 </td>
+<td style="text-align: right;"> 1.118 </td>
+<td style="text-align: right;"> 1.118 </td>
+<td style="text-align: right;"> 1.021 </td>
+<td style="font-weight: bold; text-align: right;"> 1.008 </td>
+<td style="text-align: right;"> 49.403.911 </td>
+<td style="text-align: right;"> 43.252.628 </td>
+<td style="text-align: right;"> 42.672.575 </td>
+<td style="text-align: right;"> 42.672.575 </td>
+<td style="text-align: right;"> 40.035.362 </td>
+<td style="font-weight: bold; text-align: right;"> 39.701.100 </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+</tr>
+<tr>
+<td style="font-weight: bold; text-align: center;">Bangli</td>
+<td style="font-weight: bold; text-align: center;">5522018</td>
+<td style="font-weight: bold; text-align: center;">MADE PUTRA</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: right;"> 30 </td>
+<td style="text-align: right;"> 29 </td>
+<td style="text-align: right;"> 21 </td>
+<td style="text-align: right;"> 21 </td>
+<td style="text-align: right;"> 20 </td>
+<td style="font-weight: bold; text-align: right;"> 19 </td>
+<td style="text-align: right;"> 422.545.528 </td>
+<td style="text-align: right;"> 412.440.041 </td>
+<td style="text-align: right;"> 249.308.080 </td>
+<td style="text-align: right;"> 249.308.080 </td>
+<td style="text-align: right;"> 222.683.950 </td>
+<td style="font-weight: bold; text-align: right;"> 213.670.144 </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+</tr>
+<tr>
+<td> <br>
+</td>
+<td> <br>
+</td>
+<td> <br>
+</td>
+<td style="text-align: center;"> <br>
+</td>
+<td style="text-align: right;"> 23.778 </td>
+<td style="text-align: right;"> 20.044 </td>
+<td style="text-align: right;"> 18.995 </td>
+<td style="text-align: right;"> 18.995 </td>
+<td style="text-align: right;"> 18.563 </td>
+<td style="font-weight: bold; text-align: right;"> 17.532 </td>
+<td style="text-align: right;"> 2.280.783.640 </td>
+<td style="text-align: right;"> 2.070.837.374 </td>
+<td style="text-align: right;"> 1.747.569.097 </td>
+<td style="text-align: right;"> 1.747.569.097 </td>
+<td style="text-align: right;"> 1.703.409.643 </td>
+<td style="font-weight: bold; text-align: right;"> 1.636.222.524 </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+</tr>
  
   </tbody>
 </table>
