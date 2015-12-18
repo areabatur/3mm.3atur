@@ -1,6 +1,35 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html><head>
+	<meta http-equiv="X-UA-Compatible" content="chrome=1">
+<meta name="robots" content="noindex">
   <title>Content</title>
+  
+  <link rel="stylesheet" href="css/website.css" type="text/css"
+media="screen">
+<style>
+/* Override the background image */
+body {
+background-color: white;
+background-image: none;
+padding: 0;
+text-align: left;
+}
+</style>
+<script src="js/RGraph.common.core.js"></script>
+<script src="js/RGraph.common.dynamic.js"></script>
+<script src="js/RGraph.common.key.js"></script>
+<script src="js/RGraph.drawing.rect.js"></script>
+<script src="js/RGraph.common.effects.js"></script>
+<script src="js/RGraph.common.tooltips.js"></script>
+<script src="js/RGraph.bar.js"></script>
+<style>
+/* Override the main sites padding that allows for the nav bar */
+body {
+padding-top: 0 !important;
+}
+</style>
+</head>
+<head>
 
   <!-- Javascript goes in the document HEAD -->
 <script type="text/javascript">
@@ -324,6 +353,43 @@ background-color:#c3dde0;
   </tbody>
 </table>
 
+<hr>
+<body style="margin: 8px ! important;">
+&nbsp;
+<canvas width="600" height="350" id="cvs_bar" style="float: left;"></canvas>
+<script>
+window.onload = function ()
+{
+var bar = new RGraph.Bar('cvs_bar', [[-3.16,-2.78],[-2.14,-1.05],[-2.42,-1.40],[-2.15,-1.61],[-2.50,-1.29]])
+.set('colors', [
+'rgba(255, 176, 176, 1)',
+'rgba(153, 208, 249,1)'
+])
+.set('labels', ['Gianyar', 'Klungkung', 'Bangli', 'Karangasem','Batur'])
+.set('tooltips', ['Gianyar -3.16','Gianyar -2.78','Klungkung -2.14','Klungkung -1.05','Bangli -2.42','Bangli -1.40','Karangasem -2.15','Karangasem -1.61','Batur -2.50','Batur -1.29'])
+.set('tooltips.event', 'onmousemove')
+.set('ymax', 10)
+.set('ylabels.count', 4)
+.set('numyticks', 8)
+.set('strokestyle', 'rgba(0,0,0,0)')
+.set('hmargin.grouped', 2)
+.set('units.pre', '%')
+.set('title', 'Progres Batur 18.12.2015')
+.set('title.y', 25)
+.set('gutter.top', 55)
+.set('gutter.left', 40)
+.set('gutter.right', 15)
+.set('gutter.bottom', 80)
+.set('xaxispos', 'center')
+.set('key', ['% Lembar','% Rp Tagihan'])
+.set('key.position', 'gutter')
+.set('key.position.y', 30)
+.set('variant', '3d')
+.set('axis.color', '#aaa')
+.draw()
+};
+</script>
+</body>
 </body>
  <script type="text/javascript">
             var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
