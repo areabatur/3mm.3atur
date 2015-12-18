@@ -57,9 +57,47 @@ background-color:#c3dde0;
     <script src="js/RGraph.bar.js" ></script>
     
 </head>
+   <canvas width="600" height="300" id="cvs_bar" style="float: left"></canvas>
+   <script>
+window.onload = function ()
+{
+var bar = new RGraph.Bar('cvs_bar', [[-3.16,-2.78],[-2.14,-1.05],[-2.42,-1.40],[-2.15,-1.61],[-2.50,-1.29]])
+.set('colors', [
+'rgba(255, 176, 176, 1)',
+'rgba(153, 208, 249,1)'
+])
+.set('labels', ['Gianyar', 'Klungkung', 'Bangli', 'Karangasem','Batur'])
+.set('tooltips', ['Gianyar -3.16','Gianyar -2.78','Klungkung -2.14','Klungkung -1.05','Bangli -2.42','Bangli -1.40','Karangasem -2.15','Karangasem -1.61','Batur -2.50','Batur -1.29'])
+.set('tooltips.event', 'onmousemove')
+.set('ymax', 10)
+.set('ylabels.count', 4)
+.set('numyticks', 8)
+.set('strokestyle', 'rgba(0,0,0,0)')
+.set('hmargin.grouped', 2)
+.set('units.pre', '%')
+.set('title', 'Progres Batur 18.12.2015')
+.set('title.y', 25)
+.set('gutter.top', 55)
+.set('gutter.left', 40)
+.set('gutter.right', 15)
+.set('gutter.bottom', 80)
+.set('xaxispos', 'center')
+.set('key', ['% Lembar','% Rp Tagihan'])
+.set('key.position', 'gutter')
+.set('key.position.y', 30)
+.set('variant', '3d')
+.set('axis.color', '#aaa')
+.draw()
+};
+</script>
 
-
-</head><body>
+</head>
+<br>
+<br>
+<br>
+<hr>
+<br>
+<body>
 <table class="altrowstable" id="alternatecolor">
 	<CAPTION><strong>##Detail Harian -Area Batur##</strong></CAPTION>	
   <tbody>
@@ -330,39 +368,7 @@ background-color:#c3dde0;
 </body>
 
 
-    <canvas width="600" height="300" id="cvs_bar" style="float: left"></canvas>
-   <script>
-window.onload = function ()
-{
-var bar = new RGraph.Bar('cvs_bar', [[-3.16,-2.78],[-2.14,-1.05],[-2.42,-1.40],[-2.15,-1.61],[-2.50,-1.29]])
-.set('colors', [
-'rgba(255, 176, 176, 1)',
-'rgba(153, 208, 249,1)'
-])
-.set('labels', ['Gianyar', 'Klungkung', 'Bangli', 'Karangasem','Batur'])
-.set('tooltips', ['Gianyar -3.16','Gianyar -2.78','Klungkung -2.14','Klungkung -1.05','Bangli -2.42','Bangli -1.40','Karangasem -2.15','Karangasem -1.61','Batur -2.50','Batur -1.29'])
-.set('tooltips.event', 'onmousemove')
-.set('ymax', 10)
-.set('ylabels.count', 4)
-.set('numyticks', 8)
-.set('strokestyle', 'rgba(0,0,0,0)')
-.set('hmargin.grouped', 2)
-.set('units.pre', '%')
-.set('title', 'Progres Batur 18.12.2015')
-.set('title.y', 25)
-.set('gutter.top', 55)
-.set('gutter.left', 40)
-.set('gutter.right', 15)
-.set('gutter.bottom', 80)
-.set('xaxispos', 'center')
-.set('key', ['% Lembar','% Rp Tagihan'])
-.set('key.position', 'gutter')
-.set('key.position.y', 30)
-.set('variant', '3d')
-.set('axis.color', '#aaa')
-.draw()
-};
-</script>	
+ 	
 	
 </body>
 
