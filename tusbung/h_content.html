@@ -1,19 +1,18 @@
-<!DOCTYPE html>
 <html>
 <head>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    
-    <meta name="robots" content="noindex">    
-    <link rel="stylesheet" href="css/website.css" type="text/css" media="screen" />    
-    <style>
-        /* Override the background image */
-        body {
-            background-color: white;
-            background-image: none;
-            padding: 0;
-            text-align: left;
-        }
-    </style>
+<meta http-equiv="X-UA-Compatible" content="chrome=1">
+<meta name="robots" content="noindex">
+<link rel="stylesheet" href="css/website.css" type="text/css"
+media="screen">
+<style>
+/* Override the background image */
+body {
+background-color: white;
+background-image: none;
+padding: 0;
+text-align: left;
+}
+</style>
 <style type="text/css">
 table.altrowstable {
 font-family: verdana,arial,sans-serif;
@@ -46,25 +45,15 @@ background-color:#d4e3e5;
 .evenrowcolor{
 background-color:#c3dde0;
 }
-</style>	
-   
-    <script src="js/RGraph.common.core.js" ></script>
-    <script src="js/RGraph.common.dynamic.js" ></script>
-    <script src="js/RGraph.common.key.js" ></script>
-    <script src="js/RGraph.drawing.rect.js" ></script>
-    <script src="js/RGraph.common.effects.js" ></script>
-    <script src="js/RGraph.common.tooltips.js" ></script>
-    <script src="js/RGraph.bar.js" ></script>
-    
-</head>
-   <canvas width="600" height="300" id="cvs_bar" style="float: left"></canvas>
-   
-   <br>
-<br>
-<br>
-<hr>
-<br>
-   <script>
+</style>
+<script src="libraries/RGraph.common.core.js"></script>
+<script src="libraries/RGraph.common.dynamic.js"></script>
+<script src="libraries/RGraph.common.key.js"></script>
+<script src="libraries/RGraph.drawing.rect.js"></script>
+<script src="libraries/RGraph.common.effects.js"></script>
+<script src="libraries/RGraph.common.tooltips.js"></script>
+<script src="libraries/RGraph.bar.js"></script>
+<script>
 window.onload = function ()
 {
 var bar = new RGraph.Bar('cvs_bar', [[-3.16,-2.78],[-2.14,-1.05],[-2.42,-1.40],[-2.15,-1.61],[-2.50,-1.29]])
@@ -96,13 +85,12 @@ var bar = new RGraph.Bar('cvs_bar', [[-3.16,-2.78],[-2.14,-1.05],[-2.42,-1.40],[
 .draw()
 };
 </script>
-
 </head>
-
 <body>
+<canvas width="600" height="300" id="cvs_bar" style=""></canvas>
+<hr>
 <table class="altrowstable" id="alternatecolor">
-	<CAPTION><strong>##Detail Harian -Area Batur##</strong></CAPTION>	
-  <tbody>
+<caption><strong>##Detail Harian -Area Batur##</strong></caption> <tbody>
 <tr>
 <th>NO</th>
 <th>RAYON</th>
@@ -362,16 +350,8 @@ var bar = new RGraph.Bar('cvs_bar', [[-3.16,-2.78],[-2.14,-1.05],[-2.42,-1.40],[
 <td style="text-align: center; font-weight: bold;"> <br>
 </td>
 </tr>
- 
-  </tbody>
+</tbody>
 </table>
-
-
 </body>
-
-
- 	
-	
-</body>
-
 </html>
+
