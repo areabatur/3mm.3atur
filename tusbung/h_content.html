@@ -50,9 +50,11 @@ background-color:#c3dde0;
 <script src="js/RGraph.common.dynamic.js"></script>
 <script src="js/RGraph.common.key.js"></script>
 <script src="js/RGraph.drawing.rect.js"></script>
+<script src="js/RGraph.drawing.text.js"></script>
 <script src="js/RGraph.common.effects.js"></script>
 <script src="js/RGraph.common.tooltips.js"></script>
 <script src="js/RGraph.bar.js"></script>
+<script src="js/RGraph.Pie.js"></script>
 <script>
 window.onload = function ()
 {
@@ -83,7 +85,28 @@ var bar = new RGraph.Bar('cvs_bar', [[-3.16,-2.78],[-2.14,-1.05],[-2.42,-1.40],[
 .set('variant', '2d')
 .set('axis.color', '#aaa')
 .set('labelsAbove', 'true')
-.grow()
+.grow();
+
+var pie = new RGraph.Pie({
+id: 'cvs2',
+data: [1083428737,6207163109,2468267856,988321192],
+options: {
+strokestyle: '#e8e8e8',
+title: 'Rupiah Per Rayon 18.12.2015',
+variant: 'pie3d',
+linewidth: 2,
+shadowOffsetx: 0,
+shadowOffsety: 15,
+shadowColor: '#aaa',
+exploded: 10,
+radius: 80,
+labels: ['Bangli','Gianyar','Karangasem','Klungkung'],
+labelsSticks: true,
+tooltips: ['Rp 1.083.428.737','Rp 6.207.163.109','Rp 2.468.267.856','Rp 988.321.192'],
+colors: ['Gradient(#fbb:red)', 'Gradient(#bfb:green)','Gradient(#bbf:blue)','Gradient(#bbf:yellow)'],
+labelsSticksLength: 15
+}
+}).roundRobin();
 };
 </script>
 </head>
@@ -91,7 +114,8 @@ var bar = new RGraph.Bar('cvs_bar', [[-3.16,-2.78],[-2.14,-1.05],[-2.42,-1.40],[
  <br>
  <br>
  <br>
-<canvas width="800" height="350" id="cvs_bar" style=""></canvas>
+<canvas width="400" height="350" id="cvs_bar" style=""></canvas>
+<canvas width="400" height="350" id="cvs2" style=""></canvas>
 <br>
 <hr>
 <table class="altrowstable" id="alternatecolor">
