@@ -2,7 +2,19 @@
 <html><head>
   <title>Content</title>
 
-  
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    
+    <meta name="robots" content="noindex">    
+    <link rel="stylesheet" href="css/website.css" type="text/css" media="screen">    
+    <style>
+        /* Override the background image */
+        body {
+            background-color: white;
+            background-image: none;
+            padding: 0;
+            text-align: left;
+        }
+    </style> 
 
 <!-- Javascript goes in the document HEAD -->
 <script type="text/javascript">
@@ -59,7 +71,49 @@ background-color:#d4e3e5;
 background-color:#c3dde0;
 }
 </style>
-</head><body>
+    <script src="js/RGraph.common.core.js"></script>
+    <script src="js/RGraph.common.dynamic.js"></script>
+    <script src="js/RGraph.common.key.js"></script>
+    <script src="js/RGraph.drawing.rect.js"></script>
+    <script src="js/RGraph.common.effects.js"></script>
+    <script src="js/RGraph.common.tooltips.js"></script>
+    <script src="js/RGraph.pie.js"></script>
+
+    
+<script>
+window.onload = function ()
+{
+
+var pie = new RGraph.Pie({
+id: 'cvs3',
+data: [1083428737,6207163109,2468267856,988321192],
+options: {
+strokestyle: '#e8e8e8',
+title: 'Rupiah Per Rayon 18.12.2015',
+variant: 'pie3d',
+linewidth: 2,
+shadowOffsetx: 0,
+shadowOffsety: 15,
+shadowColor: '#aaa',
+exploded: 10,
+radius: 80,
+labels: ['Bangli','Gianyar','Karangasem','Klungkung'],
+labelsSticks: true,
+tooltips: ['Rp 1.083.428.737','Rp 6.207.163.109','Rp 2.468.267.856','Rp 988.321.192'],
+colors: ['Gradient(#fbb:red)', 'Gradient(#bfb:green)','Gradient(#bbf:blue)','Gradient(#bbf:yellow)'],
+labelsSticksLength: 15
+}
+}).roundRobin()
+
+};
+</script>
+</head>
+<body>
+	<br>
+	<br>
+<canvas width="600" height="300" id="cvs3" style=""></canvas>   
+<br>
+<hr>
 <table class="altrowstable" id="alternatecolor">
 	<CAPTION><strong>##Detail Lembar - Area Batur##</strong></CAPTION>	
   <tbody>
