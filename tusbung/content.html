@@ -83,6 +83,26 @@ background-color:#c3dde0;
 <script>
 window.onload = function ()
 {
+var pie = new RGraph.Pie({
+id: 'cvs2',
+data: [356924310,3264296432,1247373144,535160977 ],
+options: {
+strokestyle: '#e8e8e8',
+title: 'Rupiah Per Rayon 21.12.2015',
+variant: 'pie3d',
+linewidth: 2,
+shadowOffsetx: 0,
+shadowOffsety: 15,
+shadowColor: '#aaa',
+exploded: 10,
+radius: 80,
+labels: ['Bangli','Gianyar','Karangasem','Klungkung'],
+labelsSticks: true,
+tooltips: ['Rp 356.924.310','Rp 3.264.296.432','Rp 1.247.373.144','Rp 535.160.977'],
+colors: ['red', 'green','blue','yellow'],
+labelsSticksLength: 5
+}
+}).grow()
 
 var pie = new RGraph.Pie({
 id: 'cvs3',
@@ -110,7 +130,8 @@ labelsSticksLength: 5
 </head>
 <body>
 
-<canvas width="800" height="350" id="cvs3" style=""></canvas>   
+<canvas width="800" height="350" id="cvs2" style=""></canvas> 
+<canvas width="800" height="350" id="cvs3" style=""></canvas> 
 <hr>
 <table class="altrowstable" id="alternatecolor">
 <caption><strong>##Detail Lembar 21 - Area Batur##</strong></caption> <tbody>
