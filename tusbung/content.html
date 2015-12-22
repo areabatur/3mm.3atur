@@ -85,41 +85,24 @@ window.onload = function ()
 {
 var pie = new RGraph.Pie({
 id: 'cvs2',
-data: [356924310,3264296432,1247373144,535160977 ],
-options: {
-strokestyle: '#e8e8e8',
-title: 'Rupiah Per Rayon 21.12.2015',
-variant: 'pie3d',
-linewidth: 2,
-shadowOffsetx: 0,
-shadowOffsety: 15,
-shadowColor: '#aaa',
-exploded: 10,
+data: [236214182,2350248455,884872355,377608764 ],
+options: {strokestyle: '#e8e8e8',title: 'Rupiah Per Rayon 21.12.2015',variant: 'pie3d',
+linewidth: 2,shadowOffsetx: 0,shadowOffsety: 15,shadowColor: '#aaa',exploded: 10,
 radius: 80,
 labels: ['Bangli','Gianyar','Karangasem','Klungkung'],
-labelsSticks: true,
-tooltips: ['Rp 356.924.310','Rp 3.264.296.432','Rp 1.247.373.144','Rp 535.160.977'],
-colors: ['red', 'green','blue','yellow'],
-labelsSticksLength: 5
+labelsSticks: true,tooltips: ['Rp 236.214.182','Rp 2.350.248.455','Rp 884.872.355','Rp 377.608.764'],
+colors: ['red', 'green','blue','yellow'],labelsSticksLength: 5
 }
 }).grow()
 
 var pie = new RGraph.Pie({
 id: 'cvs3',
 data: [356924310,3264296432,1247373144,535160977 ],
-options: {
-strokestyle: '#e8e8e8',
-title: 'Rupiah Per Rayon 20.12.2015',
-variant: 'pie3d',
-linewidth: 2,
-shadowOffsetx: 0,
-shadowOffsety: 15,
-shadowColor: '#aaa',
-exploded: 10,
+options: {strokestyle: '#e8e8e8',title: 'Rupiah Per Rayon 20.12.2015',variant: 'pie3d',
+linewidth: 2,shadowOffsetx: 0,shadowOffsety: 15,shadowColor: '#aaa',exploded: 10,
 radius: 80,
 labels: ['Bangli','Gianyar','Karangasem','Klungkung'],
-labelsSticks: true,
-tooltips: ['Rp 356.924.310','Rp 3.264.296.432','Rp 1.247.373.144','Rp 535.160.977'],
+labelsSticks: true,tooltips: ['Rp 356.924.310','Rp 3.264.296.432','Rp 1.247.373.144','Rp 535.160.977'],
 colors: ['red', 'green','blue','yellow'],
 labelsSticksLength: 5
 }
@@ -129,9 +112,10 @@ labelsSticksLength: 5
 </script>
 </head>
 <body>
-
-<canvas width="800" height="350" id="cvs2" style=""></canvas> 
-<canvas width="800" height="350" id="cvs3" style=""></canvas> 
+<table><tbody><tr>
+  <td><canvas width="800" height="350" id="cvs2" style=""></canvas></td>
+  <td><canvas width="800" height="350" id="cvs3" style=""></canvas> </td>
+  </tr></tbody></table>
 <hr>
 <table class="altrowstable" id="alternatecolor">
 <caption><strong>##Detail Lembar 21 - Area Batur##</strong></caption> <tbody>
