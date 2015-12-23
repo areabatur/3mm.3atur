@@ -58,13 +58,13 @@ background-color:#c3dde0;
 <script>
 window.onload = function ()
 {
-var bar = new RGraph.Bar('cvs_bar', [[-15.4,-13.1],[-2.7,-2.2],[-2.6,-2.3],[-11.7,-11.8],[-3.7,-2.8]])
+var bar = new RGraph.Bar('cvs_bar', [[-15.4,-11.1],[-1.8,-1.2],[-2.0,-1.3],[-8.9,-9.7],[-2.7,-1.8]])
 .set('colors', [
 'rgba(255, 176, 176, 1)',
 'rgba(153, 208, 249,1)'
 ])
 .set('labels', ['Bangli', 'Gianyar', 'Karangasem', 'Klungkung','Batur'])
-.set('tooltips', ['Bangli : -15.4','Bangli : -13.1','Gianyar : -2.7','Gianyar : -2.2','Karangasem : -2.6','Karangasem : -2.3','Klungkung : -11.7','Klungkung : -11.8','Batur : -3.7','Batur : -2.8'])
+.set('tooltips', ['Bangli : -15.4','Bangli : -11.1','Gianyar : -1.8','Gianyar : -1.2','Karangasem : -2.0','Karangasem : -1.3','Klungkung : -8.9','Klungkung : -9.7','Batur : -2.7','Batur : -1.8'])
 .set('tooltips.event', 'onmousemove').set('ymax', 200).set('ylabels.count', 2).set('numyticks', 8)
 .set('strokestyle', 'rgba(0,0,0,0)').set('hmargin.grouped', 2).set('units.pre', '').set('title', 'Progres Batur 22.12.2015')
 .set('title.y', 25).set('gutter.top', 55).set('gutter.left', 40)
@@ -98,11 +98,6 @@ var bar = new RGraph.Bar('cvs_bar1', [[35,43],[-37,40],[-26,28],[-74,5],[-32,34]
   <td><canvas width="600" height="350" id="cvs_bar" style=""></canvas></td>
   <td><canvas width="600" height="350" id="cvs_bar1" style=""></canvas> </td>
   </tr></tbody></table>
- <a href="http://www.rgraph.net" target="_blank" style="text-decoration: none">
-    <img src="http://www.rgraph.net/images/logo.png" width="32" height="32" align="absmiddle" alt="rgraph: free 2d/3d html5 charts that get you noticed" />
-    Free charts with RGraph
-</a> 
-
 <hr>
 <table class="altrowstable" id="alternatecolor">
 <caption><strong>##Detail Harian 21 - Area Batur##</strong></caption>
@@ -660,6 +655,11 @@ var bar = new RGraph.Bar('cvs_bar1', [[35,43],[-37,40],[-26,28],[-74,5],[-32,34]
 </tr>
 </tbody>
 </table>
+<span style="color: yellow;"><marquee direction="right" behavior="alternate" direction="right" scrollamount="2" height="20px" scrolldelay="10" bgcolor="purple" width="600px"><a href="http://www.rgraph.net" target="_blank" style="text-decoration: none">
+    <img src="http://www.rgraph.net/images/logo.png" width="32" height="32" align="absmiddle" alt="rgraph: free 2d/3d html5 charts that get you noticed" />
+    Free charts with RGraph
+</a></marquee></span>
+
 </body>
   <script type="text/javascript">
             var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
