@@ -15,6 +15,24 @@
             text-align: left;
         }
     </style> 
+    <style>
+    div.rgraph-container {
+        position: relative;
+        display: inline-block;
+        width: 600px;
+        height: 250px;
+    }
+    
+    div.rgraph-container a {
+        position: absolute;
+        bottom: -7px;
+        right: 5px;
+        font-size: 9pt;
+        font-style: italic;
+        text-decoration: none;
+    }
+</style>
+
 
 <!-- Javascript goes in the document HEAD -->
 <script type="text/javascript">
@@ -112,10 +130,15 @@ labelsSticksLength: 5
 </script>
 </head>
 <body>
-<table id="grafic"><tbody><tr>
-  <td><canvas width="620" height="350" id="cvs2" style=""></canvas></td>
-  <td><canvas width="620" height="350" id="cvs3" style=""></canvas> </td>
-  </tr></tbody></table>
+
+<div class="rgraph-container">
+  <table id="grafic"><tbody><tr>
+  td><canvas width="620" height="350" id="cvs2" style="">[No canvas support]</canvas></td>
+  <td><canvas width="620" height="350" id="cvs3" style="">[No canvas support]</canvas> </td>
+     <a href="http://www.rgraph.net" target="_blank">Made with rgraph.net</a>
+  </tr></tbody></table>     
+</div>
+  
 <hr>
 <table class="altrowstable" id="alternatecolor">
 <caption><strong>##Detail Lembar 21 - Area Batur##</strong></caption> <tbody>
