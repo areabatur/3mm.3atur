@@ -3,9 +3,9 @@
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>  
 
 <script type="text/JavaScript">
-$(“#btnExport”).click(function(e) {
-window.open(‘data:application/vnd.ms-excel,’ + encodeURIComponent($(‘#dvData’).html()));
-e.preventDefault();
+$("#btnExport").click(function (e) {
+    window.open('data:application/vnd.ms-excel,' + $('#dvData').html());
+    e.preventDefault();
 });
 </script>
   
