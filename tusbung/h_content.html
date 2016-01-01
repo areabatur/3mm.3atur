@@ -46,6 +46,21 @@ background-color:#d4e3e5;
 background-color:#c3dde0;
 
 </style>
+ <script src="js/jquery.min.js"></script>
+<!-- Javascript goes in the document HEAD -->
+<script type="text/javascript">
+var tableToExcel = (function() {
+  var uri = 'data:application/vnd.ms-excel;base64,'
+    , template = '<html xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns="http://www.w3.org/TR/REC-html40"><head><!--[if gte mso 9]><xml><x:ExcelWorkbook><x:ExcelWorksheets><x:ExcelWorksheet><x:Name>{worksheet}</x:Name><x:WorksheetOptions><x:DisplayGridlines/></x:WorksheetOptions></x:ExcelWorksheet></x:ExcelWorksheets></x:ExcelWorkbook></xml><![endif]--></head><body><table>{table}</table></body></html>'
+    , base64 = function(s) { return window.btoa(unescape(encodeURIComponent(s))) }
+    , format = function(s, c) { return s.replace(/{(\w+)}/g, function(m, p) { return c[p]; }) }
+  return function(table, name) {
+    if (!table.nodeType) table = document.getElementById(table)
+    var ctx = {worksheet: name || 'Worksheet', table: table.innerHTML}
+    window.location.href = uri + base64(format(template, ctx))
+  }
+})()
+</script>
 <script src="js/RGraph.common.core.js"></script>
 <script src="js/RGraph.common.dynamic.js"></script>
 <script src="js/RGraph.common.key.js"></script>
@@ -99,6 +114,8 @@ var bar = new RGraph.Bar('cvs_bar1', [[35,43],[-37,40],[-26,28],[-74,5],[-32,34]
   <td><canvas width="600" height="350" id="cvs_bar1" style=""></canvas> </td>
   </tr></tbody></table>
 <hr>
+</p><input type="button" onclick="tableToExcel('alternatecolor', 'Detail Lembar 21 - Area Batur')" value="Export to Excel"> 
+<br/>
 <table class="altrowstable" id="alternatecolor">
 <caption><strong>##Detail Harian 21 - Area Batur##</strong></caption>
 <tbody>
@@ -424,8 +441,9 @@ var bar = new RGraph.Bar('cvs_bar1', [[35,43],[-37,40],[-26,28],[-74,5],[-32,34]
 </table>
 <br>
 <hr>
-<br>
-<table class="altrowstable" id="alternatecolor"><caption><strong>##Detail Harian -Area Batur##</strong></caption> <tbody>
+</p><input type="button" onclick="tableToExcel('alternatecolor2', 'Detail Lembar 1-20 - Area Batur')" value="Export to Excel">
+<br/>
+<table class="altrowstable" id="alternatecolor2"><caption><strong>##Detail Harian - Area Batur##</strong></caption> <tbody>
 <tr>
 <th style="font-weight: bold;">NO</th>
 <th style="font-weight: bold;">RAYON</th>
