@@ -3,6 +3,12 @@
   <title>Content</title>
 
   
+<script>
+  $("#btnExport").click(function (e) {
+    window.open('data:application/vnd.ms-excel,' + $('#alternatecolor').html());
+    e.preventDefault();
+});
+</script>
 
 <!-- Javascript goes in the document HEAD -->
 <script type="text/javascript">
@@ -61,6 +67,10 @@ background-color:#c3dde0;
 </style>
 </head>
 <body>
+  <br/>
+  <input type="button" id="btnExport" value=" Export Table data into Excel " />
+<br/>
+  <hr>
 <table class="altrowstable" id="alternatecolor">
 <caption><strong>##Detail Lembar 21 - Area Batur##</strong></caption>
 <tbody>
