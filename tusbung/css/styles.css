@@ -82,7 +82,7 @@ ul, ul ul {
 }
 .menu > li > a:before {
 	content: '';
-	background-image: url(../images/icon_download.png);
+	background-image: url(3mm.3atur/images/icon_download.png);
 	background-repeat: no-repeat;
 	font-size: 36px;
 	height: 1em;
