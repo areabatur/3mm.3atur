@@ -134,7 +134,7 @@ ul, ul ul {
 	background: #2173a1;
 }
 .menu > li > ul li a:before{
-	content: 'â–¶';
+	content: '#';
 	font-size: 8px;
 	color: #bcbcbf;
 	position: absolute;
