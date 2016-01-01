@@ -5,7 +5,7 @@
   
 <script>
   $("#btnExport").click(function (e) {
-    window.open('data:application/vnd.ms-excel,' + $('#alternatecolor').html());
+    window.open('data:application/vnd.ms-excel,' + $('#dvData').html());
     e.preventDefault();
 });
 </script>
@@ -67,10 +67,10 @@ background-color:#c3dde0;
 </style>
 </head>
 <body>
-  <br/>
-  <input type="button" id="btnExport" value=" Export Table data into Excel " />
+  <input type="button" id="btnExport" value=" Export into Excel " />
 <br/>
   <hr>
+  <div id="dvData">
 <table class="altrowstable" id="alternatecolor">
 <caption><strong>##Detail Lembar 21 - Area Batur##</strong></caption>
 <tbody>
@@ -5477,7 +5477,7 @@ background-color:#c3dde0;
 </tr>
   </tbody>
 </table>
-
+</div>
 </body>
 
 </html>
