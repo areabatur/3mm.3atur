@@ -9,7 +9,6 @@
 
 _data diluar non gps .. create data tgl 26.11.2015 jam 09:30_
 
-_[temukan yang janggal di sini?? periode dengan tgl pemeriksaan](https://github.com/areabatur/3mm.3atur/blob/master/lintar/lintar.lintas.periode.markdown )_ 
 
 <table><tbody><tr><th>PERIODE/RAYON</th><th>BANGLI</th><th>KLUNGKUNG</th><th>KARANGASEM</th><th>GIANYAR</th><th> AREA BATUR </th></tr><tr><td>TARGET</td><td>22.163</td><td>26.367</td><td>43.779</td><td>55.792</td><td> 148.101 </td></tr><tr><td>REALISASI</td><td> 5.396 </td><td> 6.200 </td><td> 9.070 </td><td> 12.894 </td><td> 33.560 </td></tr><tr><td>(%)</td><td>24,35%</td><td>23,51%</td><td>20,72%</td><td>23,11%</td><td>22,66%</td></tr><tr><td>TARGET BILLMAN</td><td>296</td><td>352</td><td>292</td><td>259</td><td> 1.199 </td></tr><tr><td>##########</td><td>##########</td><td>##########</td><td>##########</td><td>##########</td><td>##########</td></tr><tr><td>09-2015</td><td> 574 </td><td> 280 </td><td> 229 </td><td>##########</td><td> 1.083 </td></tr><tr><td>10-2015</td><td> 4.065 </td><td> 5.548 </td><td> 7.984 </td><td> 11.836 </td><td> 29.433 </td></tr><tr><td>11-2015</td><td> 757 </td><td> 372 </td><td> 857 </td><td> 1.058 </td><td> 3.044 </td></tr><tr><td>12-2015</td><td>##########</td><td>##########</td><td>##########</td><td>##########</td><td>##########</td></tr><tr><td>01-2016</td><td>##########</td><td>##########</td><td>##########</td><td>##########</td><td>##########</td></tr></tbody></table>
 
