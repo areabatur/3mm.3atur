@@ -64,18 +64,21 @@ background: #9fB8ff;
 <script>
 window.onload = function ()
 {
-var bar = new RGraph.Bar('cvs_bar', [[200,200],[111,127],[143,143],[84,57],[125,130]])
+var bar = new RGraph.Bar('cvs_bar', [[200.00,83.38,87.12,89.90,92.16],[200.00,63.13,67.78,99.72,75.46],[200.00,129.47,61.79,105.49,114.29],
+[200.00,123.70,83.15,160.44,119.99],[200.00,107.36,81.53,168.13,109.06],[200.00,110.38,87.22,136.35,109.54],
+[200.00,116.82,80.01,136.22,111.27],[200.00,119.66,104.49,149.54,119.77],[200.00,94.84,38.06,94.99,82.79],
+[200.00,87.65,76.58,147.63,90.14],[200.00,84.88,36.76,114.21,75.72],[200.00,126.80,142.95,55.59,130.18]])
 .set('colors', [
 'rgba(255, 176, 176, 1)',
 'rgba(153, 208, 249,1)'
 ])
-.set('labels', ['Bangli', 'Gianyar', 'Karangasem', 'Klungkung','Batur'])
-.set('tooltips', ['Bangli : 200%','Bangli : 200%','Gianyar : 111%','Gianyar : 127%','Karangasem : 143%','Karangasem : 143%','Klungkung : 84%','Klungkung : 57%','Batur : 125%','Batur : 130%'])
+.set('labels', ['JANUARI', 'PEBRUARI', 'MARET', 'APRIL', 'MEI', 'JUNI', 'JULI', 'AGUSTUS', 'SEPTEMBER', 'OKTOBER', 'NOPEMBER', 'DESEMBER'])
+//.set('tooltips', ['Bangli : 200%','Bangli : 200%','Gianyar : 111%','Gianyar : 127%','Karangasem : 143%','Karangasem : 143%','Klungkung : 84%','Klungkung : 57%','Batur : 125%','Batur : 130%'])
 .set('tooltips.event', 'onmousemove').set('ymax', 200).set('ylabels.count', 2).set('numyticks', 8)
 .set('strokestyle', 'rgba(0,0,0,0)').set('hmargin.grouped', 2).set('units.pre', '').set('title', 'Progres Batur 30.12.2015')
 .set('title.y', 25).set('gutter.top', 55).set('gutter.left', 40)
 .set('gutter.right', 15).set('gutter.bottom', 80).set('xaxispos', 'center')
-.set('key', ['% PLG','% RpTag'])
+.set('key', ['% BANGLI','% GIANYAR','% KARANGASEM','% KLUNGKUNG','% BATUR'])
 .set('key.position', 'gutter').set('key.position.y', 30).set('variant', '2d')
 .set('axis.color', '#aaa').set('labelsAbove', 'true')
 .grow();
@@ -99,9 +102,8 @@ var bar = new RGraph.Bar('cvs_bar1', [[35,43],[-37,40],[-26,28],[-74,5],[-32,34]
 </head>
 <body>
  <table class="alttable" id="grafic"><tbody><tr>
-  <td><canvas width="600" height="350" id="cvs_bar" style=""></canvas></td>
-  <td><canvas width="600" height="350" id="cvs_bar1" style=""></canvas> </td>
-  </tr></tbody></table>
+  <td><canvas width="800" height="350" id="cvs_bar" style=""></canvas></td>
+ </tr></tbody></table>
 <hr>
 </p><input type="button" onclick="tableToExcel('alternatecolor', 'Detail Harian 21 - Area Batur')" value="Export to Excel"> 
 <br/>
