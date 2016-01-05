@@ -12,6 +12,7 @@ background-color: white;
 background-image: none;
 padding: 0;
 text-align: left;
+margin-left:10px
 }
 </style>
 <style type="text/css">
@@ -37,15 +38,17 @@ padding: 8px;
 border-style: solid;
 border-color: #a9c6c9;
 }
+tbody tr:nth-child(even) {
+background-color:#d4e3e5;
+}
+tbody tr:nth-child(odd) {
+background-color:#c3dde0;
+}
 tbody tr:hover {
 background: #9fB8ff;
 }
-.oddrowcolor{
-background-color:#d4e3e5;
-}
-.evenrowcolor{
-background-color:#c3dde0;
 </style>
+
     <script src="js/jquery.min.js"></script>
     <script src="js/exportexcel.js"></script>
 <script src="js/RGraph.common.core.js"></script>
