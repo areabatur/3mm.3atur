@@ -61,146 +61,147 @@ background: #9fB8ff;
 <script src="js/RGraph.common.tooltips.js"></script>
 <script src="js/RGraph.bar.js"></script>
 <script src="js/RGraph.Pie.js"></script>
+
+
+</head>
+<body>
+ <canvas id="cvs" width="650" height="300">[No canvas support]</canvas>
 <script>
-      var gutterLeft   = 85,
-        gutterRight  = 25,
-        gutterTop    = 45,
-        gutterBottom = 125,
-             hmargin = 15,
-                ymax = 35,
-        
-        data = [
+       var gutterLeft   = 85,
+            gutterRight  = 25,
+            gutterTop    = 45,
+            gutterBottom = 125,
+                 hmargin = 15,
+                    ymax = 35,
+            
+            data = [
 
-            // If you don't need a third dataset take out this FIRST
-            // dataset and replace it with the word: null
+                // If you don't need a third dataset take out this FIRST
+                // dataset and replace it with the word: null
 
-            // null, // [12,16,10,12,13,15,16]
-            [12,16,10,12,13,15,16],
+                // null, // [12,16,10,12,13,15,16]
+                [12,16,10,12,13,15,16],
 
-            [20,21,24,23,18,19,20],
-            [31,34,32,28,26,35,34]
-        ],
-        
-        colors = [
-            'Gradient(#696:#0f0:#0f0)',
-            'Gradient(#966:#f00:#f00)',
-            'Gradient(#669:blue:blue)'
-        ],
-        
-        labels = ['Januari','Pebruari','Maret','April','Mei','Juni','Juli','Agustus','September','Oktober','Nopember','Desember'];
-
-
+                [20,21,24,23,18,19,20],
+                [31,34,32,28,26,35,34]
+            ],
+            
+            colors = [
+                'Gradient(#696:#0f0:#0f0)',
+                'Gradient(#966:#f00:#f00)',
+                'Gradient(#669:blue:blue)'
+            ],
+            
+            labels = ['Monday','Tuesday','Wednesday','Thursday','Friday','Saturday','Sunday'];
 
 
-    var bar = new RGraph.Bar({
-        id: 'cvs',
-        data: data[2],
-        options: {
-            variant: '3d',
-            variantThreedYaxis: false,
-            variantThreedXaxis: false,
-            strokestyle: 'rgba(0,0,0,0)',
-            colors: [colors[2]],
-            shadow: true,
-            shadowOffsetx: 10,
-            //backgroundGrid: false,
-            backgroundGridColor: '#ccc',
-            backgroundGridAutofitNumhlines: 5,
-            backgroundGridAutofitNumvlines: 14,
-            scaleZerostart: true,
-            axisColor: '#ddd',
-            ylabels: false,
-            gutterBottom: gutterBottom,
-            gutterTop: gutterTop,
-            gutterLeft: gutterLeft,
-            gutterRight: gutterRight,
-            hmargin: hmargin,
-            ymax: ymax,
-            noaxes: true
-        }
-    }).draw();
-
-    var bar2 = new RGraph.Bar({
-        id: 'cvs',
-        data: data[1],
-        options: {
-            variant: '3d',
-            variantThreedYaxis: false,
-            variantThreedXaxis: false,
-            strokestyle: 'rgba(0,0,0,0)',
-            colors: [colors[1]],                
-            shadow: true,
-            shadowOffsetx: 10,
-            shadowColor: 'rgba(0,0,0,0.5)',
-            backgroundGrid: false,
-            axisColor: '#ddd',
-            ylabels: !data[0] ? true : false,
-            labels: !data[0] ? labels : [],
-            gutterBottom: gutterBottom - 10,
-            gutterTop: gutterTop + 10,
-            gutterLeft: gutterLeft - 20,
-            gutterRight: gutterRight + 20,
-            hmargin: hmargin,
-            ymax: ymax,
-            noaxes: true
-        }
-    }).draw();
 
 
-    if (data[0]) {
         var bar = new RGraph.Bar({
             id: 'cvs',
-            data: data[0],
+            data: data[2],
             options: {
                 variant: '3d',
                 variantThreedYaxis: false,
                 variantThreedXaxis: false,
                 strokestyle: 'rgba(0,0,0,0)',
-                colors: [colors[0]],
-                labels: labels,
+                colors: [colors[2]],
+                shadow: true,
+                shadowOffsetx: 10,
+                //backgroundGrid: false,
+                backgroundGridColor: '#ccc',
+                backgroundGridAutofitNumhlines: 5,
+                backgroundGridAutofitNumvlines: 14,
+                scaleZerostart: true,
+                axisColor: '#ddd',
+                ylabels: false,
+                gutterBottom: gutterBottom,
+                gutterTop: gutterTop,
+                gutterLeft: gutterLeft,
+                gutterRight: gutterRight,
+                hmargin: hmargin,
+                ymax: ymax,
+                noaxes: true
+            }
+        }).draw();
+
+        var bar2 = new RGraph.Bar({
+            id: 'cvs',
+            data: data[1],
+            options: {
+                variant: '3d',
+                variantThreedYaxis: false,
+                variantThreedXaxis: false,
+                strokestyle: 'rgba(0,0,0,0)',
+                colors: [colors[1]],                
                 shadow: true,
                 shadowOffsetx: 10,
                 shadowColor: 'rgba(0,0,0,0.5)',
                 backgroundGrid: false,
                 axisColor: '#ddd',
-                unitsPost: 'km',
-                gutterTop: gutterTop + 20,
-                gutterBottom: gutterBottom - 20,
-                gutterLeft: gutterLeft - 40,
-                gutterRight: gutterRight + 40,
+                ylabels: !data[0] ? true : false,
+                labels: !data[0] ? labels : [],
+                gutterBottom: gutterBottom - 10,
+                gutterTop: gutterTop + 10,
+                gutterLeft: gutterLeft - 20,
+                gutterRight: gutterRight + 20,
                 hmargin: hmargin,
                 ymax: ymax,
-                noaxes: true,
-                scaleZerostart: true
+                noaxes: true
             }
-        }).on('draw', function (obj)
-        {
-            RGraph.path2(
-                obj.context,
-                'gco destination-over b m % % l % % l % % l % % c s #ddd f rgba(0,0,0,0)',
-                gutterLeft  - 40, gutterTop + 20,
-                gutterLeft + 10, gutterTop - 5,
-                gutterLeft + 10, gutterTop - 5 + (obj.canvas.height - gutterTop - gutterBottom),
-                gutterLeft + 10 - 50, gutterTop - 5 + (obj.canvas.height - gutterTop - gutterBottom) + 25
-            );
-            
-            // Fioll the left-side back face again with a gradient
-            var grad = obj.context.createLinearGradient(0,0,0,300);
-            grad.addColorStop(0, 'white');
-            grad.addColorStop(0.75, '#999');
-
-            obj.context.fillStyle = grad;
-            obj.context.fill();
-
-            
         }).draw();
-    }
-</script>
-</head>
-<body>
-<canvas id="cvs" width="800" height="300">
-    [No canvas support]
-</canvas>
+
+
+        if (data[0]) {
+            var bar = new RGraph.Bar({
+                id: 'cvs',
+                data: data[0],
+                options: {
+                    variant: '3d',
+                    variantThreedYaxis: false,
+                    variantThreedXaxis: false,
+                    strokestyle: 'rgba(0,0,0,0)',
+                    colors: [colors[0]],
+                    labels: labels,
+                    shadow: true,
+                    shadowOffsetx: 10,
+                    shadowColor: 'rgba(0,0,0,0.5)',
+                    backgroundGrid: false,
+                    axisColor: '#ddd',
+                    unitsPost: 'km',
+                    gutterTop: gutterTop + 20,
+                    gutterBottom: gutterBottom - 20,
+                    gutterLeft: gutterLeft - 40,
+                    gutterRight: gutterRight + 40,
+                    hmargin: hmargin,
+                    ymax: ymax,
+                    noaxes: true,
+                    scaleZerostart: true
+                }
+            }).on('draw', function (obj)
+            {
+                RGraph.path2(
+                    obj.context,
+                    'gco destination-over b m % % l % % l % % l % % c s #ddd f rgba(0,0,0,0)',
+                    gutterLeft  - 40, gutterTop + 20,
+                    gutterLeft + 10, gutterTop - 5,
+                    gutterLeft + 10, gutterTop - 5 + (obj.canvas.height - gutterTop - gutterBottom),
+                    gutterLeft + 10 - 50, gutterTop - 5 + (obj.canvas.height - gutterTop - gutterBottom) + 25
+                );
+                
+                // Fioll the left-side back face again with a gradient
+                var grad = obj.context.createLinearGradient(0,0,0,300);
+                grad.addColorStop(0, 'white');
+                grad.addColorStop(0.75, '#999');
+
+                obj.context.fillStyle = grad;
+                obj.context.fill();
+
+                
+            }).draw();
+        }
+    </script>
+
 <hr>
 </p><input type="button" onclick="tableToExcel('alternatecolor', 'Detail Harian 21 - Area Batur')" value="Export to Excel"> 
 <br/>
