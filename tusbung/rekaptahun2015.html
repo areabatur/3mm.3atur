@@ -63,24 +63,17 @@ background: #9fB8ff;
 <script src="js/RGraph.Pie.js"></script>
 <script>
 window.onload = function ()
-{
- var bar = new RGraph.Bar({
-        id: 'cvs1',
-        data: [[3,4,6],[2,5,3],[1,5,2],[1,4,6],[1,6,8]],
-        options: {
-            labels: ['Mal', 'Barry', 'Gary', 'Neil', 'Kim'],
-            colors: ['Gradient(#99f:#27afe9:#058DC7:#058DC7)', 'Gradient(#94f776:#50B332:#B1E59F)', 'Gradient(#fe783e:#EC561B:#F59F7D)'],
-            hmargin: 14,
-            strokestyle: 'rgba(0,0,0,0)',
-            shadow: false,
-            clearto: 'white',
-            variant: '3d',
-            gutterBottom: 80,
-            strokestyle: 'rgba(0,0,0,0',
-            noaxes: true
-        }
-    }).draw();
-}
+    {
+        var bar = new RGraph.Bar({
+            id: 'cvs',
+            data: [12,13,16,15,16,19,19,12,23,16,13,24],
+            options: {
+                gutterLeft: 35,
+                title: 'A basic chart',
+                labels: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
+            }
+        }).draw();
+    };
     </script>
 
 </head>
