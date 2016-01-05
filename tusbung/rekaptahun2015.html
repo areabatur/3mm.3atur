@@ -61,12 +61,9 @@ background: #9fB8ff;
 <script src="js/RGraph.common.tooltips.js"></script>
 <script src="js/RGraph.bar.js"></script>
 <script src="js/RGraph.Pie.js"></script>
-
-
-</head>
-<body>
- <canvas id="cvs" width="650" height="300">[No canvas support]</canvas>
 <script>
+  window.onload = function ()
+    {
        var gutterLeft   = 85,
             gutterRight  = 25,
             gutterTop    = 45,
@@ -200,8 +197,15 @@ background: #9fB8ff;
                 
             }).draw();
         }
+    };
     </script>
 
+</head>
+<body>
+    </br>
+ <canvas id="cvs" width="650" height="300">[No canvas support]</canvas>
+
+</br>
 <hr>
 </p><input type="button" onclick="tableToExcel('alternatecolor', 'Detail Harian 21 - Area Batur')" value="Export to Excel"> 
 <br/>
