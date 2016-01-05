@@ -62,35 +62,25 @@ background: #9fB8ff;
 <script src="js/RGraph.bar.js"></script>
 <script src="js/RGraph.Pie.js"></script>
 <script>
- window.onload = function ()
-    {
-
-
 window.onload = function ()
 {
-
-var pie = new RGraph.line({
-id: 'cvs3',
-data: [626783928,4002506830,1673477738,626371912],
-options: {
-strokestyle: '#e8e8e8',
-title: 'TUNGGAKAN 2015',
-variant: '3d',
-linewidth: 2,
-shadowOffsetx: 0,
-shadowOffsety: 15,
-shadowColor: '#aaa',
-exploded: 10,
-radius: 80,
-labels: ['Bangli','Gianyar','Karangasem','Klungkung'],
-labelsSticks: true,
-tooltips: ['Rp 626.783.928','Rp 4.002.506.830','Rp 1.673.477.738','Rp 626.371.912'],
-colors: ['red', 'green','blue','yellow'],
-labelsSticksLength: 5
+ var bar = new RGraph.Bar({
+        id: 'cvs1',
+        data: [[3,4,6],[2,5,3],[1,5,2],[1,4,6],[1,6,8]],
+        options: {
+            labels: ['Mal', 'Barry', 'Gary', 'Neil', 'Kim'],
+            colors: ['Gradient(#99f:#27afe9:#058DC7:#058DC7)', 'Gradient(#94f776:#50B332:#B1E59F)', 'Gradient(#fe783e:#EC561B:#F59F7D)'],
+            hmargin: 14,
+            strokestyle: 'rgba(0,0,0,0)',
+            shadow: false,
+            clearto: 'white',
+            variant: '3d',
+            gutterBottom: 80,
+            strokestyle: 'rgba(0,0,0,0',
+            noaxes: true
+        }
+    }).draw();
 }
-}).grow()
-
-};
     </script>
 
 </head>
