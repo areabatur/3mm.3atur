@@ -76,7 +76,8 @@ background: #9fB8ff;
                 // If you don't need a third dataset take out this FIRST
                 // dataset and replace it with the word: null
 
-                // null, // [12,16,10,12,13,15,16]
+                // null, 
+                [12,16,10,12,13,15,16],
                 [12,16,10,12,13,15,16],
 
                 [20,21,24,23,18,19,20],
@@ -84,15 +85,42 @@ background: #9fB8ff;
             ],
             
             colors = [
+                'Gradient(#966:yellow:yellow)'
                 'Gradient(#696:#0f0:#0f0)',
                 'Gradient(#966:#f00:#f00)',
-                'Gradient(#669:blue:blue)'
+                'Gradient(#966:blue:blue)'
             ],
             
             labels = ['Monday','Tuesday','Wednesday','Thursday','Friday','Saturday','Sunday'];
 
 
-
+var bar = new RGraph.Bar({
+            id: 'cvs',
+            data: data[3],
+            options: {
+                variant: '3d',
+                variantThreedYaxis: false,
+                variantThreedXaxis: false,
+                strokestyle: 'rgba(0,0,0,0)',
+                colors: [colors[2]],
+                shadow: true,
+                shadowOffsetx: 10,
+                backgroundGrid: false,
+                backgroundGridColor: '#ccc',
+                backgroundGridAutofitNumhlines: 5,
+                backgroundGridAutofitNumvlines: 14,
+                scaleZerostart: true,
+                axisColor: '#ddd',
+                ylabels: false,
+                gutterBottom: gutterBottom,
+                gutterTop: gutterTop,
+                gutterLeft: gutterLeft,
+                gutterRight: gutterRight,
+                hmargin: hmargin,
+                ymax: ymax,
+                noaxes: true
+            }
+        }).draw();
 
         var bar = new RGraph.Bar({
             id: 'cvs',
@@ -105,7 +133,7 @@ background: #9fB8ff;
                 colors: [colors[2]],
                 shadow: true,
                 shadowOffsetx: 10,
-                //backgroundGrid: false,
+                backgroundGrid: false,
                 backgroundGridColor: '#ccc',
                 backgroundGridAutofitNumhlines: 5,
                 backgroundGridAutofitNumvlines: 14,
