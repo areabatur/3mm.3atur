@@ -70,9 +70,9 @@ window.onload = function ()
 [200.00,116.82,80.01,136.22,111.27],[200.00,119.66,104.49,149.54,119.77],[200.00,94.84,38.06,94.99,82.79],[200.00,87.65,76.58,147.63,90.14],[200.00,84.88,36.76,114.21,75.72],[200.00,126.80,142.95,55.59,130.18]],
             options: {
                colors: ['green', 'yellow', 'blue', 'Aqua', 'Brown'],
-                gutterTop: 70,
+                gutterTop: 50,
                 gutterLeft: 50,
-                title: 'Progres Tusbung Batur 2015',
+               // title: 'Progres Tusbung Batur 2015',
                 labels: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
                         //    shadow: true,
           //  shadowOffsety:  5,
@@ -80,28 +80,37 @@ window.onload = function ()
         //    shadowBlur: 10,
         //    shadowColor: '#aaa',
                 labelsAbove: true,
+                labelsAbovedecimals: 2,
                  variant: '2d',
                 tooltips: [
-                'Ban','Gyr','kar','Klk','Btr',
-               'Ban','Gyr','kar','Klk','Btr',
-                'Ban','Gyr','kar','Klk','Btr',
-                 'Ban','Gyr','kar','Klk','Btr',
-                  'Ban','Gyr','kar','Klk','Btr',
-                   'Ban','Gyr','kar','Klk','Btr',
-                    'Ban','Gyr','kar','Klk','Btr',
-                     'Ban','Gyr','kar','Klk','Btr',
-                      'Ban','Gyr','kar','Klk','Btr',
-                       'Ban','Gyr','kar','Klk','Btr',
-                        'Ban','Gyr','kar','Klk','Btr',
-                         'Ban','Gyr','kar','Klk','Btr'
-                         ]
-                            }
+                'Ban: 200.00%','Gyr: ','kar: ','Klk: ','Btr: ',
+               'Ban: 200.00%','Gyr: ','kar: ','Klk: ','Btr: ',
+                'Ban: 200.00%','Gyr: ','kar: ','Klk: ','Btr: ',
+                 'Ban: 200.00%','Gyr: ','kar: ','Klk: ','Btr: ',
+                  'Ban: 200.00%','Gyr: ','kar: ','Klk: ','Btr: ',
+                   'Ban: 200.00%','Gyr: ','kar: ','Klk: ','Btr: ',
+                    'Ban: 200.00%','Gyr: ','kar: ','Klk: ','Btr: ',
+                     'Ban: 200.00%','Gyr: ','kar: ','Klk: ','Btr: ',
+                      'Ban: 200.00%','Gyr: ','kar: ','Klk: ','Btr: ',
+                       'Ban: 200.00%','Gyr: ','kar: ','Klk: ','Btr: ',
+                        'Ban: 200.00%','Gyr: ','kar: ','Klk: ','Btr: ',
+                         'Ban: 200.00%','Gyr: ','kar: ','Klk: ','Btr: '
+                         ],
+                key: ['Bangli','Gianyar','Karangasem','Klungkung','Batur'],
+                keyColors: ['blue','#c00','#0c0'],
+                keyPosition: 'gutter',
+                keyPositionX: canvas.width - 300,
+                keyPositionY: 18,
+                keyPositionGutterBoxed: true,
+                axisColor: '#ccc',
+                noyaxis: true
         }).draw();
     };
     </script>
 
 </head>
 <body>
+    <h5>Progres Tusbung Batur 2015</h5>
     </br>
  <canvas id="cvs" width="1150" height="350" background-color: white;cursor: default;">[No canvas support]</canvas>
 
@@ -172,9 +181,9 @@ window.onload = function ()
 <td style="text-align: right; font-weight: bold;">87,22%</td>
 <td style="text-align: right; font-weight: bold;">80,01%</td>
 <td style="text-align: right;">104,49%</td>
-<td style="text-align: right;">38,06%</td>
-<td style="text-align: right;">76,58%</td>
-<td style="text-align: right;">36,76%</td>
+<td style="text-align: right; font-weight: bold;">38,06%</td>
+<td style="text-align: right; font-weight: bold;">76,58%</td>
+<td style="text-align: right; font-weight: bold;">36,76%</td>
 <td style="text-align: right;">142,95%</td>
 </tr>
 <tr>
