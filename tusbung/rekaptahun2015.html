@@ -91,36 +91,9 @@ background: #9fB8ff;
                 'Gradient(#669:blue:blue)'
             ],
             
-            labels = ['Januari','Pebruari','Maret','April','Mei','Juni','Juli','Agustus','September','Oktober','Nopember','Desember'];
+            labels = ['Jan','Peb','Mar','Apr','Mei','Jun','Jul','Agus','Sept','Okt','Nop','Des'];
 
 
-var bar = new RGraph.Bar({
-            id: 'cvs',
-            data: data[3],
-            options: {
-                variant: '3d',
-                variantThreedYaxis: false,
-                variantThreedXaxis: false,
-                strokestyle: 'rgba(0,0,0,0)',
-                colors: [colors[3]],
-                shadow: true,
-                shadowOffsetx: 10,
-                backgroundGrid: false,
-                backgroundGridColor: '#ccc',
-                backgroundGridAutofitNumhlines: 5,
-                backgroundGridAutofitNumvlines: 14,
-                scaleZerostart: true,
-                axisColor: '#ddd',
-                ylabels: false,
-                gutterBottom: gutterBottom,
-                gutterTop: gutterTop,
-                gutterLeft: gutterLeft,
-                gutterRight: gutterRight,
-                hmargin: hmargin,
-                ymax: ymax,
-                noaxes: true
-            }
-        }).draw();
 
         var bar = new RGraph.Bar({
             id: 'cvs',
@@ -133,7 +106,7 @@ var bar = new RGraph.Bar({
                 colors: [colors[2]],
                 shadow: true,
                 shadowOffsetx: 10,
-                backgroundGrid: false,
+               // backgroundGrid: false,
                 backgroundGridColor: '#ccc',
                 backgroundGridAutofitNumhlines: 5,
                 backgroundGridAutofitNumvlines: 14,
@@ -149,7 +122,32 @@ var bar = new RGraph.Bar({
                 noaxes: true
             }
         }).draw();
-
+        
+        var bar3 = new RGraph.Bar({
+            id: 'cvs',
+            data: data[2],
+            options: {
+                variant: '3d',
+                variantThreedYaxis: false,
+                variantThreedXaxis: false,
+                strokestyle: 'rgba(0,0,0,0)',
+                colors: [colors[2]],                
+                shadow: true,
+                shadowOffsetx: 10,
+                shadowColor: 'rgba(0,0,0,0.5)',
+                backgroundGrid: false,
+                axisColor: '#ddd',
+                ylabels: !data[0] ? true : false,
+                labels: !data[0] ? labels : [],
+                gutterBottom: gutterBottom - 10,
+                gutterTop: gutterTop + 10,
+                gutterLeft: gutterLeft - 20,
+                gutterRight: gutterRight + 20,
+                hmargin: hmargin,
+                ymax: ymax,
+                noaxes: true
+            }
+        }).draw();
         var bar2 = new RGraph.Bar({
             id: 'cvs',
             data: data[1],
@@ -194,10 +192,10 @@ var bar = new RGraph.Bar({
                     backgroundGrid: false,
                     axisColor: '#ddd',
                     unitsPost: '%',
-                    gutterTop: gutterTop + 10,
-                    gutterBottom: gutterBottom - 10,
-                    gutterLeft: gutterLeft - 20,
-                    gutterRight: gutterRight + 20,
+                    gutterTop: gutterTop + 20,
+                    gutterBottom: gutterBottom - 20,
+                    gutterLeft: gutterLeft - 40,
+                    gutterRight: gutterRight + 40,
                     hmargin: hmargin,
                     ymax: ymax,
                     noaxes: true,
@@ -217,7 +215,7 @@ var bar = new RGraph.Bar({
                 // Fioll the left-side back face again with a gradient
                 var grad = obj.context.createLinearGradient(0,0,0,300);
                 grad.addColorStop(0, '999');
-                grad.addColorStop(0.75, '#999');
+                grad.addColorStop(0.75, 'white');
 
                 obj.context.fillStyle = grad;
                 obj.context.fill();
