@@ -64,44 +64,31 @@ background: #9fB8ff;
 <script>
  window.onload = function ()
     {
-        var bar = new RGraph.Bar({
-            id: 'cvs',
-            data: [ [4,8,3],[5,2,1], [8,4,2],[3,6,1],[5,1,0],[2,5,1],[1,2,2],[1,2,2],[1,2,2],[1,2,2],[1,2,2],[1,2,2]],
-            options: {
-                variant: '2d',
-                variantThreedAngle: 0.1,
-                strokestyle: 'rgba(0,0,0,0)',
-                colors: ['Gradient(#fbb:red)', 'Gradient(#bfb:green)','Gradient(#bbf:blue)'],
-                gutterTop: 10,
-                gutterLeft: 25,
-                gutterBottom: 40,
-                labels: ['Jan','Peb','Mar','Apr','Mei','Jun','Jul','Ags','Sep','Okt','Nop','Des'],
-                shadowColor:'#ccc',
-                shadowOffsetx: 3,
-                backgroundGridColor: '#eee',
-                scaleZerostart: true,
-                axisColor: '#ddd',
-                unitsPost: '%',
-                title: 'Distance run in the past week',
-                key: ['Ban','Gia','Klk'],
-                keyShadow: true,
-                keyShadowColor: '#ccc',
-                keyShadowOffsety: 0,
-                keyShadowOffsetx: 3,
-                keyShadowBlur: 15
-            }
-        }).draw();
-    };
+ var bar = new RGraph.Bar('cvs_bar', [[200,200],[111,127],[143,143],[84,57],[125,130],[[200,200],[111,127],[143,143],[84,57],[125,130],[4,57],[125,130]])
+.set('colors', [
+'rgba(255, 176, 176, 1)',
+'rgba(153, 208, 249,1)'
+])
+.set('labels', ['Jan','Peb','Mar','Apr','Mei','Jun','Jul','Ags','Sep','Okt','Nop','Des'])
+.set('tooltips', ['Bangli : 200%','Bangli : 200%','Gianyar : 111%','Gianyar : 127%','Karangasem : 143%','Karangasem : 143%','Klungkung : 84%','Klungkung : 57%','Batur : 125%','Batur : 130%'])
+.set('tooltips.event', 'onmousemove').set('ymax', 200).set('ylabels.count', 2).set('numyticks', 8)
+.set('strokestyle', 'rgba(0,0,0,0)').set('hmargin.grouped', 2).set('units.pre', '').set('title', 'Progres Batur 30.12.2015')
+.set('title.y', 25).set('gutter.top', 55).set('gutter.left', 40)
+.set('gutter.right', 15).set('gutter.bottom', 80).set('xaxispos', 'center')
+.set('key', ['% BAN','% GIA','% KAR','% KLK''% BATUR'])
+.set('key.position', 'gutter').set('key.position.y', 30).set('variant', '2d')
+.set('axis.color', '#aaa').set('labelsAbove', 'true')
+.grow();
     </script>
 
 </head>
 <body>
     </br>
- <canvas id="cvs" width="1000" height="350" margin-left="10px">[No canvas support]</canvas>
+ <canvas id="cvs_bar" width="1000" height="350" margin-left="10px">[No canvas support]</canvas>
 
 </br>
 <hr>
-</p><input type="button" onclick="tableToExcel('alternatecolor', 'Detail Harian 21 - Area Batur')" value="Export to Excel"> 
+</p><input type="button" onclick="tableToExcel('alternatecolor', 'Rekap All 2015')" value="Export to Excel"> 
 <br/>
 <table class="altrowstable" id="alternatecolor"><caption><strong>##Rekap All 2015##</strong></caption><tbody>
 <tr>
