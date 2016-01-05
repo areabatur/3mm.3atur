@@ -1,0 +1,120 @@
+<html>
+<head>
+<meta http-equiv="X-UA-Compatible" content="chrome=1">
+<meta name="robots" content="noindex">
+<!--<link rel="stylesheet" href="css/website.css" type="text/css" media="screen"> -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/exportexcel.js"></script>
+<style>
+/* Override the background image */
+body {
+background-color: white;
+background-image: none;
+padding: 0;
+text-align: left;
+}
+</style>
+<style type="text/css">
+table.altrowstable {
+font-family: verdana,arial,sans-serif;
+font-size:11px;
+color:#333333;
+border-width: 1px;
+border-color: #a9c6c9;
+border-collapse: collapse;
+}
+table.altrowstable th {
+padding: 0.25rem;
+border-width: 1px;
+padding: 8px;
+border-style: solid;
+border-color: #a9c6c9;
+}
+table.altrowstable td {
+padding: 0.25rem;
+border-width: 1px;
+padding: 8px;
+border-style: solid;
+border-color: #a9c6c9;
+}
+tbody tr:hover {
+background: #9fB8ff;
+}
+.oddrowcolor{
+background-color:#d4e3e5;
+}
+.evenrowcolor{
+background-color:#c3dde0;
+</style>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/exportexcel.js"></script>
+<script src="js/RGraph.common.core.js"></script>
+<script src="js/RGraph.common.dynamic.js"></script>
+<script src="js/RGraph.common.key.js"></script>
+<script src="js/RGraph.drawing.rect.js"></script>
+<script src="js/RGraph.drawing.text.js"></script>
+<script src="js/RGraph.common.effects.js"></script>
+<script src="js/RGraph.common.tooltips.js"></script>
+<script src="js/RGraph.bar.js"></script>
+<script src="js/RGraph.Pie.js"></script>
+<script>
+window.onload = function ()
+{
+var bar = new RGraph.Bar('cvs_bar', [[200,200],[111,127],[143,143],[84,57],[125,130]])
+.set('colors', [
+'rgba(255, 176, 176, 1)',
+'rgba(153, 208, 249,1)'
+])
+.set('labels', ['Bangli', 'Gianyar', 'Karangasem', 'Klungkung','Batur'])
+.set('tooltips', ['Bangli : 200%','Bangli : 200%','Gianyar : 111%','Gianyar : 127%','Karangasem : 143%','Karangasem : 143%','Klungkung : 84%','Klungkung : 57%','Batur : 125%','Batur : 130%'])
+.set('tooltips.event', 'onmousemove').set('ymax', 200).set('ylabels.count', 2).set('numyticks', 8)
+.set('strokestyle', 'rgba(0,0,0,0)').set('hmargin.grouped', 2).set('units.pre', '').set('title', 'Progres Batur 30.12.2015')
+.set('title.y', 25).set('gutter.top', 55).set('gutter.left', 40)
+.set('gutter.right', 15).set('gutter.bottom', 80).set('xaxispos', 'center')
+.set('key', ['% PLG','% RpTag'])
+.set('key.position', 'gutter').set('key.position.y', 30).set('variant', '2d')
+.set('axis.color', '#aaa').set('labelsAbove', 'true')
+.grow();
+var bar = new RGraph.Bar('cvs_bar1', [[35,43],[-37,40],[-26,28],[-74,5],[-32,34]])
+.set('colors', [
+'rgba(255, 176, 176, 1)',
+'rgba(153, 208, 249,1)'
+])
+.set('labels', ['Bangli', 'Gianyar', 'Karangasem', 'Klungkung','Batur'])
+.set('tooltips', ['Bangli : 35%','Bangli : 43%','Gianyar : -37%','Gianyar : 40%','Karangasem : -26%','Karangasem : 28%','Klungkung : -74%','Klungkung : 5%','Batur : -32%','Batur : 34%'])
+.set('tooltips.event', 'onmousemove').set('ymax', 200).set('ylabels.count', 2).set('numyticks', 8)
+.set('strokestyle', 'rgba(0,0,0,0)').set('hmargin.grouped', 2).set('units.pre', '').set('title', 'Progres Batur 20.12.2015')
+.set('title.y', 25).set('gutter.top', 55).set('gutter.left', 40)
+.set('gutter.right', 15).set('gutter.bottom', 80).set('xaxispos', 'center')
+.set('key', ['% PLG','% RpTag'])
+.set('key.position', 'gutter').set('key.position.y', 30).set('variant', '2d')
+.set('axis.color', '#aaa').set('labelsAbove', 'true')
+.grow();
+};
+</script>
+</head>
+<body>
+ <table class="alttable" id="grafic"><tbody><tr>
+  <td><canvas width="600" height="350" id="cvs_bar" style=""></canvas></td>
+  <td><canvas width="600" height="350" id="cvs_bar1" style=""></canvas> </td>
+  </tr></tbody></table>
+<hr>
+</p><input type="button" onclick="tableToExcel('alternatecolor', 'Detail Harian 21 - Area Batur')" value="Export to Excel"> 
+<br/>
+<!-- here -->
+
+<br>
+<hr>
+</p><input type="button" onclick="tableToExcel('alternatecolor2', 'Detail Harian 1-20 - Area Batur')" value="Export to Excel">
+<br/>
+<!-- here -->
+
+
+<hr>
+<p align="center"><a href="http://www.rgraph.net" target="_blank" style="text-decoration: none">
+    <img src="http://www.rgraph.net/images/logo.png" width="32" height="32" align="absmiddle" alt="rgraph: free 2d/3d html5 charts that get you noticed" />
+    Design by free Charts with RGraph
+</a></p>
+</body>
+ 
+</html>
