@@ -64,29 +64,145 @@ background: #9fB8ff;
 <script>
 window.onload = function ()
 {
-var bar = new RGraph.Bar('cvs_bar', [[200.00,83.38,87.12,89.90,92.16],[200.00,63.13,67.78,99.72,75.46],[200.00,129.47,61.79,105.49,114.29],
-[200.00,123.70,83.15,160.44,119.99],[200.00,107.36,81.53,168.13,109.06],[200.00,110.38,87.22,136.35,109.54],
-[200.00,116.82,80.01,136.22,111.27],[200.00,119.66,104.49,149.54,119.77],[200.00,94.84,38.06,94.99,82.79],
-[200.00,87.65,76.58,147.63,90.14],[200.00,84.88,36.76,114.21,75.72],[200.00,126.80,142.95,55.59,130.18]])
-.set('colors', ['Gradient(#99f:#27afe9:#058DC7:#058DC7)', 'Gradient(#94f776:#50B332:#B1E59F)', 'Gradient(#fe783e:#EC561B:#F59F7D)', 'Gradient(#AEB404:#FFFF00:##7FE2E)', 'Gradient(#FA5882:#F7819F:#B40431)'])
-.set('labels', ['JANUARI', 'PEBRUARI', 'MARET', 'APRIL', 'MEI', 'JUNI', 'JULI', 'AGUSTUS', 'SEPTEMBER', 'OKTOBER', 'NOPEMBER', 'DESEMBER'])
-//.set('tooltips', ['Bangli : 200%','Bangli : 200%','Gianyar : 111%','Gianyar : 127%','Karangasem : 143%','Karangasem : 143%','Klungkung : 84%','Klungkung : 57%','Batur : 125%','Batur : 130%'])
-.set('tooltips.event', 'onmousemove').set('ymax', 225).set('ylabels.count', 2).set('numyticks', 8)
-.set('strokestyle', 'rgba(0,0,0,0)').set('title', 'Progres Batur 2015')
-.set('title.y', 25).set('gutter.bottom', 80).set('xaxispos', 'center')
-.set('key', ['% BANGLI','% GIANYAR','% KARANGASEM','% KLUNGKUNG','% BATUR'])
-.set('key.position', 'gutter').set('key.position.y', 30).set('variant', '3d')
-.set('axis.color', '#aaa').set('labelsAbove', 'true')
+      var gutterLeft   = 85,
+        gutterRight  = 25,
+        gutterTop    = 45,
+        gutterBottom = 125,
+             hmargin = 15,
+                ymax = 35,
+        
+        data = [
 
-.grow();
+            // If you don't need a third dataset take out this FIRST
+            // dataset and replace it with the word: null
 
-};
+            // null, // [12,16,10,12,13,15,16]
+            [12,16,10,12,13,15,16],
+
+            [20,21,24,23,18,19,20],
+            [31,34,32,28,26,35,34]
+        ],
+        
+        colors = [
+            'Gradient(#696:#0f0:#0f0)',
+            'Gradient(#966:#f00:#f00)',
+            'Gradient(#669:blue:blue)'
+        ],
+        
+        labels = ['Januari','Pebruari','Maret','April','Mei','Juni','Juli','Agustus','September','Oktober','Nopember','Desember'];
+
+
+
+
+    var bar = new RGraph.Bar({
+        id: 'cvs',
+        data: data[2],
+        options: {
+            variant: '3d',
+            variantThreedYaxis: false,
+            variantThreedXaxis: false,
+            strokestyle: 'rgba(0,0,0,0)',
+            colors: [colors[2]],
+            shadow: true,
+            shadowOffsetx: 10,
+            //backgroundGrid: false,
+            backgroundGridColor: '#ccc',
+            backgroundGridAutofitNumhlines: 5,
+            backgroundGridAutofitNumvlines: 14,
+            scaleZerostart: true,
+            axisColor: '#ddd',
+            ylabels: false,
+            gutterBottom: gutterBottom,
+            gutterTop: gutterTop,
+            gutterLeft: gutterLeft,
+            gutterRight: gutterRight,
+            hmargin: hmargin,
+            ymax: ymax,
+            noaxes: true
+        }
+    }).draw();
+
+    var bar2 = new RGraph.Bar({
+        id: 'cvs',
+        data: data[1],
+        options: {
+            variant: '3d',
+            variantThreedYaxis: false,
+            variantThreedXaxis: false,
+            strokestyle: 'rgba(0,0,0,0)',
+            colors: [colors[1]],                
+            shadow: true,
+            shadowOffsetx: 10,
+            shadowColor: 'rgba(0,0,0,0.5)',
+            backgroundGrid: false,
+            axisColor: '#ddd',
+            ylabels: !data[0] ? true : false,
+            labels: !data[0] ? labels : [],
+            gutterBottom: gutterBottom - 10,
+            gutterTop: gutterTop + 10,
+            gutterLeft: gutterLeft - 20,
+            gutterRight: gutterRight + 20,
+            hmargin: hmargin,
+            ymax: ymax,
+            noaxes: true
+        }
+    }).draw();
+
+
+    if (data[0]) {
+        var bar = new RGraph.Bar({
+            id: 'cvs',
+            data: data[0],
+            options: {
+                variant: '3d',
+                variantThreedYaxis: false,
+                variantThreedXaxis: false,
+                strokestyle: 'rgba(0,0,0,0)',
+                colors: [colors[0]],
+                labels: labels,
+                shadow: true,
+                shadowOffsetx: 10,
+                shadowColor: 'rgba(0,0,0,0.5)',
+                backgroundGrid: false,
+                axisColor: '#ddd',
+                unitsPost: 'km',
+                gutterTop: gutterTop + 20,
+                gutterBottom: gutterBottom - 20,
+                gutterLeft: gutterLeft - 40,
+                gutterRight: gutterRight + 40,
+                hmargin: hmargin,
+                ymax: ymax,
+                noaxes: true,
+                scaleZerostart: true
+            }
+        }).on('draw', function (obj)
+        {
+            RGraph.path2(
+                obj.context,
+                'gco destination-over b m % % l % % l % % l % % c s #ddd f rgba(0,0,0,0)',
+                gutterLeft  - 40, gutterTop + 20,
+                gutterLeft + 10, gutterTop - 5,
+                gutterLeft + 10, gutterTop - 5 + (obj.canvas.height - gutterTop - gutterBottom),
+                gutterLeft + 10 - 50, gutterTop - 5 + (obj.canvas.height - gutterTop - gutterBottom) + 25
+            );
+            
+            // Fioll the left-side back face again with a gradient
+            var grad = obj.context.createLinearGradient(0,0,0,300);
+            grad.addColorStop(0, 'white');
+            grad.addColorStop(0.75, '#999');
+
+            obj.context.fillStyle = grad;
+            obj.context.fill();
+
+            
+        }).draw();
+    }
 </script>
 </head>
 <body>
- <table class="alttable" id="grafic"><tbody><tr>
-  <td><canvas width="100000" height="350" id="cvs_bar" style=""></canvas></td>
- </tr></tbody></table>
+<canvas id="cvs" width="800" height="300">
+    [No canvas support]
+</canvas>
 <hr>
 </p><input type="button" onclick="tableToExcel('alternatecolor', 'Detail Harian 21 - Area Batur')" value="Export to Excel"> 
 <br/>
