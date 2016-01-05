@@ -77,7 +77,95 @@ window.onload = function ()
                 labelsAbove: true
                             }
         }).draw();
-        
+var line1 = new RGraph.Line({
+        id: 'cvs',
+        data:   [200.00,200.00,200.00,200.00,200.00,200.00,200.00,200.00,200.00,200.00,200.00,200.00],
+        options: {
+            ymax: 50,
+            backgroundGrid: false,
+            ylabels: false,
+            colors: ['green'],
+            hmargin: 5,
+            gutterRight: gutterRight,
+            gutterLeft: gutterLeft,
+            gutterTop: gutterTop,
+            tooltips: ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'],
+            noaxes: true,
+            shadow: false
+        }
+    }).draw();
+    
+    var line2 = new RGraph.Line({
+        id: 'cvs',
+        data:[83.38,63.13,129.47,123.70,107.36,110.38,116.82,119.66,94.84,87.65,84.88,126.80],
+        options: {
+            ymax: 50,
+            backgroundGrid: false,
+            ylabels: false,
+            colors: ['yellow'],
+            hmargin: 5,
+            gutterRight: gutterRight,
+            gutterLeft: gutterLeft,
+            gutterTop: gutterTop,
+            tooltips: ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'],
+            noaxes: true,
+            shadow: false
+        }
+    }).draw();
+    
+    var line3 = new RGraph.Line({
+        id: 'cvs',
+        data:[87.12,67.78,61.79,83.15,81.53,87.22,80.01,104.49,38.06,76.58,36.76,142.95],
+        options: {
+            ymax: 50,
+            backgroundGrid: false,
+            ylabels: false,
+            colors: ['blue'],
+            hmargin: 5,
+            gutterRight: gutterRight,
+            gutterLeft: gutterLeft,
+            gutterTop: gutterTop,
+            tooltips: ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'],
+            noaxes: true,
+            shadow: false
+        }
+    }).draw();
+    
+    var line4 = new RGraph.Line({
+        id: 'cvs',
+        data:[89.90,99.72,105.49,160.44,168.13,136.35,136.22,149.54,94.99,147.63,114.21,55.59],
+        options: {
+            ymax: 50,
+            backgroundGrid: false,
+            ylabels: false,
+            colors: ['Aqua'],
+            hmargin: 5,
+            gutterRight: gutterRight,
+            gutterLeft: gutterLeft,
+            gutterTop: gutterTop,
+            tooltips: ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'],
+            noaxes: true,
+            shadow: false
+        }
+    }).draw();
+    
+    var line5 = new RGraph.Line({
+        id: 'cvs',
+        data: [92.16,75.46,114.29,119.99,109.06,109.54,111.27,119.77,82.79,90.14,75.72,130.18],
+        options: {
+            ymax: 50,
+            backgroundGrid: false,
+            ylabels: false,
+            colors: ['Brown'],
+            hmargin: 5,
+            gutterRight: gutterRight,
+            gutterLeft: gutterLeft,
+            gutterTop: gutterTop,
+            tooltips: ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'],
+            noaxes: true,
+            shadow: false
+        }
+    }).draw();        
         
     };
     </script>
