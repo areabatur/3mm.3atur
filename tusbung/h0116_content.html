@@ -75,15 +75,15 @@ var bar = new RGraph.Bar('cvs_bar', [[35,43],[-37,40],[-26,28],[-74,5],[-32,34]]
 .set('key.position', 'gutter').set('key.position.y', 30).set('variant', '2d')
 .set('axis.color', '#aaa').set('labelsAbove', 'true')
 .grow();
-var bar = new RGraph.Bar('cvs_bar1', [[-553,-517],[-579,-573],[-531,-470],[-607,-559],[-591,-545]])
+var bar = new RGraph.Bar('cvs_bar1', [[-514,-483],[-521,-511],[-488,-409],[-522,-501],[-536,-486]])
 .set('colors', [
 'rgba(255, 176, 176, 1)',
 'rgba(153, 208, 249,1)'
 ])
 .set('labels', ['Bangli', 'Gianyar', 'Karangasem', 'Klungkung','Batur'])
-.set('tooltips', ['Bangli : -553%','Bangli : -517%','Gianyar : -579%','Gianyar : -573%','Karangasem : -531%','Karangasem : -470%','Klungkung : -607%','Klungkung : -559%','Batur : -591%','Batur : -545%'])
+.set('tooltips', ['Bangli : -514%','Bangli : -483%','Gianyar : -521%','Gianyar : -511%','Karangasem : -488%','Karangasem : -409%','Klungkung : -522%','Klungkung : -501%','Batur : -536%','Batur : -486%'])
 .set('tooltips.event', 'onmousemove').set('ymax', 700).set('ylabels.count', 2).set('numyticks', 8)
-.set('strokestyle', 'rgba(0,0,0,0)').set('hmargin.grouped', 2).set('units.pre', '').set('title', 'Progres Batur 13.01.2016')
+.set('strokestyle', 'rgba(0,0,0,0)').set('hmargin.grouped', 2).set('units.pre', '').set('title', 'Progres Batur 14.01.2016')
 .set('title.y', 25).set('gutter.top', 55).set('gutter.left', 40)
 .set('gutter.right', 15).set('gutter.bottom', 80).set('xaxispos', 'center')
 .set('key', ['% PLG','% RpTag'])
@@ -109,36 +109,39 @@ var bar = new RGraph.Bar('cvs_bar1', [[-553,-517],[-579,-573],[-531,-470],[-607,
 <th> 5 </th>
 <th> 12 </th>
 <th> 13 </th>
+<th> 14 </th>
 <th> TARGET 20 </th>
 <th> -/+ </th>
 <th>REALISASI 20</th>
 <th>%</th>
 </tr>
 <tr>
-<td style="text-align: center;"> <br>
+<td style="text-align: center; font-weight: bold;"> <br>
 </td>
 <td style="font-weight: bold;">BANGLI</td>
 <td>TOT PLG</td>
 <td style="text-align: right;"> 23.749 </td>
 <td style="text-align: right;"> 18.445 </td>
 <td style="text-align: right;"> 17.677 </td>
+<td style="text-align: right;"> 16.751 </td>
 <td style="text-align: right;"> 2.346 </td>
-<td style="text-align: right; font-weight: bold;"> (15.331)</td>
-<td style="text-align: center;">-553%</td>
-<td style="text-align: center;"> <br>
+<td style="text-align: right; font-weight: bold;"> (14.405)</td>
+<td style="text-align: right; font-weight: bold;">-514%</td>
+<td style="text-align: right; font-weight: bold;"> <br>
 </td>
 </tr>
 <tr>
 <td style="text-align: center; font-weight: bold;">1</td>
 <td style="font-weight: bold;">BANGLI</td>
 <td style="font-weight: bold;">TOT PRTAG</td>
-<td style="font-weight: bold; text-align: right;"> 2.294.226.294 </td>
-<td style="font-weight: bold; text-align: right;"> 1.682.057.023 </td>
-<td style="font-weight: bold; text-align: right;"> 1.625.894.285 </td>
-<td style="font-weight: bold; text-align: right;"> 226.652.443 </td>
-<td style="font-weight: bold; text-align: right;"> (1.399.241.842)</td>
-<td style="font-weight: bold; text-align: center;">-517%</td>
-<td style="font-weight: bold; text-align: center;">-290%</td>
+<td style="text-align: right; font-weight: bold;"> 2.294.226.294 </td>
+<td style="text-align: right; font-weight: bold;"> 1.682.057.023 </td>
+<td style="text-align: right; font-weight: bold;"> 1.625.894.285 </td>
+<td style="text-align: right; font-weight: bold;"> 1.547.870.559 </td>
+<td style="text-align: right; font-weight: bold;"> 226.652.443 </td>
+<td style="text-align: right; font-weight: bold;"> (1.321.218.116)</td>
+<td style="text-align: right; font-weight: bold;">-483%</td>
+<td style="text-align: right; font-weight: bold;">-266%</td>
 </tr>
 <tr>
 <td style="text-align: center; font-weight: bold;"> <br>
@@ -149,9 +152,10 @@ var bar = new RGraph.Bar('cvs_bar1', [[-553,-517],[-579,-573],[-531,-470],[-607,
 <td style="text-align: right;"> - </td>
 <td style="text-align: right;"> - </td>
 <td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
 <td style="text-align: right; font-weight: bold;"> - </td>
-<td style="text-align: center;">200%</td>
-<td style="text-align: center;"> <br>
+<td style="text-align: right; font-weight: bold;">200%</td>
+<td style="text-align: right; font-weight: bold;"> <br>
 </td>
 </tr>
 <tr>
@@ -162,27 +166,30 @@ var bar = new RGraph.Bar('cvs_bar1', [[-553,-517],[-579,-573],[-531,-470],[-607,
 <td style="text-align: right;"> 70.785 </td>
 <td style="text-align: right;"> 48.655 </td>
 <td style="text-align: right;"> 45.114 </td>
+<td style="text-align: right;"> 41.742 </td>
 <td style="text-align: right;"> 5.792 </td>
-<td style="text-align: right; font-weight: bold;"> (39.322)</td>
-<td style="text-align: center;">-579%</td>
-<td style="text-align: center;"> <br>
+<td style="text-align: right; font-weight: bold;"> (35.950)</td>
+<td style="text-align: right; font-weight: bold;">-521%</td>
+<td style="text-align: right; font-weight: bold;"> <br>
 </td>
 </tr>
 <tr>
 <td style="text-align: center; font-weight: bold;">2</td>
 <td style="font-weight: bold;">GIANYAR</td>
 <td style="font-weight: bold;">TOT PRTAG</td>
-<td style="font-weight: bold; text-align: right;"> 24.885.120.414
+<td style="text-align: right; font-weight: bold;"> 24.885.120.414
 </td>
-<td style="font-weight: bold; text-align: right;"> 17.023.466.643
+<td style="text-align: right; font-weight: bold;"> 17.023.466.643
 </td>
-<td style="font-weight: bold; text-align: right;"> 15.742.675.234
+<td style="text-align: right; font-weight: bold;"> 15.742.675.234
 </td>
-<td style="font-weight: bold; text-align: right;"> 2.036.298.968 </td>
-<td style="font-weight: bold; text-align: right;">
-(13.706.376.266)</td>
-<td style="font-weight: bold; text-align: center;">-573%</td>
-<td style="font-weight: bold; text-align: center;">-653%</td>
+<td style="text-align: right; font-weight: bold;"> 14.487.445.380
+</td>
+<td style="text-align: right; font-weight: bold;"> 2.036.298.968 </td>
+<td style="text-align: right; font-weight: bold;">
+(12.451.146.412)</td>
+<td style="text-align: right; font-weight: bold;">-511%</td>
+<td style="text-align: right; font-weight: bold;">-598%</td>
 </tr>
 <tr>
 <td style="text-align: center; font-weight: bold;"> <br>
@@ -192,10 +199,11 @@ var bar = new RGraph.Bar('cvs_bar1', [[-553,-517],[-579,-573],[-531,-470],[-607,
 <td style="text-align: right;"> 19.009.992 </td>
 <td style="text-align: right;"> 16.680.992 </td>
 <td style="text-align: right;"> 15.675.992 </td>
+<td style="text-align: right;"> 14.968.992 </td>
 <td style="text-align: right;"> 1.555.549 </td>
-<td style="text-align: right; font-weight: bold;"> (14.120.443)</td>
-<td style="text-align: center;">-808%</td>
-<td style="text-align: center;"> <br>
+<td style="text-align: right; font-weight: bold;"> (13.413.443)</td>
+<td style="text-align: right; font-weight: bold;">-762%</td>
+<td style="text-align: right; font-weight: bold;"> <br>
 </td>
 </tr>
 <tr>
@@ -206,23 +214,25 @@ var bar = new RGraph.Bar('cvs_bar1', [[-553,-517],[-579,-573],[-531,-470],[-607,
 <td style="text-align: right;"> 43.708 </td>
 <td style="text-align: right;"> 34.183 </td>
 <td style="text-align: right;"> 32.611 </td>
+<td style="text-align: right;"> 30.688 </td>
 <td style="text-align: right;"> 4.460 </td>
-<td style="text-align: right; font-weight: bold;"> (28.151)</td>
-<td style="text-align: center;">-531%</td>
-<td style="text-align: center;"> <br>
+<td style="text-align: right; font-weight: bold;"> (26.228)</td>
+<td style="text-align: right; font-weight: bold;">-488%</td>
+<td style="text-align: right; font-weight: bold;"> <br>
 </td>
 </tr>
 <tr>
 <td style="text-align: center; font-weight: bold;">3</td>
 <td style="font-weight: bold;">KARANGASEM </td>
 <td style="font-weight: bold;">TOT PRTAG</td>
-<td style="font-weight: bold; text-align: right;"> 7.105.090.529 </td>
-<td style="font-weight: bold; text-align: right;"> 5.684.757.545 </td>
-<td style="font-weight: bold; text-align: right;"> 4.858.589.579 </td>
-<td style="font-weight: bold; text-align: right;"> 725.010.473 </td>
-<td style="font-weight: bold; text-align: right;"> (4.133.579.106)</td>
-<td style="font-weight: bold; text-align: center;">-470%</td>
-<td style="font-weight: bold; text-align: center;">-526%</td>
+<td style="text-align: right; font-weight: bold;"> 7.105.090.529 </td>
+<td style="text-align: right; font-weight: bold;"> 5.684.757.545 </td>
+<td style="text-align: right; font-weight: bold;"> 4.858.589.579 </td>
+<td style="text-align: right; font-weight: bold;"> 4.418.614.501 </td>
+<td style="text-align: right; font-weight: bold;"> 725.010.473 </td>
+<td style="text-align: right; font-weight: bold;"> (3.693.604.028)</td>
+<td style="text-align: right; font-weight: bold;">-409%</td>
+<td style="text-align: right; font-weight: bold;">-486%</td>
 </tr>
 <tr>
 <td style="text-align: center; font-weight: bold;"> <br>
@@ -232,10 +242,11 @@ var bar = new RGraph.Bar('cvs_bar1', [[-553,-517],[-579,-573],[-531,-470],[-607,
 <td style="text-align: right;"> 7.398.347 </td>
 <td style="text-align: right;"> 6.260.347 </td>
 <td style="text-align: right;"> 5.866.347 </td>
+<td style="text-align: right;"> 5.746.347 </td>
 <td style="text-align: right;"> 754.935 </td>
-<td style="text-align: right; font-weight: bold;"> (5.111.412)</td>
-<td style="text-align: center;">-577%</td>
-<td style="text-align: center;"> <br>
+<td style="text-align: right; font-weight: bold;"> (4.991.412)</td>
+<td style="text-align: right; font-weight: bold;">-561%</td>
+<td style="text-align: right; font-weight: bold;"> <br>
 </td>
 </tr>
 <tr>
@@ -246,23 +257,25 @@ var bar = new RGraph.Bar('cvs_bar1', [[-553,-517],[-579,-573],[-531,-470],[-607,
 <td style="text-align: right;"> 20.479 </td>
 <td style="text-align: right;"> 14.081 </td>
 <td style="text-align: right;"> 13.154 </td>
+<td style="text-align: right;"> 11.774 </td>
 <td style="text-align: right;"> 1.631 </td>
-<td style="text-align: right; font-weight: bold;"> (11.523)</td>
-<td style="text-align: center;">-607%</td>
-<td style="text-align: center;"> <br>
+<td style="text-align: right; font-weight: bold;"> (10.143)</td>
+<td style="text-align: right; font-weight: bold;">-522%</td>
+<td style="text-align: right; font-weight: bold;"> <br>
 </td>
 </tr>
 <tr>
 <td style="text-align: center; font-weight: bold;">4</td>
 <td style="font-weight: bold;">KLUNGKUNG</td>
 <td style="font-weight: bold;">TOT PRTAG</td>
-<td style="font-weight: bold; text-align: right;"> 3.441.013.140 </td>
-<td style="font-weight: bold; text-align: right;"> 2.449.725.304 </td>
-<td style="font-weight: bold; text-align: right;"> 2.080.892.158 </td>
-<td style="font-weight: bold; text-align: right;"> 274.048.217 </td>
-<td style="font-weight: bold; text-align: right;"> (1.806.843.941)</td>
-<td style="font-weight: bold; text-align: center;">-559%</td>
-<td style="font-weight: bold; text-align: center;">-636%</td>
+<td style="text-align: right; font-weight: bold;"> 3.441.013.140 </td>
+<td style="text-align: right; font-weight: bold;"> 2.449.725.304 </td>
+<td style="text-align: right; font-weight: bold;"> 2.080.892.158 </td>
+<td style="text-align: right; font-weight: bold;"> 1.921.731.082 </td>
+<td style="text-align: right; font-weight: bold;"> 274.048.217 </td>
+<td style="text-align: right; font-weight: bold;"> (1.647.682.865)</td>
+<td style="text-align: right; font-weight: bold;">-501%</td>
+<td style="text-align: right; font-weight: bold;">-562%</td>
 </tr>
 <tr>
 <td style="text-align: center; font-weight: bold;"> <br>
@@ -272,54 +285,59 @@ var bar = new RGraph.Bar('cvs_bar1', [[-553,-517],[-579,-573],[-531,-470],[-607,
 <td style="text-align: right;"> 1.623.596 </td>
 <td style="text-align: right;"> 1.341.596 </td>
 <td style="text-align: right;"> 1.217.596 </td>
+<td style="text-align: right;"> 1.115.596 </td>
 <td style="text-align: right;"> 129.306 </td>
-<td style="text-align: right; font-weight: bold;"> (1.088.290)</td>
-<td style="text-align: center;">-742%</td>
-<td style="text-align: center;"> <br>
+<td style="text-align: right; font-weight: bold;"> (986.290)</td>
+<td style="text-align: right; font-weight: bold;">-663%</td>
+<td style="text-align: right; font-weight: bold;"> <br>
 </td>
 </tr>
 <tr>
 <td style="text-align: center; font-weight: bold;"> <br>
 </td>
 <td style="font-weight: bold;">BATUR</td>
-<td style="font-weight: bold;">TOT PLG</td>
-<td style="font-weight: bold; text-align: right;"> 158.721 </td>
-<td style="font-weight: bold; text-align: right;"> 115.364 </td>
-<td style="font-weight: bold; text-align: right;"> 108.556 </td>
-<td style="font-weight: bold; text-align: right;"> 13.724 </td>
-<td style="font-weight: bold; text-align: right;"> (94.832)</td>
-<td style="font-weight: bold; text-align: center;">-591%</td>
-<td style="font-weight: bold; text-align: center;"> <br>
+<td>TOT PLG</td>
+<td style="text-align: right;"> 158.721 </td>
+<td style="text-align: right;"> 115.364 </td>
+<td style="text-align: right;"> 108.556 </td>
+<td style="text-align: right;"> 100.955 </td>
+<td style="text-align: right;"> 13.724 </td>
+<td style="text-align: right; font-weight: bold;"> (87.231)</td>
+<td style="text-align: right; font-weight: bold;">-536%</td>
+<td style="text-align: right; font-weight: bold;"> <br>
 </td>
 </tr>
 <tr>
 <td style="text-align: center; font-weight: bold;">5</td>
 <td style="font-weight: bold;">BATUR</td>
 <td style="font-weight: bold;">TOT PRTAG</td>
-<td style="font-weight: bold; text-align: right;"> 37.725.450.377
+<td style="text-align: right; font-weight: bold;"> 37.725.450.377
 </td>
-<td style="font-weight: bold; text-align: right;"> 26.840.006.515
+<td style="text-align: right; font-weight: bold;"> 26.840.006.515
 </td>
-<td style="font-weight: bold; text-align: right;"> 24.308.051.256
+<td style="text-align: right; font-weight: bold;"> 24.308.051.256
 </td>
-<td style="font-weight: bold; text-align: right;"> 3.262.010.101 </td>
-<td style="font-weight: bold; text-align: right;">
-(21.046.041.155)</td>
-<td style="font-weight: bold; text-align: center;">-545%</td>
-<td style="font-weight: bold; text-align: center;">-625%</td>
+<td style="text-align: right; font-weight: bold;"> 22.375.661.522
+</td>
+<td style="text-align: right; font-weight: bold;"> 3.262.010.101 </td>
+<td style="text-align: right; font-weight: bold;">
+(19.113.651.421)</td>
+<td style="text-align: right; font-weight: bold;">-486%</td>
+<td style="text-align: right; font-weight: bold;">-574%</td>
 </tr>
 <tr>
 <td style="text-align: center; font-weight: bold;"> <br>
 </td>
 <td style="font-weight: bold;">BATUR</td>
-<td style="font-weight: bold;">TOT RPBK</td>
-<td style="font-weight: bold; text-align: right;"> 28.031.935 </td>
-<td style="font-weight: bold; text-align: right;"> 24.282.935 </td>
-<td style="font-weight: bold; text-align: right;"> 22.759.935 </td>
-<td style="font-weight: bold; text-align: right;"> 2.423.840 </td>
-<td style="font-weight: bold; text-align: right;"> (20.336.095)</td>
-<td style="font-weight: bold; text-align: center;">-739%</td>
-<td style="font-weight: bold; text-align: center;"> <br>
+<td>TOT RPBK</td>
+<td style="text-align: right;"> 28.031.935 </td>
+<td style="text-align: right;"> 24.282.935 </td>
+<td style="text-align: right;"> 22.759.935 </td>
+<td style="text-align: right;"> 21.830.935 </td>
+<td style="text-align: right;"> 2.423.840 </td>
+<td style="text-align: right; font-weight: bold;"> (19.407.095)</td>
+<td style="text-align: right; font-weight: bold;">-701%</td>
+<td style="text-align: right; font-weight: bold;"> <br>
 </td>
 </tr>
 </tbody>
