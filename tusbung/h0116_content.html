@@ -1,0 +1,334 @@
+<html>
+<head>
+<meta http-equiv="X-UA-Compatible" content="chrome=1">
+<meta name="robots" content="noindex">
+<!--<link rel="stylesheet" href="css/website.css" type="text/css" media="screen"> -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/exportexcel.js"></script>
+<style>
+/* Override the background image */
+body {
+background-color: white;
+background-image: none;
+padding: 0;
+text-align: left;
+}
+</style>
+<style type="text/css">
+table.altrowstable {
+font-family: verdana,arial,sans-serif;
+font-size:11px;
+color:#333333;
+border-width: 1px;
+border-color: #a9c6c9;
+border-collapse: collapse;
+}
+table.altrowstable th {
+padding: 0.25rem;
+border-width: 1px;
+padding: 8px;
+border-style: solid;
+border-color: #a9c6c9;
+}
+table.altrowstable td {
+padding: 0.25rem;
+border-width: 1px;
+padding: 8px;
+border-style: solid;
+border-color: #a9c6c9;
+}
+tbody tr:hover {
+background: #9fB8ff;
+}
+.oddrowcolor{
+background-color:#d4e3e5;
+}
+.evenrowcolor{
+background-color:#c3dde0;
+</style>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/exportexcel.js"></script>
+<script src="js/RGraph.common.core.js"></script>
+<script src="js/RGraph.common.dynamic.js"></script>
+<script src="js/RGraph.common.key.js"></script>
+<script src="js/RGraph.drawing.rect.js"></script>
+<script src="js/RGraph.drawing.text.js"></script>
+<script src="js/RGraph.common.effects.js"></script>
+<script src="js/RGraph.common.tooltips.js"></script>
+<script src="js/RGraph.bar.js"></script>
+<script src="js/RGraph.Pie.js"></script>
+<script>
+window.onload = function ()
+{
+var bar = new RGraph.Bar('cvs_bar', [[200,200],[111,127],[143,143],[84,57],[125,130]])
+.set('colors', [
+'rgba(255, 176, 176, 1)',
+'rgba(153, 208, 249,1)'
+])
+.set('labels', ['Bangli', 'Gianyar', 'Karangasem', 'Klungkung','Batur'])
+.set('tooltips', ['Bangli : 200%','Bangli : 200%','Gianyar : 111%','Gianyar : 127%','Karangasem : 143%','Karangasem : 143%','Klungkung : 84%','Klungkung : 57%','Batur : 125%','Batur : 130%'])
+.set('tooltips.event', 'onmousemove').set('ymax', 200).set('ylabels.count', 2).set('numyticks', 8)
+.set('strokestyle', 'rgba(0,0,0,0)').set('hmargin.grouped', 2).set('units.pre', '').set('title', 'Progres Batur 30.12.2015')
+.set('title.y', 25).set('gutter.top', 55).set('gutter.left', 40)
+.set('gutter.right', 15).set('gutter.bottom', 80).set('xaxispos', 'center')
+.set('key', ['% PLG','% RpTag'])
+.set('key.position', 'gutter').set('key.position.y', 30).set('variant', '2d')
+.set('axis.color', '#aaa').set('labelsAbove', 'true')
+.grow();
+var bar = new RGraph.Bar('cvs_bar1', [[35,43],[-37,40],[-26,28],[-74,5],[-32,34]])
+.set('colors', [
+'rgba(255, 176, 176, 1)',
+'rgba(153, 208, 249,1)'
+])
+.set('labels', ['Bangli', 'Gianyar', 'Karangasem', 'Klungkung','Batur'])
+.set('tooltips', ['Bangli : 35%','Bangli : 43%','Gianyar : -37%','Gianyar : 40%','Karangasem : -26%','Karangasem : 28%','Klungkung : -74%','Klungkung : 5%','Batur : -32%','Batur : 34%'])
+.set('tooltips.event', 'onmousemove').set('ymax', 200).set('ylabels.count', 2).set('numyticks', 8)
+.set('strokestyle', 'rgba(0,0,0,0)').set('hmargin.grouped', 2).set('units.pre', '').set('title', 'Progres Batur 20.12.2015')
+.set('title.y', 25).set('gutter.top', 55).set('gutter.left', 40)
+.set('gutter.right', 15).set('gutter.bottom', 80).set('xaxispos', 'center')
+.set('key', ['% PLG','% RpTag'])
+.set('key.position', 'gutter').set('key.position.y', 30).set('variant', '2d')
+.set('axis.color', '#aaa').set('labelsAbove', 'true')
+.grow();
+};
+</script>
+</head>
+<body>
+ <table class="alttable" id="grafic"><tbody><tr>
+  <td><canvas width="600" height="350" id="cvs_bar" style=""></canvas></td>
+ // <td><canvas width="600" height="350" id="cvs_bar1" style=""></canvas> </td>
+  </tr></tbody></table>
+<hr>
+</p><input type="button" onclick="tableToExcel('alternatecolor2', 'Detail Harian 1-20 - Area Batur')" value="Export to Excel">
+<br/>
+<table class="altrowstable" id="alternatecolor2"><caption><strong>##Detail Harian - Area Batur##</strong></caption> <tbody>
+<tr>
+<th>NO</th>
+<th>RAYON</th>
+<th>DETAIL</th>
+<th> 5 </th>
+<th> 12 </th>
+<th> 13 </th>
+<th> TARGET 20 </th>
+<th> -/+ </th>
+<th>REALISASI 20</th>
+<th>%</th>
+</tr>
+<tr>
+<td style="text-align: center;"> <br>
+</td>
+<td style="font-weight: bold;">BANGLI</td>
+<td>TOT PLG</td>
+<td style="text-align: right;"> 23.749 </td>
+<td style="text-align: right;"> 18.445 </td>
+<td style="text-align: right;"> 17.677 </td>
+<td style="text-align: right;"> 2.346 </td>
+<td style="text-align: right; font-weight: bold;"> (15.331)</td>
+<td style="text-align: center;">-553%</td>
+<td style="text-align: center;"> <br>
+</td>
+</tr>
+<tr>
+<td style="text-align: center; font-weight: bold;">1</td>
+<td style="font-weight: bold;">BANGLI</td>
+<td style="font-weight: bold;">TOT PRTAG</td>
+<td style="font-weight: bold; text-align: right;"> 2.294.226.294 </td>
+<td style="font-weight: bold; text-align: right;"> 1.682.057.023 </td>
+<td style="font-weight: bold; text-align: right;"> 1.625.894.285 </td>
+<td style="font-weight: bold; text-align: right;"> 226.652.443 </td>
+<td style="font-weight: bold; text-align: right;"> (1.399.241.842)</td>
+<td style="font-weight: bold; text-align: center;">-517%</td>
+<td style="font-weight: bold; text-align: center;">-290%</td>
+</tr>
+<tr>
+<td style="text-align: center; font-weight: bold;"> <br>
+</td>
+<td style="font-weight: bold;">BANGLI</td>
+<td>TOT RPBK</td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right; font-weight: bold;"> - </td>
+<td style="text-align: center;">200%</td>
+<td style="text-align: center;"> <br>
+</td>
+</tr>
+<tr>
+<td style="text-align: center; font-weight: bold;"> <br>
+</td>
+<td style="font-weight: bold;">GIANYAR</td>
+<td>TOT PLG</td>
+<td style="text-align: right;"> 70.785 </td>
+<td style="text-align: right;"> 48.655 </td>
+<td style="text-align: right;"> 45.114 </td>
+<td style="text-align: right;"> 5.792 </td>
+<td style="text-align: right; font-weight: bold;"> (39.322)</td>
+<td style="text-align: center;">-579%</td>
+<td style="text-align: center;"> <br>
+</td>
+</tr>
+<tr>
+<td style="text-align: center; font-weight: bold;">2</td>
+<td style="font-weight: bold;">GIANYAR</td>
+<td style="font-weight: bold;">TOT PRTAG</td>
+<td style="font-weight: bold; text-align: right;"> 24.885.120.414
+</td>
+<td style="font-weight: bold; text-align: right;"> 17.023.466.643
+</td>
+<td style="font-weight: bold; text-align: right;"> 15.742.675.234
+</td>
+<td style="font-weight: bold; text-align: right;"> 2.036.298.968 </td>
+<td style="font-weight: bold; text-align: right;">
+(13.706.376.266)</td>
+<td style="font-weight: bold; text-align: center;">-573%</td>
+<td style="font-weight: bold; text-align: center;">-653%</td>
+</tr>
+<tr>
+<td style="text-align: center; font-weight: bold;"> <br>
+</td>
+<td style="font-weight: bold;">GIANYAR</td>
+<td>TOT RPBK</td>
+<td style="text-align: right;"> 19.009.992 </td>
+<td style="text-align: right;"> 16.680.992 </td>
+<td style="text-align: right;"> 15.675.992 </td>
+<td style="text-align: right;"> 1.555.549 </td>
+<td style="text-align: right; font-weight: bold;"> (14.120.443)</td>
+<td style="text-align: center;">-808%</td>
+<td style="text-align: center;"> <br>
+</td>
+</tr>
+<tr>
+<td style="text-align: center; font-weight: bold;"> <br>
+</td>
+<td style="font-weight: bold;">KARANGASEM </td>
+<td>TOT PLG</td>
+<td style="text-align: right;"> 43.708 </td>
+<td style="text-align: right;"> 34.183 </td>
+<td style="text-align: right;"> 32.611 </td>
+<td style="text-align: right;"> 4.460 </td>
+<td style="text-align: right; font-weight: bold;"> (28.151)</td>
+<td style="text-align: center;">-531%</td>
+<td style="text-align: center;"> <br>
+</td>
+</tr>
+<tr>
+<td style="text-align: center; font-weight: bold;">3</td>
+<td style="font-weight: bold;">KARANGASEM </td>
+<td style="font-weight: bold;">TOT PRTAG</td>
+<td style="font-weight: bold; text-align: right;"> 7.105.090.529 </td>
+<td style="font-weight: bold; text-align: right;"> 5.684.757.545 </td>
+<td style="font-weight: bold; text-align: right;"> 4.858.589.579 </td>
+<td style="font-weight: bold; text-align: right;"> 725.010.473 </td>
+<td style="font-weight: bold; text-align: right;"> (4.133.579.106)</td>
+<td style="font-weight: bold; text-align: center;">-470%</td>
+<td style="font-weight: bold; text-align: center;">-526%</td>
+</tr>
+<tr>
+<td style="text-align: center; font-weight: bold;"> <br>
+</td>
+<td style="font-weight: bold;">KARANGASEM </td>
+<td>TOT RPBK</td>
+<td style="text-align: right;"> 7.398.347 </td>
+<td style="text-align: right;"> 6.260.347 </td>
+<td style="text-align: right;"> 5.866.347 </td>
+<td style="text-align: right;"> 754.935 </td>
+<td style="text-align: right; font-weight: bold;"> (5.111.412)</td>
+<td style="text-align: center;">-577%</td>
+<td style="text-align: center;"> <br>
+</td>
+</tr>
+<tr>
+<td style="text-align: center; font-weight: bold;"> <br>
+</td>
+<td style="font-weight: bold;">KLUNGKUNG</td>
+<td>TOT PLG</td>
+<td style="text-align: right;"> 20.479 </td>
+<td style="text-align: right;"> 14.081 </td>
+<td style="text-align: right;"> 13.154 </td>
+<td style="text-align: right;"> 1.631 </td>
+<td style="text-align: right; font-weight: bold;"> (11.523)</td>
+<td style="text-align: center;">-607%</td>
+<td style="text-align: center;"> <br>
+</td>
+</tr>
+<tr>
+<td style="text-align: center; font-weight: bold;">4</td>
+<td style="font-weight: bold;">KLUNGKUNG</td>
+<td style="font-weight: bold;">TOT PRTAG</td>
+<td style="font-weight: bold; text-align: right;"> 3.441.013.140 </td>
+<td style="font-weight: bold; text-align: right;"> 2.449.725.304 </td>
+<td style="font-weight: bold; text-align: right;"> 2.080.892.158 </td>
+<td style="font-weight: bold; text-align: right;"> 274.048.217 </td>
+<td style="font-weight: bold; text-align: right;"> (1.806.843.941)</td>
+<td style="font-weight: bold; text-align: center;">-559%</td>
+<td style="font-weight: bold; text-align: center;">-636%</td>
+</tr>
+<tr>
+<td style="text-align: center; font-weight: bold;"> <br>
+</td>
+<td style="font-weight: bold;">KLUNGKUNG</td>
+<td>TOT RPBK</td>
+<td style="text-align: right;"> 1.623.596 </td>
+<td style="text-align: right;"> 1.341.596 </td>
+<td style="text-align: right;"> 1.217.596 </td>
+<td style="text-align: right;"> 129.306 </td>
+<td style="text-align: right; font-weight: bold;"> (1.088.290)</td>
+<td style="text-align: center;">-742%</td>
+<td style="text-align: center;"> <br>
+</td>
+</tr>
+<tr>
+<td style="text-align: center; font-weight: bold;"> <br>
+</td>
+<td style="font-weight: bold;">BATUR</td>
+<td style="font-weight: bold;">TOT PLG</td>
+<td style="font-weight: bold; text-align: right;"> 158.721 </td>
+<td style="font-weight: bold; text-align: right;"> 115.364 </td>
+<td style="font-weight: bold; text-align: right;"> 108.556 </td>
+<td style="font-weight: bold; text-align: right;"> 13.724 </td>
+<td style="font-weight: bold; text-align: right;"> (94.832)</td>
+<td style="font-weight: bold; text-align: center;">-591%</td>
+<td style="font-weight: bold; text-align: center;"> <br>
+</td>
+</tr>
+<tr>
+<td style="text-align: center; font-weight: bold;">5</td>
+<td style="font-weight: bold;">BATUR</td>
+<td style="font-weight: bold;">TOT PRTAG</td>
+<td style="font-weight: bold; text-align: right;"> 37.725.450.377
+</td>
+<td style="font-weight: bold; text-align: right;"> 26.840.006.515
+</td>
+<td style="font-weight: bold; text-align: right;"> 24.308.051.256
+</td>
+<td style="font-weight: bold; text-align: right;"> 3.262.010.101 </td>
+<td style="font-weight: bold; text-align: right;">
+(21.046.041.155)</td>
+<td style="font-weight: bold; text-align: center;">-545%</td>
+<td style="font-weight: bold; text-align: center;">-625%</td>
+</tr>
+<tr>
+<td style="text-align: center; font-weight: bold;"> <br>
+</td>
+<td style="font-weight: bold;">BATUR</td>
+<td style="font-weight: bold;">TOT RPBK</td>
+<td style="font-weight: bold; text-align: right;"> 28.031.935 </td>
+<td style="font-weight: bold; text-align: right;"> 24.282.935 </td>
+<td style="font-weight: bold; text-align: right;"> 22.759.935 </td>
+<td style="font-weight: bold; text-align: right;"> 2.423.840 </td>
+<td style="font-weight: bold; text-align: right;"> (20.336.095)</td>
+<td style="font-weight: bold; text-align: center;">-739%</td>
+<td style="font-weight: bold; text-align: center;"> <br>
+</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<p align="center"><a href="http://www.rgraph.net" target="_blank" style="text-decoration: none">
+    <img src="http://www.rgraph.net/images/logo.png" width="32" height="32" align="absmiddle" alt="rgraph: free 2d/3d html5 charts that get you noticed" />
+    Design by free Charts with RGraph
+</a></p>
+</body>
+ 
+</html>
