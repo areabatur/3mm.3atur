@@ -60,15 +60,15 @@ background-color:#c3dde0;
 <script>
 window.onload = function ()
 {
-var bar = new RGraph.Bar('cvs_bar', [[200,200],[111,127],[143,143],[84,57],[125,130]])
+var bar = new RGraph.Bar('cvs_bar', [[35,43],[-37,40],[-26,28],[-74,5],[-32,34]])
 .set('colors', [
 'rgba(255, 176, 176, 1)',
 'rgba(153, 208, 249,1)'
 ])
 .set('labels', ['Bangli', 'Gianyar', 'Karangasem', 'Klungkung','Batur'])
-.set('tooltips', ['Bangli : 200%','Bangli : 200%','Gianyar : 111%','Gianyar : 127%','Karangasem : 143%','Karangasem : 143%','Klungkung : 84%','Klungkung : 57%','Batur : 125%','Batur : 130%'])
+.set('tooltips', ['Bangli : 35%','Bangli : 43%','Gianyar : -37%','Gianyar : 40%','Karangasem : -26%','Karangasem : 28%','Klungkung : -74%','Klungkung : 5%','Batur : -32%','Batur : 34%'])
 .set('tooltips.event', 'onmousemove').set('ymax', 200).set('ylabels.count', 2).set('numyticks', 8)
-.set('strokestyle', 'rgba(0,0,0,0)').set('hmargin.grouped', 2).set('units.pre', '').set('title', 'Progres Batur 30.12.2015')
+.set('strokestyle', 'rgba(0,0,0,0)').set('hmargin.grouped', 2).set('units.pre', '').set('title', 'Progres Batur 20.12.2015')
 .set('title.y', 25).set('gutter.top', 55).set('gutter.left', 40)
 .set('gutter.right', 15).set('gutter.bottom', 80).set('xaxispos', 'center')
 .set('key', ['% PLG','% RpTag'])
