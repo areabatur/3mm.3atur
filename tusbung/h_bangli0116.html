@@ -1,0 +1,428 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head>
+  <title>Content</title>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/exportexcel.js"></script>
+<script type="text/javascript">
+function altRows(id){
+if(document.getElementsByTagName){
+var table = document.getElementById(id);
+var rows = table.getElementsByTagName("tr");
+for(i = 0; i < rows.length; i++){
+if(i % 2 == 0){
+rows[i].className = "evenrowcolor";
+}else{
+rows[i].className = "oddrowcolor";
+}
+}
+}
+}
+window.onload=function(){
+altRows('alternatecolor');
+}
+</script><!-- CSS goes in the document HEAD or added to your external stylesheet -->
+<style type="text/css">
+table.altrowstable {
+font-family: verdana,arial,sans-serif;
+font-size:11px;
+color:#333333;
+border-width: 1px;
+border-color: #a9c6c9;
+border-collapse: collapse;
+}
+table.altrowstable th {
+padding: 0.25rem;
+border-width: 1px;
+padding: 8px;
+border-style: solid;
+border-color: #a9c6c9;
+}
+table.altrowstable td {
+padding: 0.25rem;
+border-width: 1px;
+padding: 8px;
+border-style: solid;
+border-color: #a9c6c9;
+}
+tbody tr:hover {
+background: yellow;
+}
+.oddrowcolor{
+background-color:#d4e3e5;
+}
+.evenrowcolor{
+background-color:#c3dde0;
+}
+</style>
+</head>
+<body>
+
+</p><input type="button" onclick="tableToExcel('alternatecolor2', 'Detail Harian 1-20 - Rayon Bangli')" value="Export to Excel">
+<br/>
+<table class="altrowstable" id="alternatecolor2"><caption><strong>##Detail Harian - Rayon Bangli##</strong></caption>
+<tbody>
+<tr>
+<th>RAYON</th>
+<th>IDBILLMAN</th>
+<th>NAMABILLMAN</th>
+<th>LBR</th>
+<th> PLG_5 </th>
+<th> PLG_12 </th>
+<th> PLG_13 </th>
+<th> | </th>
+<th> RPTAG_5 </th>
+<th> RPTAG_12 </th>
+<th> RPTAG_13 </th>
+<th> | </th>
+<th> RPBK_5 </th>
+<th> RPBK_12 </th>
+<th> RPBK_13 </th>
+</tr>
+<tr>
+<td style="font-weight: bold;">Bangli</td>
+<td style="font-weight: bold;">5522001</td>
+<td style="font-weight: bold;">AA Made Sudiana</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: right;"> 1.639 </td>
+<td style="text-align: right;"> 1.305 </td>
+<td style="text-align: right;"> 1.241 </td>
+<td style="text-align: right;"> <br>
+</td>
+<td style="text-align: right;"> 178.700.364 </td>
+<td style="text-align: right;"> 127.548.081 </td>
+<td style="text-align: right;"> 121.700.613 </td>
+<td style="text-align: right;"> <br>
+</td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Bangli</td>
+<td style="font-weight: bold;">5522002</td>
+<td style="font-weight: bold;">Dewa Gede Adnyana</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: right;"> 1.485 </td>
+<td style="text-align: right;"> 1.132 </td>
+<td style="text-align: right;"> 1.117 </td>
+<td style="text-align: right;"> <br>
+</td>
+<td style="text-align: right;"> 96.117.346 </td>
+<td style="text-align: right;"> 57.519.849 </td>
+<td style="text-align: right;"> 56.662.788 </td>
+<td style="text-align: right;"> <br>
+</td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Bangli</td>
+<td style="font-weight: bold;">5522003</td>
+<td style="font-weight: bold;">I Wayan Putu Gunadi</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: right;"> 1.518 </td>
+<td style="text-align: right;"> 1.112 </td>
+<td style="text-align: right;"> 1.075 </td>
+<td style="text-align: right;"> <br>
+</td>
+<td style="text-align: right;"> 129.526.557 </td>
+<td style="text-align: right;"> 98.544.887 </td>
+<td style="text-align: right;"> 96.012.123 </td>
+<td style="text-align: right;"> <br>
+</td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Bangli</td>
+<td style="font-weight: bold;">5522004</td>
+<td style="font-weight: bold;">Ketut Sudarmono</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: right;"> 1.407 </td>
+<td style="text-align: right;"> 869 </td>
+<td style="text-align: right;"> 856 </td>
+<td style="text-align: right;"> <br>
+</td>
+<td style="text-align: right;"> 86.064.505 </td>
+<td style="text-align: right;"> 40.579.212 </td>
+<td style="text-align: right;"> 39.893.235 </td>
+<td style="text-align: right;"> <br>
+</td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Bangli</td>
+<td style="font-weight: bold;">5522005</td>
+<td style="font-weight: bold;">I Gusti Ngurah Putra Adnyana</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: right;"> 1.516 </td>
+<td style="text-align: right;"> 1.138 </td>
+<td style="text-align: right;"> 1.106 </td>
+<td style="text-align: right;"> <br>
+</td>
+<td style="text-align: right;"> 82.135.395 </td>
+<td style="text-align: right;"> 65.962.583 </td>
+<td style="text-align: right;"> 63.761.596 </td>
+<td style="text-align: right;"> <br>
+</td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Bangli</td>
+<td style="font-weight: bold;">5522006</td>
+<td style="font-weight: bold;">I Nengah Puja</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: right;"> 1.607 </td>
+<td style="text-align: right;"> 796 </td>
+<td style="text-align: right;"> 767 </td>
+<td style="text-align: right;"> <br>
+</td>
+<td style="text-align: right;"> 93.637.456 </td>
+<td style="text-align: right;"> 48.683.539 </td>
+<td style="text-align: right;"> 47.589.771 </td>
+<td style="text-align: right;"> <br>
+</td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Bangli</td>
+<td style="font-weight: bold;">5522007</td>
+<td style="font-weight: bold;">I Dewa Made Sineb</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: right;"> 1.566 </td>
+<td style="text-align: right;"> 1.368 </td>
+<td style="text-align: right;"> 1.345 </td>
+<td style="text-align: right;"> <br>
+</td>
+<td style="text-align: right;"> 81.988.592 </td>
+<td style="text-align: right;"> 73.484.511 </td>
+<td style="text-align: right;"> 72.435.141 </td>
+<td style="text-align: right;"> <br>
+</td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Bangli</td>
+<td style="font-weight: bold;">5522009</td>
+<td style="font-weight: bold;">Ketut Sumarsa</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: right;"> 1.675 </td>
+<td style="text-align: right;"> 1.020 </td>
+<td style="text-align: right;"> 895 </td>
+<td style="text-align: right;"> <br>
+</td>
+<td style="text-align: right;"> 97.791.503 </td>
+<td style="text-align: right;"> 54.042.091 </td>
+<td style="text-align: right;"> 48.887.111 </td>
+<td style="text-align: right;"> <br>
+</td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Bangli</td>
+<td style="font-weight: bold;">5522010</td>
+<td style="font-weight: bold;">Nengah Mariana</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: right;"> 1.527 </td>
+<td style="text-align: right;"> 1.154 </td>
+<td style="text-align: right;"> 1.084 </td>
+<td style="text-align: right;"> <br>
+</td>
+<td style="text-align: right;"> 312.050.337 </td>
+<td style="text-align: right;"> 259.409.895 </td>
+<td style="text-align: right;"> 253.718.208 </td>
+<td style="text-align: right;"> <br>
+</td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Bangli</td>
+<td style="font-weight: bold;">5522011</td>
+<td style="font-weight: bold;">I Kadek Sumertana</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: right;"> 1.575 </td>
+<td style="text-align: right;"> 1.273 </td>
+<td style="text-align: right;"> 1.246 </td>
+<td style="text-align: right;"> <br>
+</td>
+<td style="text-align: right;"> 113.915.207 </td>
+<td style="text-align: right;"> 91.882.480 </td>
+<td style="text-align: right;"> 89.388.800 </td>
+<td style="text-align: right;"> <br>
+</td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Bangli</td>
+<td style="font-weight: bold;">5522012</td>
+<td style="font-weight: bold;">I Gede Redina</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: right;"> 1.376 </td>
+<td style="text-align: right;"> 1.203 </td>
+<td style="text-align: right;"> 1.189 </td>
+<td style="text-align: right;"> <br>
+</td>
+<td style="text-align: right;"> 88.516.774 </td>
+<td style="text-align: right;"> 82.041.338 </td>
+<td style="text-align: right;"> 81.158.219 </td>
+<td style="text-align: right;"> <br>
+</td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Bangli</td>
+<td style="font-weight: bold;">5522013</td>
+<td style="font-weight: bold;">I Wayan Suarka</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: right;"> 1.290 </td>
+<td style="text-align: right;"> 1.180 </td>
+<td style="text-align: right;"> 1.174 </td>
+<td style="text-align: right;"> <br>
+</td>
+<td style="text-align: right;"> 169.800.970 </td>
+<td style="text-align: right;"> 157.996.307 </td>
+<td style="text-align: right;"> 146.259.672 </td>
+<td style="text-align: right;"> <br>
+</td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Bangli</td>
+<td style="font-weight: bold;">5522014</td>
+<td style="font-weight: bold;">Wayan Sastra</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: right;"> 1.387 </td>
+<td style="text-align: right;"> 1.202 </td>
+<td style="text-align: right;"> 1.113 </td>
+<td style="text-align: right;"> <br>
+</td>
+<td style="text-align: right;"> 75.992.835 </td>
+<td style="text-align: right;"> 66.535.230 </td>
+<td style="text-align: right;"> 62.593.401 </td>
+<td style="text-align: right;"> <br>
+</td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Bangli</td>
+<td style="font-weight: bold;">5522015</td>
+<td style="font-weight: bold;">I Made Juita</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: right;"> 1.361 </td>
+<td style="text-align: right;"> 1.278 </td>
+<td style="text-align: right;"> 1.090 </td>
+<td style="text-align: right;"> <br>
+</td>
+<td style="text-align: right;"> 124.224.860 </td>
+<td style="text-align: right;"> 118.944.134 </td>
+<td style="text-align: right;"> 112.402.690 </td>
+<td style="text-align: right;"> <br>
+</td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Bangli</td>
+<td style="font-weight: bold;">5522016</td>
+<td style="font-weight: bold;">Nyoman Arnata</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: right;"> 1.452 </td>
+<td style="text-align: right;"> 1.296 </td>
+<td style="text-align: right;"> 1.271 </td>
+<td style="text-align: right;"> <br>
+</td>
+<td style="text-align: right;"> 87.732.733 </td>
+<td style="text-align: right;"> 80.804.679 </td>
+<td style="text-align: right;"> 79.739.523 </td>
+<td style="text-align: right;"> <br>
+</td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Bangli</td>
+<td style="font-weight: bold;">5522017</td>
+<td style="font-weight: bold;">I Wayan Agus Natakusuma</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: right;"> 1.338 </td>
+<td style="text-align: right;"> 1.102 </td>
+<td style="text-align: right;"> 1.092 </td>
+<td style="text-align: right;"> <br>
+</td>
+<td style="text-align: right;"> 52.473.807 </td>
+<td style="text-align: right;"> 44.862.965 </td>
+<td style="text-align: right;"> 44.461.708 </td>
+<td style="text-align: right;"> <br>
+</td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Bangli</td>
+<td style="font-weight: bold;">5522018</td>
+<td style="font-weight: bold;">MADE PUTRA</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: right;"> 30 </td>
+<td style="text-align: right;"> 17 </td>
+<td style="text-align: right;"> 16 </td>
+<td style="text-align: right;"> <br>
+</td>
+<td style="text-align: right;"> 423.557.053 </td>
+<td style="text-align: right;"> 213.215.242 </td>
+<td style="text-align: right;"> 209.229.686 </td>
+<td style="text-align: right;"> <br>
+</td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+</tr>
+<tr>
+<td style="font-weight: bold;"> <br>
+</td>
+<td style="font-weight: bold;"> <br>
+</td>
+<td style="font-weight: bold;"> <br>
+</td>
+<td style="text-align: center;"> <br>
+</td>
+<td style="text-align: right; font-weight: bold;"> 23.749 </td>
+<td style="text-align: right; font-weight: bold;"> 18.445 </td>
+<td style="text-align: right; font-weight: bold;"> 17.677 </td>
+<td style="text-align: right; font-weight: bold;"> | </td>
+<td style="text-align: right; font-weight: bold;"> 2.294.226.294 </td>
+<td style="text-align: right; font-weight: bold;"> 1.682.057.023 </td>
+<td style="text-align: right; font-weight: bold;"> 1.625.894.285 </td>
+<td style="text-align: right; font-weight: bold;"> | </td>
+<td style="text-align: right; font-weight: bold;"> - </td>
+<td style="text-align: right; font-weight: bold;"> - </td>
+<td style="text-align: right; font-weight: bold;"> - </td>
+</tr>
+</tbody>
+</table>
+
+</body></html>
