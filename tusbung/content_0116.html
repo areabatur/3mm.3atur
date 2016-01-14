@@ -1,0 +1,364 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head>
+  <title>Content</title>
+
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    
+    <meta name="robots" content="noindex">    
+  <!--  <link rel="stylesheet" href="css/website.css" type="text/css" media="screen">   --> 
+    <style>
+        /* Override the background image */
+        body {
+            background-color: white;
+            background-image: none;
+            padding: 0;
+            text-align: left;
+        }
+    </style> 
+      <script src="js/jquery.min.js"></script>
+    <script src="js/exportexcel.js"></script>
+    
+<!-- Javascript goes in the document HEAD -->
+<script type="text/javascript">
+function altRows(id){
+if(document.getElementsByTagName){
+var table = document.getElementById(id);
+var rows = table.getElementsByTagName("tr");
+for(i = 0; i < rows.length; i++){
+if(i % 2 == 0){
+rows[i].className = "evenrowcolor";
+}else{
+rows[i].className = "oddrowcolor";
+}
+}
+}
+}
+window.onload=function(){
+altRows('alternatecolor');
+}
+</script><!-- CSS goes in the document HEAD or added to your external stylesheet -->
+<style type="text/css">
+table.altrowstable {
+font-family: verdana,arial,sans-serif;
+font-size:11px;
+color:#333333;
+border-width: 1px;
+border-color: #a9c6c9;
+border-collapse: collapse;
+}
+table.altrowstable th {
+padding: 0.25rem;
+border-width: 1px;
+padding: 8px;
+border-style: solid;
+border-color: #a9c6c9;
+}
+table.altrowstable td {
+padding: 0.25rem;
+border-width: 1px;
+padding: 8px;
+border-style: solid;
+border-color: #a9c6c9;
+}
+tbody tr:hover {
+background: #9fB8ff;
+}
+.oddrowcolor{
+background-color:#d4e3e5;
+}
+.evenrowcolor{
+background-color:#c3dde0;
+}
+</style>
+    <script src="js/RGraph.common.core.js"></script>
+    <script src="js/RGraph.common.dynamic.js"></script>
+    <script src="js/RGraph.common.key.js"></script>
+    <script src="js/RGraph.drawing.rect.js"></script>
+    <script src="js/RGraph.common.effects.js"></script>
+    <script src="js/RGraph.common.tooltips.js"></script>
+    <script src="js/RGraph.pie.js"></script>
+
+    
+<script>
+window.onload = function ()
+{
+var pie = new RGraph.Pie({
+id: 'cvs2',
+data: [1625894285,15742675234,4858589579,2080892158 ],
+options: {strokestyle: '#e8e8e8',title: 'Rupiah Per Rayon 13.1.2016',variant: 'pie3d',
+linewidth: 2,shadowOffsetx: 0,shadowOffsety: 15,shadowColor: '#aaa',exploded: 10,
+radius: 80,
+labels: ['Bangli','Gianyar','Karangasem','Klungkung'],
+labelsSticks: true,tooltips: ['Rp 1.625.894.285','Rp 15.742.675.234','Rp 4.858.589.579','Rp 2.080.892.158'],
+colors: ['red', 'green','blue','yellow'],labelsSticksLength: 5
+}
+}).grow()
+var pie = new RGraph.Pie({
+id: 'cvs3',
+data: [356924310,3264296432,1247373144,535160977 ],
+options: {strokestyle: '#e8e8e8',title: 'Rupiah Per Rayon 20.12.2015',variant: 'pie3d',
+linewidth: 2,shadowOffsetx: 0,shadowOffsety: 15,shadowColor: '#aaa',exploded: 10,
+radius: 80,
+labels: ['Bangli','Gianyar','Karangasem','Klungkung'],
+labelsSticks: true,tooltips: ['Rp 0','Rp 0','Rp 0','Rp 0'],
+colors: ['red', 'green','blue','yellow'],
+labelsSticksLength: 5
+}
+}).grow()
+};
+</script>
+</head>
+<body>
+
+  <table id="grafic"><tbody><tr>
+  <td><canvas width="620" height="350" id="cvs2" style="">[No canvas support]</canvas></td>
+ <!-- <td><canvas width="620" height="350" id="cvs3" style="">[No canvas support]</canvas> </td>  -->
+  </tr></tbody></table>     
+<hr>
+ <!--  Code here -->
+ </p><input type="button" onclick="tableToExcel('alternatecolor', 'Detail Lembar 1-20 - Area Batur')" value="Export to Excel"> 
+<br/>
+<table class="altrowstable" id="alternatecolor">
+<caption><strong>##Detail Lembar 1-20 - Area Batur##</strong></caption> <tbody>
+ <!--  Code here -->
+ <tr>
+<th>NO</th>
+<th>RAYON</th>
+<th>LBR</th>
+<th> PLG_5 </th>
+<th> PLG_12 </th>
+<th> PLG_13 </th>
+<th style="font-weight: bold;"> | </th>
+<th> RPTAG_5 </th>
+<th> RPTAG_12 </th>
+<th> RPTAG_13 </th>
+<th style="font-weight: bold;"> | </th>
+<th> RPBK_5 </th>
+<th> RPBK_12 </th>
+<th> RPBK_13 </th>
+</tr>
+<tr>
+<td style="text-align: center; font-weight: bold;">1</td>
+<td style="font-weight: bold;">Bangli</td>
+<td style="text-align: center; font-weight: bold;">1</td>
+<td style="text-align: right;"> 23.749 </td>
+<td style="text-align: right;"> 18.445 </td>
+<td style="text-align: right;"> 17.677 </td>
+<td style="text-align: right; font-weight: bold;"> | </td>
+<td style="text-align: right;"> 2.294.226.294 </td>
+<td style="text-align: right;"> 1.682.057.023 </td>
+<td style="text-align: right;"> 1.625.894.285 </td>
+<td style="text-align: right; font-weight: bold;"> | </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+</tr>
+<tr>
+<td style="text-align: center; font-weight: bold;">2</td>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="text-align: center; font-weight: bold;">1</td>
+<td style="text-align: right;"> 69.429 </td>
+<td style="text-align: right;"> 47.522 </td>
+<td style="text-align: right;"> 44.052 </td>
+<td style="text-align: right; font-weight: bold;"> | </td>
+<td style="text-align: right;"> 24.375.656.589 </td>
+<td style="text-align: right;"> 16.572.857.123 </td>
+<td style="text-align: right;"> 15.316.697.368 </td>
+<td style="text-align: right; font-weight: bold;"> | </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+</tr>
+<tr>
+<td style="text-align: center; font-weight: bold;">3</td>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="text-align: center; font-weight: bold;">2</td>
+<td style="text-align: right;"> 1.231 </td>
+<td style="text-align: right;"> 1.040 </td>
+<td style="text-align: right;"> 985 </td>
+<td style="text-align: right; font-weight: bold;"> | </td>
+<td style="text-align: right;"> 449.324.020 </td>
+<td style="text-align: right;"> 398.499.068 </td>
+<td style="text-align: right;"> 379.280.268 </td>
+<td style="text-align: right; font-weight: bold;"> | </td>
+<td style="text-align: right;"> 14.879.992 </td>
+<td style="text-align: right;"> 13.115.992 </td>
+<td style="text-align: right;"> 12.395.992 </td>
+</tr>
+<tr>
+<td style="text-align: center; font-weight: bold;">4</td>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="text-align: center; font-weight: bold;">3</td>
+<td style="text-align: right;"> 125 </td>
+<td style="text-align: right;"> 93 </td>
+<td style="text-align: right;"> 77 </td>
+<td style="text-align: right; font-weight: bold;"> | </td>
+<td style="text-align: right;"> 60.139.805 </td>
+<td style="text-align: right;"> 52.110.452 </td>
+<td style="text-align: right;"> 46.697.598 </td>
+<td style="text-align: right; font-weight: bold;"> | </td>
+<td style="text-align: right;"> 4.130.000 </td>
+<td style="text-align: right;"> 3.565.000 </td>
+<td style="text-align: right;"> 3.280.000 </td>
+</tr>
+<tr>
+<td style="text-align: center; font-weight: bold;">5</td>
+<td style="font-weight: bold;">Karangasem</td>
+<td style="text-align: center; font-weight: bold;">1</td>
+<td style="text-align: right;"> 43.118 </td>
+<td style="text-align: right;"> 33.732 </td>
+<td style="text-align: right;"> 32.201 </td>
+<td style="text-align: right; font-weight: bold;"> | </td>
+<td style="text-align: right;"> 6.965.228.554 </td>
+<td style="text-align: right;"> 5.562.492.136 </td>
+<td style="text-align: right;"> 4.742.607.624 </td>
+<td style="text-align: right; font-weight: bold;"> | </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+</tr>
+<tr>
+<td style="text-align: center; font-weight: bold;">6</td>
+<td style="font-weight: bold;">Karangasem</td>
+<td style="text-align: center; font-weight: bold;">2</td>
+<td style="text-align: right;"> 588 </td>
+<td style="text-align: right;"> 449 </td>
+<td style="text-align: right;"> 408 </td>
+<td style="text-align: right; font-weight: bold;"> | </td>
+<td style="text-align: right;"> 98.527.060 </td>
+<td style="text-align: right;"> 80.930.494 </td>
+<td style="text-align: right;"> 74.647.040 </td>
+<td style="text-align: right; font-weight: bold;"> | </td>
+<td style="text-align: right;"> 5.229.848 </td>
+<td style="text-align: right;"> 4.091.848 </td>
+<td style="text-align: right;"> 3.697.848 </td>
+</tr>
+<tr>
+<td style="text-align: center; font-weight: bold;">7</td>
+<td style="font-weight: bold;">Karangasem</td>
+<td style="text-align: center; font-weight: bold;">3</td>
+<td style="text-align: right;"> 2 </td>
+<td style="text-align: right;"> 2 </td>
+<td style="text-align: right;"> 2 </td>
+<td style="text-align: right; font-weight: bold;"> | </td>
+<td style="text-align: right;"> 41.334.915 </td>
+<td style="text-align: right;"> 41.334.915 </td>
+<td style="text-align: right;"> 41.334.915 </td>
+<td style="text-align: right; font-weight: bold;"> | </td>
+<td style="text-align: right;"> 2.168.499 </td>
+<td style="text-align: right;"> 2.168.499 </td>
+<td style="text-align: right;"> 2.168.499 </td>
+</tr>
+<tr>
+<td style="text-align: center; font-weight: bold;">8</td>
+<td style="font-weight: bold;">Klungkung</td>
+<td style="text-align: center; font-weight: bold;">1</td>
+<td style="text-align: right;"> 20.306 </td>
+<td style="text-align: right;"> 13.953 </td>
+<td style="text-align: right;"> 13.046 </td>
+<td style="text-align: right; font-weight: bold;"> | </td>
+<td style="text-align: right;"> 3.402.508.498 </td>
+<td style="text-align: right;"> 2.416.112.567 </td>
+<td style="text-align: right;"> 2.049.240.700 </td>
+<td style="text-align: right; font-weight: bold;"> | </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+</tr>
+<tr>
+<td style="text-align: center; font-weight: bold;">9</td>
+<td style="font-weight: bold;">Klungkung</td>
+<td style="text-align: center; font-weight: bold;">2</td>
+<td style="text-align: right;"> 172 </td>
+<td style="text-align: right;"> 127 </td>
+<td style="text-align: right;"> 107 </td>
+<td style="text-align: right; font-weight: bold;"> | </td>
+<td style="text-align: right;"> 38.185.202 </td>
+<td style="text-align: right;"> 33.293.297 </td>
+<td style="text-align: right;"> 31.332.018 </td>
+<td style="text-align: right; font-weight: bold;"> | </td>
+<td style="text-align: right;"> 1.573.596 </td>
+<td style="text-align: right;"> 1.291.596 </td>
+<td style="text-align: right;"> 1.167.596 </td>
+</tr>
+<tr>
+<td style="text-align: center; font-weight: bold;">10</td>
+<td style="font-weight: bold;">Klungkung</td>
+<td style="text-align: center; font-weight: bold;">3</td>
+<td style="text-align: right;"> 1 </td>
+<td style="text-align: right;"> 1 </td>
+<td style="text-align: right;"> 1 </td>
+<td style="text-align: right; font-weight: bold;"> | </td>
+<td style="text-align: right;"> 319.440 </td>
+<td style="text-align: right;"> 319.440 </td>
+<td style="text-align: right;"> 319.440 </td>
+<td style="text-align: right; font-weight: bold;"> | </td>
+<td style="text-align: right;"> 50.000 </td>
+<td style="text-align: right;"> 50.000 </td>
+<td style="text-align: right;"> 50.000 </td>
+</tr>
+<tr>
+<td style="text-align: center; font-weight: bold;">11</td>
+<td style="font-weight: bold;">Batur</td>
+<td style="text-align: center; font-weight: bold;">1</td>
+<td style="font-weight: bold; text-align: right;"> 156.602 </td>
+<td style="font-weight: bold; text-align: right;"> 113.652 </td>
+<td style="font-weight: bold; text-align: right;"> 106.976 </td>
+<td style="text-align: right; font-weight: bold;"> | </td>
+<td style="font-weight: bold; text-align: right;"> 37.037.619.935
+</td>
+<td style="font-weight: bold; text-align: right;"> 26.233.518.849
+</td>
+<td style="font-weight: bold; text-align: right;"> 23.734.439.977
+</td>
+<td style="text-align: right; font-weight: bold;"> | </td>
+<td style="font-weight: bold; text-align: right;"> - </td>
+<td style="font-weight: bold; text-align: right;"> - </td>
+<td style="font-weight: bold; text-align: right;"> - </td>
+</tr>
+<tr>
+<td style="text-align: center; font-weight: bold;">12</td>
+<td style="font-weight: bold;">Batur</td>
+<td style="text-align: center; font-weight: bold;">2</td>
+<td style="font-weight: bold; text-align: right;"> 1.991 </td>
+<td style="font-weight: bold; text-align: right;"> 1.616 </td>
+<td style="font-weight: bold; text-align: right;"> 1.500 </td>
+<td style="font-weight: bold; text-align: right;"> | </td>
+<td style="font-weight: bold; text-align: right;"> 586.036.282 </td>
+<td style="font-weight: bold; text-align: right;"> 512.722.859 </td>
+<td style="font-weight: bold; text-align: right;"> 485.259.326 </td>
+<td style="font-weight: bold; text-align: right;"> | </td>
+<td style="font-weight: bold; text-align: right;"> 21.683.436 </td>
+<td style="font-weight: bold; text-align: right;"> 18.499.436 </td>
+<td style="font-weight: bold; text-align: right;"> 17.261.436 </td>
+</tr>
+<tr>
+<td style="text-align: center; font-weight: bold;">13</td>
+<td style="font-weight: bold;">Batur</td>
+<td style="text-align: center; font-weight: bold;">3</td>
+<td style="font-weight: bold; text-align: right;"> 128 </td>
+<td style="font-weight: bold; text-align: right;"> 96 </td>
+<td style="font-weight: bold; text-align: right;"> 80 </td>
+<td style="font-weight: bold; text-align: right;"> | </td>
+<td style="font-weight: bold; text-align: right;"> 101.794.160 </td>
+<td style="font-weight: bold; text-align: right;"> 93.764.807 </td>
+<td style="font-weight: bold; text-align: right;"> 88.351.953 </td>
+<td style="font-weight: bold; text-align: right;"> | </td>
+<td style="font-weight: bold; text-align: right;"> 6.348.499 </td>
+<td style="font-weight: bold; text-align: right;"> 5.783.499 </td>
+<td style="font-weight: bold; text-align: right;"> 5.498.499 </td>
+</tr>
+</tbody>
+</table>
+ <!--  Code here -->
+ </br>
+<hr>
+<p align="center"><a href="http://www.rgraph.net" target="_blank" style="text-decoration: none">
+    <img src="http://www.rgraph.net/images/logo.png" width="32" height="32" align="absmiddle" alt="rgraph: free 2d/3d html5 charts that get you noticed" />
+    Design by free Charts with RGraph
+</a></p>
+
+
+</body>
+ 
+</html>
