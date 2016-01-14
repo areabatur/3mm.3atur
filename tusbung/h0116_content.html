@@ -5,6 +5,16 @@
 <!--<link rel="stylesheet" href="css/website.css" type="text/css" media="screen"> -->
     <script src="js/jquery.min.js"></script>
     <script src="js/exportexcel.js"></script>
+      <script src="js/jquery.min.js"></script>
+    <script src="js/exportexcel.js"></script>
+<script src="js/RGraph.common.core.js"></script>
+<script src="js/RGraph.common.dynamic.js"></script>
+<script src="js/RGraph.common.key.js"></script>
+<script src="js/RGraph.drawing.rect.js"></script>
+<script src="js/RGraph.drawing.text.js"></script>
+<script src="js/RGraph.common.effects.js"></script>
+<script src="js/RGraph.common.tooltips.js"></script>
+<script src="js/RGraph.bar.js"></script>
 <style>
 /* Override the background image */
 body {
@@ -46,17 +56,7 @@ background-color:#d4e3e5;
 .evenrowcolor{
 background-color:#c3dde0;
 </style>
-    <script src="js/jquery.min.js"></script>
-    <script src="js/exportexcel.js"></script>
-<script src="js/RGraph.common.core.js"></script>
-<script src="js/RGraph.common.dynamic.js"></script>
-<script src="js/RGraph.common.key.js"></script>
-<script src="js/RGraph.drawing.rect.js"></script>
-<script src="js/RGraph.drawing.text.js"></script>
-<script src="js/RGraph.common.effects.js"></script>
-<script src="js/RGraph.common.tooltips.js"></script>
-<script src="js/RGraph.bar.js"></script>
-<script src="js/RGraph.Pie.js"></script>
+  
 <script>
 window.onload = function ()
 {
@@ -96,7 +96,7 @@ var bar = new RGraph.Bar('cvs_bar1', [[-5.53,-5.17],[-5.79,-5.73],[-5.31,-4.70],
 <body>
  <table class="alttable" id="grafic"><tbody><tr>
   <td><canvas width="600" height="350" id="cvs_bar1" style=""></canvas></td>
- <!--  <td><canvas width="600" height="350" id="cvs_bar" style=""></canvas> </td> -->
+ <td><canvas width="600" height="350" id="cvs_bar" style=""></canvas> </td> 
   </tr></tbody></table>
 <hr>
 </p><input type="button" onclick="tableToExcel('alternatecolor2', 'Detail Harian 1-20 - Area Batur')" value="Export to Excel">
