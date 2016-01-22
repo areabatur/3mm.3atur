@@ -60,15 +60,15 @@ background-color:#c3dde0;
 <script>
 window.onload = function ()
 {
-var bar = new RGraph.Bar('cvs_bar', [[35,43],[-37,40],[-26,28],[-74,5],[-32,34]])
+var bar = new RGraph.Bar('cvs_bar', [[-1181,-1160],[-257,-228],[-226,-218],[-1250,-1327],[-335,-283]])
 .set('colors', [
 'rgba(255, 176, 176, 1)',
 'rgba(153, 208, 249,1)'
 ])
 .set('labels', ['Bangli', 'Gianyar', 'Karangasem', 'Klungkung','Batur'])
-.set('tooltips', ['Bangli : 35%','Bangli : 43%','Gianyar : -37%','Gianyar : 40%','Karangasem : -26%','Karangasem : 28%','Klungkung : -74%','Klungkung : 5%','Batur : -32%','Batur : 34%'])
+.set('tooltips', ['Bangli : -1181%','Bangli : -1160%','Gianyar : -257%','Gianyar : -228%','Karangasem : -226%','Karangasem : -218%','Klungkung : -1250%','Klungkung : -1327%','Batur : -335%','Batur : -283%'])
 .set('tooltips.event', 'onmousemove').set('ymax', 200).set('ylabels.count', 2).set('numyticks', 8)
-.set('strokestyle', 'rgba(0,0,0,0)').set('hmargin.grouped', 2).set('units.pre', '').set('title', 'Progres Batur 20.12.2015')
+.set('strokestyle', 'rgba(0,0,0,0)').set('hmargin.grouped', 2).set('units.pre', '').set('title', 'Progres Batur 22.12.2016')
 .set('title.y', 25).set('gutter.top', 55).set('gutter.left', 40)
 .set('gutter.right', 15).set('gutter.bottom', 80).set('xaxispos', 'center')
 .set('key', ['% PLG','% RpTag'])
@@ -95,10 +95,272 @@ var bar = new RGraph.Bar('cvs_bar1', [[52,86],[0,65],[12,61],[-22,19],[3,62]])
 </head>
 <body>
  <table class="alttable" id="grafic"><tbody><tr>
-  <td><canvas width="600" height="350" id="cvs_bar1" style=""></canvas></td>
- <td><canvas width="600" height="350" id="cvs_bar" style=""></canvas> </td> 
+  <td><canvas width="600" height="350" id="cvs_bar" style=""></canvas></td>
+ <td><canvas width="600" height="350" id="cvs_bar1" style=""></canvas> </td> 
   </tr></tbody></table>
 <hr>
+</p><input type="button" onclick="tableToExcel('alternatecolor', 'Detail Harian 21 - Area Batur')" value="Export to Excel"> 
+<br/>
+<table class="altrowstable" id="alternatecolor">
+<caption><strong>##Detail Harian 21 - Area Batur##</strong></caption>
+<tbody>
+<tr>
+<th>NO</th>
+<th>RAYON</th>
+<th>DETAIL</th>
+<th> DATA AWAL 21 </th>
+<th>21</th>
+<th> 22 </th>
+<th> TARGET AKHIR </th>
+<th>-/+ RP</th>
+<th>REALISASI AKHIR</th>
+<th>%</th>
+<th> PK 1,2,3 21-31 </th>
+<th> PK 1,2&amp;3 LUNAS </th>
+</tr>
+<tr>
+<td> <br>
+</td>
+<td> <br>
+</td>
+<td>TOT PLG</td>
+<td style="text-align: right;"> 3.474 </td>
+<td style="text-align: right;"> 2.896 </td>
+<td style="text-align: right;"> 2.501 </td>
+<td style="text-align: right;"> 181 </td>
+<td style="text-align: right; font-weight: bold;"> (2.320)</td>
+<td style="text-align: center; font-weight: bold;">-1181%</td>
+<td style="text-align: center; font-weight: bold;"> <br>
+</td>
+<td style="text-align: center;"> - </td>
+<td style="text-align: center;"> - </td>
+</tr>
+<tr>
+<td style="font-weight: bold; text-align: center;">1</td>
+<td style="text-align: left; font-weight: bold;">BANGLI</td>
+<td style="text-align: right; font-weight: bold;">TOT PRTAG</td>
+<td style="font-weight: bold; text-align: right;"> 259.046.015 </td>
+<td style="font-weight: bold; text-align: right;"> 208.851.935 </td>
+<td style="font-weight: bold; text-align: right;"> 183.585.382 </td>
+<td style="font-weight: bold; text-align: right;"> 13.502.081 </td>
+<td style="font-weight: bold; text-align: right;"> (170.083.301)</td>
+<td style="font-weight: bold; text-align: center;">-1160%</td>
+<td style="font-weight: bold; text-align: center;">-1166%</td>
+<td style="font-weight: bold; text-align: center;"> 3.474 </td>
+<td style="font-weight: bold; text-align: center;"> 3.474 </td>
+</tr>
+<tr>
+<td style="font-weight: bold; text-align: center;"> <br>
+</td>
+<td style="text-align: left; font-weight: bold;"> <br>
+</td>
+<td>TOT RPBK</td>
+<td style="text-align: right;"> 13.052.006 </td>
+<td style="text-align: right;"> 10.648.006 </td>
+<td style="text-align: right;"> 9.232.006 </td>
+<td style="text-align: right;"> 680.301 </td>
+<td style="text-align: right; font-weight: bold;"> (8.551.705)</td>
+<td style="text-align: center; font-weight: bold;">-1157%</td>
+<td style="text-align: center; font-weight: bold;"> <br>
+</td>
+<td style="text-align: center;"> - </td>
+<td style="text-align: center;"> - </td>
+</tr>
+<tr>
+<td style="font-weight: bold; text-align: center;"> <br>
+</td>
+<td style="text-align: left; font-weight: bold;"> <br>
+</td>
+<td>TOT PLG</td>
+<td style="text-align: right;"> 11.585 </td>
+<td style="text-align: right;"> 9.960 </td>
+<td style="text-align: right;"> 8.530 </td>
+<td style="text-align: right;"> 1.868 </td>
+<td style="text-align: right; font-weight: bold;"> (6.662)</td>
+<td style="text-align: center; font-weight: bold;">-257%</td>
+<td style="text-align: center; font-weight: bold;"> <br>
+</td>
+<td style="text-align: center;"> - </td>
+<td style="text-align: center;"> - </td>
+</tr>
+<tr>
+<td style="font-weight: bold; text-align: center;">2</td>
+<td style="text-align: left; font-weight: bold;">GIANYAR</td>
+<td style="font-weight: bold; text-align: right;">TOT PRTAG</td>
+<td style="font-weight: bold; text-align: right;"> 2.741.105.338 </td>
+<td style="font-weight: bold; text-align: right;"> 2.256.813.922 </td>
+<td style="font-weight: bold; text-align: right;"> 1.892.209.003 </td>
+<td style="font-weight: bold; text-align: right;"> 441.988.131 </td>
+<td style="font-weight: bold; text-align: right;"> (1.450.220.872)</td>
+<td style="font-weight: bold; text-align: center;">-228%</td>
+<td style="font-weight: bold; text-align: center;">-241%</td>
+<td style="font-weight: bold; text-align: center;"> 11.585 </td>
+<td style="font-weight: bold; text-align: center;"> 11.585 </td>
+</tr>
+<tr>
+<td style="font-weight: bold; text-align: center;"> <br>
+</td>
+<td style="text-align: left; font-weight: bold;"> <br>
+</td>
+<td>TOT RPBK</td>
+<td style="text-align: right;"> 92.056.421 </td>
+<td style="text-align: right;"> 76.839.879 </td>
+<td style="text-align: right;"> 64.940.593 </td>
+<td style="text-align: right;"> 14.843.591 </td>
+<td style="text-align: right; font-weight: bold;"> (50.097.002)</td>
+<td style="text-align: center; font-weight: bold;">-237%</td>
+<td style="text-align: center; font-weight: bold;"> <br>
+</td>
+<td style="text-align: center;"> - </td>
+<td style="text-align: center;"> - </td>
+</tr>
+<tr>
+<td style="font-weight: bold; text-align: center;"> <br>
+</td>
+<td style="text-align: left; font-weight: bold;"> <br>
+</td>
+<td>TOT PLG</td>
+<td style="text-align: right;"> 8.385 </td>
+<td style="text-align: right;"> 7.202 </td>
+<td style="text-align: right;"> 6.267 </td>
+<td style="text-align: right;"> 1.472 </td>
+<td style="text-align: right; font-weight: bold;"> (4.795)</td>
+<td style="text-align: center; font-weight: bold;">-226%</td>
+<td style="text-align: center; font-weight: bold;"> <br>
+</td>
+<td style="text-align: center;"> - </td>
+<td style="text-align: center;"> - </td>
+</tr>
+<tr>
+<td style="font-weight: bold; text-align: center;">3</td>
+<td style="text-align: left; font-weight: bold;">KARANGASEM </td>
+<td style="text-align: right; font-weight: bold;">TOT PRTAG</td>
+<td style="font-weight: bold; text-align: right;"> 1.009.946.547 </td>
+<td style="font-weight: bold; text-align: right;"> 894.354.321 </td>
+<td style="font-weight: bold; text-align: right;"> 740.844.930 </td>
+<td style="font-weight: bold; text-align: right;"> 177.327.105 </td>
+<td style="font-weight: bold; text-align: right;"> (563.517.825)</td>
+<td style="font-weight: bold; text-align: center;">-218%</td>
+<td style="font-weight: bold; text-align: center;">-221%</td>
+<td style="font-weight: bold; text-align: center;"> 8.385 </td>
+<td style="font-weight: bold; text-align: center;"> 8.385 </td>
+</tr>
+<tr>
+<td style="font-weight: bold; text-align: center;"> <br>
+</td>
+<td style="text-align: left; font-weight: bold;"> <br>
+</td>
+<td>TOT RPBK</td>
+<td style="text-align: right;"> 46.283.025 </td>
+<td style="text-align: right;"> 40.272.459 </td>
+<td style="text-align: right;"> 34.150.958 </td>
+<td style="text-align: right;"> 8.126.405 </td>
+<td style="text-align: right; font-weight: bold;"> (26.024.553)</td>
+<td style="text-align: center; font-weight: bold;">-220%</td>
+<td style="text-align: center; font-weight: bold;"> <br>
+</td>
+<td style="text-align: center;"> - </td>
+<td style="text-align: center;"> - </td>
+</tr>
+<tr>
+<td style="font-weight: bold; text-align: center;"> <br>
+</td>
+<td style="text-align: left; font-weight: bold;"> <br>
+</td>
+<td>TOT PLG</td>
+<td style="text-align: right;"> 3.615 </td>
+<td style="text-align: right;"> 5.744 </td>
+<td style="text-align: right;"> 2.425 </td>
+<td style="text-align: right;"> 167 </td>
+<td style="text-align: right; font-weight: bold;"> (2.258)</td>
+<td style="text-align: center; font-weight: bold;">-1250%</td>
+<td style="text-align: center; font-weight: bold;"> <br>
+</td>
+<td style="text-align: center;"> - </td>
+<td style="text-align: center;"> - </td>
+</tr>
+<tr>
+<td style="font-weight: bold; text-align: center;">4</td>
+<td style="text-align: left; font-weight: bold;">KLUNGKUNG</td>
+<td style="text-align: right; font-weight: bold;">TOT PRTAG</td>
+<td style="font-weight: bold; text-align: right;"> 496.871.452 </td>
+<td style="font-weight: bold; text-align: right;"> 808.312.044 </td>
+<td style="font-weight: bold; text-align: right;"> 351.058.359 </td>
+<td style="font-weight: bold; text-align: right;"> 22.991.060 </td>
+<td style="font-weight: bold; text-align: right;"> (328.067.299)</td>
+<td style="font-weight: bold; text-align: center;">-1327%</td>
+<td style="font-weight: bold; text-align: center;">-1302%</td>
+<td style="font-weight: bold; text-align: center;"> 3.615 </td>
+<td style="font-weight: bold; text-align: center;"> 3.615 </td>
+</tr>
+<tr>
+<td style="font-weight: bold; text-align: center;"> <br>
+</td>
+<td style="text-align: left; font-weight: bold;"> <br>
+</td>
+<td>TOT RPBK</td>
+<td style="text-align: right;"> 19.086.901 </td>
+<td style="text-align: right;"> 30.978.038 </td>
+<td style="text-align: right;"> 13.497.006 </td>
+<td style="text-align: right;"> 883.182 </td>
+<td style="text-align: right; font-weight: bold;"> (12.613.824)</td>
+<td style="text-align: center; font-weight: bold;">-1328%</td>
+<td style="text-align: center; font-weight: bold;"> <br>
+</td>
+<td style="text-align: center;"> - </td>
+<td style="text-align: center;"> - </td>
+</tr>
+<tr>
+<td style="font-weight: bold; text-align: center;"> <br>
+</td>
+<td style="text-align: left; font-weight: bold;"> <br>
+</td>
+<td>TOT PLG</td>
+<td style="text-align: right;"> 27.059 </td>
+<td style="text-align: right;"> 25.802 </td>
+<td style="text-align: right;"> 19.723 </td>
+<td style="text-align: right;"> 3.689 </td>
+<td style="text-align: right; font-weight: bold;"> (16.034)</td>
+<td style="text-align: center; font-weight: bold;">-335%</td>
+<td style="text-align: center; font-weight: bold;"> <br>
+</td>
+<td style="text-align: center;"> - </td>
+<td style="text-align: center;"> - </td>
+</tr>
+<tr>
+<td style="font-weight: bold; text-align: center;">5</td>
+<td style="text-align: left; font-weight: bold;">BATUR</td>
+<td style="text-align: right; font-weight: bold;">TOT PRTAG</td>
+<td style="font-weight: bold; text-align: right;"> 4.506.969.352 </td>
+<td style="font-weight: bold; text-align: right;"> 4.168.332.222 </td>
+<td style="font-weight: bold; text-align: right;"> 3.167.697.674 </td>
+<td style="font-weight: bold; text-align: right;"> 655.808.377 </td>
+<td style="font-weight: bold; text-align: right;"> (2.511.889.297)</td>
+<td style="font-weight: bold; text-align: center;">-283%</td>
+<td style="font-weight: bold; text-align: center;">-305%</td>
+<td style="font-weight: bold; text-align: center;"> 27.059 </td>
+<td style="font-weight: bold; text-align: center;"> 27.059 </td>
+</tr>
+<tr>
+<td> <br>
+</td>
+<td> <br>
+</td>
+<td>TOT RPBK</td>
+<td style="text-align: right;"> 170.478.353 </td>
+<td style="text-align: right;"> 158.738.382 </td>
+<td style="text-align: right;"> 121.820.563 </td>
+<td style="text-align: right;"> 24.533.479 </td>
+<td style="text-align: right; font-weight: bold;"> (97.287.084)</td>
+<td style="text-align: center; font-weight: bold;">-297%</td>
+<td style="text-align: center; font-weight: bold;"> <br>
+</td>
+<td style="text-align: center;"> - </td>
+<td style="text-align: center;"> - </td>
+</tr>
+</tbody>
+</table>
+</hr>
 </p><input type="button" onclick="tableToExcel('alternatecolor2', 'Detail Harian 1-20 - Area Batur')" value="Export to Excel">
 <br/>
 <table class="altrowstable" id="alternatecolor2"><caption><strong>##Detail Harian - Area Batur##</strong></caption> <tbody>
