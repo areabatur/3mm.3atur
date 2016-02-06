@@ -1,0 +1,1767 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head>
+  <title>Content</title>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/exportexcel.js"></script>
+<script type="text/javascript">
+function altRows(id){
+if(document.getElementsByTagName){
+var table = document.getElementById(id);
+var rows = table.getElementsByTagName("tr");
+for(i = 0; i < rows.length; i++){
+if(i % 2 == 0){
+rows[i].className = "evenrowcolor";
+}else{
+rows[i].className = "oddrowcolor";
+}
+}
+}
+}
+window.onload=function(){
+altRows('alternatecolor');
+}
+</script><!-- CSS goes in the document HEAD or added to your external stylesheet -->
+<style type="text/css">
+table.altrowstable {
+font-family: verdana,arial,sans-serif;
+font-size:11px;
+color:#333333;
+border-width: 1px;
+border-color: #a9c6c9;
+border-collapse: collapse;
+}
+table.altrowstable th {
+padding: 0.25rem;
+border-width: 1px;
+padding: 8px;
+border-style: solid;
+border-color: #a9c6c9;
+}
+table.altrowstable td {
+padding: 0.25rem;
+border-width: 1px;
+padding: 8px;
+border-style: solid;
+border-color: #a9c6c9;
+}
+tbody tr:hover {
+background: yellow;
+}
+.oddrowcolor{
+background-color:#d4e3e5;
+}
+.evenrowcolor{
+background-color:#c3dde0;
+}
+</style>
+</head>
+<body>
+<!--
+  <BR/>
+  </p><input type="button" onclick="tableToExcel('alternatecolor', 'Detail Harian 21 - Rayon Gianyar')" value="Export to Excel"> 
+<br/>
+<table class="altrowstable" id="alternatecolor">
+<caption><strong>##Detail Harian 21 - Rayon Gianyar##</strong></caption>
+<tbody>
+
+</tbody>
+</table>
+-->
+BR/>
+</p><input type="button" onclick="tableToExcel('alternatecolor2', 'Detail Harian 1-20 - Rayon Gianyar')" value="Export to Excel">
+<br/>
+<table class="altrowstable" id="alternatecolor2"><caption><strong>##Detail Harian - Rayon Gianyar##</strong></caption>
+<tbody>
+<tr>
+<th>RAYON</th>
+<th>ID BILLMAN</th>
+<th>NAMA BILLMAN</th>
+<th>DETAIL</th>
+<th>4</th>
+<th>5</th>
+<th> TARGET 20 </th>
+<th> -/+ </th>
+<th>REALISASI 20</th>
+<th>%</th>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520001</td>
+<td style="font-weight: bold;">Dody S</td>
+<td>TOT PLG</td>
+<td style="text-align: right;"> 1.597 </td>
+<td style="text-align: right;"> 1.528 </td>
+<td style="text-align: right;"> 136 </td>
+<td style="text-align: right; font-weight: bold;"> (1.392)</td>
+<td style="text-align: center; font-weight: bold;">-926%</td>
+<td style="text-align: center; font-weight: bold;"> <br>
+</td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520001</td>
+<td style="font-weight: bold;">Dody S</td>
+<td>TOT PRTAG</td>
+<td style="text-align: right;"> 708.097.481 </td>
+<td style="text-align: right;"> 669.721.958 </td>
+<td style="text-align: right;"> 60.192.019 </td>
+<td style="text-align: right; font-weight: bold;"> (609.529.939)</td>
+<td style="text-align: center; font-weight: bold;">-913%</td>
+<td style="text-align: center; font-weight: bold;">-938%</td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520001</td>
+<td style="font-weight: bold;">Dody S</td>
+<td>TOT RPBK</td>
+<td style="text-align: right;"> 286.000 </td>
+<td style="text-align: right;"> 286.000 </td>
+<td style="text-align: right;"> 24.312 </td>
+<td style="text-align: right; font-weight: bold;"> (261.688)</td>
+<td style="text-align: center; font-weight: bold;">-976%</td>
+<td style="text-align: center; font-weight: bold;"> <br>
+</td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520002</td>
+<td style="font-weight: bold;">Heryana</td>
+<td>TOT PLG</td>
+<td style="text-align: right;"> 1.683 </td>
+<td style="text-align: right;"> 1.634 </td>
+<td style="text-align: right;"> 143 </td>
+<td style="text-align: right; font-weight: bold;"> (1.491)</td>
+<td style="text-align: center; font-weight: bold;">-942%</td>
+<td style="text-align: center; font-weight: bold;"> <br>
+</td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520002</td>
+<td style="font-weight: bold;">Heryana</td>
+<td>TOT PRTAG</td>
+<td style="text-align: right;"> 147.634.462 </td>
+<td style="text-align: right;"> 144.524.446 </td>
+<td style="text-align: right;"> 12.549.708 </td>
+<td style="text-align: right; font-weight: bold;"> (131.974.738)</td>
+<td style="text-align: center; font-weight: bold;">-952%</td>
+<td style="text-align: center; font-weight: bold;">-957%</td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520002</td>
+<td style="font-weight: bold;">Heryana</td>
+<td>TOT RPBK</td>
+<td style="text-align: right;"> 819.000 </td>
+<td style="text-align: right;"> 819.000 </td>
+<td style="text-align: right;"> 69.619 </td>
+<td style="text-align: right; font-weight: bold;"> (749.381)</td>
+<td style="text-align: center; font-weight: bold;">-976%</td>
+<td style="text-align: center; font-weight: bold;"> <br>
+</td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520003</td>
+<td style="font-weight: bold;">Suarnita</td>
+<td>TOT PLG</td>
+<td style="text-align: right;"> 1.603 </td>
+<td style="text-align: right;"> 1.159 </td>
+<td style="text-align: right;"> 136 </td>
+<td style="text-align: right; font-weight: bold;"> (1.023)</td>
+<td style="text-align: center; font-weight: bold;">-651%</td>
+<td style="text-align: center; font-weight: bold;"> <br>
+</td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520003</td>
+<td style="font-weight: bold;">Suarnita</td>
+<td>TOT PRTAG</td>
+<td style="text-align: right;"> 441.378.463 </td>
+<td style="text-align: right;"> 298.606.261 </td>
+<td style="text-align: right;"> 37.519.496 </td>
+<td style="text-align: right; font-weight: bold;"> (261.086.765)</td>
+<td style="text-align: center; font-weight: bold;">-596%</td>
+<td style="text-align: center; font-weight: bold;">-741%</td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520003</td>
+<td style="font-weight: bold;">Suarnita</td>
+<td>TOT RPBK</td>
+<td style="text-align: right;"> 273.000 </td>
+<td style="text-align: right;"> 273.000 </td>
+<td style="text-align: right;"> 23.206 </td>
+<td style="text-align: right; font-weight: bold;"> (249.794)</td>
+<td style="text-align: center; font-weight: bold;">-976%</td>
+<td style="text-align: center; font-weight: bold;"> <br>
+</td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520004</td>
+<td style="font-weight: bold;">Dirman</td>
+<td>TOT PLG</td>
+<td style="text-align: right;"> 1.557 </td>
+<td style="text-align: right;"> 1.430 </td>
+<td style="text-align: right;"> 132 </td>
+<td style="text-align: right; font-weight: bold;"> (1.298)</td>
+<td style="text-align: center; font-weight: bold;">-880%</td>
+<td style="text-align: center; font-weight: bold;"> <br>
+</td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520004</td>
+<td style="font-weight: bold;">Dirman</td>
+<td>TOT PRTAG</td>
+<td style="text-align: right;"> 189.955.886 </td>
+<td style="text-align: right;"> 177.019.482 </td>
+<td style="text-align: right;"> 16.147.252 </td>
+<td style="text-align: right; font-weight: bold;"> (160.872.230)</td>
+<td style="text-align: center; font-weight: bold;">-896%</td>
+<td style="text-align: center; font-weight: bold;">-918%</td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520004</td>
+<td style="font-weight: bold;">Dirman</td>
+<td>TOT RPBK</td>
+<td style="text-align: right;"> 324.000 </td>
+<td style="text-align: right;"> 324.000 </td>
+<td style="text-align: right;"> 27.542 </td>
+<td style="text-align: right; font-weight: bold;"> (296.458)</td>
+<td style="text-align: center; font-weight: bold;">-976%</td>
+<td style="text-align: center; font-weight: bold;"> <br>
+</td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520005</td>
+<td style="font-weight: bold;">Purwa</td>
+<td>TOT PLG</td>
+<td style="text-align: right;"> 1.681 </td>
+<td style="text-align: right;"> 1.561 </td>
+<td style="text-align: right;"> 143 </td>
+<td style="text-align: right; font-weight: bold;"> (1.418)</td>
+<td style="text-align: center; font-weight: bold;">-892%</td>
+<td style="text-align: center; font-weight: bold;"> <br>
+</td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520005</td>
+<td style="font-weight: bold;">Purwa</td>
+<td>TOT PRTAG</td>
+<td style="text-align: right;"> 512.218.958 </td>
+<td style="text-align: right;"> 492.242.610 </td>
+<td style="text-align: right;"> 43.541.312 </td>
+<td style="text-align: right; font-weight: bold;"> (448.701.298)</td>
+<td style="text-align: center; font-weight: bold;">-931%</td>
+<td style="text-align: center; font-weight: bold;">-933%</td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520005</td>
+<td style="font-weight: bold;">Purwa</td>
+<td>TOT RPBK</td>
+<td style="text-align: right;"> 371.000 </td>
+<td style="text-align: right;"> 371.000 </td>
+<td style="text-align: right;"> 31.537 </td>
+<td style="text-align: right; font-weight: bold;"> (339.463)</td>
+<td style="text-align: center; font-weight: bold;">-976%</td>
+<td style="text-align: center; font-weight: bold;"> <br>
+</td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520006</td>
+<td style="font-weight: bold;">Rai Made</td>
+<td>TOT PLG</td>
+<td style="text-align: right;"> 1.644 </td>
+<td style="text-align: right;"> 1.624 </td>
+<td style="text-align: right;"> 140 </td>
+<td style="text-align: right; font-weight: bold;"> (1.484)</td>
+<td style="text-align: center; font-weight: bold;">-962%</td>
+<td style="text-align: center; font-weight: bold;"> <br>
+</td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520006</td>
+<td style="font-weight: bold;">Rai Made</td>
+<td>TOT PRTAG</td>
+<td style="text-align: right;"> 148.066.518 </td>
+<td style="text-align: right;"> 144.962.315 </td>
+<td style="text-align: right;"> 12.586.435 </td>
+<td style="text-align: right; font-weight: bold;"> (132.375.880)</td>
+<td style="text-align: center; font-weight: bold;">-952%</td>
+<td style="text-align: center; font-weight: bold;">-963%</td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520006</td>
+<td style="font-weight: bold;">Rai Made</td>
+<td>TOT RPBK</td>
+<td style="text-align: right;"> 535.000 </td>
+<td style="text-align: right;"> 535.000 </td>
+<td style="text-align: right;"> 45.478 </td>
+<td style="text-align: right; font-weight: bold;"> (489.522)</td>
+<td style="text-align: center; font-weight: bold;">-976%</td>
+<td style="text-align: center; font-weight: bold;"> <br>
+</td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520007</td>
+<td style="font-weight: bold;">Suardiana</td>
+<td>TOT PLG</td>
+<td style="text-align: right;"> 1.734 </td>
+<td style="text-align: right;"> 1.611 </td>
+<td style="text-align: right;"> 147 </td>
+<td style="text-align: right; font-weight: bold;"> (1.464)</td>
+<td style="text-align: center; font-weight: bold;">-893%</td>
+<td style="text-align: center; font-weight: bold;"> <br>
+</td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520007</td>
+<td style="font-weight: bold;">Suardiana</td>
+<td>TOT PRTAG</td>
+<td style="text-align: right;"> 174.686.093 </td>
+<td style="text-align: right;"> 166.621.881 </td>
+<td style="text-align: right;"> 14.849.239 </td>
+<td style="text-align: right; font-weight: bold;"> (151.772.642)</td>
+<td style="text-align: center; font-weight: bold;">-922%</td>
+<td style="text-align: center; font-weight: bold;">-930%</td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520007</td>
+<td style="font-weight: bold;">Suardiana</td>
+<td>TOT RPBK</td>
+<td style="text-align: right;"> 1.004.752 </td>
+<td style="text-align: right;"> 1.004.752 </td>
+<td style="text-align: right;"> 85.409 </td>
+<td style="text-align: right; font-weight: bold;"> (919.343)</td>
+<td style="text-align: center; font-weight: bold;">-976%</td>
+<td style="text-align: center; font-weight: bold;"> <br>
+</td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520008</td>
+<td style="font-weight: bold;">Suarnata</td>
+<td>TOT PLG</td>
+<td style="text-align: right;"> 1.535 </td>
+<td style="text-align: right;"> 1.462 </td>
+<td style="text-align: right;"> 130 </td>
+<td style="text-align: right; font-weight: bold;"> (1.332)</td>
+<td style="text-align: center; font-weight: bold;">-920%</td>
+<td style="text-align: center; font-weight: bold;"> <br>
+</td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520008</td>
+<td style="font-weight: bold;">Suarnata</td>
+<td>TOT PRTAG</td>
+<td style="text-align: right;"> 478.352.978 </td>
+<td style="text-align: right;"> 462.754.308 </td>
+<td style="text-align: right;"> 40.662.525 </td>
+<td style="text-align: right; font-weight: bold;"> (422.091.783)</td>
+<td style="text-align: center; font-weight: bold;">-938%</td>
+<td style="text-align: center; font-weight: bold;">-945%</td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520008</td>
+<td style="font-weight: bold;">Suarnata</td>
+<td>TOT RPBK</td>
+<td style="text-align: right;"> 1.162.000 </td>
+<td style="text-align: right;"> 1.162.000 </td>
+<td style="text-align: right;"> 98.776 </td>
+<td style="text-align: right; font-weight: bold;"> (1.063.224)</td>
+<td style="text-align: center; font-weight: bold;">-976%</td>
+<td style="text-align: center; font-weight: bold;"> <br>
+</td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520009</td>
+<td style="font-weight: bold;">Junaedi</td>
+<td>TOT PLG</td>
+<td style="text-align: right;"> 1.694 </td>
+<td style="text-align: right;"> 1.460 </td>
+<td style="text-align: right;"> 144 </td>
+<td style="text-align: right; font-weight: bold;"> (1.316)</td>
+<td style="text-align: center; font-weight: bold;">-814%</td>
+<td style="text-align: center; font-weight: bold;"> <br>
+</td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520009</td>
+<td style="font-weight: bold;">Junaedi</td>
+<td>TOT PRTAG</td>
+<td style="text-align: right;"> 298.824.599 </td>
+<td style="text-align: right;"> 261.428.940 </td>
+<td style="text-align: right;"> 25.401.666 </td>
+<td style="text-align: right; font-weight: bold;"> (236.027.274)</td>
+<td style="text-align: center; font-weight: bold;">-829%</td>
+<td style="text-align: center; font-weight: bold;">-873%</td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520009</td>
+<td style="font-weight: bold;">Junaedi</td>
+<td>TOT RPBK</td>
+<td style="text-align: right;"> 349.532 </td>
+<td style="text-align: right;"> 349.532 </td>
+<td style="text-align: right;"> 29.712 </td>
+<td style="text-align: right; font-weight: bold;"> (319.820)</td>
+<td style="text-align: center; font-weight: bold;">-976%</td>
+<td style="text-align: center; font-weight: bold;"> <br>
+</td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520010</td>
+<td style="font-weight: bold;">Wijaya</td>
+<td>TOT PLG</td>
+<td style="text-align: right;"> 1.681 </td>
+<td style="text-align: right;"> 1.660 </td>
+<td style="text-align: right;"> 143 </td>
+<td style="text-align: right; font-weight: bold;"> (1.517)</td>
+<td style="text-align: center; font-weight: bold;">-962%</td>
+<td style="text-align: center; font-weight: bold;"> <br>
+</td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520010</td>
+<td style="font-weight: bold;">Wijaya</td>
+<td>TOT PRTAG</td>
+<td style="text-align: right;"> 168.383.954 </td>
+<td style="text-align: right;"> 161.865.276 </td>
+<td style="text-align: right;"> 14.313.524 </td>
+<td style="text-align: right; font-weight: bold;"> (147.551.752)</td>
+<td style="text-align: center; font-weight: bold;">-931%</td>
+<td style="text-align: center; font-weight: bold;">-956%</td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520010</td>
+<td style="font-weight: bold;">Wijaya</td>
+<td>TOT RPBK</td>
+<td style="text-align: right;"> 667.000 </td>
+<td style="text-align: right;"> 667.000 </td>
+<td style="text-align: right;"> 56.699 </td>
+<td style="text-align: right; font-weight: bold;"> (610.301)</td>
+<td style="text-align: center; font-weight: bold;">-976%</td>
+<td style="text-align: center; font-weight: bold;"> <br>
+</td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520011</td>
+<td style="font-weight: bold;">Ambara</td>
+<td>TOT PLG</td>
+<td style="text-align: right;"> 1.669 </td>
+<td style="text-align: right;"> 1.606 </td>
+<td style="text-align: right;"> 142 </td>
+<td style="text-align: right; font-weight: bold;"> (1.464)</td>
+<td style="text-align: center; font-weight: bold;">-932%</td>
+<td style="text-align: center; font-weight: bold;"> <br>
+</td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520011</td>
+<td style="font-weight: bold;">Ambara</td>
+<td>TOT PRTAG</td>
+<td style="text-align: right;"> 576.701.926 </td>
+<td style="text-align: right;"> 526.105.104 </td>
+<td style="text-align: right;"> 49.022.704 </td>
+<td style="text-align: right; font-weight: bold;"> (477.082.400)</td>
+<td style="text-align: center; font-weight: bold;">-873%</td>
+<td style="text-align: center; font-weight: bold;">-927%</td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520011</td>
+<td style="font-weight: bold;">Ambara</td>
+<td>TOT RPBK</td>
+<td style="text-align: right;"> 921.000 </td>
+<td style="text-align: right;"> 921.000 </td>
+<td style="text-align: right;"> 78.290 </td>
+<td style="text-align: right; font-weight: bold;"> (842.710)</td>
+<td style="text-align: center; font-weight: bold;">-976%</td>
+<td style="text-align: center; font-weight: bold;"> <br>
+</td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520012</td>
+<td style="font-weight: bold;">Swadarma</td>
+<td>TOT PLG</td>
+<td style="text-align: right;"> 1.590 </td>
+<td style="text-align: right;"> 1.388 </td>
+<td style="text-align: right;"> 135 </td>
+<td style="text-align: right; font-weight: bold;"> (1.253)</td>
+<td style="text-align: center; font-weight: bold;">-827%</td>
+<td style="text-align: center; font-weight: bold;"> <br>
+</td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520012</td>
+<td style="font-weight: bold;">Swadarma</td>
+<td>TOT PRTAG</td>
+<td style="text-align: right;"> 936.893.785 </td>
+<td style="text-align: right;"> 831.982.952 </td>
+<td style="text-align: right;"> 79.640.911 </td>
+<td style="text-align: right; font-weight: bold;"> (752.342.041)</td>
+<td style="text-align: center; font-weight: bold;">-845%</td>
+<td style="text-align: center; font-weight: bold;">-883%</td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520012</td>
+<td style="font-weight: bold;">Swadarma</td>
+<td>TOT RPBK</td>
+<td style="text-align: right;"> 501.000 </td>
+<td style="text-align: right;"> 501.000 </td>
+<td style="text-align: right;"> 42.588 </td>
+<td style="text-align: right; font-weight: bold;"> (458.412)</td>
+<td style="text-align: center; font-weight: bold;">-976%</td>
+<td style="text-align: center; font-weight: bold;"> <br>
+</td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520013</td>
+<td style="font-weight: bold;">Sarna</td>
+<td>TOT PLG</td>
+<td style="text-align: right;"> 1.735 </td>
+<td style="text-align: right;"> 1.665 </td>
+<td style="text-align: right;"> 147 </td>
+<td style="text-align: right; font-weight: bold;"> (1.518)</td>
+<td style="text-align: center; font-weight: bold;">-929%</td>
+<td style="text-align: center; font-weight: bold;"> <br>
+</td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520013</td>
+<td style="font-weight: bold;">Sarna</td>
+<td>TOT PRTAG</td>
+<td style="text-align: right;"> 203.466.070 </td>
+<td style="text-align: right;"> 191.196.421 </td>
+<td style="text-align: right;"> 17.295.689 </td>
+<td style="text-align: right; font-weight: bold;"> (173.900.732)</td>
+<td style="text-align: center; font-weight: bold;">-905%</td>
+<td style="text-align: center; font-weight: bold;">-937%</td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520013</td>
+<td style="font-weight: bold;">Sarna</td>
+<td>TOT RPBK</td>
+<td style="text-align: right;"> 18.000 </td>
+<td style="text-align: right;"> 18.000 </td>
+<td style="text-align: right;"> 1.530 </td>
+<td style="text-align: right; font-weight: bold;"> (16.470)</td>
+<td style="text-align: center; font-weight: bold;">-976%</td>
+<td style="text-align: center; font-weight: bold;"> <br>
+</td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520014</td>
+<td style="font-weight: bold;">Widra</td>
+<td>TOT PLG</td>
+<td style="text-align: right;"> 1.594 </td>
+<td style="text-align: right;"> 1.488 </td>
+<td style="text-align: right;"> 135 </td>
+<td style="text-align: right; font-weight: bold;"> (1.353)</td>
+<td style="text-align: center; font-weight: bold;">-898%</td>
+<td style="text-align: center; font-weight: bold;"> <br>
+</td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520014</td>
+<td style="font-weight: bold;">Widra</td>
+<td>TOT PRTAG</td>
+<td style="text-align: right;"> 607.528.082 </td>
+<td style="text-align: right;"> 580.798.518 </td>
+<td style="text-align: right;"> 51.643.090 </td>
+<td style="text-align: right; font-weight: bold;"> (529.155.428)</td>
+<td style="text-align: center; font-weight: bold;">-925%</td>
+<td style="text-align: center; font-weight: bold;">-933%</td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520014</td>
+<td style="font-weight: bold;">Widra</td>
+<td>TOT RPBK</td>
+<td style="text-align: right;"> 1.484.000 </td>
+<td style="text-align: right;"> 1.484.000 </td>
+<td style="text-align: right;"> 126.148 </td>
+<td style="text-align: right; font-weight: bold;"> (1.357.852)</td>
+<td style="text-align: center; font-weight: bold;">-976%</td>
+<td style="text-align: center; font-weight: bold;"> <br>
+</td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520015</td>
+<td style="font-weight: bold;">Parwata</td>
+<td>TOT PLG</td>
+<td style="text-align: right;"> 1.620 </td>
+<td style="text-align: right;"> 1.576 </td>
+<td style="text-align: right;"> 138 </td>
+<td style="text-align: right; font-weight: bold;"> (1.438)</td>
+<td style="text-align: center; font-weight: bold;">-944%</td>
+<td style="text-align: center; font-weight: bold;"> <br>
+</td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520015</td>
+<td style="font-weight: bold;">Parwata</td>
+<td>TOT PRTAG</td>
+<td style="text-align: right;"> 408.872.241 </td>
+<td style="text-align: right;"> 387.939.793 </td>
+<td style="text-align: right;"> 34.756.296 </td>
+<td style="text-align: right; font-weight: bold;"> (353.183.497)</td>
+<td style="text-align: center; font-weight: bold;">-916%</td>
+<td style="text-align: center; font-weight: bold;">-946%</td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520015</td>
+<td style="font-weight: bold;">Parwata</td>
+<td>TOT RPBK</td>
+<td style="text-align: right;"> 537.000 </td>
+<td style="text-align: right;"> 537.000 </td>
+<td style="text-align: right;"> 45.648 </td>
+<td style="text-align: right; font-weight: bold;"> (491.352)</td>
+<td style="text-align: center; font-weight: bold;">-976%</td>
+<td style="text-align: center; font-weight: bold;"> <br>
+</td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520016</td>
+<td style="font-weight: bold;">Widana</td>
+<td>TOT PLG</td>
+<td style="text-align: right;"> 1.733 </td>
+<td style="text-align: right;"> 1.389 </td>
+<td style="text-align: right;"> 147 </td>
+<td style="text-align: right; font-weight: bold;"> (1.242)</td>
+<td style="text-align: center; font-weight: bold;">-743%</td>
+<td style="text-align: center; font-weight: bold;"> <br>
+</td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520016</td>
+<td style="font-weight: bold;">Widana</td>
+<td>TOT PRTAG</td>
+<td style="text-align: right;"> 163.604.356 </td>
+<td style="text-align: right;"> 135.195.307 </td>
+<td style="text-align: right;"> 13.907.233 </td>
+<td style="text-align: right; font-weight: bold;"> (121.288.074)</td>
+<td style="text-align: center; font-weight: bold;">-772%</td>
+<td style="text-align: center; font-weight: bold;">-830%</td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520016</td>
+<td style="font-weight: bold;">Widana</td>
+<td>TOT RPBK</td>
+<td style="text-align: right;"> 636.000 </td>
+<td style="text-align: right;"> 636.000 </td>
+<td style="text-align: right;"> 54.063 </td>
+<td style="text-align: right; font-weight: bold;"> (581.937)</td>
+<td style="text-align: center; font-weight: bold;">-976%</td>
+<td style="text-align: center; font-weight: bold;"> <br>
+</td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520017</td>
+<td style="font-weight: bold;">Satiawan</td>
+<td>TOT PLG</td>
+<td style="text-align: right;"> 1.707 </td>
+<td style="text-align: right;"> 1.497 </td>
+<td style="text-align: right;"> 145 </td>
+<td style="text-align: right; font-weight: bold;"> (1.352)</td>
+<td style="text-align: center; font-weight: bold;">-832%</td>
+<td style="text-align: center; font-weight: bold;"> <br>
+</td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520017</td>
+<td style="font-weight: bold;">Satiawan</td>
+<td>TOT PRTAG</td>
+<td style="text-align: right;"> 270.049.322 </td>
+<td style="text-align: right;"> 257.957.770 </td>
+<td style="text-align: right;"> 22.955.616 </td>
+<td style="text-align: right; font-weight: bold;"> (235.002.154)</td>
+<td style="text-align: center; font-weight: bold;">-924%</td>
+<td style="text-align: center; font-weight: bold;">-911%</td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520017</td>
+<td style="font-weight: bold;">Satiawan</td>
+<td>TOT RPBK</td>
+<td style="text-align: right;"> 71.000 </td>
+<td style="text-align: right;"> 71.000 </td>
+<td style="text-align: right;"> 6.035 </td>
+<td style="text-align: right; font-weight: bold;"> (64.965)</td>
+<td style="text-align: center; font-weight: bold;">-976%</td>
+<td style="text-align: center; font-weight: bold;"> <br>
+</td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520018</td>
+<td style="font-weight: bold;">Asmara</td>
+<td>TOT PLG</td>
+<td style="text-align: right;"> 1.685 </td>
+<td style="text-align: right;"> 1.643 </td>
+<td style="text-align: right;"> 143 </td>
+<td style="text-align: right; font-weight: bold;"> (1.500)</td>
+<td style="text-align: center; font-weight: bold;">-947%</td>
+<td style="text-align: center; font-weight: bold;"> <br>
+</td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520018</td>
+<td style="font-weight: bold;">Asmara</td>
+<td>TOT PRTAG</td>
+<td style="text-align: right;"> 171.681.096 </td>
+<td style="text-align: right;"> 168.273.459 </td>
+<td style="text-align: right;"> 14.593.798 </td>
+<td style="text-align: right; font-weight: bold;"> (153.679.661)</td>
+<td style="text-align: center; font-weight: bold;">-953%</td>
+<td style="text-align: center; font-weight: bold;">-959%</td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520018</td>
+<td style="font-weight: bold;">Asmara</td>
+<td>TOT RPBK</td>
+<td style="text-align: right;"> 198.000 </td>
+<td style="text-align: right;"> 198.000 </td>
+<td style="text-align: right;"> 16.831 </td>
+<td style="text-align: right; font-weight: bold;"> (181.169)</td>
+<td style="text-align: center; font-weight: bold;">-976%</td>
+<td style="text-align: center; font-weight: bold;"> <br>
+</td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520019</td>
+<td style="font-weight: bold;">Komang Apriana</td>
+<td>TOT PLG</td>
+<td style="text-align: right;"> 1.574 </td>
+<td style="text-align: right;"> 1.519 </td>
+<td style="text-align: right;"> 134 </td>
+<td style="text-align: right; font-weight: bold;"> (1.385)</td>
+<td style="text-align: center; font-weight: bold;">-935%</td>
+<td style="text-align: center; font-weight: bold;"> <br>
+</td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520019</td>
+<td style="font-weight: bold;">Komang Apriana</td>
+<td>TOT PRTAG</td>
+<td style="text-align: right;"> 388.006.778 </td>
+<td style="text-align: right;"> 377.149.520 </td>
+<td style="text-align: right;"> 32.982.622 </td>
+<td style="text-align: right; font-weight: bold;"> (344.166.898)</td>
+<td style="text-align: center; font-weight: bold;">-943%</td>
+<td style="text-align: center; font-weight: bold;">-952%</td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520019</td>
+<td style="font-weight: bold;">Komang Apriana</td>
+<td>TOT RPBK</td>
+<td style="text-align: right;"> 793.000 </td>
+<td style="text-align: right;"> 793.000 </td>
+<td style="text-align: right;"> 67.409 </td>
+<td style="text-align: right; font-weight: bold;"> (725.591)</td>
+<td style="text-align: center; font-weight: bold;">-976%</td>
+<td style="text-align: center; font-weight: bold;"> <br>
+</td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520020</td>
+<td style="font-weight: bold;">Santika</td>
+<td>TOT PLG</td>
+<td style="text-align: right;"> 1.658 </td>
+<td style="text-align: right;"> 1.574 </td>
+<td style="text-align: right;"> 141 </td>
+<td style="text-align: right; font-weight: bold;"> (1.433)</td>
+<td style="text-align: center; font-weight: bold;">-917%</td>
+<td style="text-align: center; font-weight: bold;"> <br>
+</td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520020</td>
+<td style="font-weight: bold;">Santika</td>
+<td>TOT PRTAG</td>
+<td style="text-align: right;"> 277.582.828 </td>
+<td style="text-align: right;"> 261.692.645 </td>
+<td style="text-align: right;"> 23.596.004 </td>
+<td style="text-align: right; font-weight: bold;"> (238.096.641)</td>
+<td style="text-align: center; font-weight: bold;">-909%</td>
+<td style="text-align: center; font-weight: bold;">-934%</td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520020</td>
+<td style="font-weight: bold;">Santika</td>
+<td>TOT RPBK</td>
+<td style="text-align: right;"> 546.000 </td>
+<td style="text-align: right;"> 546.000 </td>
+<td style="text-align: right;"> 46.413 </td>
+<td style="text-align: right; font-weight: bold;"> (499.587)</td>
+<td style="text-align: center; font-weight: bold;">-976%</td>
+<td style="text-align: center; font-weight: bold;"> <br>
+</td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520021</td>
+<td style="font-weight: bold;">Swastika</td>
+<td>TOT PLG</td>
+<td style="text-align: right;"> 1.713 </td>
+<td style="text-align: right;"> 1.603 </td>
+<td style="text-align: right;"> 146 </td>
+<td style="text-align: right; font-weight: bold;"> (1.457)</td>
+<td style="text-align: center; font-weight: bold;">-901%</td>
+<td style="text-align: center; font-weight: bold;"> <br>
+</td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520021</td>
+<td style="font-weight: bold;">Swastika</td>
+<td>TOT PRTAG</td>
+<td style="text-align: right;"> 275.491.711 </td>
+<td style="text-align: right;"> 268.025.574 </td>
+<td style="text-align: right;"> 23.418.248 </td>
+<td style="text-align: right; font-weight: bold;"> (244.607.326)</td>
+<td style="text-align: center; font-weight: bold;">-945%</td>
+<td style="text-align: center; font-weight: bold;">-941%</td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520021</td>
+<td style="font-weight: bold;">Swastika</td>
+<td>TOT RPBK</td>
+<td style="text-align: right;"> 353.000 </td>
+<td style="text-align: right;"> 353.000 </td>
+<td style="text-align: right;"> 30.007 </td>
+<td style="text-align: right; font-weight: bold;"> (322.993)</td>
+<td style="text-align: center; font-weight: bold;">-976%</td>
+<td style="text-align: center; font-weight: bold;"> <br>
+</td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520022</td>
+<td style="font-weight: bold;">Juli Astama</td>
+<td>TOT PLG</td>
+<td style="text-align: right;"> 1.610 </td>
+<td style="text-align: right;"> 1.484 </td>
+<td style="text-align: right;"> 137 </td>
+<td style="text-align: right; font-weight: bold;"> (1.347)</td>
+<td style="text-align: center; font-weight: bold;">-884%</td>
+<td style="text-align: center; font-weight: bold;"> <br>
+</td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520022</td>
+<td style="font-weight: bold;">Juli Astama</td>
+<td>TOT PRTAG</td>
+<td style="text-align: right;"> 360.215.504 </td>
+<td style="text-align: right;"> 351.930.473 </td>
+<td style="text-align: right;"> 30.620.217 </td>
+<td style="text-align: right; font-weight: bold;"> (321.310.256)</td>
+<td style="text-align: center; font-weight: bold;">-949%</td>
+<td style="text-align: center; font-weight: bold;">-937%</td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520022</td>
+<td style="font-weight: bold;">Juli Astama</td>
+<td>TOT RPBK</td>
+<td style="text-align: right;"> 1.150.000 </td>
+<td style="text-align: right;"> 1.150.000 </td>
+<td style="text-align: right;"> 97.756 </td>
+<td style="text-align: right; font-weight: bold;"> (1.052.244)</td>
+<td style="text-align: center; font-weight: bold;">-976%</td>
+<td style="text-align: center; font-weight: bold;"> <br>
+</td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520023</td>
+<td style="font-weight: bold;">Agus Santa</td>
+<td>TOT PLG</td>
+<td style="text-align: right;"> 1.619 </td>
+<td style="text-align: right;"> 1.591 </td>
+<td style="text-align: right;"> 138 </td>
+<td style="text-align: right; font-weight: bold;"> (1.453)</td>
+<td style="text-align: center; font-weight: bold;">-956%</td>
+<td style="text-align: center; font-weight: bold;"> <br>
+</td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520023</td>
+<td style="font-weight: bold;">Agus Santa</td>
+<td>TOT PRTAG</td>
+<td style="text-align: right;"> 526.347.177 </td>
+<td style="text-align: right;"> 520.926.706 </td>
+<td style="text-align: right;"> 44.742.285 </td>
+<td style="text-align: right; font-weight: bold;"> (476.184.421)</td>
+<td style="text-align: center; font-weight: bold;">-964%</td>
+<td style="text-align: center; font-weight: bold;">-966%</td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520023</td>
+<td style="font-weight: bold;">Agus Santa</td>
+<td>TOT RPBK</td>
+<td style="text-align: right;"> 1.023.000 </td>
+<td style="text-align: right;"> 1.023.000 </td>
+<td style="text-align: right;"> 86.960 </td>
+<td style="text-align: right; font-weight: bold;"> (936.040)</td>
+<td style="text-align: center; font-weight: bold;">-976%</td>
+<td style="text-align: center; font-weight: bold;"> <br>
+</td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520024</td>
+<td style="font-weight: bold;">Darmayasa</td>
+<td>TOT PLG</td>
+<td style="text-align: right;"> 1.457 </td>
+<td style="text-align: right;"> 1.449 </td>
+<td style="text-align: right;"> 124 </td>
+<td style="text-align: right; font-weight: bold;"> (1.325)</td>
+<td style="text-align: center; font-weight: bold;">-970%</td>
+<td style="text-align: center; font-weight: bold;"> <br>
+</td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520024</td>
+<td style="font-weight: bold;">Darmayasa</td>
+<td>TOT PRTAG</td>
+<td style="text-align: right;"> 116.042.828 </td>
+<td style="text-align: right;"> 115.241.923 </td>
+<td style="text-align: right;"> 9.864.252 </td>
+<td style="text-align: right; font-weight: bold;"> (105.377.671)</td>
+<td style="text-align: center; font-weight: bold;">-968%</td>
+<td style="text-align: center; font-weight: bold;">-972%</td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520024</td>
+<td style="font-weight: bold;">Darmayasa</td>
+<td>TOT RPBK</td>
+<td style="text-align: right;"> 161.000 </td>
+<td style="text-align: right;"> 161.000 </td>
+<td style="text-align: right;"> 13.686 </td>
+<td style="text-align: right; font-weight: bold;"> (147.314)</td>
+<td style="text-align: center; font-weight: bold;">-976%</td>
+<td style="text-align: center; font-weight: bold;"> <br>
+</td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520025</td>
+<td style="font-weight: bold;">Suda Wisnawa</td>
+<td>TOT PLG</td>
+<td style="text-align: right;"> 1.750 </td>
+<td style="text-align: right;"> 1.627 </td>
+<td style="text-align: right;"> 149 </td>
+<td style="text-align: right; font-weight: bold;"> (1.478)</td>
+<td style="text-align: center; font-weight: bold;">-894%</td>
+<td style="text-align: center; font-weight: bold;"> <br>
+</td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520025</td>
+<td style="font-weight: bold;">Suda Wisnawa</td>
+<td>TOT PRTAG</td>
+<td style="text-align: right;"> 216.250.669 </td>
+<td style="text-align: right;"> 201.866.179 </td>
+<td style="text-align: right;"> 18.382.447 </td>
+<td style="text-align: right; font-weight: bold;"> (183.483.732)</td>
+<td style="text-align: center; font-weight: bold;">-898%</td>
+<td style="text-align: center; font-weight: bold;">-923%</td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520025</td>
+<td style="font-weight: bold;">Suda Wisnawa</td>
+<td>TOT RPBK</td>
+<td style="text-align: right;"> 1.047.000 </td>
+<td style="text-align: right;"> 1.047.000 </td>
+<td style="text-align: right;"> 89.001 </td>
+<td style="text-align: right; font-weight: bold;"> (957.999)</td>
+<td style="text-align: center; font-weight: bold;">-976%</td>
+<td style="text-align: center; font-weight: bold;"> <br>
+</td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520026</td>
+<td style="font-weight: bold;">Darmika</td>
+<td>TOT PLG</td>
+<td style="text-align: right;"> 1.483 </td>
+<td style="text-align: right;"> 1.423 </td>
+<td style="text-align: right;"> 126 </td>
+<td style="text-align: right; font-weight: bold;"> (1.297)</td>
+<td style="text-align: center; font-weight: bold;">-929%</td>
+<td style="text-align: center; font-weight: bold;"> <br>
+</td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520026</td>
+<td style="font-weight: bold;">Darmika</td>
+<td>TOT PRTAG</td>
+<td style="text-align: right;"> 690.075.756 </td>
+<td style="text-align: right;"> 672.458.235 </td>
+<td style="text-align: right;"> 58.660.077 </td>
+<td style="text-align: right; font-weight: bold;"> (613.798.158)</td>
+<td style="text-align: center; font-weight: bold;">-946%</td>
+<td style="text-align: center; font-weight: bold;">-951%</td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520026</td>
+<td style="font-weight: bold;">Darmika</td>
+<td>TOT RPBK</td>
+<td style="text-align: right;"> 226.000 </td>
+<td style="text-align: right;"> 226.000 </td>
+<td style="text-align: right;"> 19.211 </td>
+<td style="text-align: right; font-weight: bold;"> (206.789)</td>
+<td style="text-align: center; font-weight: bold;">-976%</td>
+<td style="text-align: center; font-weight: bold;"> <br>
+</td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520027</td>
+<td style="font-weight: bold;">Antara Bawa</td>
+<td>TOT PLG</td>
+<td style="text-align: right;"> 1.653 </td>
+<td style="text-align: right;"> 1.544 </td>
+<td style="text-align: right;"> 141 </td>
+<td style="text-align: right; font-weight: bold;"> (1.403)</td>
+<td style="text-align: center; font-weight: bold;">-899%</td>
+<td style="text-align: center; font-weight: bold;"> <br>
+</td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520027</td>
+<td style="font-weight: bold;">Antara Bawa</td>
+<td>TOT PRTAG</td>
+<td style="text-align: right;"> 388.308.280 </td>
+<td style="text-align: right;"> 360.966.226 </td>
+<td style="text-align: right;"> 33.008.251 </td>
+<td style="text-align: right; font-weight: bold;"> (327.957.975)</td>
+<td style="text-align: center; font-weight: bold;">-894%</td>
+<td style="text-align: center; font-weight: bold;">-923%</td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520027</td>
+<td style="font-weight: bold;">Antara Bawa</td>
+<td>TOT RPBK</td>
+<td style="text-align: right;"> 192.000 </td>
+<td style="text-align: right;"> 192.000 </td>
+<td style="text-align: right;"> 16.321 </td>
+<td style="text-align: right; font-weight: bold;"> (175.679)</td>
+<td style="text-align: center; font-weight: bold;">-976%</td>
+<td style="text-align: center; font-weight: bold;"> <br>
+</td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520028</td>
+<td style="font-weight: bold;">Mudana</td>
+<td>TOT PLG</td>
+<td style="text-align: right;"> 1.672 </td>
+<td style="text-align: right;"> 1.616 </td>
+<td style="text-align: right;"> 142 </td>
+<td style="text-align: right; font-weight: bold;"> (1.474)</td>
+<td style="text-align: center; font-weight: bold;">-937%</td>
+<td style="text-align: center; font-weight: bold;"> <br>
+</td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520028</td>
+<td style="font-weight: bold;">Mudana</td>
+<td>TOT PRTAG</td>
+<td style="text-align: right;"> 422.004.241 </td>
+<td style="text-align: right;"> 412.557.295 </td>
+<td style="text-align: right;"> 35.872.585 </td>
+<td style="text-align: right; font-weight: bold;"> (376.684.710)</td>
+<td style="text-align: center; font-weight: bold;">-950%</td>
+<td style="text-align: center; font-weight: bold;">-954%</td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520028</td>
+<td style="font-weight: bold;">Mudana</td>
+<td>TOT RPBK</td>
+<td style="text-align: right;"> 1.177.000 </td>
+<td style="text-align: right;"> 1.177.000 </td>
+<td style="text-align: right;"> 100.051 </td>
+<td style="text-align: right; font-weight: bold;"> (1.076.949)</td>
+<td style="text-align: center; font-weight: bold;">-976%</td>
+<td style="text-align: center; font-weight: bold;"> <br>
+</td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520029</td>
+<td style="font-weight: bold;">Sudiarsa</td>
+<td>TOT PLG</td>
+<td style="text-align: right;"> 1.634 </td>
+<td style="text-align: right;"> 1.504 </td>
+<td style="text-align: right;"> 139 </td>
+<td style="text-align: right; font-weight: bold;"> (1.365)</td>
+<td style="text-align: center; font-weight: bold;">-883%</td>
+<td style="text-align: center; font-weight: bold;"> <br>
+</td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520029</td>
+<td style="font-weight: bold;">Sudiarsa</td>
+<td>TOT PRTAG</td>
+<td style="text-align: right;"> 255.358.868 </td>
+<td style="text-align: right;"> 227.631.878 </td>
+<td style="text-align: right;"> 21.706.850 </td>
+<td style="text-align: right; font-weight: bold;"> (205.925.028)</td>
+<td style="text-align: center; font-weight: bold;">-849%</td>
+<td style="text-align: center; font-weight: bold;">-903%</td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520029</td>
+<td style="font-weight: bold;">Sudiarsa</td>
+<td>TOT RPBK</td>
+<td style="text-align: right;"> 114.000 </td>
+<td style="text-align: right;"> 114.000 </td>
+<td style="text-align: right;"> 9.691 </td>
+<td style="text-align: right; font-weight: bold;"> (104.309)</td>
+<td style="text-align: center; font-weight: bold;">-976%</td>
+<td style="text-align: center; font-weight: bold;"> <br>
+</td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520030</td>
+<td style="font-weight: bold;">Sudarta</td>
+<td>TOT PLG</td>
+<td style="text-align: right;"> 1.676 </td>
+<td style="text-align: right;"> 1.567 </td>
+<td style="text-align: right;"> 142 </td>
+<td style="text-align: right; font-weight: bold;"> (1.425)</td>
+<td style="text-align: center; font-weight: bold;">-900%</td>
+<td style="text-align: center; font-weight: bold;"> <br>
+</td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520030</td>
+<td style="font-weight: bold;">Sudarta</td>
+<td>TOT PRTAG</td>
+<td style="text-align: right;"> 276.692.814 </td>
+<td style="text-align: right;"> 252.302.662 </td>
+<td style="text-align: right;"> 23.520.348 </td>
+<td style="text-align: right; font-weight: bold;"> (228.782.314)</td>
+<td style="text-align: center; font-weight: bold;">-873%</td>
+<td style="text-align: center; font-weight: bold;">-916%</td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520030</td>
+<td style="font-weight: bold;">Sudarta</td>
+<td>TOT RPBK</td>
+<td style="text-align: right;"> 282.000 </td>
+<td style="text-align: right;"> 282.000 </td>
+<td style="text-align: right;"> 23.971 </td>
+<td style="text-align: right; font-weight: bold;"> (258.029)</td>
+<td style="text-align: center; font-weight: bold;">-976%</td>
+<td style="text-align: center; font-weight: bold;"> <br>
+</td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520031</td>
+<td style="font-weight: bold;">Alit Sumadi</td>
+<td>TOT PLG</td>
+<td style="text-align: right;"> 1.649 </td>
+<td style="text-align: right;"> 1.567 </td>
+<td style="text-align: right;"> 140 </td>
+<td style="text-align: right; font-weight: bold;"> (1.427)</td>
+<td style="text-align: center; font-weight: bold;">-918%</td>
+<td style="text-align: center; font-weight: bold;"> <br>
+</td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520031</td>
+<td style="font-weight: bold;">Alit Sumadi</td>
+<td>TOT PRTAG</td>
+<td style="text-align: right;"> 346.336.304 </td>
+<td style="text-align: right;"> 332.240.723 </td>
+<td style="text-align: right;"> 29.440.412 </td>
+<td style="text-align: right; font-weight: bold;"> (302.800.311)</td>
+<td style="text-align: center; font-weight: bold;">-929%</td>
+<td style="text-align: center; font-weight: bold;">-941%</td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520031</td>
+<td style="font-weight: bold;">Alit Sumadi</td>
+<td>TOT RPBK</td>
+<td style="text-align: right;"> 658.000 </td>
+<td style="text-align: right;"> 658.000 </td>
+<td style="text-align: right;"> 55.933 </td>
+<td style="text-align: right; font-weight: bold;"> (602.067)</td>
+<td style="text-align: center; font-weight: bold;">-976%</td>
+<td style="text-align: center; font-weight: bold;"> <br>
+</td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520032</td>
+<td style="font-weight: bold;">Sutapa</td>
+<td>TOT PLG</td>
+<td style="text-align: right;"> 1.511 </td>
+<td style="text-align: right;"> 1.429 </td>
+<td style="text-align: right;"> 128 </td>
+<td style="text-align: right; font-weight: bold;"> (1.301)</td>
+<td style="text-align: center; font-weight: bold;">-913%</td>
+<td style="text-align: center; font-weight: bold;"> <br>
+</td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520032</td>
+<td style="font-weight: bold;">Sutapa</td>
+<td>TOT PRTAG</td>
+<td style="text-align: right;"> 442.278.509 </td>
+<td style="text-align: right;"> 406.848.795 </td>
+<td style="text-align: right;"> 37.596.005 </td>
+<td style="text-align: right; font-weight: bold;"> (369.252.790)</td>
+<td style="text-align: center; font-weight: bold;">-882%</td>
+<td style="text-align: center; font-weight: bold;">-924%</td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520032</td>
+<td style="font-weight: bold;">Sutapa</td>
+<td>TOT RPBK</td>
+<td style="text-align: right;"> 30.000 </td>
+<td style="text-align: right;"> 30.000 </td>
+<td style="text-align: right;"> 2.550 </td>
+<td style="text-align: right; font-weight: bold;"> (27.450)</td>
+<td style="text-align: center; font-weight: bold;">-976%</td>
+<td style="text-align: center; font-weight: bold;"> <br>
+</td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520033</td>
+<td style="font-weight: bold;">Made Apriana</td>
+<td>TOT PLG</td>
+<td style="text-align: right;"> 1.650 </td>
+<td style="text-align: right;"> 1.601 </td>
+<td style="text-align: right;"> 140 </td>
+<td style="text-align: right; font-weight: bold;"> (1.461)</td>
+<td style="text-align: center; font-weight: bold;">-941%</td>
+<td style="text-align: center; font-weight: bold;"> <br>
+</td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520033</td>
+<td style="font-weight: bold;">Made Apriana</td>
+<td>TOT PRTAG</td>
+<td style="text-align: right;"> 384.569.817 </td>
+<td style="text-align: right;"> 361.041.906 </td>
+<td style="text-align: right;"> 32.690.462 </td>
+<td style="text-align: right; font-weight: bold;"> (328.351.444)</td>
+<td style="text-align: center; font-weight: bold;">-904%</td>
+<td style="text-align: center; font-weight: bold;">-941%</td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520033</td>
+<td style="font-weight: bold;">Made Apriana</td>
+<td>TOT RPBK</td>
+<td style="text-align: right;"> 754.000 </td>
+<td style="text-align: right;"> 754.000 </td>
+<td style="text-align: right;"> 64.094 </td>
+<td style="text-align: right; font-weight: bold;"> (689.906)</td>
+<td style="text-align: center; font-weight: bold;">-976%</td>
+<td style="text-align: center; font-weight: bold;"> <br>
+</td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520034</td>
+<td style="font-weight: bold;">Arsana</td>
+<td>TOT PLG</td>
+<td style="text-align: right;"> 1.669 </td>
+<td style="text-align: right;"> 1.625 </td>
+<td style="text-align: right;"> 142 </td>
+<td style="text-align: right; font-weight: bold;"> (1.483)</td>
+<td style="text-align: center; font-weight: bold;">-945%</td>
+<td style="text-align: center; font-weight: bold;"> <br>
+</td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520034</td>
+<td style="font-weight: bold;">Arsana</td>
+<td>TOT PRTAG</td>
+<td style="text-align: right;"> 395.680.718 </td>
+<td style="text-align: right;"> 384.283.391 </td>
+<td style="text-align: right;"> 33.634.947 </td>
+<td style="text-align: right; font-weight: bold;"> (350.648.444)</td>
+<td style="text-align: center; font-weight: bold;">-943%</td>
+<td style="text-align: center; font-weight: bold;">-955%</td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520034</td>
+<td style="font-weight: bold;">Arsana</td>
+<td>TOT RPBK</td>
+<td style="text-align: right;"> 1.358.000 </td>
+<td style="text-align: right;"> 1.358.000 </td>
+<td style="text-align: right;"> 115.437 </td>
+<td style="text-align: right; font-weight: bold;"> (1.242.563)</td>
+<td style="text-align: center; font-weight: bold;">-976%</td>
+<td style="text-align: center; font-weight: bold;"> <br>
+</td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520035</td>
+<td style="font-weight: bold;">Yadnya</td>
+<td>TOT PLG</td>
+<td style="text-align: right;"> 1.552 </td>
+<td style="text-align: right;"> 1.428 </td>
+<td style="text-align: right;"> 132 </td>
+<td style="text-align: right; font-weight: bold;"> (1.296)</td>
+<td style="text-align: center; font-weight: bold;">-882%</td>
+<td style="text-align: center; font-weight: bold;"> <br>
+</td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520035</td>
+<td style="font-weight: bold;">Yadnya</td>
+<td>TOT PRTAG</td>
+<td style="text-align: right;"> 223.505.070 </td>
+<td style="text-align: right;"> 212.536.147 </td>
+<td style="text-align: right;"> 18.999.109 </td>
+<td style="text-align: right; font-weight: bold;"> (193.537.038)</td>
+<td style="text-align: center; font-weight: bold;">-919%</td>
+<td style="text-align: center; font-weight: bold;">-926%</td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520035</td>
+<td style="font-weight: bold;">Yadnya</td>
+<td>TOT RPBK</td>
+<td style="text-align: right;"> 551.000 </td>
+<td style="text-align: right;"> 551.000 </td>
+<td style="text-align: right;"> 46.838 </td>
+<td style="text-align: right; font-weight: bold;"> (504.162)</td>
+<td style="text-align: center; font-weight: bold;">-976%</td>
+<td style="text-align: center; font-weight: bold;"> <br>
+</td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520036</td>
+<td style="font-weight: bold;">Suarjana</td>
+<td>TOT PLG</td>
+<td style="text-align: right;"> 1.759 </td>
+<td style="text-align: right;"> 1.547 </td>
+<td style="text-align: right;"> 150 </td>
+<td style="text-align: right; font-weight: bold;"> (1.397)</td>
+<td style="text-align: center; font-weight: bold;">-835%</td>
+<td style="text-align: center; font-weight: bold;"> <br>
+</td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520036</td>
+<td style="font-weight: bold;">Suarjana</td>
+<td>TOT PRTAG</td>
+<td style="text-align: right;"> 384.571.257 </td>
+<td style="text-align: right;"> 339.958.717 </td>
+<td style="text-align: right;"> 32.690.584 </td>
+<td style="text-align: right; font-weight: bold;"> (307.268.133)</td>
+<td style="text-align: center; font-weight: bold;">-840%</td>
+<td style="text-align: center; font-weight: bold;">-884%</td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520036</td>
+<td style="font-weight: bold;">Suarjana</td>
+<td>TOT RPBK</td>
+<td style="text-align: right;"> 776.000 </td>
+<td style="text-align: right;"> 776.000 </td>
+<td style="text-align: right;"> 65.964 </td>
+<td style="text-align: right; font-weight: bold;"> (710.036)</td>
+<td style="text-align: center; font-weight: bold;">-976%</td>
+<td style="text-align: center; font-weight: bold;"> <br>
+</td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520037</td>
+<td style="font-weight: bold;">Sujana Kd</td>
+<td>TOT PLG</td>
+<td style="text-align: right;"> 1.656 </td>
+<td style="text-align: right;"> 1.588 </td>
+<td style="text-align: right;"> 141 </td>
+<td style="text-align: right; font-weight: bold;"> (1.447)</td>
+<td style="text-align: center; font-weight: bold;">-928%</td>
+<td style="text-align: center; font-weight: bold;"> <br>
+</td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520037</td>
+<td style="font-weight: bold;">Sujana Kd</td>
+<td>TOT PRTAG</td>
+<td style="text-align: right;"> 533.418.523 </td>
+<td style="text-align: right;"> 523.055.280 </td>
+<td style="text-align: right;"> 45.343.387 </td>
+<td style="text-align: right; font-weight: bold;"> (477.711.893)</td>
+<td style="text-align: center; font-weight: bold;">-954%</td>
+<td style="text-align: center; font-weight: bold;">-953%</td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520037</td>
+<td style="font-weight: bold;">Sujana Kd</td>
+<td>TOT RPBK</td>
+<td style="text-align: right;"> 609.000 </td>
+<td style="text-align: right;"> 609.000 </td>
+<td style="text-align: right;"> 51.768 </td>
+<td style="text-align: right; font-weight: bold;"> (557.232)</td>
+<td style="text-align: center; font-weight: bold;">-976%</td>
+<td style="text-align: center; font-weight: bold;"> <br>
+</td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520038</td>
+<td style="font-weight: bold;">Werdi Suputra</td>
+<td>TOT PLG</td>
+<td style="text-align: right;"> 1.633 </td>
+<td style="text-align: right;"> 1.422 </td>
+<td style="text-align: right;"> 139 </td>
+<td style="text-align: right; font-weight: bold;"> (1.283)</td>
+<td style="text-align: center; font-weight: bold;">-824%</td>
+<td style="text-align: center; font-weight: bold;"> <br>
+</td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520038</td>
+<td style="font-weight: bold;">Werdi Suputra</td>
+<td>TOT PRTAG</td>
+<td style="text-align: right;"> 270.566.349 </td>
+<td style="text-align: right;"> 240.026.625 </td>
+<td style="text-align: right;"> 22.999.566 </td>
+<td style="text-align: right; font-weight: bold;"> (217.027.059)</td>
+<td style="text-align: center; font-weight: bold;">-844%</td>
+<td style="text-align: center; font-weight: bold;">-881%</td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520038</td>
+<td style="font-weight: bold;">Werdi Suputra</td>
+<td>TOT RPBK</td>
+<td style="text-align: right;"> 225.000 </td>
+<td style="text-align: right;"> 225.000 </td>
+<td style="text-align: right;"> 19.126 </td>
+<td style="text-align: right; font-weight: bold;"> (205.874)</td>
+<td style="text-align: center; font-weight: bold;">-976%</td>
+<td style="text-align: center; font-weight: bold;"> <br>
+</td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520039</td>
+<td style="font-weight: bold;">Arman</td>
+<td>TOT PLG</td>
+<td style="text-align: right;"> 1.672 </td>
+<td style="text-align: right;"> 1.624 </td>
+<td style="text-align: right;"> 142 </td>
+<td style="text-align: right; font-weight: bold;"> (1.482)</td>
+<td style="text-align: center; font-weight: bold;">-943%</td>
+<td style="text-align: center; font-weight: bold;"> <br>
+</td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520039</td>
+<td style="font-weight: bold;">Arman</td>
+<td>TOT PRTAG</td>
+<td style="text-align: right;"> 174.812.398 </td>
+<td style="text-align: right;"> 170.696.025 </td>
+<td style="text-align: right;"> 14.859.975 </td>
+<td style="text-align: right; font-weight: bold;"> (155.836.050)</td>
+<td style="text-align: center; font-weight: bold;">-949%</td>
+<td style="text-align: center; font-weight: bold;">-956%</td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520039</td>
+<td style="font-weight: bold;">Arman</td>
+<td>TOT RPBK</td>
+<td style="text-align: right;"> 407.000 </td>
+<td style="text-align: right;"> 407.000 </td>
+<td style="text-align: right;"> 34.597 </td>
+<td style="text-align: right; font-weight: bold;"> (372.403)</td>
+<td style="text-align: center; font-weight: bold;">-976%</td>
+<td style="text-align: center; font-weight: bold;"> <br>
+</td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520040</td>
+<td style="font-weight: bold;">Yuliana</td>
+<td>TOT PLG</td>
+<td style="text-align: right;"> 1.654 </td>
+<td style="text-align: right;"> 1.585 </td>
+<td style="text-align: right;"> 141 </td>
+<td style="text-align: right; font-weight: bold;"> (1.444)</td>
+<td style="text-align: center; font-weight: bold;">-927%</td>
+<td style="text-align: center; font-weight: bold;"> <br>
+</td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520040</td>
+<td style="font-weight: bold;">Yuliana</td>
+<td>TOT PRTAG</td>
+<td style="text-align: right;"> 236.575.708 </td>
+<td style="text-align: right;"> 227.620.478 </td>
+<td style="text-align: right;"> 20.110.182 </td>
+<td style="text-align: right; font-weight: bold;"> (207.510.296)</td>
+<td style="text-align: center; font-weight: bold;">-932%</td>
+<td style="text-align: center; font-weight: bold;">-945%</td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520040</td>
+<td style="font-weight: bold;">Yuliana</td>
+<td>TOT RPBK</td>
+<td style="text-align: right;"> 831.000 </td>
+<td style="text-align: right;"> 831.000 </td>
+<td style="text-align: right;"> 70.639 </td>
+<td style="text-align: right; font-weight: bold;"> (760.361)</td>
+<td style="text-align: center; font-weight: bold;">-976%</td>
+<td style="text-align: center; font-weight: bold;"> <br>
+</td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520041</td>
+<td style="font-weight: bold;">Suantara</td>
+<td>TOT PLG</td>
+<td style="text-align: right;"> 1.536 </td>
+<td style="text-align: right;"> 1.461 </td>
+<td style="text-align: right;"> 131 </td>
+<td style="text-align: right; font-weight: bold;"> (1.330)</td>
+<td style="text-align: center; font-weight: bold;">-919%</td>
+<td style="text-align: center; font-weight: bold;"> <br>
+</td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520041</td>
+<td style="font-weight: bold;">Suantara</td>
+<td>TOT PRTAG</td>
+<td style="text-align: right;"> 681.939.562 </td>
+<td style="text-align: right;"> 665.337.161 </td>
+<td style="text-align: right;"> 57.968.458 </td>
+<td style="text-align: right; font-weight: bold;"> (607.368.703)</td>
+<td style="text-align: center; font-weight: bold;">-948%</td>
+<td style="text-align: center; font-weight: bold;">-948%</td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520041</td>
+<td style="font-weight: bold;">Suantara</td>
+<td>TOT RPBK</td>
+<td style="text-align: right;"> 1.435.743 </td>
+<td style="text-align: right;"> 1.435.743 </td>
+<td style="text-align: right;"> 122.046 </td>
+<td style="text-align: right; font-weight: bold;"> (1.313.697)</td>
+<td style="text-align: center; font-weight: bold;">-976%</td>
+<td style="text-align: center; font-weight: bold;"> <br>
+</td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520042</td>
+<td style="font-weight: bold;">Arya</td>
+<td>TOT PLG</td>
+<td style="text-align: right;"> 1.650 </td>
+<td style="text-align: right;"> 1.599 </td>
+<td style="text-align: right;"> 140 </td>
+<td style="text-align: right; font-weight: bold;"> (1.459)</td>
+<td style="text-align: center; font-weight: bold;">-940%</td>
+<td style="text-align: center; font-weight: bold;"> <br>
+</td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520042</td>
+<td style="font-weight: bold;">Arya</td>
+<td>TOT PRTAG</td>
+<td style="text-align: right;"> 541.835.425 </td>
+<td style="text-align: right;"> 515.132.494 </td>
+<td style="text-align: right;"> 46.058.868 </td>
+<td style="text-align: right; font-weight: bold;"> (469.073.626)</td>
+<td style="text-align: center; font-weight: bold;">-918%</td>
+<td style="text-align: center; font-weight: bold;">-945%</td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520042</td>
+<td style="font-weight: bold;">Arya</td>
+<td>TOT RPBK</td>
+<td style="text-align: right;"> 415.000 </td>
+<td style="text-align: right;"> 415.000 </td>
+<td style="text-align: right;"> 35.277 </td>
+<td style="text-align: right; font-weight: bold;"> (379.723)</td>
+<td style="text-align: center; font-weight: bold;">-976%</td>
+<td style="text-align: center; font-weight: bold;"> <br>
+</td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520043</td>
+<td style="font-weight: bold;">Suarfana</td>
+<td>TOT PLG</td>
+<td style="text-align: right;"> 1.570 </td>
+<td style="text-align: right;"> 1.452 </td>
+<td style="text-align: right;"> 133 </td>
+<td style="text-align: right; font-weight: bold;"> (1.319)</td>
+<td style="text-align: center; font-weight: bold;">-888%</td>
+<td style="text-align: center; font-weight: bold;"> <br>
+</td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520043</td>
+<td style="font-weight: bold;">Suarfana</td>
+<td>TOT PRTAG</td>
+<td style="text-align: right;"> 541.054.865 </td>
+<td style="text-align: right;"> 512.828.117 </td>
+<td style="text-align: right;"> 45.992.516 </td>
+<td style="text-align: right; font-weight: bold;"> (466.835.601)</td>
+<td style="text-align: center; font-weight: bold;">-915%</td>
+<td style="text-align: center; font-weight: bold;">-926%</td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520043</td>
+<td style="font-weight: bold;">Suarfana</td>
+<td>TOT RPBK</td>
+<td style="text-align: right;"> 1.698.000 </td>
+<td style="text-align: right;"> 1.698.000 </td>
+<td style="text-align: right;"> 144.339 </td>
+<td style="text-align: right; font-weight: bold;"> (1.553.661)</td>
+<td style="text-align: center; font-weight: bold;">-976%</td>
+<td style="text-align: center; font-weight: bold;"> <br>
+</td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520044</td>
+<td style="font-weight: bold;">PUTU PANDE EKA SANJAYA</td>
+<td>TOT PLG</td>
+<td style="text-align: right;"> 356 </td>
+<td style="text-align: right;"> 346 </td>
+<td style="text-align: right;"> 30 </td>
+<td style="text-align: right; font-weight: bold;"> (316)</td>
+<td style="text-align: center; font-weight: bold;">-943%</td>
+<td style="text-align: center; font-weight: bold;"> <br>
+</td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520044</td>
+<td style="font-weight: bold;">PUTU PANDE EKA SANJAYA</td>
+<td>TOT PRTAG</td>
+<td style="text-align: right;"> 7.999.054.427 </td>
+<td style="text-align: right;"> 7.837.623.333 </td>
+<td style="text-align: right;"> 679.961.798 </td>
+<td style="text-align: right; font-weight: bold;"> (7.157.661.535)</td>
+<td style="text-align: center; font-weight: bold;">-953%</td>
+<td style="text-align: center; font-weight: bold;">-599%</td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520044</td>
+<td style="font-weight: bold;">PUTU PANDE EKA SANJAYA</td>
+<td>TOT RPBK</td>
+<td style="text-align: right;"> 5.567.703 </td>
+<td style="text-align: right;"> 5.567.703 </td>
+<td style="text-align: right;"> 473.284 </td>
+<td style="text-align: right; font-weight: bold;"> (5.094.419)</td>
+<td style="text-align: center; font-weight: bold;">100%</td>
+<td style="text-align: center; font-weight: bold;"> <br>
+</td>
+</tr>
+</tbody>
+</table>
+
+</body></html>  
+  
+  </tbody>
+</table>
+
+</body></html>
