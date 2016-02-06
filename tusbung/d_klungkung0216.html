@@ -1,0 +1,584 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head>
+  <title>Content</title>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/exportexcel.js"></script>
+<script type="text/javascript">
+function altRows(id){
+if(document.getElementsByTagName){
+var table = document.getElementById(id);
+var rows = table.getElementsByTagName("tr");
+for(i = 0; i < rows.length; i++){
+if(i % 2 == 0){
+rows[i].className = "evenrowcolor";
+}else{
+rows[i].className = "oddrowcolor";
+}
+}
+}
+}
+window.onload=function(){
+altRows('alternatecolor');
+}
+</script><!-- CSS goes in the document HEAD or added to your external stylesheet -->
+<style type="text/css">
+table.altrowstable {
+font-family: verdana,arial,sans-serif;
+font-size:11px;
+color:#333333;
+border-width: 1px;
+border-color: #a9c6c9;
+border-collapse: collapse;
+}
+table.altrowstable th {
+padding: 0.25rem;
+border-width: 1px;
+padding: 8px;
+border-style: solid;
+border-color: #a9c6c9;
+}
+table.altrowstable td {
+padding: 0.25rem;
+border-width: 1px;
+padding: 8px;
+border-style: solid;
+border-color: #a9c6c9;
+}
+tbody tr:hover {
+background: yellow;
+}
+.oddrowcolor{
+background-color:#d4e3e5;
+}
+.evenrowcolor{
+background-color:#c3dde0;
+}
+</style>
+</head>
+<body>
+<!-- </p><input type="button" onclick="tableToExcel('alternatecolor', 'Detail Lembar 21 - Rayon Klungkung')" value="Export to Excel"> 
+<br/>	
+<table class="altrowstable" id="alternatecolor">
+<caption><strong>##Detail Lembar 21 - Rayon Klungkung##</strong></caption>
+<tbody>
+
+</tbody>
+</table>
+<BR/><HR>
+-->
+</p><input type="button" onclick="tableToExcel('alternatecolor2', 'Detail Lembar 1-20 - Rayon Klungkung')" value="Export to Excel">
+<br/>
+<table class="altrowstable" id="alternatecolor2"><caption><strong>##Detail Lembar - Rayon Klungkung##</strong></caption>
+<tbody>
+<tr>
+<th>RAYON</th>
+<th>IDBILLMAN</th>
+<th>NAMABILLMAN</th>
+<th style="text-align: center;">LBR</th>
+<th> PLG_4 </th>
+<th> PLG_5 </th>
+<th> | </th>
+<th> RPTAG_4 </th>
+<th> RPTAG_5 </th>
+<th> | </th>
+<th> RPBK_4 </th>
+<th> RPBK_5 </th>
+</tr>
+<tr>
+<td style="font-weight: bold;">Klungkung</td>
+<td style="font-weight: bold;">5521001</td>
+<td style="font-weight: bold;">I Ketut Nila</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: right;"> 719 </td>
+<td style="text-align: right;"> 714 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 50.793.054 </td>
+<td style="text-align: right;"> 50.584.769 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Klungkung</td>
+<td style="font-weight: bold;">5521002</td>
+<td style="font-weight: bold;">PANDE GEDE RANDU USADA</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: right;"> 739 </td>
+<td style="text-align: right;"> 731 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 141.675.227 </td>
+<td style="text-align: right;"> 141.184.954 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Klungkung</td>
+<td style="font-weight: bold;">5521003</td>
+<td style="font-weight: bold;">I Ketut Suardana</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: right;"> 773 </td>
+<td style="text-align: right;"> 421 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 79.324.785 </td>
+<td style="text-align: right;"> 58.766.278 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Klungkung</td>
+<td style="font-weight: bold;">5521006</td>
+<td style="font-weight: bold;">Gede Wiradika</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: right;"> 1.416 </td>
+<td style="text-align: right;"> 1.305 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 396.840.883 </td>
+<td style="text-align: right;"> 386.403.271 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Klungkung</td>
+<td style="font-weight: bold;">5521006</td>
+<td style="font-weight: bold;">Gede Wiradika</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: right;"> 6 </td>
+<td style="text-align: right;"> 6 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 824.793 </td>
+<td style="text-align: right;"> 824.793 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 48.000 </td>
+<td style="text-align: right;"> 48.000 </td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Klungkung</td>
+<td style="font-weight: bold;">5521006</td>
+<td style="font-weight: bold;">Gede Wiradika</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: right;"> 1 </td>
+<td style="text-align: right;"> 1 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 1.515.560 </td>
+<td style="text-align: right;"> 1.515.560 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 375.000 </td>
+<td style="text-align: right;"> 375.000 </td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Klungkung</td>
+<td style="font-weight: bold;">5521007</td>
+<td style="font-weight: bold;">I D G Adi Mahendra Putra</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: right;"> 1.533 </td>
+<td style="text-align: right;"> 1.515 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 78.521.793 </td>
+<td style="text-align: right;"> 77.119.795 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Klungkung</td>
+<td style="font-weight: bold;">5521007</td>
+<td style="font-weight: bold;">I D G Adi Mahendra Putra</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: right;"> 16 </td>
+<td style="text-align: right;"> 16 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 1.872.026 </td>
+<td style="text-align: right;"> 1.872.026 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 100.000 </td>
+<td style="text-align: right;"> 100.000 </td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Klungkung</td>
+<td style="font-weight: bold;">5521008</td>
+<td style="font-weight: bold;">I Made Suhendra</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: right;"> 1.551 </td>
+<td style="text-align: right;"> 1.417 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 212.423.855 </td>
+<td style="text-align: right;"> 200.298.277 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Klungkung</td>
+<td style="font-weight: bold;">5521008</td>
+<td style="font-weight: bold;">I Made Suhendra</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: right;"> 6 </td>
+<td style="text-align: right;"> 6 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 2.064.861 </td>
+<td style="text-align: right;"> 2.064.861 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 48.000 </td>
+<td style="text-align: right;"> 48.000 </td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Klungkung</td>
+<td style="font-weight: bold;">5521009</td>
+<td style="font-weight: bold;">I Made Sumadana</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: right;"> 1.533 </td>
+<td style="text-align: right;"> 1.444 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 131.568.226 </td>
+<td style="text-align: right;"> 126.200.323 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Klungkung</td>
+<td style="font-weight: bold;">5521009</td>
+<td style="font-weight: bold;">I Made Sumadana</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: right;"> 9 </td>
+<td style="text-align: right;"> 9 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 1.694.733 </td>
+<td style="text-align: right;"> 1.694.733 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 62.000 </td>
+<td style="text-align: right;"> 62.000 </td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Klungkung</td>
+<td style="font-weight: bold;">5521009</td>
+<td style="font-weight: bold;">I Made Sumadana</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: right;"> 5 </td>
+<td style="text-align: right;"> 5 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 212.609 </td>
+<td style="text-align: right;"> 212.609 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 75.000 </td>
+<td style="text-align: right;"> 75.000 </td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Klungkung</td>
+<td style="font-weight: bold;">5521010</td>
+<td style="font-weight: bold;">I Nengah Lara</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: right;"> 1.451 </td>
+<td style="text-align: right;"> 1.208 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 96.525.394 </td>
+<td style="text-align: right;"> 82.481.383 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Klungkung</td>
+<td style="font-weight: bold;">5521010</td>
+<td style="font-weight: bold;">I Nengah Lara</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: right;"> 14 </td>
+<td style="text-align: right;"> 14 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 3.749.054 </td>
+<td style="text-align: right;"> 3.749.054 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 96.000 </td>
+<td style="text-align: right;"> 96.000 </td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Klungkung</td>
+<td style="font-weight: bold;">5521010</td>
+<td style="font-weight: bold;">I Nengah Lara</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: right;"> 3 </td>
+<td style="text-align: right;"> 3 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 373.219 </td>
+<td style="text-align: right;"> 373.219 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 55.000 </td>
+<td style="text-align: right;"> 55.000 </td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Klungkung</td>
+<td style="font-weight: bold;">5521013</td>
+<td style="font-weight: bold;">Wayan Sumiarta</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: right;"> 1.562 </td>
+<td style="text-align: right;"> 1.445 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 131.021.396 </td>
+<td style="text-align: right;"> 122.414.131 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Klungkung</td>
+<td style="font-weight: bold;">5521013</td>
+<td style="font-weight: bold;">Wayan Sumiarta</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: right;"> 8 </td>
+<td style="text-align: right;"> 8 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 1.711.986 </td>
+<td style="text-align: right;"> 1.711.986 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 48.000 </td>
+<td style="text-align: right;"> 48.000 </td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Klungkung</td>
+<td style="font-weight: bold;">5521014</td>
+<td style="font-weight: bold;">Dewa Putu Gargita</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: right;"> 1.509 </td>
+<td style="text-align: right;"> 1.418 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 218.432.177 </td>
+<td style="text-align: right;"> 205.709.258 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Klungkung</td>
+<td style="font-weight: bold;">5521014</td>
+<td style="font-weight: bold;">Dewa Putu Gargita</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: right;"> 6 </td>
+<td style="text-align: right;"> 6 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 833.859 </td>
+<td style="text-align: right;"> 833.859 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 44.000 </td>
+<td style="text-align: right;"> 44.000 </td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Klungkung</td>
+<td style="font-weight: bold;">5521014</td>
+<td style="font-weight: bold;">Dewa Putu Gargita</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: right;"> 1 </td>
+<td style="text-align: right;"> 1 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 1.016.700 </td>
+<td style="text-align: right;"> 1.016.700 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 25.000 </td>
+<td style="text-align: right;"> 25.000 </td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Klungkung</td>
+<td style="font-weight: bold;">5521015</td>
+<td style="font-weight: bold;">Gede Citra</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: right;"> 1.235 </td>
+<td style="text-align: right;"> 1.214 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 399.543.795 </td>
+<td style="text-align: right;"> 388.511.387 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Klungkung</td>
+<td style="font-weight: bold;">5521015</td>
+<td style="font-weight: bold;">Gede Citra</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: right;"> 5 </td>
+<td style="text-align: right;"> 5 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 644.051 </td>
+<td style="text-align: right;"> 644.051 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 30.000 </td>
+<td style="text-align: right;"> 30.000 </td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Klungkung</td>
+<td style="font-weight: bold;">5521016</td>
+<td style="font-weight: bold;">Komang Tirtayasa</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: right;"> 1.585 </td>
+<td style="text-align: right;"> 1.567 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 131.524.746 </td>
+<td style="text-align: right;"> 128.463.859 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Klungkung</td>
+<td style="font-weight: bold;">5521016</td>
+<td style="font-weight: bold;">Komang Tirtayasa</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: right;"> 20 </td>
+<td style="text-align: right;"> 20 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 2.565.023 </td>
+<td style="text-align: right;"> 2.565.023 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 132.000 </td>
+<td style="text-align: right;"> 132.000 </td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Klungkung</td>
+<td style="font-weight: bold;">5521017</td>
+<td style="font-weight: bold;">Rudi Hamidi</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: right;"> 1.562 </td>
+<td style="text-align: right;"> 1.546 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 106.087.696 </td>
+<td style="text-align: right;"> 105.118.537 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Klungkung</td>
+<td style="font-weight: bold;">5521017</td>
+<td style="font-weight: bold;">Rudi Hamidi</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: right;"> 9 </td>
+<td style="text-align: right;"> 9 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 2.076.907 </td>
+<td style="text-align: right;"> 2.076.907 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 58.000 </td>
+<td style="text-align: right;"> 58.000 </td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Klungkung</td>
+<td style="font-weight: bold;">5521018</td>
+<td style="font-weight: bold;">Sang Dewa Made Genda</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: right;"> 1.545 </td>
+<td style="text-align: right;"> 1.537 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 87.762.076 </td>
+<td style="text-align: right;"> 87.518.246 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Klungkung</td>
+<td style="font-weight: bold;">5521018</td>
+<td style="font-weight: bold;">Sang Dewa Made Genda</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: right;"> 25 </td>
+<td style="text-align: right;"> 25 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 2.788.472 </td>
+<td style="text-align: right;"> 2.788.472 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 166.000 </td>
+<td style="text-align: right;"> 166.000 </td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Klungkung</td>
+<td style="font-weight: bold;">5521019</td>
+<td style="font-weight: bold;">I Wayan Sukasada</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: right;"> 1.559 </td>
+<td style="text-align: right;"> 1.523 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 171.385.760 </td>
+<td style="text-align: right;"> 168.557.356 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Klungkung</td>
+<td style="font-weight: bold;">5521019</td>
+<td style="font-weight: bold;">I Wayan Sukasada</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: right;"> 13 </td>
+<td style="text-align: right;"> 13 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 1.034.320 </td>
+<td style="text-align: right;"> 1.034.320 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 78.000 </td>
+<td style="text-align: right;"> 78.000 </td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Klungkung</td>
+<td style="font-weight: bold;">5521020</td>
+<td style="font-weight: bold;">I Nyoman Somantiyasa</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: right;"> 38 </td>
+<td style="text-align: right;"> 37 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 862.963.290 </td>
+<td style="text-align: right;"> 836.388.988 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Klungkung</td>
+<td style="font-weight: bold;">5521020</td>
+<td style="font-weight: bold;">I Nyoman Somantiyasa</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: right;"> 1 </td>
+<td style="text-align: right;"> 1 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 5.341.255 </td>
+<td style="text-align: right;"> 5.341.255 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 200.000 </td>
+<td style="text-align: right;"> 200.000 </td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Klungkung</td>
+<td style="font-weight: bold;">5521020</td>
+<td style="font-weight: bold;">I Nyoman Somantiyasa</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: right;"> 1 </td>
+<td style="text-align: right;"> 1 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 29.745.178 </td>
+<td style="text-align: right;"> 29.745.178 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 1.076.028 </td>
+<td style="text-align: right;"> 1.076.028 </td>
+</tr>
+<tr>
+<td style="font-weight: bold;"> <br>
+</td>
+<td style="font-weight: bold;"> <br>
+</td>
+<td style="font-weight: bold;"> <br>
+</td>
+<td style="font-weight: bold; text-align: center;"> <br>
+</td>
+<td style="font-weight: bold; text-align: right;"> 20.459 </td>
+<td style="font-weight: bold; text-align: right;"> 19.191 </td>
+<td style="font-weight: bold; text-align: right;"> | </td>
+<td style="font-weight: bold; text-align: right;"> 3.356.458.759 </td>
+<td style="font-weight: bold; text-align: right;"> 3.225.785.418 </td>
+<td style="font-weight: bold; text-align: right;"> | </td>
+<td style="font-weight: bold; text-align: right;"> 2.716.028 </td>
+<td style="font-weight: bold; text-align: right;"> 2.716.028 </td>
+</tr>
+</tbody>
+</table>
+
+</body></html>
