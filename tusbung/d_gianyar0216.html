@@ -1,0 +1,1863 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head>
+  <title>Content</title>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/exportexcel.js"></script>
+<script type="text/javascript">
+function altRows(id){
+if(document.getElementsByTagName){
+var table = document.getElementById(id);
+var rows = table.getElementsByTagName("tr");
+for(i = 0; i < rows.length; i++){
+if(i % 2 == 0){
+rows[i].className = "evenrowcolor";
+}else{
+rows[i].className = "oddrowcolor";
+}
+}
+}
+}
+window.onload=function(){
+altRows('alternatecolor');
+}
+</script><!-- CSS goes in the document HEAD or added to your external stylesheet -->
+<style type="text/css">
+table.altrowstable {
+font-family: verdana,arial,sans-serif;
+font-size:11px;
+color:#333333;
+border-width: 1px;
+border-color: #a9c6c9;
+border-collapse: collapse;
+}
+table.altrowstable th {
+padding: 0.25rem;
+border-width: 1px;
+padding: 8px;
+border-style: solid;
+border-color: #a9c6c9;
+}
+table.altrowstable td {
+padding: 0.25rem;
+border-width: 1px;
+padding: 8px;
+border-style: solid;
+border-color: #a9c6c9;
+}
+tbody tr:hover {
+background: yellow;
+}
+.oddrowcolor{
+background-color:#d4e3e5;
+}
+.evenrowcolor{
+background-color:#c3dde0;
+}
+</style>
+</head>
+<body>
+<!--
+ </p><input type="button" onclick="tableToExcel('alternatecolor', 'Detail Lembar 21 - Rayon Gianyar')" value="Export to Excel"> 
+<br/>
+<table class="altrowstable" id="alternatecolor">
+<caption><strong>##Detail Lembar 21 - Rayon Gianyar##</strong></caption>
+<tbody>
+
+</tbody>
+</table>
+  <BR/>
+<HR> 
+  -->
+</p><input type="button" onclick="tableToExcel('alternatecolor2', 'Detail Lembar 1-20 - Rayon Gianyar')" value="Export to Excel">
+<br/>
+<table class="altrowstable" id="alternatecolor2"><caption><strong>##Detail Lembar - Rayon Gianyar##</strong></caption>
+<tbody>
+<tbody>
+<tr>
+<th>RAYON</th>
+<th>IDBILLMAN</th>
+<th>NAMABILLMAN</th>
+<th style="text-align: center;">LBR</th>
+<th> PLG_4 </th>
+<th> PLG_5 </th>
+<th> | </th>
+<th> RPTAG_4 </th>
+<th> RPTAG_5 </th>
+<th> | </th>
+<th> RPBK_4 </th>
+<th> RPBK_5 </th>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520001</td>
+<td style="font-weight: bold;">Dody S</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: right;"> 1.592 </td>
+<td style="text-align: right;"> 1.523 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 704.536.909 </td>
+<td style="text-align: right;"> 666.161.386 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520001</td>
+<td style="font-weight: bold;">Dody S</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: right;"> 5 </td>
+<td style="text-align: right;"> 5 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 3.560.572 </td>
+<td style="text-align: right;"> 3.560.572 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 286.000 </td>
+<td style="text-align: right;"> 286.000 </td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520002</td>
+<td style="font-weight: bold;">Heryana</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: right;"> 1.591 </td>
+<td style="text-align: right;"> 1.542 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 130.106.471 </td>
+<td style="text-align: right;"> 126.996.455 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520002</td>
+<td style="font-weight: bold;">Heryana</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: right;"> 83 </td>
+<td style="text-align: right;"> 83 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 16.773.674 </td>
+<td style="text-align: right;"> 16.773.674 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 684.000 </td>
+<td style="text-align: right;"> 684.000 </td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520002</td>
+<td style="font-weight: bold;">Heryana</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: right;"> 9 </td>
+<td style="text-align: right;"> 9 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 754.317 </td>
+<td style="text-align: right;"> 754.317 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 135.000 </td>
+<td style="text-align: right;"> 135.000 </td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520003</td>
+<td style="font-weight: bold;">Suarnita</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: right;"> 1.572 </td>
+<td style="text-align: right;"> 1.128 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 429.843.051 </td>
+<td style="text-align: right;"> 287.070.849 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520003</td>
+<td style="font-weight: bold;">Suarnita</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: right;"> 28 </td>
+<td style="text-align: right;"> 28 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 10.525.957 </td>
+<td style="text-align: right;"> 10.525.957 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 228.000 </td>
+<td style="text-align: right;"> 228.000 </td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520003</td>
+<td style="font-weight: bold;">Suarnita</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: right;"> 3 </td>
+<td style="text-align: right;"> 3 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 1.009.455 </td>
+<td style="text-align: right;"> 1.009.455 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 45.000 </td>
+<td style="text-align: right;"> 45.000 </td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520004</td>
+<td style="font-weight: bold;">Dirman</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: right;"> 1.533 </td>
+<td style="text-align: right;"> 1.406 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 181.390.068 </td>
+<td style="text-align: right;"> 168.453.664 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520004</td>
+<td style="font-weight: bold;">Dirman</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: right;"> 22 </td>
+<td style="text-align: right;"> 22 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 7.323.336 </td>
+<td style="text-align: right;"> 7.323.336 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 284.000 </td>
+<td style="text-align: right;"> 284.000 </td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520004</td>
+<td style="font-weight: bold;">Dirman</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: right;"> 2 </td>
+<td style="text-align: right;"> 2 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 1.242.482 </td>
+<td style="text-align: right;"> 1.242.482 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 40.000 </td>
+<td style="text-align: right;"> 40.000 </td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520005</td>
+<td style="font-weight: bold;">Purwa</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: right;"> 1.633 </td>
+<td style="text-align: right;"> 1.513 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 501.581.020 </td>
+<td style="text-align: right;"> 481.604.672 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520005</td>
+<td style="font-weight: bold;">Purwa</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: right;"> 43 </td>
+<td style="text-align: right;"> 43 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 9.752.923 </td>
+<td style="text-align: right;"> 9.752.923 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 296.000 </td>
+<td style="text-align: right;"> 296.000 </td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520005</td>
+<td style="font-weight: bold;">Purwa</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: right;"> 5 </td>
+<td style="text-align: right;"> 5 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 885.015 </td>
+<td style="text-align: right;"> 885.015 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 75.000 </td>
+<td style="text-align: right;"> 75.000 </td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520006</td>
+<td style="font-weight: bold;">Rai Made</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: right;"> 1.592 </td>
+<td style="text-align: right;"> 1.572 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 139.168.042 </td>
+<td style="text-align: right;"> 136.063.839 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520006</td>
+<td style="font-weight: bold;">Rai Made</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: right;"> 47 </td>
+<td style="text-align: right;"> 47 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 7.927.985 </td>
+<td style="text-align: right;"> 7.927.985 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 460.000 </td>
+<td style="text-align: right;"> 460.000 </td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520006</td>
+<td style="font-weight: bold;">Rai Made</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: right;"> 5 </td>
+<td style="text-align: right;"> 5 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 970.491 </td>
+<td style="text-align: right;"> 970.491 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 75.000 </td>
+<td style="text-align: right;"> 75.000 </td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520007</td>
+<td style="font-weight: bold;">Suardiana</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: right;"> 1.685 </td>
+<td style="text-align: right;"> 1.562 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 146.968.606 </td>
+<td style="text-align: right;"> 138.904.394 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520007</td>
+<td style="font-weight: bold;">Suardiana</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: right;"> 46 </td>
+<td style="text-align: right;"> 46 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 26.716.549 </td>
+<td style="text-align: right;"> 26.716.549 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 949.752 </td>
+<td style="text-align: right;"> 949.752 </td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520007</td>
+<td style="font-weight: bold;">Suardiana</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: right;"> 3 </td>
+<td style="text-align: right;"> 3 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 1.000.938 </td>
+<td style="text-align: right;"> 1.000.938 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 55.000 </td>
+<td style="text-align: right;"> 55.000 </td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520008</td>
+<td style="font-weight: bold;">Suarnata</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: right;"> 1.497 </td>
+<td style="text-align: right;"> 1.424 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 460.597.583 </td>
+<td style="text-align: right;"> 444.998.913 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520008</td>
+<td style="font-weight: bold;">Suarnata</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: right;"> 31 </td>
+<td style="text-align: right;"> 31 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 11.825.560 </td>
+<td style="text-align: right;"> 11.825.560 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 542.000 </td>
+<td style="text-align: right;"> 542.000 </td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520008</td>
+<td style="font-weight: bold;">Suarnata</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: right;"> 7 </td>
+<td style="text-align: right;"> 7 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 5.929.835 </td>
+<td style="text-align: right;"> 5.929.835 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 620.000 </td>
+<td style="text-align: right;"> 620.000 </td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520009</td>
+<td style="font-weight: bold;">Junaedi</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: right;"> 1.687 </td>
+<td style="text-align: right;"> 1.453 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 290.644.449 </td>
+<td style="text-align: right;"> 253.248.790 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520009</td>
+<td style="font-weight: bold;">Junaedi</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: right;"> 6 </td>
+<td style="text-align: right;"> 6 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 7.762.700 </td>
+<td style="text-align: right;"> 7.762.700 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 299.532 </td>
+<td style="text-align: right;"> 299.532 </td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520009</td>
+<td style="font-weight: bold;">Junaedi</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: right;"> 1 </td>
+<td style="text-align: right;"> 1 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 417.450 </td>
+<td style="text-align: right;"> 417.450 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 50.000 </td>
+<td style="text-align: right;"> 50.000 </td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520010</td>
+<td style="font-weight: bold;">Wijaya</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: right;"> 1.607 </td>
+<td style="text-align: right;"> 1.586 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 157.016.450 </td>
+<td style="text-align: right;"> 150.497.772 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520010</td>
+<td style="font-weight: bold;">Wijaya</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: right;"> 70 </td>
+<td style="text-align: right;"> 70 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 8.809.002 </td>
+<td style="text-align: right;"> 8.809.002 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 562.000 </td>
+<td style="text-align: right;"> 562.000 </td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520010</td>
+<td style="font-weight: bold;">Wijaya</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: right;"> 4 </td>
+<td style="text-align: right;"> 4 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 2.558.502 </td>
+<td style="text-align: right;"> 2.558.502 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 105.000 </td>
+<td style="text-align: right;"> 105.000 </td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520011</td>
+<td style="font-weight: bold;">Ambara</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: right;"> 1.618 </td>
+<td style="text-align: right;"> 1.555 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 555.571.168 </td>
+<td style="text-align: right;"> 504.974.346 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520011</td>
+<td style="font-weight: bold;">Ambara</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: right;"> 43 </td>
+<td style="text-align: right;"> 43 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 10.568.530 </td>
+<td style="text-align: right;"> 10.568.530 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 296.000 </td>
+<td style="text-align: right;"> 296.000 </td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520011</td>
+<td style="font-weight: bold;">Ambara</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: right;"> 8 </td>
+<td style="text-align: right;"> 8 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 10.562.228 </td>
+<td style="text-align: right;"> 10.562.228 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 625.000 </td>
+<td style="text-align: right;"> 625.000 </td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520012</td>
+<td style="font-weight: bold;">Swadarma</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: right;"> 1.569 </td>
+<td style="text-align: right;"> 1.367 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 916.535.579 </td>
+<td style="text-align: right;"> 811.624.746 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520012</td>
+<td style="font-weight: bold;">Swadarma</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: right;"> 20 </td>
+<td style="text-align: right;"> 20 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 20.113.931 </td>
+<td style="text-align: right;"> 20.113.931 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 476.000 </td>
+<td style="text-align: right;"> 476.000 </td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520012</td>
+<td style="font-weight: bold;">Swadarma</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: right;"> 1 </td>
+<td style="text-align: right;"> 1 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 244.275 </td>
+<td style="text-align: right;"> 244.275 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 25.000 </td>
+<td style="text-align: right;"> 25.000 </td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520013</td>
+<td style="font-weight: bold;">Sarna</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: right;"> 1.732 </td>
+<td style="text-align: right;"> 1.662 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 203.198.362 </td>
+<td style="text-align: right;"> 190.928.713 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520013</td>
+<td style="font-weight: bold;">Sarna</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: right;"> 3 </td>
+<td style="text-align: right;"> 3 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 267.708 </td>
+<td style="text-align: right;"> 267.708 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 18.000 </td>
+<td style="text-align: right;"> 18.000 </td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520014</td>
+<td style="font-weight: bold;">Widra</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: right;"> 1.537 </td>
+<td style="text-align: right;"> 1.431 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 568.687.510 </td>
+<td style="text-align: right;"> 541.957.946 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520014</td>
+<td style="font-weight: bold;">Widra</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: right;"> 47 </td>
+<td style="text-align: right;"> 47 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 26.401.601 </td>
+<td style="text-align: right;"> 26.401.601 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 1.024.000 </td>
+<td style="text-align: right;"> 1.024.000 </td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520014</td>
+<td style="font-weight: bold;">Widra</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: right;"> 10 </td>
+<td style="text-align: right;"> 10 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 12.438.971 </td>
+<td style="text-align: right;"> 12.438.971 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 460.000 </td>
+<td style="text-align: right;"> 460.000 </td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520015</td>
+<td style="font-weight: bold;">Parwata</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: right;"> 1.586 </td>
+<td style="text-align: right;"> 1.542 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 396.142.023 </td>
+<td style="text-align: right;"> 375.209.575 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520015</td>
+<td style="font-weight: bold;">Parwata</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: right;"> 33 </td>
+<td style="text-align: right;"> 33 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 12.653.888 </td>
+<td style="text-align: right;"> 12.653.888 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 522.000 </td>
+<td style="text-align: right;"> 522.000 </td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520015</td>
+<td style="font-weight: bold;">Parwata</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: right;"> 1 </td>
+<td style="text-align: right;"> 1 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 76.330 </td>
+<td style="text-align: right;"> 76.330 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 15.000 </td>
+<td style="text-align: right;"> 15.000 </td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520016</td>
+<td style="font-weight: bold;">Widana</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: right;"> 1.671 </td>
+<td style="text-align: right;"> 1.327 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 152.699.193 </td>
+<td style="text-align: right;"> 124.290.144 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520016</td>
+<td style="font-weight: bold;">Widana</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: right;"> 52 </td>
+<td style="text-align: right;"> 52 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 9.301.142 </td>
+<td style="text-align: right;"> 9.301.142 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 476.000 </td>
+<td style="text-align: right;"> 476.000 </td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520016</td>
+<td style="font-weight: bold;">Widana</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: right;"> 10 </td>
+<td style="text-align: right;"> 10 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 1.604.021 </td>
+<td style="text-align: right;"> 1.604.021 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 160.000 </td>
+<td style="text-align: right;"> 160.000 </td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520017</td>
+<td style="font-weight: bold;">Satiawan</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: right;"> 1.699 </td>
+<td style="text-align: right;"> 1.489 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 268.550.674 </td>
+<td style="text-align: right;"> 256.459.122 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520017</td>
+<td style="font-weight: bold;">Satiawan</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: right;"> 7 </td>
+<td style="text-align: right;"> 7 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 1.197.977 </td>
+<td style="text-align: right;"> 1.197.977 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 46.000 </td>
+<td style="text-align: right;"> 46.000 </td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520017</td>
+<td style="font-weight: bold;">Satiawan</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: right;"> 1 </td>
+<td style="text-align: right;"> 1 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 300.671 </td>
+<td style="text-align: right;"> 300.671 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 25.000 </td>
+<td style="text-align: right;"> 25.000 </td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520018</td>
+<td style="font-weight: bold;">Asmara</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: right;"> 1.654 </td>
+<td style="text-align: right;"> 1.612 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 167.076.414 </td>
+<td style="text-align: right;"> 163.668.777 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520018</td>
+<td style="font-weight: bold;">Asmara</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: right;"> 31 </td>
+<td style="text-align: right;"> 31 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 4.604.682 </td>
+<td style="text-align: right;"> 4.604.682 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 198.000 </td>
+<td style="text-align: right;"> 198.000 </td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520019</td>
+<td style="font-weight: bold;">Komang Apriana</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: right;"> 1.506 </td>
+<td style="text-align: right;"> 1.451 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 353.455.829 </td>
+<td style="text-align: right;"> 342.598.571 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520019</td>
+<td style="font-weight: bold;">Komang Apriana</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: right;"> 54 </td>
+<td style="text-align: right;"> 54 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 23.756.541 </td>
+<td style="text-align: right;"> 23.756.541 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 428.000 </td>
+<td style="text-align: right;"> 428.000 </td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520019</td>
+<td style="font-weight: bold;">Komang Apriana</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: right;"> 14 </td>
+<td style="text-align: right;"> 14 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 10.794.408 </td>
+<td style="text-align: right;"> 10.794.408 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 365.000 </td>
+<td style="text-align: right;"> 365.000 </td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520020</td>
+<td style="font-weight: bold;">Santika</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: right;"> 1.596 </td>
+<td style="text-align: right;"> 1.512 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 261.622.504 </td>
+<td style="text-align: right;"> 245.732.321 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520020</td>
+<td style="font-weight: bold;">Santika</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: right;"> 52 </td>
+<td style="text-align: right;"> 52 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 10.002.504 </td>
+<td style="text-align: right;"> 10.002.504 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 366.000 </td>
+<td style="text-align: right;"> 366.000 </td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520020</td>
+<td style="font-weight: bold;">Santika</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: right;"> 10 </td>
+<td style="text-align: right;"> 10 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 5.957.820 </td>
+<td style="text-align: right;"> 5.957.820 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 180.000 </td>
+<td style="text-align: right;"> 180.000 </td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520021</td>
+<td style="font-weight: bold;">Swastika</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: right;"> 1.672 </td>
+<td style="text-align: right;"> 1.562 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 262.086.911 </td>
+<td style="text-align: right;"> 254.620.774 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520021</td>
+<td style="font-weight: bold;">Swastika</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: right;"> 34 </td>
+<td style="text-align: right;"> 34 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 11.510.383 </td>
+<td style="text-align: right;"> 11.510.383 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 238.000 </td>
+<td style="text-align: right;"> 238.000 </td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520021</td>
+<td style="font-weight: bold;">Swastika</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: right;"> 7 </td>
+<td style="text-align: right;"> 7 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 1.894.417 </td>
+<td style="text-align: right;"> 1.894.417 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 115.000 </td>
+<td style="text-align: right;"> 115.000 </td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520022</td>
+<td style="font-weight: bold;">Juli Astama</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: right;"> 1.514 </td>
+<td style="text-align: right;"> 1.388 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 334.276.328 </td>
+<td style="text-align: right;"> 325.991.297 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520022</td>
+<td style="font-weight: bold;">Juli Astama</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: right;"> 87 </td>
+<td style="text-align: right;"> 87 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 20.566.680 </td>
+<td style="text-align: right;"> 20.566.680 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 930.000 </td>
+<td style="text-align: right;"> 930.000 </td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520022</td>
+<td style="font-weight: bold;">Juli Astama</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: right;"> 9 </td>
+<td style="text-align: right;"> 9 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 5.372.496 </td>
+<td style="text-align: right;"> 5.372.496 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 220.000 </td>
+<td style="text-align: right;"> 220.000 </td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520023</td>
+<td style="font-weight: bold;">Agus Santa</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: right;"> 1.543 </td>
+<td style="text-align: right;"> 1.515 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 493.054.898 </td>
+<td style="text-align: right;"> 487.634.427 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520023</td>
+<td style="font-weight: bold;">Agus Santa</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: right;"> 68 </td>
+<td style="text-align: right;"> 68 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 28.655.411 </td>
+<td style="text-align: right;"> 28.655.411 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 838.000 </td>
+<td style="text-align: right;"> 838.000 </td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520023</td>
+<td style="font-weight: bold;">Agus Santa</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: right;"> 8 </td>
+<td style="text-align: right;"> 8 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 4.636.868 </td>
+<td style="text-align: right;"> 4.636.868 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 185.000 </td>
+<td style="text-align: right;"> 185.000 </td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520024</td>
+<td style="font-weight: bold;">Darmayasa</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: right;"> 1.436 </td>
+<td style="text-align: right;"> 1.428 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 112.770.874 </td>
+<td style="text-align: right;"> 111.969.969 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520024</td>
+<td style="font-weight: bold;">Darmayasa</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: right;"> 18 </td>
+<td style="text-align: right;"> 18 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 2.684.141 </td>
+<td style="text-align: right;"> 2.684.141 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 116.000 </td>
+<td style="text-align: right;"> 116.000 </td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520024</td>
+<td style="font-weight: bold;">Darmayasa</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: right;"> 3 </td>
+<td style="text-align: right;"> 3 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 587.813 </td>
+<td style="text-align: right;"> 587.813 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 45.000 </td>
+<td style="text-align: right;"> 45.000 </td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520025</td>
+<td style="font-weight: bold;">Suda Wisnawa</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: right;"> 1.664 </td>
+<td style="text-align: right;"> 1.541 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 192.999.260 </td>
+<td style="text-align: right;"> 178.614.770 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520025</td>
+<td style="font-weight: bold;">Suda Wisnawa</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: right;"> 77 </td>
+<td style="text-align: right;"> 77 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 20.729.868 </td>
+<td style="text-align: right;"> 20.729.868 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 912.000 </td>
+<td style="text-align: right;"> 912.000 </td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520025</td>
+<td style="font-weight: bold;">Suda Wisnawa</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: right;"> 9 </td>
+<td style="text-align: right;"> 9 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 2.521.541 </td>
+<td style="text-align: right;"> 2.521.541 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 135.000 </td>
+<td style="text-align: right;"> 135.000 </td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520026</td>
+<td style="font-weight: bold;">Darmika</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: right;"> 1.455 </td>
+<td style="text-align: right;"> 1.395 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 681.345.878 </td>
+<td style="text-align: right;"> 663.728.357 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520026</td>
+<td style="font-weight: bold;">Darmika</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: right;"> 28 </td>
+<td style="text-align: right;"> 28 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 8.729.878 </td>
+<td style="text-align: right;"> 8.729.878 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 226.000 </td>
+<td style="text-align: right;"> 226.000 </td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520027</td>
+<td style="font-weight: bold;">Antara Bawa</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: right;"> 1.633 </td>
+<td style="text-align: right;"> 1.524 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 382.138.895 </td>
+<td style="text-align: right;"> 354.796.841 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520027</td>
+<td style="font-weight: bold;">Antara Bawa</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: right;"> 20 </td>
+<td style="text-align: right;"> 20 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 6.169.385 </td>
+<td style="text-align: right;"> 6.169.385 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 192.000 </td>
+<td style="text-align: right;"> 192.000 </td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520028</td>
+<td style="font-weight: bold;">Mudana</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: right;"> 1.632 </td>
+<td style="text-align: right;"> 1.576 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 395.760.684 </td>
+<td style="text-align: right;"> 386.313.738 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520028</td>
+<td style="font-weight: bold;">Mudana</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: right;"> 35 </td>
+<td style="text-align: right;"> 35 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 22.458.914 </td>
+<td style="text-align: right;"> 22.458.914 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 832.000 </td>
+<td style="text-align: right;"> 832.000 </td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520028</td>
+<td style="font-weight: bold;">Mudana</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: right;"> 5 </td>
+<td style="text-align: right;"> 5 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 3.784.643 </td>
+<td style="text-align: right;"> 3.784.643 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 345.000 </td>
+<td style="text-align: right;"> 345.000 </td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520029</td>
+<td style="font-weight: bold;">Sudiarsa</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: right;"> 1.623 </td>
+<td style="text-align: right;"> 1.493 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 252.885.526 </td>
+<td style="text-align: right;"> 225.158.536 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520029</td>
+<td style="font-weight: bold;">Sudiarsa</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: right;"> 10 </td>
+<td style="text-align: right;"> 10 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 2.019.592 </td>
+<td style="text-align: right;"> 2.019.592 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 64.000 </td>
+<td style="text-align: right;"> 64.000 </td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520029</td>
+<td style="font-weight: bold;">Sudiarsa</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: right;"> 1 </td>
+<td style="text-align: right;"> 1 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 453.750 </td>
+<td style="text-align: right;"> 453.750 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 50.000 </td>
+<td style="text-align: right;"> 50.000 </td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520030</td>
+<td style="font-weight: bold;">Sudarta</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: right;"> 1.642 </td>
+<td style="text-align: right;"> 1.533 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 266.860.076 </td>
+<td style="text-align: right;"> 242.469.924 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520030</td>
+<td style="font-weight: bold;">Sudarta</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: right;"> 32 </td>
+<td style="text-align: right;"> 32 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 9.061.135 </td>
+<td style="text-align: right;"> 9.061.135 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 232.000 </td>
+<td style="text-align: right;"> 232.000 </td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520030</td>
+<td style="font-weight: bold;">Sudarta</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: right;"> 2 </td>
+<td style="text-align: right;"> 2 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 771.603 </td>
+<td style="text-align: right;"> 771.603 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 50.000 </td>
+<td style="text-align: right;"> 50.000 </td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520031</td>
+<td style="font-weight: bold;">Alit Sumadi</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: right;"> 1.592 </td>
+<td style="text-align: right;"> 1.510 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 328.517.611 </td>
+<td style="text-align: right;"> 314.422.030 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520031</td>
+<td style="font-weight: bold;">Alit Sumadi</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: right;"> 53 </td>
+<td style="text-align: right;"> 53 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 17.389.852 </td>
+<td style="text-align: right;"> 17.389.852 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 588.000 </td>
+<td style="text-align: right;"> 588.000 </td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520031</td>
+<td style="font-weight: bold;">Alit Sumadi</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: right;"> 4 </td>
+<td style="text-align: right;"> 4 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 428.841 </td>
+<td style="text-align: right;"> 428.841 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 70.000 </td>
+<td style="text-align: right;"> 70.000 </td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520032</td>
+<td style="font-weight: bold;">Sutapa</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: right;"> 1.509 </td>
+<td style="text-align: right;"> 1.427 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 441.877.058 </td>
+<td style="text-align: right;"> 406.447.344 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520032</td>
+<td style="font-weight: bold;">Sutapa</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: right;"> 2 </td>
+<td style="text-align: right;"> 2 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 401.451 </td>
+<td style="text-align: right;"> 401.451 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 30.000 </td>
+<td style="text-align: right;"> 30.000 </td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520033</td>
+<td style="font-weight: bold;">Made Apriana</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: right;"> 1.598 </td>
+<td style="text-align: right;"> 1.549 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 366.835.891 </td>
+<td style="text-align: right;"> 343.307.980 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520033</td>
+<td style="font-weight: bold;">Made Apriana</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: right;"> 52 </td>
+<td style="text-align: right;"> 52 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 17.733.926 </td>
+<td style="text-align: right;"> 17.733.926 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 754.000 </td>
+<td style="text-align: right;"> 754.000 </td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520034</td>
+<td style="font-weight: bold;">Arsana</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: right;"> 1.584 </td>
+<td style="text-align: right;"> 1.540 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 364.088.017 </td>
+<td style="text-align: right;"> 352.690.690 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520034</td>
+<td style="font-weight: bold;">Arsana</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: right;"> 76 </td>
+<td style="text-align: right;"> 76 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 24.380.320 </td>
+<td style="text-align: right;"> 24.380.320 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 798.000 </td>
+<td style="text-align: right;"> 798.000 </td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520034</td>
+<td style="font-weight: bold;">Arsana</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: right;"> 9 </td>
+<td style="text-align: right;"> 9 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 7.212.381 </td>
+<td style="text-align: right;"> 7.212.381 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 560.000 </td>
+<td style="text-align: right;"> 560.000 </td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520035</td>
+<td style="font-weight: bold;">Yadnya</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: right;"> 1.475 </td>
+<td style="text-align: right;"> 1.351 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 208.227.558 </td>
+<td style="text-align: right;"> 197.258.635 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520035</td>
+<td style="font-weight: bold;">Yadnya</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: right;"> 72 </td>
+<td style="text-align: right;"> 72 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 14.561.167 </td>
+<td style="text-align: right;"> 14.561.167 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 476.000 </td>
+<td style="text-align: right;"> 476.000 </td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520035</td>
+<td style="font-weight: bold;">Yadnya</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: right;"> 5 </td>
+<td style="text-align: right;"> 5 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 716.345 </td>
+<td style="text-align: right;"> 716.345 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 75.000 </td>
+<td style="text-align: right;"> 75.000 </td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520036</td>
+<td style="font-weight: bold;">Suarjana</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: right;"> 1.693 </td>
+<td style="text-align: right;"> 1.481 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 351.784.177 </td>
+<td style="text-align: right;"> 307.171.637 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520036</td>
+<td style="font-weight: bold;">Suarjana</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: right;"> 52 </td>
+<td style="text-align: right;"> 52 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 22.517.717 </td>
+<td style="text-align: right;"> 22.517.717 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 436.000 </td>
+<td style="text-align: right;"> 436.000 </td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520036</td>
+<td style="font-weight: bold;">Suarjana</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: right;"> 14 </td>
+<td style="text-align: right;"> 14 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 10.269.363 </td>
+<td style="text-align: right;"> 10.269.363 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 340.000 </td>
+<td style="text-align: right;"> 340.000 </td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520037</td>
+<td style="font-weight: bold;">Sujana Kd</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: right;"> 1.624 </td>
+<td style="text-align: right;"> 1.556 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 518.454.169 </td>
+<td style="text-align: right;"> 508.090.926 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520037</td>
+<td style="font-weight: bold;">Sujana Kd</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: right;"> 30 </td>
+<td style="text-align: right;"> 30 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 12.712.111 </td>
+<td style="text-align: right;"> 12.712.111 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 534.000 </td>
+<td style="text-align: right;"> 534.000 </td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520037</td>
+<td style="font-weight: bold;">Sujana Kd</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: right;"> 2 </td>
+<td style="text-align: right;"> 2 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 2.252.243 </td>
+<td style="text-align: right;"> 2.252.243 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 75.000 </td>
+<td style="text-align: right;"> 75.000 </td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520038</td>
+<td style="font-weight: bold;">Werdi Suputra</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: right;"> 1.604 </td>
+<td style="text-align: right;"> 1.393 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 261.149.217 </td>
+<td style="text-align: right;"> 230.609.493 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520038</td>
+<td style="font-weight: bold;">Werdi Suputra</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: right;"> 28 </td>
+<td style="text-align: right;"> 28 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 8.946.560 </td>
+<td style="text-align: right;"> 8.946.560 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 200.000 </td>
+<td style="text-align: right;"> 200.000 </td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520038</td>
+<td style="font-weight: bold;">Werdi Suputra</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: right;"> 1 </td>
+<td style="text-align: right;"> 1 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 470.572 </td>
+<td style="text-align: right;"> 470.572 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 25.000 </td>
+<td style="text-align: right;"> 25.000 </td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520039</td>
+<td style="font-weight: bold;">Arman</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: right;"> 1.619 </td>
+<td style="text-align: right;"> 1.571 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 166.158.966 </td>
+<td style="text-align: right;"> 162.042.593 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520039</td>
+<td style="font-weight: bold;">Arman</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: right;"> 48 </td>
+<td style="text-align: right;"> 48 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 6.446.766 </td>
+<td style="text-align: right;"> 6.446.766 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 312.000 </td>
+<td style="text-align: right;"> 312.000 </td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520039</td>
+<td style="font-weight: bold;">Arman</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: right;"> 5 </td>
+<td style="text-align: right;"> 5 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 2.206.666 </td>
+<td style="text-align: right;"> 2.206.666 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 95.000 </td>
+<td style="text-align: right;"> 95.000 </td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520040</td>
+<td style="font-weight: bold;">Yuliana</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: right;"> 1.553 </td>
+<td style="text-align: right;"> 1.484 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 212.124.128 </td>
+<td style="text-align: right;"> 203.168.898 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520040</td>
+<td style="font-weight: bold;">Yuliana</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: right;"> 96 </td>
+<td style="text-align: right;"> 96 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 23.312.401 </td>
+<td style="text-align: right;"> 23.312.401 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 756.000 </td>
+<td style="text-align: right;"> 756.000 </td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520040</td>
+<td style="font-weight: bold;">Yuliana</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: right;"> 5 </td>
+<td style="text-align: right;"> 5 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 1.139.179 </td>
+<td style="text-align: right;"> 1.139.179 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 75.000 </td>
+<td style="text-align: right;"> 75.000 </td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520041</td>
+<td style="font-weight: bold;">Suantara</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: right;"> 1.482 </td>
+<td style="text-align: right;"> 1.407 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 633.672.607 </td>
+<td style="text-align: right;"> 617.070.206 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520041</td>
+<td style="font-weight: bold;">Suantara</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: right;"> 51 </td>
+<td style="text-align: right;"> 51 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 33.856.492 </td>
+<td style="text-align: right;"> 33.856.492 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 672.000 </td>
+<td style="text-align: right;"> 672.000 </td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520041</td>
+<td style="font-weight: bold;">Suantara</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: right;"> 3 </td>
+<td style="text-align: right;"> 3 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 14.410.463 </td>
+<td style="text-align: right;"> 14.410.463 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 763.743 </td>
+<td style="text-align: right;"> 763.743 </td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520042</td>
+<td style="font-weight: bold;">Arya</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: right;"> 1.622 </td>
+<td style="text-align: right;"> 1.571 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 528.658.153 </td>
+<td style="text-align: right;"> 501.955.222 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520042</td>
+<td style="font-weight: bold;">Arya</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: right;"> 23 </td>
+<td style="text-align: right;"> 23 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 12.076.462 </td>
+<td style="text-align: right;"> 12.076.462 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 330.000 </td>
+<td style="text-align: right;"> 330.000 </td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520042</td>
+<td style="font-weight: bold;">Arya</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: right;"> 5 </td>
+<td style="text-align: right;"> 5 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 1.100.810 </td>
+<td style="text-align: right;"> 1.100.810 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 85.000 </td>
+<td style="text-align: right;"> 85.000 </td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520043</td>
+<td style="font-weight: bold;">Suarfana</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: right;"> 1.507 </td>
+<td style="text-align: right;"> 1.389 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 516.237.657 </td>
+<td style="text-align: right;"> 488.010.909 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520043</td>
+<td style="font-weight: bold;">Suarfana</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: right;"> 52 </td>
+<td style="text-align: right;"> 52 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 15.062.414 </td>
+<td style="text-align: right;"> 15.062.414 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 678.000 </td>
+<td style="text-align: right;"> 678.000 </td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520043</td>
+<td style="font-weight: bold;">Suarfana</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: right;"> 11 </td>
+<td style="text-align: right;"> 11 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 9.754.794 </td>
+<td style="text-align: right;"> 9.754.794 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 1.020.000 </td>
+<td style="text-align: right;"> 1.020.000 </td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520044</td>
+<td style="font-weight: bold;">PUTU PANDE EKA SANJAYA</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: right;"> 348 </td>
+<td style="text-align: right;"> 338 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 7.846.121.556 </td>
+<td style="text-align: right;"> 7.684.690.462 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> - </td>
+<td style="text-align: right;"> - </td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520044</td>
+<td style="font-weight: bold;">PUTU PANDE EKA SANJAYA</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: right;"> 5 </td>
+<td style="text-align: right;"> 5 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 89.798.125 </td>
+<td style="text-align: right;"> 89.798.125 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 2.608.904 </td>
+<td style="text-align: right;"> 2.608.904 </td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Gianyar</td>
+<td style="font-weight: bold;">5520044</td>
+<td style="font-weight: bold;">PUTU PANDE EKA SANJAYA</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: right;"> 3 </td>
+<td style="text-align: right;"> 3 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 63.134.746 </td>
+<td style="text-align: right;"> 63.134.746 </td>
+<td style="text-align: right;"> | </td>
+<td style="text-align: right;"> 2.958.799 </td>
+<td style="text-align: right;"> 2.958.799 </td>
+</tr>
+<tr>
+<td> <br>
+</td>
+<td> <br>
+</td>
+<td> <br>
+</td>
+<td style="text-align: center; font-weight: bold;"> <br>
+</td>
+<td style="text-align: right; font-weight: bold;"> 70.758 </td>
+<td style="text-align: right; font-weight: bold;"> 66.156 </td>
+<td style="text-align: right; font-weight: bold;"> | </td>
+<td style="text-align: right; font-weight: bold;"> 23.954.972.656
+</td>
+<td style="text-align: right; font-weight: bold;"> 22.811.175.309
+</td>
+<td style="text-align: right; font-weight: bold;"> | </td>
+<td style="text-align: right; font-weight: bold;"> 32.536.730 </td>
+<td style="text-align: right; font-weight: bold;"> 32.536.730 </td>
+</tr>
+</tbody>
+</table>
+
+</body></html>
